@@ -1,0 +1,81 @@
+{
+ "v": 1,
+ "congress": 119,
+ "billType": "sjres",
+ "billNumber": "198",
+ "built_at": "2026-07-20T14:32:25+00:00",
+ "source_count": 6,
+ "holds_full_record": true,
+ "entries": [
+  {
+   "order": 0,
+   "date": "2026-06-24",
+   "text": "Introduced in Senate",
+   "core": "Introduced in Senate",
+   "code": "10000",
+   "source": "Library of Congress",
+   "chamber": "Senate",
+   "family": null,
+   "label": "Introduced in Senate",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 1,
+   "date": "2026-06-24",
+   "text": "Read twice and referred to the Committee on Finance.",
+   "core": "Read twice and referred to the Committee on Finance",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": null,
+   "label": "Referred to committee",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 2,
+   "date": "2026-06-24",
+   "text": "Senate Committee on Finance discharged, by petition, pursuant to 5 U.S.C. 802(c).",
+   "core": "Senate Committee on Finance discharged, by petition, pursuant to 5 U.S.C. 802(c)",
+   "code": "14500",
+   "source": "Library of Congress",
+   "chamber": "Senate",
+   "family": "discharged",
+   "label": "Discharged from committee (Senate)",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 3,
+   "date": "2026-06-24",
+   "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 447.",
+   "core": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 447",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": "calendar_placement",
+   "label": "Placed on calendar (Senate)",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 4,
+   "date": "2026-07-16",
+   "text": "Motion to proceed to consideration of measure rejected in Senate by Yea-Nay Vote. 46 - 50. Record Vote Number: 199.",
+   "core": "Motion to proceed to consideration of measure rejected in Senate by Yea-Nay Vote. 46 - 50",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": "mtp_rejected",
+   "label": "Motion to proceed rejected",
+   "tally": "46 - 50",
+   "spine": true,
+   "subordinate": null
+  }
+ ]
+}
