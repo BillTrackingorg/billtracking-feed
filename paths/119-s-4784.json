@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "s",
  "billNumber": "4784",
- "built_at": "2026-07-21T11:59:30+00:00",
+ "built_at": "2026-07-21T18:39:28+00:00",
  "source_count": 9,
  "holds_full_record": true,
  "entries": [
@@ -108,7 +108,7 @@
   {
    "order": 7,
    "date": "2026-07-20",
-   "text": "Motion to proceed to consideration of measure made in Senate.",
+   "text": "Motion to proceed to consideration of measure made in Senate. (CR S4145)",
    "core": "Motion to proceed to consideration of measure made in Senate",
    "code": null,
    "source": "Senate",
