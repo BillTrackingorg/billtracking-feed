@@ -1,0 +1,107 @@
+{
+ "v": 1,
+ "polity": "eu",
+ "reference": "2026/0150(COD)",
+ "year": "2026",
+ "number": "0150",
+ "ptype": "COD",
+ "built_at": "2026-07-24T09:17:24+00:00",
+ "source": "oeil-key-events",
+ "source_count": 8,
+ "holds_full_record": false,
+ "overrides_applied": 1,
+ "texture_count": 1,
+ "texture_source": "cellar-authority-events",
+ "entries": [
+  {
+   "order": 0,
+   "date": "2026-06-12",
+   "text": "Legislative proposal published",
+   "doc": "COM(2026)0282",
+   "family": "proposed",
+   "label": "New legislative proposal",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 1,
+   "date": "2026-06-15",
+   "text": "Committee referral announced in Parliament, 1st reading",
+   "doc": null,
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 2,
+   "date": "2026-06-15",
+   "text": "Urgent procedure requested by a committee",
+   "doc": null,
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 3,
+   "date": "2026-06-15",
+   "text": "Endorsement of the provisional agreement by the Special Committee on Agriculture",
+   "doc": null,
+   "code": "ENDORSE_AGRPROV_SPCO_byCONSIL",
+   "src": "cellar",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null
+  },
+  {
+   "order": 4,
+   "date": "2026-07-07",
+   "text": "Decision by Parliament, 1st reading",
+   "doc": "T10-0240/2026",
+   "family": "ep_plenary_vote_r1",
+   "label": "Parliament adopted its 1st-reading position",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 5,
+   "date": "2026-07-13",
+   "text": "Act adopted by Council after Parliament's 1st reading",
+   "doc": null,
+   "family": "council_adoption",
+   "label": "Adopted — Council gave the final green light",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 6,
+   "date": "2026-07-14",
+   "text": "Final act signed",
+   "doc": null,
+   "family": "signed",
+   "label": "Signed — publication next",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 7,
+   "date": "2026-07-21",
+   "text": "Final act published in Official Journal",
+   "doc": null,
+   "family": "oj_published",
+   "label": "Published in the Official Journal",
+   "tally": null,
+   "spine": false,
+   "subordinate": true
+  }
+ ]
+}

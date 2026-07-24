@@ -1,0 +1,94 @@
+{
+ "v": 1,
+ "polity": "eu",
+ "reference": "2025/0390(APP)",
+ "year": "2025",
+ "number": "0390",
+ "ptype": "APP",
+ "built_at": "2026-07-24T09:16:49+00:00",
+ "source": "oeil-key-events",
+ "source_count": 7,
+ "holds_full_record": true,
+ "overrides_applied": null,
+ "texture_count": null,
+ "texture_source": null,
+ "entries": [
+  {
+   "order": 0,
+   "date": "2025-12-10",
+   "text": "Preparatory document",
+   "doc": "COM(2025)0759",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 1,
+   "date": "2026-03-30",
+   "text": "Legislative proposal published",
+   "doc": "06884/2026",
+   "family": "proposed",
+   "label": "New legislative proposal",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 2,
+   "date": "2026-04-27",
+   "text": "Committee referral announced in Parliament",
+   "doc": null,
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 3,
+   "date": "2026-06-03",
+   "text": "Vote in committee",
+   "doc": null,
+   "family": "committee_vote",
+   "label": "Lead committee adopted its recommendation",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 4,
+   "date": "2026-06-08",
+   "text": "Committee report tabled for plenary, 1st reading/single reading",
+   "doc": "A10-0158/2026",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 5,
+   "date": "2026-06-16",
+   "text": "Decision by Parliament",
+   "doc": "T10-0200/2026",
+   "family": "ep_consent",
+   "label": "Parliament voted on consent",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 6,
+   "date": "2026-06-16",
+   "text": "Results of vote in Parliament",
+   "doc": null,
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null
+  }
+ ]
+}

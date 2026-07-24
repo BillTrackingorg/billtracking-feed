@@ -1,0 +1,100 @@
+{
+ "v": 1,
+ "polity": "eu",
+ "reference": "2025/0417(COD)",
+ "year": "2025",
+ "number": "0417",
+ "ptype": "COD",
+ "built_at": "2026-07-24T09:17:08+00:00",
+ "source": "oeil-key-events",
+ "source_count": 4,
+ "holds_full_record": true,
+ "overrides_applied": null,
+ "texture_count": 3,
+ "texture_source": "cellar-authority-events",
+ "entries": [
+  {
+   "order": 0,
+   "date": "2025-12-16",
+   "text": "Legislative proposal published",
+   "doc": "COM(2025)0780",
+   "family": "proposed",
+   "label": "New legislative proposal",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 1,
+   "date": "2026-01-27",
+   "text": "Committee referral announced in Parliament, 1st reading",
+   "doc": null,
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 2,
+   "date": "2026-02-09",
+   "text": "Deliberations in Council working party",
+   "doc": null,
+   "code": "DELIB_WP_byCONSIL",
+   "src": "cellar",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null
+  },
+  {
+   "order": 3,
+   "date": "2026-03-18",
+   "text": "European Economic and Social Committee opinion",
+   "doc": null,
+   "code": "OPI_byEESC",
+   "src": "cellar",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null
+  },
+  {
+   "order": 4,
+   "date": "2026-03-26",
+   "text": "Deliberations in Council working party",
+   "doc": null,
+   "code": "DELIB_WP_byCONSIL",
+   "src": "cellar",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null
+  },
+  {
+   "order": 5,
+   "date": "2026-07-14",
+   "text": "Vote in committee, 1st reading",
+   "doc": null,
+   "family": "committee_vote",
+   "label": "Lead committee adopted its report",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 6,
+   "date": "2026-07-14",
+   "text": "Committee decision to open interinstitutional negotiations with report adopted in committee",
+   "doc": null,
+   "family": "mandate",
+   "label": "Negotiating mandate for trilogue talks",
+   "tally": null,
+   "spine": false,
+   "subordinate": true
+  }
+ ]
+}
