@@ -5,7 +5,7 @@
  "year": "2026",
  "number": "0078",
  "ptype": "COD",
- "built_at": "2026-07-24T09:17:16+00:00",
+ "built_at": "2026-07-24T23:53:14+00:00",
  "source": "oeil-key-events",
  "source_count": 7,
  "holds_full_record": true,
@@ -71,7 +71,7 @@
    "family": null,
    "label": null,
    "tally": null,
-   "spine": true,
+   "spine": false,
    "subordinate": null
   },
   {
@@ -156,7 +156,7 @@
    "family": null,
    "label": null,
    "tally": null,
-   "spine": true,
+   "spine": false,
    "subordinate": null
   },
   {

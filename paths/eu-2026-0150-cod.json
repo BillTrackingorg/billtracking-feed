@@ -32,7 +32,7 @@
    "family": null,
    "label": null,
    "tally": null,
-   "spine": true,
+   "spine": false,
    "subordinate": null
   },
   {

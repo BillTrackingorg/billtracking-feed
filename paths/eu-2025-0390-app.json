@@ -5,7 +5,7 @@
  "year": "2025",
  "number": "0390",
  "ptype": "APP",
- "built_at": "2026-07-24T09:16:49+00:00",
+ "built_at": "2026-07-24T23:52:57+00:00",
  "source": "oeil-key-events",
  "source_count": 7,
  "holds_full_record": true,
@@ -43,7 +43,7 @@
    "family": null,
    "label": null,
    "tally": null,
-   "spine": true,
+   "spine": false,
    "subordinate": null
   },
   {
@@ -65,7 +65,7 @@
    "family": null,
    "label": null,
    "tally": null,
-   "spine": true,
+   "spine": false,
    "subordinate": null
   },
   {
