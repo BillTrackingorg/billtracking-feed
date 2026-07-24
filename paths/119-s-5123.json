@@ -1,0 +1,53 @@
+{
+ "v": 1,
+ "congress": 119,
+ "billType": "s",
+ "billNumber": "5123",
+ "built_at": "2026-07-24T18:45:02+00:00",
+ "source_count": 3,
+ "holds_full_record": true,
+ "entries": [
+  {
+   "order": 0,
+   "date": "2026-07-23",
+   "text": "Introduced in Senate",
+   "core": "Introduced in Senate",
+   "code": "10000",
+   "source": "Library of Congress",
+   "chamber": "Senate",
+   "family": null,
+   "label": "Introduced in Senate",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 1,
+   "date": "2026-07-23",
+   "text": "Passed/agreed to in Senate: Introduced in the Senate, read twice, considered, read the third time, and passed without amendment by Unanimous Consent.",
+   "core": "Passed/agreed to in Senate: Introduced in the Senate, read twice, considered, read the third time, and passed without amendment by Unanimous Consent",
+   "code": "17000",
+   "source": "Library of Congress",
+   "chamber": "Senate",
+   "family": "passed_senate",
+   "label": "Passed Senate",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 2,
+   "date": "2026-07-23",
+   "text": "Introduced in the Senate, read twice, considered, read the third time, and passed without amendment by Unanimous Consent. (consideration: CR S4273-4274; text: CR S4273-4274)",
+   "core": "Introduced in the Senate, read twice, considered, read the third time, and passed without amendment by Unanimous Consent",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": "passed_senate",
+   "label": "Passed Senate",
+   "tally": null,
+   "spine": false,
+   "subordinate": true
+  }
+ ]
+}

@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "s",
  "billNumber": "629",
- "built_at": "2026-07-24T12:44:15+00:00",
+ "built_at": "2026-07-24T18:45:03+00:00",
  "source_count": 22,
  "holds_full_record": true,
  "entries": [
@@ -30,7 +30,7 @@
    "source": "Senate",
    "chamber": "Senate",
    "family": null,
-   "label": "Referred to 3 committees",
+   "label": "Referred to committee",
    "tally": null,
    "spine": true,
    "subordinate": null
@@ -254,9 +254,9 @@
    "source": "House floor actions",
    "chamber": "House",
    "family": null,
-   "label": "Signed by President",
+   "label": null,
    "tally": null,
-   "spine": true,
+   "spine": false,
    "subordinate": null
   },
   {
