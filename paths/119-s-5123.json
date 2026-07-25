@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "s",
  "billNumber": "5123",
- "built_at": "2026-07-25T09:59:29+00:00",
+ "built_at": "2026-07-25T15:18:18+00:00",
  "source_count": 3,
  "holds_full_record": true,
  "entries": [
@@ -24,7 +24,7 @@
   {
    "order": 1,
    "date": "2026-07-23",
-   "text": "Passed/agreed to in Senate: Introduced in the Senate, read twice, considered, read the third time, and passed without amendment by Unanimous Consent.",
+   "text": "Passed/agreed to in Senate: Introduced in the Senate, read twice, considered, read the third time, and passed without amendment by Unanimous Consent. (consideration: CR S4273-4274; text: CR S4273-4274)",
    "core": "Passed/agreed to in Senate: Introduced in the Senate, read twice, considered, read the third time, and passed without amendment by Unanimous Consent",
    "code": "17000",
    "source": "Library of Congress",
