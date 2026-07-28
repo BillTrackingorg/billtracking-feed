@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "sres",
  "billNumber": "817",
- "built_at": "2026-07-28T12:11:49+00:00",
+ "built_at": "2026-07-28T15:32:32+00:00",
  "source_count": 6,
  "holds_full_record": true,
  "entries": [
@@ -66,7 +66,7 @@
   {
    "order": 4,
    "date": "2026-07-27",
-   "text": "Measure laid before Senate by motion.",
+   "text": "Measure laid before Senate by motion. (consideration: CR S4276)",
    "core": "Measure laid before Senate by motion",
    "code": null,
    "source": "Senate",
@@ -80,7 +80,7 @@
   {
    "order": 5,
    "date": "2026-07-27",
-   "text": "Cloture motion on the measure presented in Senate.",
+   "text": "Cloture motion on the measure presented in Senate. (CR S4276)",
    "core": "Cloture motion on the measure presented in Senate",
    "code": null,
    "source": "Senate",
