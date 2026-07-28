@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "s",
  "billNumber": "4784",
- "built_at": "2026-07-28T09:46:08+00:00",
- "source_count": 11,
+ "built_at": "2026-07-28T12:11:48+00:00",
+ "source_count": 12,
  "holds_full_record": true,
  "entries": [
   {
@@ -145,6 +145,20 @@
    "label": null,
    "tally": null,
    "spine": false,
+   "subordinate": null
+  },
+  {
+   "order": 10,
+   "date": "2026-07-27",
+   "text": "Motion to proceed to consideration of measure made in Senate.",
+   "core": "Motion to proceed to consideration of measure made in Senate",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": "mtp_pending",
+   "label": "Motion to proceed filed",
+   "tally": null,
+   "spine": true,
    "subordinate": null
   }
  ]

@@ -1,0 +1,81 @@
+{
+ "v": 1,
+ "congress": 119,
+ "billType": "sres",
+ "billNumber": "781",
+ "built_at": "2026-07-28T12:11:48+00:00",
+ "source_count": 6,
+ "holds_full_record": true,
+ "entries": [
+  {
+   "order": 0,
+   "date": "2026-06-18",
+   "text": "Submitted in Senate",
+   "core": "Submitted in Senate",
+   "code": "10025",
+   "source": "Library of Congress",
+   "chamber": "Senate",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null
+  },
+  {
+   "order": 1,
+   "date": "2026-06-18",
+   "text": "Referred to the Committee on the Judiciary. (text: CR S2940)",
+   "core": "Referred to the Committee on the Judiciary",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": null,
+   "label": "Referred to committee",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 2,
+   "date": "2026-07-27",
+   "text": "Senate Committee on the Judiciary discharged by Unanimous Consent.",
+   "core": "Senate Committee on the Judiciary discharged by Unanimous Consent",
+   "code": "14500",
+   "source": "Library of Congress",
+   "chamber": "Senate",
+   "family": "discharged",
+   "label": "Discharged from committee (Senate)",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 3,
+   "date": "2026-07-27",
+   "text": "Passed/agreed to in Senate: Resolution agreed to in Senate without amendment and with a preamble by Unanimous Consent.",
+   "core": "Passed/agreed to in Senate: Resolution agreed to in Senate without amendment and with a preamble by Unanimous Consent",
+   "code": "17000",
+   "source": "Library of Congress",
+   "chamber": "Senate",
+   "family": "res_adopted",
+   "label": "Agreed to",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 4,
+   "date": "2026-07-27",
+   "text": "Resolution agreed to in Senate without amendment and with a preamble by Unanimous Consent.",
+   "core": "Resolution agreed to in Senate without amendment and with a preamble by Unanimous Consent",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": "res_adopted",
+   "label": "Agreed to",
+   "tally": null,
+   "spine": false,
+   "subordinate": true
+  }
+ ]
+}
