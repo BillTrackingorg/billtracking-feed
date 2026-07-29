@@ -5,12 +5,12 @@
  "year": "2025",
  "number": "0207",
  "ptype": "COD",
- "built_at": "2026-07-28T20:49:42+00:00",
+ "built_at": "2026-07-29T00:19:02+00:00",
  "source": "oeil-key-events",
  "source_count": 7,
  "holds_full_record": true,
  "overrides_applied": null,
- "texture_count": 8,
+ "texture_count": 9,
  "texture_source": "cellar-authority-events",
  "entries": [
   {
@@ -193,6 +193,19 @@
    "tally": null,
    "spine": false,
    "subordinate": null
+  },
+  {
+   "order": 15,
+   "date": "2026-07-22",
+   "text": "Endorsement of the provisional agreement by Coreper",
+   "doc": null,
+   "code": "ENDORSE_AGRPROV_COREPER_byCONSIL",
+   "src": "cellar",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": true
   }
  ]
 }
