@@ -5,9 +5,9 @@
  "year": "2024",
  "number": "0319",
  "ptype": "COD",
- "built_at": "2026-07-29T10:24:12+00:00",
+ "built_at": "2026-07-29T16:08:25+00:00",
  "source": "oeil-key-events",
- "source_count": 13,
+ "source_count": 14,
  "holds_full_record": true,
  "overrides_applied": null,
  "texture_count": 3,
@@ -194,6 +194,17 @@
    "tally": null,
    "spine": true,
    "subordinate": null
+  },
+  {
+   "order": 16,
+   "date": "2026-07-29",
+   "text": "Final act published in Official Journal",
+   "doc": null,
+   "family": "oj_published",
+   "label": "Published in the Official Journal",
+   "tally": null,
+   "spine": false,
+   "subordinate": true
   }
  ]
 }
