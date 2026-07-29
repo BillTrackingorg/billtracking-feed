@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "5334",
- "built_at": "2026-07-29T09:48:22+00:00",
- "source_count": 19,
+ "built_at": "2026-07-29T12:18:33+00:00",
+ "source_count": 20,
  "holds_full_record": true,
  "entries": [
   {
@@ -242,6 +242,20 @@
    "family": "cloture_filed",
    "label": "Cloture motion filed",
    "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 17,
+   "date": "2026-07-28",
+   "text": "Cloture on the motion to proceed to the measure invoked in Senate by Yea-Nay Vote. 86 - 12. Record Vote Number: 212.",
+   "core": "Cloture on the motion to proceed to the measure invoked in Senate by Yea-Nay Vote. 86 - 12",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": "cloture_invoked_mtp",
+   "label": "Cloture invoked (on taking up the bill)",
+   "tally": "86 - 12",
    "spine": true,
    "subordinate": null
   }
