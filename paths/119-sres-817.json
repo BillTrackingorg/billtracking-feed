@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "sres",
  "billNumber": "817",
- "built_at": "2026-07-30T12:03:19+00:00",
+ "built_at": "2026-07-30T14:29:43+00:00",
  "source_count": 10,
  "holds_full_record": true,
  "entries": [
@@ -108,7 +108,7 @@
   {
    "order": 7,
    "date": "2026-07-29",
-   "text": "Cloture on the measure invoked in Senate by Yea-Nay Vote. 50 - 45. Record Vote Number: 214.",
+   "text": "Cloture on the measure invoked in Senate by Yea-Nay Vote. 50 - 45. Record Vote Number: 214. (CR S4323)",
    "core": "Cloture on the measure invoked in Senate by Yea-Nay Vote. 50 - 45",
    "code": null,
    "source": "Senate",
@@ -122,7 +122,7 @@
   {
    "order": 8,
    "date": "2026-07-29",
-   "text": "Considered by Senate.",
+   "text": "Considered by Senate. (consideration: CR S4323)",
    "core": "Considered by Senate",
    "code": null,
    "source": "Senate",
