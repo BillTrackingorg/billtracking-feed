@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "5334",
- "built_at": "2026-07-30T14:29:38+00:00",
+ "built_at": "2026-07-30T16:46:18+00:00",
  "source_count": 23,
  "holds_full_record": true,
  "entries": [
@@ -262,7 +262,7 @@
   {
    "order": 18,
    "date": "2026-07-29",
-   "text": "Motion to proceed to measure considered in Senate.",
+   "text": "Motion to proceed to measure considered in Senate. (CR S4301)",
    "core": "Motion to proceed to measure considered in Senate",
    "code": null,
    "source": "Senate",
@@ -290,7 +290,7 @@
   {
    "order": 20,
    "date": "2026-07-29",
-   "text": "Measure laid before Senate by motion.",
+   "text": "Measure laid before Senate by motion. (consideration: CR S4323)",
    "core": "Measure laid before Senate by motion",
    "code": null,
    "source": "Senate",
