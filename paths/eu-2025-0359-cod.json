@@ -5,7 +5,7 @@
  "year": "2025",
  "number": "0359",
  "ptype": "COD",
- "built_at": "2026-07-28T08:04:00+00:00",
+ "built_at": "2026-07-30T20:47:27+00:00",
  "source": "oeil-key-events",
  "source_count": 14,
  "holds_full_record": true,
@@ -392,7 +392,7 @@
    "doc": "T10-0198/2026",
    "family": "ep_plenary_vote_r1",
    "label": "Parliament adopted its 1st-reading position",
-   "tally": null,
+   "tally": "(423-57, 174 abstentions)",
    "spine": true,
    "subordinate": null
   },
@@ -424,7 +424,7 @@
    "text": "Final act signed",
    "doc": null,
    "family": "signed",
-   "label": "Signed — publication next",
+   "label": "Signed by the European Parliament and the Council",
    "tally": null,
    "spine": true,
    "subordinate": null
