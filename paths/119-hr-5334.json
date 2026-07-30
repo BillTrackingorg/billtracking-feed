@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "5334",
- "built_at": "2026-07-30T09:39:49+00:00",
- "source_count": 20,
+ "built_at": "2026-07-30T12:03:16+00:00",
+ "source_count": 23,
  "holds_full_record": true,
  "entries": [
   {
@@ -257,6 +257,48 @@
    "label": "Cloture invoked (on taking up the bill)",
    "tally": "86 - 12",
    "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 18,
+   "date": "2026-07-29",
+   "text": "Motion to proceed to measure considered in Senate.",
+   "core": "Motion to proceed to measure considered in Senate",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": "mtp_pending",
+   "label": "Motion to proceed filed",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 19,
+   "date": "2026-07-29",
+   "text": "Motion to proceed to consideration of measure agreed to in Senate by Yea-Nay Vote. 84 - 12. Record Vote Number: 213.",
+   "core": "Motion to proceed to consideration of measure agreed to in Senate by Yea-Nay Vote. 84 - 12",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": "motion_to_proceed",
+   "label": "Motion to proceed agreed to",
+   "tally": "84 - 12",
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 20,
+   "date": "2026-07-29",
+   "text": "Measure laid before Senate by motion.",
+   "core": "Measure laid before Senate by motion",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
    "subordinate": null
   }
  ]

@@ -2,14 +2,14 @@
  "v": 1,
  "congress": 119,
  "billType": "sres",
- "billNumber": "781",
- "built_at": "2026-07-30T12:03:18+00:00",
+ "billNumber": "608",
+ "built_at": "2026-07-30T12:03:16+00:00",
  "source_count": 6,
  "holds_full_record": true,
  "entries": [
   {
    "order": 0,
-   "date": "2026-06-18",
+   "date": "2026-02-12",
    "text": "Submitted in Senate",
    "core": "Submitted in Senate",
    "code": "10025",
@@ -23,8 +23,8 @@
   },
   {
    "order": 1,
-   "date": "2026-06-18",
-   "text": "Referred to the Committee on the Judiciary. (text: CR S2940)",
+   "date": "2026-02-12",
+   "text": "Referred to the Committee on the Judiciary. (text: CR S613)",
    "core": "Referred to the Committee on the Judiciary",
    "code": null,
    "source": "Senate",
@@ -37,7 +37,7 @@
   },
   {
    "order": 2,
-   "date": "2026-07-27",
+   "date": "2026-07-29",
    "text": "Senate Committee on the Judiciary discharged by Unanimous Consent.",
    "core": "Senate Committee on the Judiciary discharged by Unanimous Consent",
    "code": "14500",
@@ -51,7 +51,7 @@
   },
   {
    "order": 3,
-   "date": "2026-07-27",
+   "date": "2026-07-29",
    "text": "Passed/agreed to in Senate: Resolution agreed to in Senate without amendment and with a preamble by Unanimous Consent.",
    "core": "Passed/agreed to in Senate: Resolution agreed to in Senate without amendment and with a preamble by Unanimous Consent",
    "code": "17000",
@@ -65,8 +65,8 @@
   },
   {
    "order": 4,
-   "date": "2026-07-27",
-   "text": "Resolution agreed to in Senate without amendment and with a preamble by Unanimous Consent. (consideration: CR S4286)",
+   "date": "2026-07-29",
+   "text": "Resolution agreed to in Senate without amendment and with a preamble by Unanimous Consent.",
    "core": "Resolution agreed to in Senate without amendment and with a preamble by Unanimous Consent",
    "code": null,
    "source": "Senate",

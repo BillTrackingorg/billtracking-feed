@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "sres",
  "billNumber": "817",
- "built_at": "2026-07-30T09:39:52+00:00",
- "source_count": 6,
+ "built_at": "2026-07-30T12:03:19+00:00",
+ "source_count": 10,
  "holds_full_record": true,
  "entries": [
   {
@@ -89,6 +89,62 @@
    "label": "Cloture motion filed",
    "tally": null,
    "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 6,
+   "date": "2026-07-29",
+   "text": "By unanimous consent agreement, debate and vote mandatory quorum required under Rule XXII waived.",
+   "core": "By unanimous consent agreement, debate and vote mandatory quorum required under Rule XXII waived",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null
+  },
+  {
+   "order": 7,
+   "date": "2026-07-29",
+   "text": "Cloture on the measure invoked in Senate by Yea-Nay Vote. 50 - 45. Record Vote Number: 214.",
+   "core": "Cloture on the measure invoked in Senate by Yea-Nay Vote. 50 - 45",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": "cloture_invoked",
+   "label": "Cloture invoked",
+   "tally": "50 - 45",
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 8,
+   "date": "2026-07-29",
+   "text": "Considered by Senate.",
+   "core": "Considered by Senate",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null
+  },
+  {
+   "order": 9,
+   "date": "2026-07-29",
+   "text": "By unanimous consent agreement, vote 7/30/2026.",
+   "core": "By unanimous consent agreement, vote 7/30/2026",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
    "subordinate": null
   }
  ]
