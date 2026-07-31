@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "s",
  "billNumber": "5123",
- "built_at": "2026-07-31T08:09:28+00:00",
- "source_count": 3,
+ "built_at": "2026-07-31T11:00:25+00:00",
+ "source_count": 4,
  "holds_full_record": true,
  "entries": [
   {
@@ -48,6 +48,20 @@
    "tally": null,
    "spine": false,
    "subordinate": true
+  },
+  {
+   "order": 3,
+   "date": "2026-07-30",
+   "text": "Message on Senate action sent to the House.",
+   "core": "Message on Senate action sent to the House",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null
   }
  ]
 }
