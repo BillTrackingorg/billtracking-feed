@@ -5,7 +5,7 @@
  "year": "2026",
  "number": "0078",
  "ptype": "COD",
- "built_at": "2026-07-31T08:18:20+00:00",
+ "built_at": "2026-07-31T15:53:39+00:00",
  "source": "oeil-key-events",
  "source_count": 7,
  "holds_full_record": true,
@@ -22,6 +22,7 @@
    "label": "New legislative proposal",
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -36,6 +37,7 @@
    "label": null,
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -50,6 +52,7 @@
    "label": null,
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -64,6 +67,7 @@
    "label": null,
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -76,6 +80,7 @@
    "label": null,
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -90,6 +95,7 @@
    "label": null,
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -104,6 +110,7 @@
    "label": null,
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -118,6 +125,7 @@
    "label": null,
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -132,6 +140,7 @@
    "label": null,
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -144,6 +153,7 @@
    "label": "Lead committee adopted its report",
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -156,6 +166,7 @@
    "label": null,
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -168,6 +179,7 @@
    "label": null,
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -180,6 +192,7 @@
    "label": null,
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -192,6 +205,7 @@
    "label": null,
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -206,6 +220,7 @@
    "label": null,
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": true
   }

@@ -5,7 +5,7 @@
  "year": "2025",
  "number": "0429",
  "ptype": "COD",
- "built_at": "2026-07-29T16:09:16+00:00",
+ "built_at": "2026-07-31T15:54:06+00:00",
  "source": "oeil-key-events",
  "source_count": 16,
  "holds_full_record": true,
@@ -21,6 +21,8 @@
    "family": "proposed",
    "label": "New legislative proposal",
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -34,6 +36,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -45,6 +49,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -58,6 +64,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -69,6 +77,8 @@
    "family": "committee_vote",
    "label": "Lead committee adopted its report",
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -80,6 +90,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -93,6 +105,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -104,6 +118,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -115,6 +131,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -126,6 +144,8 @@
    "family": "referred_back",
    "label": "Plenary sent the file back to committee",
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -139,6 +159,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -152,6 +174,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -165,6 +189,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -178,6 +204,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -189,6 +217,8 @@
    "family": "ep_plenary_vote_r1",
    "label": "Parliament adopted its 1st-reading position",
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -200,6 +230,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -213,6 +245,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -226,6 +260,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -237,6 +273,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -248,6 +286,8 @@
    "family": "council_position_r1",
    "label": "Council adopted its 1st-reading position",
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -259,6 +299,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -270,6 +312,8 @@
    "family": "ep_plenary_vote_r2",
    "label": "Parliament decided at 2nd reading",
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -283,6 +327,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -296,6 +342,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -307,6 +355,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -316,8 +366,10 @@
    "text": "Final act signed",
    "doc": null,
    "family": "signed",
-   "label": "Signed — publication next",
+   "label": "Signed by the European Parliament and the Council",
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": true
   },
@@ -329,6 +381,8 @@
    "family": "oj_published",
    "label": "Published in the Official Journal",
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": true
   }

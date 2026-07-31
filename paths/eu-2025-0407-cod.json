@@ -5,7 +5,7 @@
  "year": "2025",
  "number": "0407",
  "ptype": "COD",
- "built_at": "2026-07-31T08:16:14+00:00",
+ "built_at": "2026-07-31T15:52:04+00:00",
  "source": "oeil-key-events",
  "source_count": 10,
  "holds_full_record": false,
@@ -22,6 +22,7 @@
    "label": "New legislative proposal",
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -36,6 +37,7 @@
    "label": null,
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -48,6 +50,7 @@
    "label": null,
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -62,6 +65,7 @@
    "label": null,
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -76,6 +80,7 @@
    "label": null,
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -88,6 +93,7 @@
    "label": "Lead committee adopted its report",
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -102,6 +108,7 @@
    "label": null,
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -114,6 +121,7 @@
    "label": null,
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -126,6 +134,7 @@
    "label": "Parliament adopted its 1st-reading position",
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -138,6 +147,7 @@
    "label": null,
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -150,6 +160,7 @@
    "label": "Adopted — Council gave the final green light",
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -162,6 +173,7 @@
    "label": "Signed by the European Parliament and the Council",
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -174,6 +186,7 @@
    "label": "Published in the Official Journal",
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": true
   }

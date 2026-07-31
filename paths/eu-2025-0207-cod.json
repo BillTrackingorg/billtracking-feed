@@ -5,7 +5,7 @@
  "year": "2025",
  "number": "0207",
  "ptype": "COD",
- "built_at": "2026-07-31T08:17:47+00:00",
+ "built_at": "2026-07-31T15:52:52+00:00",
  "source": "oeil-key-events",
  "source_count": 7,
  "holds_full_record": true,
@@ -22,6 +22,7 @@
    "label": "New legislative proposal",
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -36,6 +37,7 @@
    "label": null,
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -48,6 +50,7 @@
    "label": null,
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -62,6 +65,7 @@
    "label": null,
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -76,6 +80,7 @@
    "label": null,
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -90,6 +95,7 @@
    "label": null,
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -104,6 +110,7 @@
    "label": null,
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -118,6 +125,7 @@
    "label": null,
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -130,6 +138,7 @@
    "label": "Lead committee adopted its report",
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -142,6 +151,7 @@
    "label": null,
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -154,6 +164,7 @@
    "label": null,
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -166,6 +177,7 @@
    "label": null,
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -178,6 +190,7 @@
    "label": "Plenary sent the file back to committee",
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -192,6 +205,7 @@
    "label": null,
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -206,6 +220,7 @@
    "label": null,
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -220,6 +235,7 @@
    "label": null,
    "tally": null,
    "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": true
   }
