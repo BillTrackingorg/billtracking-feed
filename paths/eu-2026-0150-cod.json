@@ -5,7 +5,7 @@
  "year": "2026",
  "number": "0150",
  "ptype": "COD",
- "built_at": "2026-07-24T09:17:24+00:00",
+ "built_at": "2026-07-31T08:17:17+00:00",
  "source": "oeil-key-events",
  "source_count": 8,
  "holds_full_record": false,
@@ -21,6 +21,7 @@
    "family": "proposed",
    "label": "New legislative proposal",
    "tally": null,
+   "method_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -32,6 +33,7 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -43,6 +45,7 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -56,6 +59,7 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -67,6 +71,7 @@
    "family": "ep_plenary_vote_r1",
    "label": "Parliament adopted its 1st-reading position",
    "tally": null,
+   "method_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -78,6 +83,7 @@
    "family": "council_adoption",
    "label": "Adopted — Council gave the final green light",
    "tally": null,
+   "method_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -87,8 +93,9 @@
    "text": "Final act signed",
    "doc": null,
    "family": "signed",
-   "label": "Signed — publication next",
+   "label": "Signed by the European Parliament and the Council",
    "tally": null,
+   "method_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -100,6 +107,7 @@
    "family": "oj_published",
    "label": "Published in the Official Journal",
    "tally": null,
+   "method_note": null,
    "spine": false,
    "subordinate": true
   }

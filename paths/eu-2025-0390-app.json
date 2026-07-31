@@ -5,7 +5,7 @@
  "year": "2025",
  "number": "0390",
  "ptype": "APP",
- "built_at": "2026-07-30T20:46:46+00:00",
+ "built_at": "2026-07-31T08:17:59+00:00",
  "source": "oeil-key-events",
  "source_count": 7,
  "holds_full_record": true,
@@ -21,6 +21,7 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -32,6 +33,7 @@
    "family": "proposed",
    "label": "New legislative proposal",
    "tally": null,
+   "method_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -43,6 +45,7 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -54,6 +57,7 @@
    "family": "committee_vote",
    "label": "Lead committee adopted its recommendation",
    "tally": null,
+   "method_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -65,6 +69,7 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -75,7 +80,8 @@
    "doc": "T10-0200/2026",
    "family": "ep_consent",
    "label": "Parliament voted on consent",
-   "tally": null,
+   "tally": "(563-44, 56 abstentions)",
+   "method_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -87,6 +93,7 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
    "spine": false,
    "subordinate": null
   }

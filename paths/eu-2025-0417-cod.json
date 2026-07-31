@@ -5,7 +5,7 @@
  "year": "2025",
  "number": "0417",
  "ptype": "COD",
- "built_at": "2026-07-30T20:46:55+00:00",
+ "built_at": "2026-07-31T08:18:08+00:00",
  "source": "oeil-key-events",
  "source_count": 4,
  "holds_full_record": true,
@@ -21,6 +21,7 @@
    "family": "proposed",
    "label": "New legislative proposal",
    "tally": null,
+   "method_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -32,6 +33,7 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -45,6 +47,7 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -58,6 +61,7 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -71,6 +75,7 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -82,6 +87,7 @@
    "family": "committee_vote",
    "label": "Lead committee adopted its report",
    "tally": null,
+   "method_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -93,6 +99,7 @@
    "family": "mandate",
    "label": "Negotiating mandate for trilogue talks",
    "tally": null,
+   "method_note": null,
    "spine": false,
    "subordinate": true
   }
