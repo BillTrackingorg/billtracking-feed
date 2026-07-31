@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "6500",
- "built_at": "2026-07-31T13:06:38+00:00",
+ "built_at": "2026-07-31T15:28:46+00:00",
  "source_count": 21,
  "holds_full_record": true,
  "entries": [
@@ -248,7 +248,7 @@
   {
    "order": 17,
    "date": "2026-07-30",
-   "text": "Motion to proceed to consideration of measure made in Senate.",
+   "text": "Motion to proceed to consideration of measure made in Senate. (CR S4360)",
    "core": "Motion to proceed to consideration of measure made in Senate",
    "code": null,
    "source": "Senate",
@@ -262,7 +262,7 @@
   {
    "order": 18,
    "date": "2026-07-30",
-   "text": "Cloture motion on the motion to proceed to the measure presented in Senate.",
+   "text": "Cloture motion on the motion to proceed to the measure presented in Senate. (CR S4365)",
    "core": "Cloture motion on the motion to proceed to the measure presented in Senate",
    "code": null,
    "source": "Senate",

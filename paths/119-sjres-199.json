@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "sjres",
  "billNumber": "199",
- "built_at": "2026-07-31T13:06:38+00:00",
+ "built_at": "2026-07-31T15:28:47+00:00",
  "source_count": 7,
  "holds_full_record": true,
  "entries": [
@@ -66,7 +66,7 @@
   {
    "order": 4,
    "date": "2026-07-30",
-   "text": "Motion to proceed to consideration of measure made in Senate.",
+   "text": "Motion to proceed to consideration of measure made in Senate. (CR S4355)",
    "core": "Motion to proceed to consideration of measure made in Senate",
    "code": null,
    "source": "Senate",

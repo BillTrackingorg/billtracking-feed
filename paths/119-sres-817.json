@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "sres",
  "billNumber": "817",
- "built_at": "2026-07-31T13:06:36+00:00",
+ "built_at": "2026-07-31T15:28:44+00:00",
  "source_count": 13,
  "holds_full_record": true,
  "entries": [
@@ -150,7 +150,7 @@
   {
    "order": 10,
    "date": "2026-07-30",
-   "text": "Considered by Senate.",
+   "text": "Considered by Senate. (consideration: CR S4353, S4360)",
    "core": "Considered by Senate",
    "code": null,
    "source": "Senate",
