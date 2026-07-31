@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "sres",
  "billNumber": "817",
- "built_at": "2026-07-31T11:00:31+00:00",
- "source_count": 10,
+ "built_at": "2026-07-31T13:06:36+00:00",
+ "source_count": 13,
  "holds_full_record": true,
  "entries": [
   {
@@ -146,6 +146,48 @@
    "tally": null,
    "spine": false,
    "subordinate": null
+  },
+  {
+   "order": 10,
+   "date": "2026-07-30",
+   "text": "Considered by Senate.",
+   "core": "Considered by Senate",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null
+  },
+  {
+   "order": 11,
+   "date": "2026-07-30",
+   "text": "Passed/agreed to in Senate: Resolution agreed to in Senate without amendment by Yea-Nay Vote. 50 - 47. Record Vote Number: 217.",
+   "core": "Passed/agreed to in Senate: Resolution agreed to in Senate without amendment by Yea-Nay Vote. 50 - 47",
+   "code": "17000",
+   "source": "Library of Congress",
+   "chamber": "Senate",
+   "family": "res_adopted",
+   "label": "Agreed to",
+   "tally": "50 - 47",
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 12,
+   "date": "2026-07-30",
+   "text": "Resolution agreed to in Senate without amendment by Yea-Nay Vote. 50 - 47. Record Vote Number: 217.",
+   "core": "Resolution agreed to in Senate without amendment by Yea-Nay Vote. 50 - 47",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": "res_adopted",
+   "label": "Agreed to",
+   "tally": "50 - 47",
+   "spine": false,
+   "subordinate": true
   }
  ]
 }
