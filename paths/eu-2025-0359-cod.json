@@ -5,7 +5,7 @@
  "year": "2025",
  "number": "0359",
  "ptype": "COD",
- "built_at": "2026-07-30T20:47:27+00:00",
+ "built_at": "2026-07-31T20:53:24+00:00",
  "source": "oeil-key-events",
  "source_count": 14,
  "holds_full_record": true,
@@ -21,6 +21,8 @@
    "family": "proposed",
    "label": "New legislative proposal",
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -34,6 +36,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -47,6 +51,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -60,6 +66,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -73,6 +81,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -86,6 +96,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -97,6 +109,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -110,6 +124,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -123,6 +139,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -136,6 +154,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -149,6 +169,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -162,6 +184,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -175,6 +199,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -186,6 +212,8 @@
    "family": "committee_vote",
    "label": "Lead committee adopted its report",
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -199,6 +227,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -210,6 +240,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -221,6 +253,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -232,6 +266,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -243,6 +279,8 @@
    "family": "referred_back",
    "label": "Plenary sent the file back to committee",
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -256,6 +294,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -269,6 +309,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -282,6 +324,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -295,6 +339,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -308,6 +354,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -321,6 +369,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -334,6 +384,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -345,6 +397,8 @@
    "family": "committee_confirms_deal",
    "label": "Lead committee approved the trilogue deal",
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -358,6 +412,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -371,6 +427,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -382,6 +440,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -393,6 +453,8 @@
    "family": "ep_plenary_vote_r1",
    "label": "Parliament adopted its 1st-reading position",
    "tally": "(423-57, 174 abstentions)",
+   "method_note": null,
+   "review_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -404,6 +466,8 @@
    "family": null,
    "label": null,
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -415,6 +479,8 @@
    "family": "council_adoption",
    "label": "Adopted — Council gave the final green light",
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -426,6 +492,8 @@
    "family": "signed",
    "label": "Signed by the European Parliament and the Council",
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -437,6 +505,8 @@
    "family": "oj_published",
    "label": "Published in the Official Journal",
    "tally": null,
+   "method_note": null,
+   "review_note": null,
    "spine": false,
    "subordinate": true
   }
