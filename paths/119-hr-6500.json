@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "6500",
- "built_at": "2026-08-04T15:33:56+00:00",
+ "built_at": "2026-08-04T18:02:38+00:00",
  "source_count": 23,
  "holds_full_record": true,
  "entries": [
@@ -276,7 +276,7 @@
   {
    "order": 19,
    "date": "2026-08-03",
-   "text": "Cloture on the motion to proceed to the measure invoked in Senate by Yea-Nay Vote. 89 - 4. Record Vote Number: 218.",
+   "text": "Cloture on the motion to proceed to the measure invoked in Senate by Yea-Nay Vote. 89 - 4. Record Vote Number: 218. (CR S4405)",
    "core": "Cloture on the motion to proceed to the measure invoked in Senate by Yea-Nay Vote. 89 - 4",
    "code": null,
    "source": "Senate",
@@ -290,7 +290,7 @@
   {
    "order": 20,
    "date": "2026-08-03",
-   "text": "Motion to proceed to measure considered in Senate.",
+   "text": "Motion to proceed to measure considered in Senate. (CR S4414)",
    "core": "Motion to proceed to measure considered in Senate",
    "code": null,
    "source": "Senate",
