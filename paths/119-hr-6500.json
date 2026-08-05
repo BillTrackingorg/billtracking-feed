@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "6500",
- "built_at": "2026-08-05T09:47:02+00:00",
- "source_count": 23,
+ "built_at": "2026-08-05T12:15:23+00:00",
+ "source_count": 24,
  "holds_full_record": true,
  "entries": [
   {
@@ -291,6 +291,20 @@
    "order": 20,
    "date": "2026-08-03",
    "text": "Motion to proceed to measure considered in Senate. (CR S4414)",
+   "core": "Motion to proceed to measure considered in Senate",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": "mtp_pending",
+   "label": "Motion to proceed filed",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 21,
+   "date": "2026-08-04",
+   "text": "Motion to proceed to measure considered in Senate.",
    "core": "Motion to proceed to measure considered in Senate",
    "code": null,
    "source": "Senate",
