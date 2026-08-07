@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "sres",
  "billNumber": "839",
- "built_at": "2026-08-07T13:36:29+00:00",
+ "built_at": "2026-08-07T15:08:04+00:00",
  "source_count": 2,
  "holds_full_record": true,
  "entries": [
@@ -24,7 +24,7 @@
   {
    "order": 1,
    "date": "2026-08-06",
-   "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent.",
+   "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S4530; text: CR S4525)",
    "core": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent",
    "code": null,
    "source": "Senate",
