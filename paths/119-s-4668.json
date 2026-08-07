@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "s",
  "billNumber": "4668",
- "built_at": "2026-08-06T15:26:20+00:00",
+ "built_at": "2026-08-07T00:13:48+00:00",
  "source_count": 8,
  "holds_full_record": true,
  "entries": [
@@ -80,7 +80,7 @@
   {
    "order": 5,
    "date": "2026-08-05",
-   "text": "Motion to proceed to consideration of measure made in Senate.",
+   "text": "Motion to proceed to consideration of measure made in Senate. (CR S4449)",
    "core": "Motion to proceed to consideration of measure made in Senate",
    "code": null,
    "source": "Senate",
@@ -94,7 +94,7 @@
   {
    "order": 6,
    "date": "2026-08-05",
-   "text": "Cloture motion on the motion to proceed to the measure presented in Senate.",
+   "text": "Cloture motion on the motion to proceed to the measure presented in Senate. (CR S4449)",
    "core": "Cloture motion on the motion to proceed to the measure presented in Senate",
    "code": null,
    "source": "Senate",

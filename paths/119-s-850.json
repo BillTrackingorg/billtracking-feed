@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "s",
  "billNumber": "850",
- "built_at": "2026-08-06T15:26:19+00:00",
+ "built_at": "2026-08-07T00:13:47+00:00",
  "source_count": 9,
  "holds_full_record": true,
  "entries": [
@@ -80,7 +80,7 @@
   {
    "order": 5,
    "date": "2026-08-05",
-   "text": "Measure laid before Senate by unanimous consent.",
+   "text": "Measure laid before Senate by unanimous consent. (consideration: CR S4480-4481)",
    "core": "Measure laid before Senate by unanimous consent",
    "code": null,
    "source": "Senate",
@@ -108,7 +108,7 @@
   {
    "order": 7,
    "date": "2026-08-05",
-   "text": "Passed Senate with amendments by Unanimous Consent.",
+   "text": "Passed Senate with amendments by Unanimous Consent. (text: CR S4481)",
    "core": "Passed Senate with amendments by Unanimous Consent",
    "code": null,
    "source": "Senate",
