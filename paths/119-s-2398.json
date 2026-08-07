@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "s",
  "billNumber": "2398",
- "built_at": "2026-08-07T11:55:40+00:00",
+ "built_at": "2026-08-07T13:36:27+00:00",
  "source_count": 8,
  "holds_full_record": true,
  "entries": [
@@ -94,7 +94,7 @@
   {
    "order": 6,
    "date": "2026-08-06",
-   "text": "Passed Senate with an amendment by Voice Vote.",
+   "text": "Passed Senate with an amendment by Voice Vote. (consideration: CR S4494-4495; text: CR S4494-4495)",
    "core": "Passed Senate with an amendment by Voice Vote",
    "code": null,
    "source": "Senate",
