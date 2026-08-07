@@ -1,0 +1,39 @@
+{
+ "v": 1,
+ "congress": 119,
+ "billType": "s",
+ "billNumber": "1838",
+ "built_at": "2026-08-07T11:06:52+00:00",
+ "source_count": 2,
+ "holds_full_record": true,
+ "entries": [
+  {
+   "order": 0,
+   "date": "2025-05-21",
+   "text": "Introduced in Senate",
+   "core": "Introduced in Senate",
+   "code": "10000",
+   "source": "Library of Congress",
+   "chamber": "Senate",
+   "family": null,
+   "label": "Introduced in Senate",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 1,
+   "date": "2025-05-21",
+   "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+   "core": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": null,
+   "label": "Referred to committee",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "v": 1,
+ "congress": 119,
+ "billType": "sres",
+ "billNumber": "833",
+ "built_at": "2026-08-07T11:06:51+00:00",
+ "source_count": 2,
+ "holds_full_record": true,
+ "entries": [
+  {
+   "order": 0,
+   "date": "2026-08-06",
+   "text": "Passed/agreed to in Senate: Resolution agreed to in Senate without amendment and with a preamble by Unanimous Consent.",
+   "core": "Passed/agreed to in Senate: Resolution agreed to in Senate without amendment and with a preamble by Unanimous Consent",
+   "code": "17000",
+   "source": "Library of Congress",
+   "chamber": "Senate",
+   "family": "res_adopted",
+   "label": "Agreed to",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 1,
+   "date": "2026-08-06",
+   "text": "Resolution agreed to in Senate without amendment and with a preamble by Unanimous Consent.",
+   "core": "Resolution agreed to in Senate without amendment and with a preamble by Unanimous Consent",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": "res_adopted",
+   "label": "Agreed to",
+   "tally": null,
+   "spine": false,
+   "subordinate": true
+  }
+ ]
+}
