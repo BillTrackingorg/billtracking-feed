@@ -1,0 +1,81 @@
+{
+ "v": 1,
+ "congress": 119,
+ "billType": "s",
+ "billNumber": "2542",
+ "built_at": "2026-08-08T15:45:02+00:00",
+ "source_count": 6,
+ "holds_full_record": true,
+ "entries": [
+  {
+   "order": 0,
+   "date": "2025-07-30",
+   "text": "Introduced in Senate",
+   "core": "Introduced in Senate",
+   "code": "10000",
+   "source": "Library of Congress",
+   "chamber": "Senate",
+   "family": null,
+   "label": "Introduced in Senate",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 1,
+   "date": "2025-07-30",
+   "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+   "core": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": null,
+   "label": "Referred to committee",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 2,
+   "date": "2026-08-06",
+   "text": "Committee on Homeland Security and Governmental Affairs. Ordered to be reported with an amendment in the nature of a substitute favorably.",
+   "core": "Committee on Homeland Security and Governmental Affairs. Ordered to be reported with an amendment in the nature of a substitute favorably",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null
+  },
+  {
+   "order": 3,
+   "date": "2026-08-06",
+   "text": "Committee on Homeland Security and Governmental Affairs. Reported by Senator Paul with an amendment in the nature of a substitute. Without written report.",
+   "core": "Committee on Homeland Security and Governmental Affairs. Reported by Senator Paul with an amendment in the nature of a substitute. Without written report",
+   "code": "14000",
+   "source": "Library of Congress",
+   "chamber": null,
+   "family": "reported",
+   "label": "Reported by committee",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 4,
+   "date": "2026-08-06",
+   "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 545.",
+   "core": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 545",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": "calendar_placement",
+   "label": "Placed on calendar (Senate)",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  }
+ ]
+}

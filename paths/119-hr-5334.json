@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "5334",
- "built_at": "2026-08-08T14:47:58+00:00",
- "source_count": 23,
+ "built_at": "2026-08-08T15:45:01+00:00",
+ "source_count": 26,
  "holds_full_record": true,
  "entries": [
   {
@@ -300,6 +300,48 @@
    "tally": null,
    "spine": false,
    "subordinate": null
+  },
+  {
+   "order": 21,
+   "date": "2026-08-07",
+   "text": "Considered by Senate.",
+   "core": "Considered by Senate",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null
+  },
+  {
+   "order": 22,
+   "date": "2026-08-07",
+   "text": "Passed/agreed to in Senate: Passed Senate with an amendment and an amendment to the Title by Yea-Nay Vote. 86 - 11. Record Vote Number: 224.",
+   "core": "Passed/agreed to in Senate: Passed Senate with an amendment and an amendment to the Title by Yea-Nay Vote. 86 - 11",
+   "code": "17000",
+   "source": "Library of Congress",
+   "chamber": "Senate",
+   "family": "passed_senate_amended",
+   "label": "Passed Senate with amendment",
+   "tally": "86 - 11",
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 23,
+   "date": "2026-08-07",
+   "text": "Passed Senate with an amendment and an amendment to the Title by Yea-Nay Vote. 86 - 11. Record Vote Number: 224.",
+   "core": "Passed Senate with an amendment and an amendment to the Title by Yea-Nay Vote. 86 - 11",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": "passed_senate_amended",
+   "label": "Passed Senate with amendment",
+   "tally": "86 - 11",
+   "spine": false,
+   "subordinate": true
   }
  ]
 }
