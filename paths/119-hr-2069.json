@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "2069",
- "built_at": "2026-08-08T15:45:01+00:00",
- "source_count": 12,
+ "built_at": "2026-08-08T16:51:07+00:00",
+ "source_count": 14,
  "holds_full_record": true,
  "entries": [
   {
@@ -150,8 +150,8 @@
   {
    "order": 10,
    "date": "2026-07-21",
-   "text": "Received in the Senate.",
-   "core": "Received in the Senate",
+   "text": "Received in the Senate, read twice.",
+   "core": "Received in the Senate, read twice",
    "code": null,
    "source": "Senate",
    "chamber": "Senate",
@@ -160,6 +160,34 @@
    "tally": null,
    "spine": false,
    "subordinate": null
+  },
+  {
+   "order": 11,
+   "date": "2026-08-07",
+   "text": "Passed/agreed to in Senate: Passed Senate without amendment by Unanimous Consent.",
+   "core": "Passed/agreed to in Senate: Passed Senate without amendment by Unanimous Consent",
+   "code": "17000",
+   "source": "Library of Congress",
+   "chamber": "Senate",
+   "family": "passed_senate",
+   "label": "Passed Senate",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 12,
+   "date": "2026-08-07",
+   "text": "Passed Senate without amendment by Unanimous Consent.",
+   "core": "Passed Senate without amendment by Unanimous Consent",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": "passed_senate",
+   "label": "Passed Senate",
+   "tally": null,
+   "spine": false,
+   "subordinate": true
   }
  ]
 }
