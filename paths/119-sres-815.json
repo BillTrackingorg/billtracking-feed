@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "sres",
  "billNumber": "815",
- "built_at": "2026-08-10T18:03:02+00:00",
+ "built_at": "2026-08-10T19:15:14+00:00",
  "source_count": 7,
  "holds_full_record": true,
  "entries": [
@@ -52,7 +52,7 @@
   {
    "order": 3,
    "date": "2026-08-07",
-   "text": "Measure laid before Senate by unanimous consent.",
+   "text": "Measure laid before Senate by unanimous consent. (consideration: CR S4552)",
    "core": "Measure laid before Senate by unanimous consent",
    "code": null,
    "source": "Senate",
@@ -80,7 +80,7 @@
   {
    "order": 5,
    "date": "2026-08-07",
-   "text": "Resolution agreed to in Senate without amendment and an amended preamble by Unanimous Consent.",
+   "text": "Resolution agreed to in Senate without amendment and an amended preamble by Unanimous Consent. (text of amendment in the nature of a substitute: CR S4552-4553)",
    "core": "Resolution agreed to in Senate without amendment and an amended preamble by Unanimous Consent",
    "code": null,
    "source": "Senate",

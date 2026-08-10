@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "2069",
- "built_at": "2026-08-10T18:02:56+00:00",
+ "built_at": "2026-08-10T19:15:04+00:00",
  "source_count": 14,
  "holds_full_record": true,
  "entries": [
@@ -178,7 +178,7 @@
   {
    "order": 12,
    "date": "2026-08-07",
-   "text": "Passed Senate without amendment by Unanimous Consent.",
+   "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S4547)",
    "core": "Passed Senate without amendment by Unanimous Consent",
    "code": null,
    "source": "Senate",

@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "s",
  "billNumber": "5271",
- "built_at": "2026-08-10T18:03:01+00:00",
+ "built_at": "2026-08-10T19:15:13+00:00",
  "source_count": 6,
  "holds_full_record": true,
  "entries": [
@@ -52,7 +52,7 @@
   {
    "order": 3,
    "date": "2026-08-08",
-   "text": "Motion to proceed to consideration of measure made in Senate.",
+   "text": "Motion to proceed to consideration of measure made in Senate. (CR S4556)",
    "core": "Motion to proceed to consideration of measure made in Senate",
    "code": null,
    "source": "Senate",
@@ -66,7 +66,7 @@
   {
    "order": 4,
    "date": "2026-08-08",
-   "text": "Cloture motion on the motion to proceed to the measure presented in Senate.",
+   "text": "Cloture motion on the motion to proceed to the measure presented in Senate. (CR S4556)",
    "core": "Cloture motion on the motion to proceed to the measure presented in Senate",
    "code": null,
    "source": "Senate",

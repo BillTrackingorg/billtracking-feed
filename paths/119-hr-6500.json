@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "6500",
- "built_at": "2026-08-10T18:03:00+00:00",
- "source_count": 35,
+ "built_at": "2026-08-10T19:15:10+00:00",
+ "source_count": 33,
  "holds_full_record": true,
  "entries": [
   {
@@ -388,21 +388,7 @@
   {
    "order": 27,
    "date": "2026-08-07",
-   "text": "Measure laid before Senate by unanimous consent.",
-   "core": "Measure laid before Senate by unanimous consent",
-   "code": null,
-   "source": "Senate",
-   "chamber": "Senate",
-   "family": null,
-   "label": null,
-   "tally": null,
-   "spine": false,
-   "subordinate": null
-  },
-  {
-   "order": 28,
-   "date": "2026-08-07",
-   "text": "Considered by Senate.",
+   "text": "Considered by Senate. (consideration: CR S4542, S4546-4547, S4553-4555)",
    "core": "Considered by Senate",
    "code": null,
    "source": "Senate",
@@ -414,21 +400,7 @@
    "subordinate": null
   },
   {
-   "order": 29,
-   "date": "2026-08-07",
-   "text": "SA 6738 fell when cloture invoked SA 6732.",
-   "core": "SA 6738 fell when cloture invoked SA 6732",
-   "code": null,
-   "source": "Senate",
-   "chamber": "Senate",
-   "family": null,
-   "label": null,
-   "tally": null,
-   "spine": false,
-   "subordinate": null
-  },
-  {
-   "order": 30,
+   "order": 28,
    "date": "2026-08-07",
    "text": "Motion by Senator Thune to commit to Senate Committee on Appropriations with instructions to report back forthwith with the following amendment SA 6740 fell when cloture on amendment SA 6732 was invoked in Senate.",
    "core": "Motion by Senator Thune to commit to Senate Committee on Appropriations with instructions to report back forthwith with the following amendment SA 6740 fell when cloture on amendment SA 6732 was invoked in Senate",
@@ -442,7 +414,7 @@
    "subordinate": null
   },
   {
-   "order": 31,
+   "order": 29,
    "date": "2026-08-08",
    "text": "Passed/agreed to in Senate: Passed Senate with an amendment and an amendment to the Title by Yea-Nay Vote. 90 - 6. Record Vote Number: 228.",
    "core": "Passed/agreed to in Senate: Passed Senate with an amendment and an amendment to the Title by Yea-Nay Vote. 90 - 6",
@@ -456,7 +428,7 @@
    "subordinate": null
   },
   {
-   "order": 32,
+   "order": 30,
    "date": "2026-08-08",
    "text": "Passed Senate with an amendment and an amendment to the Title by Yea-Nay Vote. 90 - 6. Record Vote Number: 228.",
    "core": "Passed Senate with an amendment and an amendment to the Title by Yea-Nay Vote. 90 - 6",

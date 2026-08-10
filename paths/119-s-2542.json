@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "s",
  "billNumber": "2542",
- "built_at": "2026-08-10T18:02:57+00:00",
+ "built_at": "2026-08-10T19:15:05+00:00",
  "source_count": 8,
  "holds_full_record": true,
  "entries": [
@@ -94,7 +94,7 @@
   {
    "order": 6,
    "date": "2026-08-07",
-   "text": "Passed Senate with an amendment by Unanimous Consent.",
+   "text": "Passed Senate with an amendment by Unanimous Consent. (consideration: CR S4547-4548; text: CR S4548)",
    "core": "Passed Senate with an amendment by Unanimous Consent",
    "code": null,
    "source": "Senate",
