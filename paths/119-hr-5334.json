@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "5334",
- "built_at": "2026-08-10T17:07:40+00:00",
+ "built_at": "2026-08-10T18:02:59+00:00",
  "source_count": 26,
  "holds_full_record": true,
  "entries": [
@@ -304,7 +304,7 @@
   {
    "order": 21,
    "date": "2026-08-07",
-   "text": "Considered by Senate.",
+   "text": "Considered by Senate. (consideration: CR S4538-4540)",
    "core": "Considered by Senate",
    "code": null,
    "source": "Senate",
