@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "s",
  "billNumber": "2677",
- "built_at": "2026-08-12T11:56:50+00:00",
+ "built_at": "2026-08-12T13:43:47+00:00",
  "source_count": 10,
  "holds_full_record": true,
  "entries": [
@@ -94,6 +94,20 @@
   {
    "order": 6,
    "date": "2026-08-10",
+   "text": "Message on Senate action sent to the House.",
+   "core": "Message on Senate action sent to the House",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null
+  },
+  {
+   "order": 7,
+   "date": "2026-08-10",
    "text": "Received in the House.",
    "core": "Received in the House",
    "code": "H14000",
@@ -106,27 +120,13 @@
    "subordinate": null
   },
   {
-   "order": 7,
+   "order": 8,
    "date": "2026-08-10",
    "text": "Held at the desk.",
    "core": "Held at the desk",
    "code": "H15000",
    "source": "House floor actions",
    "chamber": "House",
-   "family": null,
-   "label": null,
-   "tally": null,
-   "spine": false,
-   "subordinate": null
-  },
-  {
-   "order": 8,
-   "date": "2026-08-10",
-   "text": "Message on Senate action sent to the House.",
-   "core": "Message on Senate action sent to the House",
-   "code": null,
-   "source": "Senate",
-   "chamber": "Senate",
    "family": null,
    "label": null,
    "tally": null,
