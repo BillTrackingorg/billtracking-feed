@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "3633",
- "built_at": "2026-08-13T22:59:58+00:00",
+ "built_at": "2026-08-13T23:55:52+00:00",
  "source_count": 30,
  "holds_full_record": true,
  "entries": [
@@ -116,8 +116,8 @@
    "family": "reported",
    "label": "Reported by committee",
    "tally": null,
-   "spine": false,
-   "subordinate": true
+   "spine": true,
+   "subordinate": null
   },
   {
    "order": 8,
