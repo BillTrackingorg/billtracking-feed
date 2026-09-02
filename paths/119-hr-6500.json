@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "6500",
- "built_at": "2026-09-02T14:27:25+00:00",
+ "built_at": "2026-09-02T18:39:40+00:00",
  "source_count": 40,
  "holds_full_record": true,
  "entries": [
@@ -458,7 +458,7 @@
   {
    "order": 32,
    "date": "2026-09-01",
-   "text": "Mr. Cole moved that the House suspend the rules and agree to the Senate amendments.",
+   "text": "Mr. Cole moved that the House suspend the rules and agree to the Senate amendments. (consideration: CR H5377-5385)",
    "core": "Mr. Cole moved that the House suspend the rules and agree to the Senate amendments",
    "code": "H40140",
    "source": "House floor actions",
@@ -514,7 +514,7 @@
   {
    "order": 36,
    "date": "2026-09-01",
-   "text": "On motion that the House suspend the rules and agree to the Senate amendments Agreed to by the Yeas and Nays: (2/3 required): 370 - 48 (Roll no. 286).",
+   "text": "On motion that the House suspend the rules and agree to the Senate amendments Agreed to by the Yeas and Nays: (2/3 required): 370 - 48 (Roll no. 286). (consideration: CR H5387; text: CR H5377-5383)",
    "core": "On motion that the House suspend the rules and agree to the Senate amendments Agreed to by the Yeas and Nays: (2/3 required): 370 - 48",
    "code": "H41610",
    "source": "House floor actions",
