@@ -1,0 +1,53 @@
+{
+ "v": 1,
+ "congress": 119,
+ "billType": "hres",
+ "billNumber": "179",
+ "built_at": "2026-09-03T11:10:05+00:00",
+ "source_count": 4,
+ "holds_full_record": true,
+ "entries": [
+  {
+   "order": 0,
+   "date": "2025-03-03",
+   "text": "Submitted in House",
+   "core": "Submitted in House",
+   "code": "1010",
+   "source": "Library of Congress",
+   "chamber": "House",
+   "family": null,
+   "label": "Committee reported an original measure",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 1,
+   "date": "2025-03-03",
+   "text": "Referred to the House Committee on Foreign Affairs.",
+   "core": "Referred to the House Committee on Foreign Affairs",
+   "code": "H11100",
+   "source": "House floor actions",
+   "chamber": "House",
+   "family": null,
+   "label": "Referred to committee",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 2,
+   "date": "2026-09-02",
+   "text": "ASSUMING FIRST SPONSORSHIP - Mr. Jackson (IL) asked unanimous consent that he may hereafter be considered as the first sponsor of H. Res. 179, a resolution originally introduced by Representative Cherfilus-McCormick for the purpose of adding cosponsors and requesting reprintings pursuant to clause 7 of rule XII. Agreed to without objection.",
+   "core": "ASSUMING FIRST SPONSORSHIP - Mr. Jackson (IL) asked unanimous consent that he may hereafter be considered as the first sponsor of H. Res. 179, a resolution originally introduced by Representative Cherfilus-McCormick for the purpose of adding cosponsors and requesting reprintings pursuant to clause 7 of rule XII. Agreed to without objection",
+   "code": "H8D000",
+   "source": "House floor actions",
+   "chamber": "House",
+   "family": "res_adopted",
+   "label": "Agreed to",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  }
+ ]
+}

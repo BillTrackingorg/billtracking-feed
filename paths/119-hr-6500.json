@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "6500",
- "built_at": "2026-09-03T05:45:46+00:00",
- "source_count": 40,
+ "built_at": "2026-09-03T11:10:05+00:00",
+ "source_count": 42,
  "holds_full_record": true,
  "entries": [
   {
@@ -500,7 +500,7 @@
   {
    "order": 35,
    "date": "2026-09-01",
-   "text": "Resolving differences -- House actions: On motion that the House suspend the rules and agree to the Senate amendments Agreed to by the Yeas and Nays: (2/3 required): 370 - 48 (Roll no. 286).",
+   "text": "Resolving differences -- House actions: On motion that the House suspend the rules and agree to the Senate amendments Agreed to by the Yeas and Nays: (2/3 required): 370 - 48 (Roll no. 286). (consideration: CR H5387; text: CR H5377-5383)",
    "core": "Resolving differences -- House actions: On motion that the House suspend the rules and agree to the Senate amendments Agreed to by the Yeas and Nays: (2/3 required): 370 - 48",
    "code": "19500",
    "source": "Library of Congress",
@@ -537,6 +537,20 @@
    "label": null,
    "tally": null,
    "spine": false,
+   "subordinate": null
+  },
+  {
+   "order": 38,
+   "date": "2026-09-02",
+   "text": "Presented to President.",
+   "core": "Presented to President",
+   "code": "28000",
+   "source": "Library of Congress",
+   "chamber": null,
+   "family": "presented",
+   "label": "Presented to President",
+   "tally": null,
+   "spine": true,
    "subordinate": null
   }
  ]
