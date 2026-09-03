@@ -5,9 +5,9 @@
  "year": "2026",
  "number": "0078",
  "ptype": "COD",
- "built_at": "2026-09-03T04:41:25+00:00",
+ "built_at": "2026-09-03T09:55:33+00:00",
  "source": "oeil-key-events",
- "source_count": 7,
+ "source_count": 8,
  "holds_full_record": true,
  "overrides_applied": null,
  "texture_count": 8,
@@ -223,6 +223,19 @@
    "review_note": null,
    "spine": false,
    "subordinate": true
+  },
+  {
+   "order": 15,
+   "date": "2026-09-02",
+   "text": "Approval in committee of the text agreed at 1st reading interinstitutional negotiations",
+   "doc": "PE791.888 PE791.889",
+   "family": "committee_confirms_deal",
+   "label": "Lead committee approved the trilogue deal",
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "spine": true,
+   "subordinate": null
   }
  ]
 }
