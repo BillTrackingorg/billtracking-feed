@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hjres",
  "billNumber": "1",
- "built_at": "2026-09-03T11:10:05+00:00",
+ "built_at": "2026-09-03T15:01:46+00:00",
  "source_count": 15,
  "holds_full_record": true,
  "entries": [
@@ -108,7 +108,7 @@
   {
    "order": 7,
    "date": "2026-09-02",
-   "text": "Considered under suspension of the rules.",
+   "text": "Considered under suspension of the rules. (consideration: CR H5443-5451; text: CR H5443)",
    "core": "Considered under suspension of the rules",
    "code": "H30000",
    "source": "House floor actions",
@@ -150,7 +150,7 @@
   {
    "order": 10,
    "date": "2026-09-02",
-   "text": "Considered as unfinished business.",
+   "text": "Considered as unfinished business. (consideration: CR H5459-5460)",
    "core": "Considered as unfinished business",
    "code": "H30000",
    "source": "House floor actions",
