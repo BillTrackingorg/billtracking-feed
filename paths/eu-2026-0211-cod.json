@@ -5,9 +5,9 @@
  "year": "2026",
  "number": "0211",
  "ptype": "COD",
- "built_at": "2026-09-05T04:35:57+00:00",
+ "built_at": "2026-09-05T09:09:59+00:00",
  "source": "oeil-key-events",
- "source_count": 1,
+ "source_count": 2,
  "holds_full_record": true,
  "overrides_applied": null,
  "texture_count": null,
@@ -25,6 +25,19 @@
    "review_note": null,
    "spine": false,
    "subordinate": true
+  },
+  {
+   "order": 1,
+   "date": "2026-09-04",
+   "text": "Urgent procedure requested by a committee",
+   "doc": null,
+   "family": null,
+   "label": null,
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "spine": true,
+   "subordinate": null
   }
  ]
 }
