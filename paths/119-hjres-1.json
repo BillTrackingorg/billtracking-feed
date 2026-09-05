@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hjres",
  "billNumber": "1",
- "built_at": "2026-09-05T04:21:56+00:00",
+ "built_at": "2026-09-05T09:02:16+00:00",
  "source_count": 15,
  "holds_full_record": true,
  "entries": [
@@ -164,8 +164,8 @@
   {
    "order": 11,
    "date": "2026-09-02",
-   "text": "Failed of passage/not agreed to in House On motion to suspend the rules and pass the resolution Failed by the Yeas and Nays: (2/3 required): 212 - 206 (Roll no. 293).",
-   "core": "Failed of passage/not agreed to in House On motion to suspend the rules and pass the resolution Failed by the Yeas and Nays: (2/3 required): 212 - 206",
+   "text": "Failed of passage/not agreed to in House On motion to suspend the rules and pass Failed by the Yeas and Nays: (2/3 required): 212 - 206 (Roll no. 293).",
+   "core": "Failed of passage/not agreed to in House On motion to suspend the rules and pass Failed by the Yeas and Nays: (2/3 required): 212 - 206",
    "code": "9000",
    "source": "Library of Congress",
    "chamber": "House",
@@ -178,8 +178,8 @@
   {
    "order": 12,
    "date": "2026-09-02",
-   "text": "On motion to suspend the rules and pass the resolution Failed by the Yeas and Nays: (2/3 required): 212 - 206 (Roll no. 293).",
-   "core": "On motion to suspend the rules and pass the resolution Failed by the Yeas and Nays: (2/3 required): 212 - 206",
+   "text": "On motion to suspend the rules and pass Failed by the Yeas and Nays: (2/3 required): 212 - 206 (Roll no. 293).",
+   "core": "On motion to suspend the rules and pass Failed by the Yeas and Nays: (2/3 required): 212 - 206",
    "code": "H37300",
    "source": "House floor actions",
    "chamber": "House",
