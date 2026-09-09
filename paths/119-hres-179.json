@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hres",
  "billNumber": "179",
- "built_at": "2026-09-09T19:46:08+00:00",
+ "built_at": "2026-09-09T21:43:20+00:00",
  "source_count": 4,
  "holds_full_record": true,
  "entries": [
@@ -43,10 +43,10 @@
    "code": "H8D000",
    "source": "House floor actions",
    "chamber": "House",
-   "family": "res_adopted",
-   "label": "Agreed to",
+   "family": null,
+   "label": null,
    "tally": null,
-   "spine": true,
+   "spine": false,
    "subordinate": null
   }
  ]
