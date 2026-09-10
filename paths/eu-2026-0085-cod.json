@@ -1,13 +1,13 @@
 {
  "v": 1,
  "polity": "eu",
- "reference": "2026/0211(COD)",
+ "reference": "2026/0085(COD)",
  "year": "2026",
- "number": "0211",
+ "number": "0085",
  "ptype": "COD",
- "built_at": "2026-09-10T14:35:04+00:00",
+ "built_at": "2026-09-10T14:34:51+00:00",
  "source": "oeil-key-events",
- "source_count": 2,
+ "source_count": 3,
  "holds_full_record": true,
  "overrides_applied": null,
  "texture_count": 1,
@@ -15,24 +15,22 @@
  "entries": [
   {
    "order": 0,
-   "date": "2026-07-17",
+   "date": "2026-04-01",
    "text": "Legislative proposal published",
-   "doc": "COM(2026)0619",
+   "doc": "COM(2026)0153",
    "family": "proposed",
    "label": "New legislative proposal",
    "tally": null,
    "method_note": null,
    "review_note": null,
-   "spine": false,
-   "subordinate": true
+   "spine": true,
+   "subordinate": null
   },
   {
    "order": 1,
-   "date": "2026-09-02",
-   "text": "Deliberations in Council working party",
+   "date": "2026-04-27",
+   "text": "Committee referral announced in Parliament, 1st reading",
    "doc": null,
-   "code": "DELIB_WP_byCONSIL",
-   "src": "cellar",
    "family": null,
    "label": null,
    "tally": null,
@@ -43,16 +41,31 @@
   },
   {
    "order": 2,
-   "date": "2026-09-04",
-   "text": "Urgent procedure requested by a committee",
+   "date": "2026-04-29",
+   "text": "European Economic and Social Committee opinion",
    "doc": null,
+   "code": "OPI_byEESC",
+   "src": "cellar",
    "family": null,
    "label": null,
    "tally": null,
    "method_note": null,
    "review_note": null,
-   "spine": true,
+   "spine": false,
    "subordinate": null
+  },
+  {
+   "order": 3,
+   "date": "2026-09-10",
+   "text": "Vote in committee, 1st reading",
+   "doc": null,
+   "family": "committee_vote",
+   "label": "Lead committee adopted its report",
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "spine": false,
+   "subordinate": true
   }
  ]
 }
