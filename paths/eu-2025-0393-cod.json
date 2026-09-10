@@ -5,9 +5,9 @@
  "year": "2025",
  "number": "0393",
  "ptype": "COD",
- "built_at": "2026-09-10T09:57:55+00:00",
+ "built_at": "2026-09-10T21:40:19+00:00",
  "source": "oeil-key-events",
- "source_count": 2,
+ "source_count": 3,
  "holds_full_record": true,
  "overrides_applied": null,
  "texture_count": 14,
@@ -248,6 +248,19 @@
    "review_note": null,
    "spine": false,
    "subordinate": null
+  },
+  {
+   "order": 16,
+   "date": "2026-09-10",
+   "text": "Vote in committee, 1st reading",
+   "doc": null,
+   "family": "committee_vote",
+   "label": "Lead committee adopted its report",
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "spine": false,
+   "subordinate": true
   }
  ]
 }
