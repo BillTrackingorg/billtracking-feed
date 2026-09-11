@@ -5,7 +5,7 @@
  "year": "2025",
  "number": "0361",
  "ptype": "COD",
- "built_at": "2026-09-11T00:17:17+00:00",
+ "built_at": "2026-09-11T14:31:32+00:00",
  "source": "oeil-key-events",
  "source_count": 4,
  "holds_full_record": true,
@@ -199,8 +199,8 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
-   "spine": true,
-   "subordinate": null
+   "spine": false,
+   "subordinate": true
   },
   {
    "order": 13,
