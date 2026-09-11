@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "s",
  "billNumber": "858",
- "built_at": "2026-09-11T19:41:03+00:00",
- "source_count": 22,
+ "built_at": "2026-09-11T22:34:45+00:00",
+ "source_count": 24,
  "holds_full_record": true,
  "entries": [
   {
@@ -269,6 +269,20 @@
    "chamber": null,
    "family": "signed",
    "label": "Signed by Pres. Trump",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 19,
+   "date": "2026-09-10",
+   "text": "Became Public Law No: 119-104.",
+   "core": "Became Public Law No: 119-104",
+   "code": "36000",
+   "source": "Library of Congress",
+   "chamber": null,
+   "family": "became_law",
+   "label": "Became Public Law",
    "tally": null,
    "spine": true,
    "subordinate": null
