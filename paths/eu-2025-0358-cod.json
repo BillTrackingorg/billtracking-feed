@@ -5,12 +5,12 @@
  "year": "2025",
  "number": "0358",
  "ptype": "COD",
- "built_at": "2026-09-14T06:24:56+00:00",
+ "built_at": "2026-09-14T19:29:31+00:00",
  "source": "oeil-key-events",
  "source_count": 4,
  "holds_full_record": true,
  "overrides_applied": null,
- "texture_count": 6,
+ "texture_count": 7,
  "texture_source": "cellar-authority-events",
  "entries": [
   {
@@ -131,6 +131,21 @@
   },
   {
    "order": 8,
+   "date": "2026-07-01",
+   "text": "European Committee of the Regions’ opinion",
+   "doc": null,
+   "code": "OPI_byCOR",
+   "src": "cellar",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "spine": false,
+   "subordinate": null
+  },
+  {
+   "order": 9,
    "date": "2026-09-10",
    "text": "Vote in committee, 1st reading",
    "doc": null,
@@ -143,7 +158,7 @@
    "subordinate": true
   },
   {
-   "order": 9,
+   "order": 10,
    "date": "2026-09-10",
    "text": "Committee decision to open interinstitutional negotiations with report adopted in committee",
    "doc": null,
