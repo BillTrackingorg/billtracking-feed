@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "5174",
- "built_at": "2026-09-15T07:41:10+00:00",
- "source_count": 11,
+ "built_at": "2026-09-15T13:33:11+00:00",
+ "source_count": 12,
  "holds_full_record": true,
  "entries": [
   {
@@ -141,6 +141,20 @@
    "code": "H38310",
    "source": "House floor actions",
    "chamber": "House",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null
+  },
+  {
+   "order": 10,
+   "date": "2026-09-14",
+   "text": "Received in the Senate and Read twice and referred to the Committee on the Judiciary.",
+   "core": "Received in the Senate and Read twice and referred to the Committee on the Judiciary",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
    "family": null,
    "label": null,
    "tally": null,

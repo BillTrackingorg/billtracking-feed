@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "4795",
- "built_at": "2026-09-15T07:41:21+00:00",
- "source_count": 17,
+ "built_at": "2026-09-15T13:33:25+00:00",
+ "source_count": 18,
  "holds_full_record": true,
  "entries": [
   {
@@ -211,6 +211,20 @@
    "code": "H38310",
    "source": "House floor actions",
    "chamber": "House",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null
+  },
+  {
+   "order": 15,
+   "date": "2026-09-14",
+   "text": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+   "core": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
    "family": null,
    "label": null,
    "tally": null,
