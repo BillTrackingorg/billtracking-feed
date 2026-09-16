@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "3633",
- "built_at": "2026-09-16T18:59:20+00:00",
+ "built_at": "2026-09-16T19:59:24+00:00",
  "source_count": 32,
  "holds_full_record": true,
  "entries": [
@@ -365,8 +365,8 @@
    "code": null,
    "source": "Senate",
    "chamber": "Senate",
-   "family": "cloture_failed",
-   "label": "Cloture not invoked",
+   "family": "cloture_failed_mtp",
+   "label": "Cloture not invoked (on taking up the bill)",
    "tally": "49 - 50",
    "spine": true,
    "subordinate": null
