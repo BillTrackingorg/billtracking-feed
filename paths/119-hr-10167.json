@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "10167",
- "built_at": "2026-09-16T06:01:13+00:00",
- "source_count": 9,
+ "built_at": "2026-09-16T13:07:15+00:00",
+ "source_count": 10,
  "holds_full_record": true,
  "entries": [
   {
@@ -113,6 +113,20 @@
    "code": "H38310",
    "source": "House floor actions",
    "chamber": "House",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null
+  },
+  {
+   "order": 8,
+   "date": "2026-09-15",
+   "text": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+   "core": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
    "family": null,
    "label": null,
    "tally": null,

@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "3633",
- "built_at": "2026-09-16T06:02:53+00:00",
- "source_count": 30,
+ "built_at": "2026-09-16T13:07:48+00:00",
+ "source_count": 32,
  "holds_full_record": true,
  "entries": [
   {
@@ -355,6 +355,34 @@
    "label": "Cloture motion filed",
    "tally": null,
    "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 25,
+   "date": "2026-09-15",
+   "text": "Cloture on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 49 - 50. Record Vote Number: 234.",
+   "core": "Cloture on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 49 - 50",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": "cloture_failed",
+   "label": "Cloture not invoked",
+   "tally": "49 - 50",
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 26,
+   "date": "2026-09-15",
+   "text": "Motion by Senator Tillis to reconsider the vote by which cloture on the motion to proceed to the measure was not invoked (Record Vote No. 234) entered in Senate.",
+   "core": "Motion by Senator Tillis to reconsider the vote by which cloture on the motion to proceed to the measure was not invoked () entered in Senate",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
    "subordinate": null
   }
  ]
