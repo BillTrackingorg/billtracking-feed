@@ -5,7 +5,7 @@
  "year": "2025",
  "number": "0348",
  "ptype": "CNS",
- "built_at": "2026-09-16T11:41:12+00:00",
+ "built_at": "2026-09-16T16:49:26+00:00",
  "source": "oeil-key-events",
  "source_count": 6,
  "holds_full_record": true,
@@ -23,6 +23,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -36,6 +37,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -51,6 +53,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -64,6 +67,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -77,6 +81,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -90,6 +95,7 @@
    "tally": "(549-33, 84 abstentions)",
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -103,6 +109,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   }
