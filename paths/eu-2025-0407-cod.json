@@ -5,7 +5,7 @@
  "year": "2025",
  "number": "0407",
  "ptype": "COD",
- "built_at": "2026-09-16T11:41:59+00:00",
+ "built_at": "2026-09-16T22:59:55+00:00",
  "source": "oeil-key-events",
  "source_count": 10,
  "holds_full_record": false,
@@ -23,6 +23,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -38,6 +39,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -51,6 +53,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -66,6 +69,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -81,6 +85,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -94,6 +99,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -109,6 +115,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -122,6 +129,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -135,6 +143,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -148,6 +157,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -161,6 +171,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -174,6 +185,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -187,6 +199,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": true
   }
