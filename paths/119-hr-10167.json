@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "10167",
- "built_at": "2026-09-16T13:17:03+00:00",
+ "built_at": "2026-09-16T16:52:35+00:00",
  "source_count": 10,
  "holds_full_record": true,
  "entries": [
@@ -52,9 +52,9 @@
   {
    "order": 3,
    "date": "2026-09-14",
-   "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 10167.",
-   "core": "DEBATE - The House proceeded with forty minutes of debate on H.R. 10167",
-   "code": "H8D000",
+   "text": "Considered under suspension of the rules. (consideration: CR H5599-5602)",
+   "core": "Considered under suspension of the rules",
+   "code": "H30000",
    "source": "House floor actions",
    "chamber": "House",
    "family": null,
@@ -66,9 +66,9 @@
   {
    "order": 4,
    "date": "2026-09-14",
-   "text": "Considered under suspension of the rules.",
-   "core": "Considered under suspension of the rules",
-   "code": "H30000",
+   "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 10167.",
+   "core": "DEBATE - The House proceeded with forty minutes of debate on H.R. 10167",
+   "code": "H8D000",
    "source": "House floor actions",
    "chamber": "House",
    "family": null,
@@ -94,7 +94,7 @@
   {
    "order": 6,
    "date": "2026-09-14",
-   "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote.",
+   "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote. (text: CR H5599-5601)",
    "core": "On motion to suspend the rules and pass the bill Agreed to by voice vote",
    "code": "H37300",
    "source": "House floor actions",
@@ -103,7 +103,7 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": true
+   "subordinate": null
   },
   {
    "order": 7,

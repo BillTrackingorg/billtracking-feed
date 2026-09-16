@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "5063",
- "built_at": "2026-09-16T11:29:19+00:00",
- "source_count": 17,
+ "built_at": "2026-09-16T16:52:01+00:00",
+ "source_count": 18,
  "holds_full_record": true,
  "entries": [
   {
@@ -150,7 +150,7 @@
   {
    "order": 10,
    "date": "2026-09-14",
-   "text": "Considered under suspension of the rules.",
+   "text": "Considered under suspension of the rules. (consideration: CR H5563-5564)",
    "core": "Considered under suspension of the rules",
    "code": "H30000",
    "source": "House floor actions",
@@ -192,7 +192,7 @@
   {
    "order": 13,
    "date": "2026-09-14",
-   "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote.",
+   "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H5563)",
    "core": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote",
    "code": "H37300",
    "source": "House floor actions",
@@ -201,7 +201,7 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": true
+   "subordinate": null
   },
   {
    "order": 14,
@@ -211,6 +211,20 @@
    "code": "H38310",
    "source": "House floor actions",
    "chamber": "House",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null
+  },
+  {
+   "order": 15,
+   "date": "2026-09-15",
+   "text": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+   "core": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
    "family": null,
    "label": null,
    "tally": null,
