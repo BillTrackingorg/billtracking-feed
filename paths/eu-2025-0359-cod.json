@@ -5,7 +5,7 @@
  "year": "2025",
  "number": "0359",
  "ptype": "COD",
- "built_at": "2026-09-15T13:40:27+00:00",
+ "built_at": "2026-09-16T15:43:04+00:00",
  "source": "oeil-key-events",
  "source_count": 14,
  "holds_full_record": true,
@@ -23,6 +23,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -38,6 +39,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -53,6 +55,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -68,6 +71,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -83,6 +87,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -98,6 +103,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -111,6 +117,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -126,6 +133,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -141,6 +149,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -156,6 +165,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -171,6 +181,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -186,6 +197,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -201,6 +213,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -214,6 +227,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -229,6 +243,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -242,6 +257,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -255,6 +271,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -268,6 +285,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -281,6 +299,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -296,6 +315,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -311,6 +331,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -326,6 +347,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -341,6 +363,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -356,6 +379,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -371,6 +395,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -386,6 +411,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -399,6 +425,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -414,6 +441,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -429,6 +457,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -442,6 +471,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -455,6 +485,7 @@
    "tally": "(423-57, 174 abstentions)",
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -468,6 +499,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -481,6 +513,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -494,6 +527,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -507,6 +541,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": true
   }

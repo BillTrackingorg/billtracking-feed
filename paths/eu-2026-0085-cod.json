@@ -5,9 +5,9 @@
  "year": "2026",
  "number": "0085",
  "ptype": "COD",
- "built_at": "2026-09-16T06:07:43+00:00",
+ "built_at": "2026-09-16T15:42:05+00:00",
  "source": "oeil-key-events",
- "source_count": 5,
+ "source_count": 6,
  "holds_full_record": true,
  "overrides_applied": null,
  "texture_count": 1,
@@ -23,6 +23,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": true,
    "subordinate": null
   },
@@ -36,6 +37,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -51,6 +53,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -64,6 +67,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": true
   },
@@ -77,6 +81,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -90,6 +95,21 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
+   "spine": false,
+   "subordinate": null
+  },
+  {
+   "order": 6,
+   "date": "2026-09-15",
+   "text": "Results of vote in Parliament",
+   "doc": null,
+   "family": null,
+   "label": null,
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   }
