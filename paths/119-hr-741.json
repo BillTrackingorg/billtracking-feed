@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "741",
- "built_at": "2026-09-16T00:18:20+00:00",
- "source_count": 21,
+ "built_at": "2026-09-16T11:29:20+00:00",
+ "source_count": 22,
  "holds_full_record": true,
  "entries": [
   {
@@ -239,6 +239,20 @@
    "code": "H38800",
    "source": "House floor actions",
    "chamber": "House",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null
+  },
+  {
+   "order": 17,
+   "date": "2026-09-15",
+   "text": "Received in the Senate and Read twice and referred to the Committee on Indian Affairs.",
+   "core": "Received in the Senate and Read twice and referred to the Committee on Indian Affairs",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
    "family": null,
    "label": null,
    "tally": null,

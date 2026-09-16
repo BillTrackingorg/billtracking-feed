@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "8121",
- "built_at": "2026-09-16T00:18:20+00:00",
- "source_count": 16,
+ "built_at": "2026-09-16T11:29:21+00:00",
+ "source_count": 17,
  "holds_full_record": true,
  "entries": [
   {
@@ -197,6 +197,20 @@
    "code": "H38310",
    "source": "House floor actions",
    "chamber": "House",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null
+  },
+  {
+   "order": 14,
+   "date": "2026-09-15",
+   "text": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+   "core": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
    "family": null,
    "label": null,
    "tally": null,

@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "9340",
- "built_at": "2026-09-16T00:18:03+00:00",
- "source_count": 12,
+ "built_at": "2026-09-16T11:28:59+00:00",
+ "source_count": 16,
  "holds_full_record": true,
  "entries": [
   {
@@ -145,6 +145,62 @@
    "label": "Placed on calendar (House)",
    "tally": null,
    "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 10,
+   "date": "2026-09-15",
+   "text": "Mr. Guthrie moved to suspend the rules and pass the bill, as amended.",
+   "core": "Mr. Guthrie moved to suspend the rules and pass the bill, as amended",
+   "code": "H30300",
+   "source": "House floor actions",
+   "chamber": "House",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null
+  },
+  {
+   "order": 11,
+   "date": "2026-09-15",
+   "text": "Considered under suspension of the rules.",
+   "core": "Considered under suspension of the rules",
+   "code": "H30000",
+   "source": "House floor actions",
+   "chamber": "House",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null
+  },
+  {
+   "order": 12,
+   "date": "2026-09-15",
+   "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 9340.",
+   "core": "DEBATE - The House proceeded with forty minutes of debate on H.R. 9340",
+   "code": "H8D000",
+   "source": "House floor actions",
+   "chamber": "House",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null
+  },
+  {
+   "order": 13,
+   "date": "2026-09-15",
+   "text": "At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed.",
+   "core": "At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed",
+   "code": "H37220",
+   "source": "House floor actions",
+   "chamber": "House",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
    "subordinate": null
   }
  ]
