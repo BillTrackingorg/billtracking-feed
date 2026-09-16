@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hconres",
  "billNumber": "93",
- "built_at": "2026-09-16T13:17:12+00:00",
+ "built_at": "2026-09-16T18:22:25+00:00",
  "source_count": 14,
  "holds_full_record": true,
  "entries": [
@@ -80,7 +80,7 @@
   {
    "order": 5,
    "date": "2026-09-14",
-   "text": "Considered pursuant to a previous order of the House",
+   "text": "Considered pursuant to a previous order of the House (consideration: CR H5609-5615)",
    "core": "Considered pursuant to a previous order of the House",
    "code": "H30000",
    "source": "House floor actions",
@@ -164,7 +164,7 @@
   {
    "order": 11,
    "date": "2026-09-15",
-   "text": "On agreeing to the resolution Agreed to by the Yeas and Nays: 220 - 204 (Roll no. 307).",
+   "text": "On agreeing to the resolution Agreed to by the Yeas and Nays: 220 - 204 (Roll no. 307). (text: CR H5609)",
    "core": "On agreeing to the resolution Agreed to by the Yeas and Nays: 220 - 204",
    "code": "H37100",
    "source": "House floor actions",
@@ -172,8 +172,8 @@
    "family": "res_adopted",
    "label": "Agreed to",
    "tally": "220 - 204",
-   "spine": false,
-   "subordinate": true
+   "spine": true,
+   "subordinate": null
   },
   {
    "order": 12,

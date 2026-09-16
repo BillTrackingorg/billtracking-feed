@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "2978",
- "built_at": "2026-09-16T13:17:12+00:00",
+ "built_at": "2026-09-16T18:22:26+00:00",
  "source_count": 16,
  "holds_full_record": true,
  "entries": [
@@ -94,7 +94,7 @@
   {
    "order": 6,
    "date": "2026-09-14",
-   "text": "Considered under suspension of the rules.",
+   "text": "Considered under suspension of the rules. (consideration: CR H5602-5605)",
    "core": "Considered under suspension of the rules",
    "code": "H30000",
    "source": "House floor actions",
@@ -164,7 +164,7 @@
   {
    "order": 11,
    "date": "2026-09-15",
-   "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 414 - 7 (Roll no. 301).",
+   "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 414 - 7 (Roll no. 301). (text: CR H5602-5603)",
    "core": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 414 - 7",
    "code": "H37300",
    "source": "House floor actions",
@@ -173,7 +173,7 @@
    "label": null,
    "tally": "414 - 7",
    "spine": false,
-   "subordinate": true
+   "subordinate": null
   },
   {
    "order": 12,
