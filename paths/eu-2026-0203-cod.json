@@ -5,7 +5,7 @@
  "year": "2026",
  "number": "0203",
  "ptype": "COD",
- "built_at": "2026-09-16T11:41:40+00:00",
+ "built_at": "2026-09-16T17:02:34+00:00",
  "source": "oeil-key-events",
  "source_count": 1,
  "holds_full_record": true,
@@ -23,6 +23,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": true
   },
@@ -38,6 +39,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   },
@@ -53,6 +55,7 @@
    "tally": null,
    "method_note": null,
    "review_note": null,
+   "source_note": null,
    "spine": false,
    "subordinate": null
   }
