@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hconres",
  "billNumber": "93",
- "built_at": "2026-09-17T01:23:29+00:00",
- "source_count": 14,
+ "built_at": "2026-09-17T13:26:59+00:00",
+ "source_count": 15,
  "holds_full_record": true,
  "entries": [
   {
@@ -150,7 +150,7 @@
   {
    "order": 10,
    "date": "2026-09-15",
-   "text": "Passed/agreed to in House: On agreeing to the resolution Agreed to by the Yeas and Nays: 220 - 204 (Roll no. 307).",
+   "text": "Passed/agreed to in House: On agreeing to the resolution Agreed to by the Yeas and Nays: 220 - 204 (Roll no. 307). (text: CR H5609)",
    "core": "Passed/agreed to in House: On agreeing to the resolution Agreed to by the Yeas and Nays: 220 - 204",
    "code": "8000",
    "source": "Library of Congress",
@@ -172,8 +172,8 @@
    "family": "res_adopted",
    "label": "Agreed to",
    "tally": "220 - 204",
-   "spine": true,
-   "subordinate": null
+   "spine": false,
+   "subordinate": true
   },
   {
    "order": 12,
@@ -183,6 +183,20 @@
    "code": "H38310",
    "source": "House floor actions",
    "chamber": "House",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null
+  },
+  {
+   "order": 13,
+   "date": "2026-09-16",
+   "text": "Received in the Senate and referred to the Committee on Foreign Relations.",
+   "core": "Received in the Senate and referred to the Committee on Foreign Relations",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
    "family": null,
    "label": null,
    "tally": null,

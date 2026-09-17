@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "2004",
- "built_at": "2026-09-17T01:23:30+00:00",
- "source_count": 18,
+ "built_at": "2026-09-17T13:26:59+00:00",
+ "source_count": 19,
  "holds_full_record": true,
  "entries": [
   {
@@ -229,6 +229,20 @@
    "label": null,
    "tally": null,
    "spine": false,
+   "subordinate": null
+  },
+  {
+   "order": 16,
+   "date": "2026-09-16",
+   "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 625.",
+   "core": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 625",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": "calendar_placement",
+   "label": "Placed on calendar (Senate)",
+   "tally": null,
+   "spine": true,
    "subordinate": null
   }
  ]

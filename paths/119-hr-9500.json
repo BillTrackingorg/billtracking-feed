@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "9500",
- "built_at": "2026-09-17T01:22:45+00:00",
- "source_count": 13,
+ "built_at": "2026-09-17T13:26:36+00:00",
+ "source_count": 14,
  "holds_full_record": true,
  "entries": [
   {
@@ -169,6 +169,20 @@
    "code": "H38310",
    "source": "House floor actions",
    "chamber": "House",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null
+  },
+  {
+   "order": 12,
+   "date": "2026-09-16",
+   "text": "Received in the Senate and Read twice and referred to the Committee on Finance.",
+   "core": "Received in the Senate and Read twice and referred to the Committee on Finance",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
    "family": null,
    "label": null,
    "tally": null,
