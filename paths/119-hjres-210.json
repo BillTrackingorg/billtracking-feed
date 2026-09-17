@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hjres",
  "billNumber": "210",
- "built_at": "2026-09-17T13:26:59+00:00",
+ "built_at": "2026-09-17T22:08:10+00:00",
  "source_count": 14,
  "holds_full_record": true,
  "entries": [
@@ -52,7 +52,7 @@
   {
    "order": 3,
    "date": "2026-09-15",
-   "text": "Considered under the provisions of rule H. Res. 1530.",
+   "text": "Considered under the provisions of rule H. Res. 1530. (consideration: CR H5680-5682)",
    "core": "Considered under the provisions of rule H. Res. 1530",
    "code": "H30000",
    "source": "House floor actions",
@@ -122,7 +122,7 @@
   {
    "order": 8,
    "date": "2026-09-15",
-   "text": "Considered as unfinished business.",
+   "text": "Considered as unfinished business. (consideration: CR H5825-5826)",
    "core": "Considered as unfinished business",
    "code": "H30000",
    "source": "House floor actions",
@@ -150,7 +150,7 @@
   {
    "order": 10,
    "date": "2026-09-15",
-   "text": "On passage Passed by the Yeas and Nays: 216 - 211 (Roll no. 306).",
+   "text": "On passage Passed by the Yeas and Nays: 216 - 211 (Roll no. 306). (text: CR H5680)",
    "core": "On passage Passed by the Yeas and Nays: 216 - 211",
    "code": "H37100",
    "source": "House floor actions",
@@ -159,7 +159,7 @@
    "label": null,
    "tally": "216 - 211",
    "spine": false,
-   "subordinate": true
+   "subordinate": null
   },
   {
    "order": 11,

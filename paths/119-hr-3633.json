@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "3633",
- "built_at": "2026-09-17T13:26:58+00:00",
+ "built_at": "2026-09-17T22:08:08+00:00",
  "source_count": 32,
  "holds_full_record": true,
  "entries": [
@@ -360,7 +360,7 @@
   {
    "order": 25,
    "date": "2026-09-15",
-   "text": "Cloture on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 49 - 50. Record Vote Number: 234.",
+   "text": "Cloture on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 49 - 50. Record Vote Number: 234. (CR S4706)",
    "core": "Cloture on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 49 - 50",
    "code": null,
    "source": "Senate",

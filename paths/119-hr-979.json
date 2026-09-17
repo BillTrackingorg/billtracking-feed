@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "979",
- "built_at": "2026-09-17T16:16:20+00:00",
+ "built_at": "2026-09-17T22:08:24+00:00",
  "source_count": 23,
  "holds_full_record": true,
  "entries": [
@@ -211,7 +211,7 @@
   {
    "order": 14,
    "date": "2026-09-15",
-   "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H5667-5669)",
+   "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H5668-5669)",
    "core": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote",
    "code": "H37300",
    "source": "House floor actions",
