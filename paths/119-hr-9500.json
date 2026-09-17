@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "9500",
- "built_at": "2026-09-17T13:26:36+00:00",
+ "built_at": "2026-09-17T18:13:01+00:00",
  "source_count": 14,
  "holds_full_record": true,
  "entries": [
@@ -80,7 +80,7 @@
   {
    "order": 5,
    "date": "2026-09-15",
-   "text": "Considered under suspension of the rules.",
+   "text": "Considered under suspension of the rules. (consideration: CR H5687-5690)",
    "core": "Considered under suspension of the rules",
    "code": "H30000",
    "source": "House floor actions",
@@ -122,7 +122,7 @@
   {
    "order": 8,
    "date": "2026-09-15",
-   "text": "Considered as unfinished business.",
+   "text": "Considered as unfinished business. (consideration: CR H5824-5825)",
    "core": "Considered as unfinished business",
    "code": "H30000",
    "source": "House floor actions",
@@ -150,7 +150,7 @@
   {
    "order": 10,
    "date": "2026-09-15",
-   "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 408 - 17 (Roll no. 305).",
+   "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 408 - 17 (Roll no. 305). (text: CR H5687-5688)",
    "core": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 408 - 17",
    "code": "H37300",
    "source": "House floor actions",
@@ -159,7 +159,7 @@
    "label": null,
    "tally": "408 - 17",
    "spine": false,
-   "subordinate": true
+   "subordinate": null
   },
   {
    "order": 11,

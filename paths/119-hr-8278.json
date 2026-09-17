@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "8278",
- "built_at": "2026-09-17T13:26:31+00:00",
+ "built_at": "2026-09-17T18:12:56+00:00",
  "source_count": 17,
  "holds_full_record": true,
  "entries": [
@@ -150,7 +150,7 @@
   {
    "order": 10,
    "date": "2026-09-15",
-   "text": "Considered as unfinished business.",
+   "text": "Considered as unfinished business. (consideration: CR H5822-5823)",
    "core": "Considered as unfinished business",
    "code": "H30000",
    "source": "House floor actions",

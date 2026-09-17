@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "8005",
- "built_at": "2026-09-17T07:37:13+00:00",
- "source_count": 17,
+ "built_at": "2026-09-17T18:12:55+00:00",
+ "source_count": 18,
  "holds_full_record": true,
  "entries": [
   {
@@ -136,7 +136,7 @@
   {
    "order": 9,
    "date": "2026-09-15",
-   "text": "Considered under suspension of the rules.",
+   "text": "Considered under suspension of the rules. (consideration: CR H5674-5676)",
    "core": "Considered under suspension of the rules",
    "code": "H30000",
    "source": "House floor actions",
@@ -178,7 +178,7 @@
   {
    "order": 12,
    "date": "2026-09-15",
-   "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote.",
+   "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H5674-5675)",
    "core": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote",
    "code": "H37300",
    "source": "House floor actions",
@@ -187,7 +187,7 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": true
+   "subordinate": null
   },
   {
    "order": 13,
@@ -211,6 +211,20 @@
    "code": "H38800",
    "source": "House floor actions",
    "chamber": "House",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null
+  },
+  {
+   "order": 15,
+   "date": "2026-09-16",
+   "text": "Received in the Senate and Read twice and referred to the Committee on the Judiciary.",
+   "core": "Received in the Senate and Read twice and referred to the Committee on the Judiciary",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
    "family": null,
    "label": null,
    "tally": null,
