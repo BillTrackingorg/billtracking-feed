@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "979",
- "built_at": "2026-09-17T07:36:16+00:00",
- "source_count": 22,
+ "built_at": "2026-09-17T16:16:20+00:00",
+ "source_count": 23,
  "holds_full_record": true,
  "entries": [
   {
@@ -169,7 +169,7 @@
   {
    "order": 11,
    "date": "2026-09-15",
-   "text": "Considered under suspension of the rules.",
+   "text": "Considered under suspension of the rules. (consideration: CR H5667-5670)",
    "core": "Considered under suspension of the rules",
    "code": "H30000",
    "source": "House floor actions",
@@ -211,7 +211,7 @@
   {
    "order": 14,
    "date": "2026-09-15",
-   "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote.",
+   "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H5667-5669)",
    "core": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote",
    "code": "H37300",
    "source": "House floor actions",
@@ -220,7 +220,7 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": true
+   "subordinate": null
   },
   {
    "order": 15,
@@ -234,6 +234,20 @@
    "label": null,
    "tally": null,
    "spine": false,
+   "subordinate": null
+  },
+  {
+   "order": 16,
+   "date": "2026-09-16",
+   "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 622.",
+   "core": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 622",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": "calendar_placement",
+   "label": "Placed on calendar (Senate)",
+   "tally": null,
+   "spine": true,
    "subordinate": null
   }
  ]

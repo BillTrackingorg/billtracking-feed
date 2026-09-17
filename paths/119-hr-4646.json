@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "4646",
- "built_at": "2026-09-17T01:23:32+00:00",
- "source_count": 20,
+ "built_at": "2026-09-17T16:16:02+00:00",
+ "source_count": 21,
  "holds_full_record": true,
  "entries": [
   {
@@ -192,7 +192,7 @@
   {
    "order": 13,
    "date": "2026-09-15",
-   "text": "Passed/agreed to in House: On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 424 - 0 (Roll no. 303).",
+   "text": "Passed/agreed to in House: On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 424 - 0 (Roll no. 303). (text: CR H5608)",
    "core": "Passed/agreed to in House: On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 424 - 0",
    "code": "8000",
    "source": "Library of Congress",
@@ -215,7 +215,7 @@
    "label": null,
    "tally": "424 - 0",
    "spine": false,
-   "subordinate": null
+   "subordinate": true
   },
   {
    "order": 15,
@@ -225,6 +225,20 @@
    "code": "H38310",
    "source": "House floor actions",
    "chamber": "House",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null
+  },
+  {
+   "order": 16,
+   "date": "2026-09-16",
+   "text": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+   "core": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
    "family": null,
    "label": null,
    "tally": null,
