@@ -5,9 +5,9 @@
  "year": "2013",
  "number": "0072",
  "ptype": "COD",
- "built_at": "2026-09-17T01:38:09+00:00",
+ "built_at": "2026-09-17T18:23:51+00:00",
  "source": "oeil-key-events",
- "source_count": 29,
+ "source_count": 30,
  "holds_full_record": true,
  "overrides_applied": null,
  "texture_count": 45,
@@ -1138,6 +1138,20 @@
    "source_note": null,
    "spine": true,
    "subordinate": null
+  },
+  {
+   "order": 74,
+   "date": "2026-09-16",
+   "text": "Final act signed",
+   "doc": null,
+   "family": "signed",
+   "label": "Signed by the European Parliament and the Council",
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": false,
+   "subordinate": true
   }
  ]
 }
