@@ -5,9 +5,9 @@
  "year": "2023",
  "number": "0156",
  "ptype": "COD",
- "built_at": "2026-09-17T01:37:30+00:00",
+ "built_at": "2026-09-17T13:38:29+00:00",
  "source": "oeil-key-events",
- "source_count": 17,
+ "source_count": 19,
  "holds_full_record": true,
  "overrides_applied": null,
  "texture_count": 36,
@@ -816,6 +816,20 @@
   {
    "order": 52,
    "date": "2026-09-16",
+   "text": "Decision by Parliament, 2nd reading",
+   "doc": "T10-0290/2026",
+   "family": "ep_plenary_vote_r2",
+   "label": "Parliament decided at 2nd reading",
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": false,
+   "subordinate": true
+  },
+  {
+   "order": 53,
+   "date": "2026-09-16",
    "text": "Results of vote in Parliament",
    "doc": null,
    "family": null,
@@ -826,6 +840,20 @@
    "source_note": null,
    "spine": false,
    "subordinate": null
+  },
+  {
+   "order": 54,
+   "date": "2026-09-16",
+   "text": "Final act signed",
+   "doc": null,
+   "family": "signed",
+   "label": "Signed by the European Parliament and the Council",
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": false,
+   "subordinate": true
   }
  ]
 }
