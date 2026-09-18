@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "9570",
- "built_at": "2026-09-18T11:10:17+00:00",
- "source_count": 11,
+ "built_at": "2026-09-18T21:39:54+00:00",
+ "source_count": 12,
  "holds_full_record": true,
  "entries": [
   {
@@ -141,6 +141,20 @@
    "code": "H38310",
    "source": "House floor actions",
    "chamber": "House",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null
+  },
+  {
+   "order": 10,
+   "date": "2026-09-17",
+   "text": "Received in the Senate.",
+   "core": "Received in the Senate",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
    "family": null,
    "label": null,
    "tally": null,

@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "9576",
- "built_at": "2026-09-18T11:10:17+00:00",
- "source_count": 13,
+ "built_at": "2026-09-18T21:39:54+00:00",
+ "source_count": 14,
  "holds_full_record": true,
  "entries": [
   {
@@ -169,6 +169,20 @@
    "code": "H38310",
    "source": "House floor actions",
    "chamber": "House",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null
+  },
+  {
+   "order": 12,
+   "date": "2026-09-17",
+   "text": "Received in the Senate. Read the first time. Placed on Senate Legislative Calendar under Read the First Time.",
+   "core": "Received in the Senate. Read the first time. Placed on Senate Legislative Calendar under Read the First Time",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
    "family": null,
    "label": null,
    "tally": null,

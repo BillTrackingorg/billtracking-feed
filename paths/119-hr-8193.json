@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "8193",
- "built_at": "2026-09-18T11:10:17+00:00",
- "source_count": 12,
+ "built_at": "2026-09-18T21:39:53+00:00",
+ "source_count": 13,
  "holds_full_record": true,
  "entries": [
   {
@@ -155,6 +155,20 @@
    "code": "H38800",
    "source": "House floor actions",
    "chamber": "House",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null
+  },
+  {
+   "order": 11,
+   "date": "2026-09-17",
+   "text": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+   "core": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
    "family": null,
    "label": null,
    "tally": null,
