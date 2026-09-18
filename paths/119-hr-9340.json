@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "9340",
- "built_at": "2026-09-18T05:54:17+00:00",
- "source_count": 20,
+ "built_at": "2026-09-18T18:26:23+00:00",
+ "source_count": 21,
  "holds_full_record": true,
  "entries": [
   {
@@ -220,7 +220,7 @@
   {
    "order": 15,
    "date": "2026-09-16",
-   "text": "Passed/agreed to in House: On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 417 - 3 (Roll no. 312).",
+   "text": "Passed/agreed to in House: On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 417 - 3 (Roll no. 312). (text: CR H5656-5657)",
    "core": "Passed/agreed to in House: On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 417 - 3",
    "code": "8000",
    "source": "Library of Congress",
@@ -243,7 +243,7 @@
    "label": null,
    "tally": "417 - 3",
    "spine": false,
-   "subordinate": null
+   "subordinate": true
   },
   {
    "order": 17,
@@ -253,6 +253,20 @@
    "code": "H38310",
    "source": "House floor actions",
    "chamber": "House",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null
+  },
+  {
+   "order": 18,
+   "date": "2026-09-17",
+   "text": "Received in the Senate.",
+   "core": "Received in the Senate",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
    "family": null,
    "label": null,
    "tally": null,
