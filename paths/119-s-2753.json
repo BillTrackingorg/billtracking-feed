@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "s",
  "billNumber": "2753",
- "built_at": "2026-09-19T10:54:17+00:00",
+ "built_at": "2026-09-19T18:01:07+00:00",
  "source_count": 7,
  "holds_full_record": true,
  "entries": [
@@ -52,8 +52,8 @@
   {
    "order": 3,
    "date": "2026-06-10",
-   "text": "Committee on Energy and Natural Resources. Ordered to be reported with an amendment in the nature of a substitute favorably.",
-   "core": "Committee on Energy and Natural Resources. Ordered to be reported with an amendment in the nature of a substitute favorably",
+   "text": "Committee on Energy and Natural Resources. Ordered to be reported with amendments favorably.",
+   "core": "Committee on Energy and Natural Resources. Ordered to be reported with amendments favorably",
    "code": null,
    "source": "Senate",
    "chamber": "Senate",

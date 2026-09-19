@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "837",
- "built_at": "2026-09-19T10:54:16+00:00",
+ "built_at": "2026-09-19T18:00:57+00:00",
  "source_count": 14,
  "holds_full_record": true,
  "entries": [
@@ -136,8 +136,8 @@
   {
    "order": 9,
    "date": "2026-02-04",
-   "text": "Committee on Energy and Natural Resources. Ordered to be reported with an amendment favorably.",
-   "core": "Committee on Energy and Natural Resources. Ordered to be reported with an amendment favorably",
+   "text": "Committee on Energy and Natural Resources. Ordered to be reported without amendment favorably.",
+   "core": "Committee on Energy and Natural Resources. Ordered to be reported without amendment favorably",
    "code": null,
    "source": "Senate",
    "chamber": "Senate",

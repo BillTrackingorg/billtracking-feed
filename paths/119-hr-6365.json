@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "6365",
- "built_at": "2026-09-19T10:54:16+00:00",
+ "built_at": "2026-09-19T18:00:57+00:00",
  "source_count": 23,
  "holds_full_record": true,
  "entries": [
@@ -248,8 +248,8 @@
   {
    "order": 17,
    "date": "2026-07-29",
-   "text": "Committee on Energy and Natural Resources. Ordered to be reported without amendment favorably.",
-   "core": "Committee on Energy and Natural Resources. Ordered to be reported without amendment favorably",
+   "text": "Committee on Energy and Natural Resources. Ordered to be reported with an amendment in the nature of a substitute favorably.",
+   "core": "Committee on Energy and Natural Resources. Ordered to be reported with an amendment in the nature of a substitute favorably",
    "code": null,
    "source": "Senate",
    "chamber": "Senate",
