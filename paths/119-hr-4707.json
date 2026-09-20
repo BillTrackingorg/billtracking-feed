@@ -3,12 +3,26 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "4707",
- "built_at": "2026-09-19T23:01:15+00:00",
+ "built_at": "2026-09-20T12:19:49+00:00",
  "source_count": 17,
  "holds_full_record": true,
  "entries": [
   {
    "order": 0,
+   "date": "2025-07-22",
+   "text": "Introduced in House",
+   "core": "Introduced in House",
+   "code": "1000",
+   "source": "Library of Congress",
+   "chamber": "House",
+   "family": null,
+   "label": "Introduced in House",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 1,
    "date": "2025-07-22",
    "text": "Sponsor introductory remarks on measure. (CR H3532)",
    "core": "Sponsor introductory remarks on measure",
@@ -19,20 +33,6 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
-  },
-  {
-   "order": 1,
-   "date": "2025-07-23",
-   "text": "Introduced in House",
-   "core": "Introduced in House",
-   "code": "1000",
-   "source": "Library of Congress",
-   "chamber": "House",
-   "family": null,
-   "label": "Introduced in House",
-   "tally": null,
-   "spine": true,
    "subordinate": null
   },
   {
