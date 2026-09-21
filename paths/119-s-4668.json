@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "s",
  "billNumber": "4668",
- "built_at": "2026-09-21T14:04:48+00:00",
+ "built_at": "2026-09-21T23:16:46+00:00",
  "source_count": 17,
  "holds_full_record": true,
  "entries": [
@@ -150,7 +150,7 @@
   {
    "order": 10,
    "date": "2026-09-17",
-   "text": "Motion to proceed to measure considered in Senate.",
+   "text": "Motion to proceed to measure considered in Senate. (CR S4773-4774)",
    "core": "Motion to proceed to measure considered in Senate",
    "code": null,
    "source": "Senate",
@@ -164,7 +164,7 @@
   {
    "order": 11,
    "date": "2026-09-17",
-   "text": "Motion to proceed to consideration of measure agreed to in Senate by Yea-Nay Vote. 77 - 22. Record Vote Number: 236.",
+   "text": "Motion to proceed to consideration of measure agreed to in Senate by Yea-Nay Vote. 77 - 22. Record Vote Number: 236. (CR S4773-4774)",
    "core": "Motion to proceed to consideration of measure agreed to in Senate by Yea-Nay Vote. 77 - 22",
    "code": null,
    "source": "Senate",
@@ -178,7 +178,7 @@
   {
    "order": 12,
    "date": "2026-09-17",
-   "text": "Measure laid before Senate by motion.",
+   "text": "Measure laid before Senate by motion. (consideration: CR S4777-4790)",
    "core": "Measure laid before Senate by motion",
    "code": null,
    "source": "Senate",
@@ -192,7 +192,7 @@
   {
    "order": 13,
    "date": "2026-09-17",
-   "text": "Motion by Senator Thune to recommit to Senate Committee on Commerce, Science, and Transportation with instructions to report back forthwith with the following amendment (SA 6781) made in Senate.",
+   "text": "Motion by Senator Thune to recommit to Senate Committee on Commerce, Science, and Transportation with instructions to report back forthwith with the following amendment (SA 6781) made in Senate. (CR S4789)",
    "core": "Motion by Senator Thune to recommit to Senate Committee on Commerce, Science, and Transportation with instructions to report back forthwith with the following amendment (SA 6781) made in Senate",
    "code": null,
    "source": "Senate",
@@ -206,7 +206,7 @@
   {
    "order": 14,
    "date": "2026-09-17",
-   "text": "Cloture motion on amendment SA 6776 presented in Senate.",
+   "text": "Cloture motion on amendment SA 6776 presented in Senate. (CR S4789)",
    "core": "Cloture motion on amendment SA 6776 presented in Senate",
    "code": null,
    "source": "Senate",
@@ -220,7 +220,7 @@
   {
    "order": 15,
    "date": "2026-09-17",
-   "text": "Cloture motion on the measure presented in Senate.",
+   "text": "Cloture motion on the measure presented in Senate. (CR S4789)",
    "core": "Cloture motion on the measure presented in Senate",
    "code": null,
    "source": "Senate",

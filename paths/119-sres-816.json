@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "sres",
  "billNumber": "816",
- "built_at": "2026-09-21T14:04:49+00:00",
+ "built_at": "2026-09-21T23:16:48+00:00",
  "source_count": 6,
  "holds_full_record": true,
  "entries": [
@@ -66,7 +66,7 @@
   {
    "order": 4,
    "date": "2026-09-17",
-   "text": "Resolution agreed to in Senate without amendment and with a preamble by Unanimous Consent.",
+   "text": "Resolution agreed to in Senate without amendment and with a preamble by Unanimous Consent. (consideration: CR S4790)",
    "core": "Resolution agreed to in Senate without amendment and with a preamble by Unanimous Consent",
    "code": null,
    "source": "Senate",
