@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "5366",
- "built_at": "2026-09-21T01:04:07+00:00",
- "source_count": 24,
+ "built_at": "2026-09-21T19:25:00+00:00",
+ "source_count": 26,
  "holds_full_record": true,
  "entries": [
   {
@@ -269,6 +269,20 @@
    "chamber": null,
    "family": "signed",
    "label": "Signed by Pres. Trump",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 19,
+   "date": "2026-09-11",
+   "text": "Became Public Law No: 119-108.",
+   "core": "Became Public Law No: 119-108",
+   "code": "36000",
+   "source": "Library of Congress",
+   "chamber": null,
+   "family": "became_law",
+   "label": "Became Public Law",
    "tally": null,
    "spine": true,
    "subordinate": null
