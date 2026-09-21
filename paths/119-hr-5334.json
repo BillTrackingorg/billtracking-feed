@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "5334",
- "built_at": "2026-09-21T01:04:15+00:00",
- "source_count": 37,
+ "built_at": "2026-09-21T14:04:47+00:00",
+ "source_count": 39,
  "holds_full_record": true,
  "entries": [
   {
@@ -479,6 +479,20 @@
    "chamber": null,
    "family": "presented",
    "label": "Presented to President",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 34,
+   "date": "2026-09-18",
+   "text": "Signed by President.",
+   "core": "Signed by President",
+   "code": "36000",
+   "source": "Library of Congress",
+   "chamber": null,
+   "family": "signed",
+   "label": "Signed by Pres. Trump",
    "tally": null,
    "spine": true,
    "subordinate": null
