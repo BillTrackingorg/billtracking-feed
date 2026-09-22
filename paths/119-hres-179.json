@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hres",
  "billNumber": "179",
- "built_at": "2026-09-22T04:51:56+00:00",
+ "built_at": "2026-09-22T18:52:19+00:00",
  "source_count": 4,
  "holds_full_record": true,
  "entries": [
@@ -12,7 +12,7 @@
    "date": "2025-03-03",
    "text": "Submitted in House",
    "core": "Submitted in House",
-   "code": "1010",
+   "code": "1025",
    "source": "Library of Congress",
    "chamber": "House",
    "family": null,

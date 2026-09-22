@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "7250",
- "built_at": "2026-09-22T09:55:05+00:00",
+ "built_at": "2026-09-22T18:52:39+00:00",
  "source_count": 26,
  "holds_full_record": true,
  "entries": [
@@ -276,7 +276,7 @@
   {
    "order": 19,
    "date": "2026-09-16",
-   "text": "Passed Senate without amendment by Voice Vote.",
+   "text": "Passed Senate without amendment by Voice Vote. (consideration: CR S4746)",
    "core": "Passed Senate without amendment by Voice Vote",
    "code": null,
    "source": "Senate",
