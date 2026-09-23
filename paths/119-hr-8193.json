@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "8193",
- "built_at": "2026-09-23T05:57:53+00:00",
+ "built_at": "2026-09-23T20:19:22+00:00",
  "source_count": 13,
  "holds_full_record": true,
  "entries": [
@@ -80,7 +80,7 @@
   {
    "order": 5,
    "date": "2026-09-16",
-   "text": "Considered under suspension of the rules.",
+   "text": "Considered under suspension of the rules. (consideration: CR H5935)",
    "core": "Considered under suspension of the rules",
    "code": "H30000",
    "source": "House floor actions",
@@ -136,7 +136,7 @@
   {
    "order": 9,
    "date": "2026-09-16",
-   "text": "Motion to reconsider laid on the table Agreed to without objection.",
+   "text": "Motion to reconsider laid on the table Agreed to without objection. (text: CR H5935)",
    "core": "Motion to reconsider laid on the table Agreed to without objection",
    "code": "H38310",
    "source": "House floor actions",

@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "7365",
- "built_at": "2026-09-23T11:30:45+00:00",
+ "built_at": "2026-09-23T20:19:47+00:00",
  "source_count": 12,
  "holds_full_record": true,
  "entries": [
@@ -80,7 +80,7 @@
   {
    "order": 5,
    "date": "2026-09-16",
-   "text": "Considered under suspension of the rules.",
+   "text": "Considered under suspension of the rules. (consideration: CR H5931-5932)",
    "core": "Considered under suspension of the rules",
    "code": "H30000",
    "source": "House floor actions",
@@ -122,7 +122,7 @@
   {
    "order": 8,
    "date": "2026-09-16",
-   "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote.",
+   "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote. (text: CR H5931)",
    "core": "On motion to suspend the rules and pass the bill Agreed to by voice vote",
    "code": "H37300",
    "source": "House floor actions",
@@ -131,7 +131,7 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": true
+   "subordinate": null
   },
   {
    "order": 9,
