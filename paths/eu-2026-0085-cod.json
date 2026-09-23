@@ -5,12 +5,12 @@
  "year": "2026",
  "number": "0085",
  "ptype": "COD",
- "built_at": "2026-09-22T18:11:22+00:00",
+ "built_at": "2026-09-23T06:04:30+00:00",
  "source": "oeil-key-events",
  "source_count": 8,
  "holds_full_record": true,
  "overrides_applied": null,
- "texture_count": 1,
+ "texture_count": 3,
  "texture_source": "cellar-authority-events",
  "entries": [
   {
@@ -140,6 +140,38 @@
    "source_note": null,
    "spine": false,
    "subordinate": true
+  },
+  {
+   "order": 9,
+   "date": "2026-09-16",
+   "text": "Adoption of negotiating mandate by Coreper",
+   "doc": null,
+   "code": "ADP_MAND_NGT_INST_COREPER_byCONSIL",
+   "src": "cellar",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": false,
+   "subordinate": null
+  },
+  {
+   "order": 10,
+   "date": "2026-09-16",
+   "text": "Deliberations in Coreper",
+   "doc": null,
+   "code": "DELIB_COREPER_byCONSIL",
+   "src": "cellar",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": false,
+   "subordinate": null
   }
  ]
 }
