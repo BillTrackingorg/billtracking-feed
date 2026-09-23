@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "s",
  "billNumber": "603",
- "built_at": "2026-09-23T05:56:50+00:00",
- "source_count": 15,
+ "built_at": "2026-09-23T11:30:37+00:00",
+ "source_count": 17,
  "holds_full_record": true,
  "entries": [
   {
@@ -164,7 +164,7 @@
   {
    "order": 11,
    "date": "2026-09-14",
-   "text": "Passed/agreed to in House: On motion to suspend the rules and pass the bill Agreed to by voice vote.",
+   "text": "Passed/agreed to in House: On motion to suspend the rules and pass the bill Agreed to by voice vote. (text: CR H5581)",
    "core": "Passed/agreed to in House: On motion to suspend the rules and pass the bill Agreed to by voice vote",
    "code": "8000",
    "source": "Library of Congress",
@@ -187,7 +187,7 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": true
   },
   {
    "order": 13,
@@ -201,6 +201,20 @@
    "label": null,
    "tally": null,
    "spine": false,
+   "subordinate": null
+  },
+  {
+   "order": 14,
+   "date": "2026-09-22",
+   "text": "Presented to President.",
+   "core": "Presented to President",
+   "code": "28000",
+   "source": "Library of Congress",
+   "chamber": null,
+   "family": "presented",
+   "label": "Presented to President",
+   "tally": null,
+   "spine": true,
    "subordinate": null
   }
  ]
