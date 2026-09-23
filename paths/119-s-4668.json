@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "s",
  "billNumber": "4668",
- "built_at": "2026-09-23T11:30:55+00:00",
+ "built_at": "2026-09-23T23:39:57+00:00",
  "source_count": 17,
  "holds_full_record": true,
  "entries": [
@@ -220,7 +220,7 @@
   {
    "order": 15,
    "date": "2026-09-22",
-   "text": "Considered by Senate.",
+   "text": "Considered by Senate. (consideration: CR S4851)",
    "core": "Considered by Senate",
    "code": null,
    "source": "Senate",
