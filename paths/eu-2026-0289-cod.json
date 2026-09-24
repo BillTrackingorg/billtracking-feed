@@ -1,13 +1,13 @@
 {
  "v": 1,
  "polity": "eu",
- "reference": "2026/0229(COD)",
+ "reference": "2026/0289(COD)",
  "year": "2026",
- "number": "0229",
+ "number": "0289",
  "ptype": "COD",
- "built_at": "2026-09-24T19:16:20+00:00",
+ "built_at": "2026-09-24T19:15:16+00:00",
  "source": "oeil-key-events",
- "source_count": 2,
+ "source_count": 1,
  "holds_full_record": true,
  "overrides_applied": null,
  "texture_count": null,
@@ -15,9 +15,9 @@
  "entries": [
   {
    "order": 0,
-   "date": "2026-07-29",
+   "date": "2026-09-21",
    "text": "Legislative proposal published",
-   "doc": "COM(2026)0413",
+   "doc": "COM(2026)0498",
    "family": "proposed",
    "label": "New legislative proposal",
    "tally": null,
@@ -26,20 +26,6 @@
    "source_note": null,
    "spine": false,
    "subordinate": true
-  },
-  {
-   "order": 1,
-   "date": "2026-09-17",
-   "text": "Committee referral announced in Parliament, 1st reading",
-   "doc": null,
-   "family": null,
-   "label": null,
-   "tally": null,
-   "method_note": null,
-   "review_note": null,
-   "source_note": null,
-   "spine": false,
-   "subordinate": null
   }
  ]
 }
