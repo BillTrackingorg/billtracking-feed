@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "s",
  "billNumber": "790",
- "built_at": "2026-09-25T07:44:59+00:00",
- "source_count": 19,
+ "built_at": "2026-09-25T22:18:10+00:00",
+ "source_count": 21,
  "holds_full_record": true,
  "entries": [
   {
@@ -241,6 +241,20 @@
    "chamber": null,
    "family": "presented",
    "label": "Presented to President",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 17,
+   "date": "2026-09-25",
+   "text": "Signed by President.",
+   "core": "Signed by President",
+   "code": "36000",
+   "source": "Library of Congress",
+   "chamber": null,
+   "family": "signed",
+   "label": "Signed by Pres. Trump",
    "tally": null,
    "spine": true,
    "subordinate": null

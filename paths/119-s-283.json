@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "s",
  "billNumber": "283",
- "built_at": "2026-09-25T13:44:35+00:00",
+ "built_at": "2026-09-25T22:19:11+00:00",
  "source_count": 20,
  "holds_full_record": true,
  "entries": [
@@ -262,7 +262,7 @@
   {
    "order": 18,
    "date": "2026-09-24",
-   "text": "Senate agreed to the House amendment to S. 283 by Unanimous Consent.",
+   "text": "Senate agreed to the House amendment to S. 283 by Unanimous Consent. (consideration: CR S5020)",
    "core": "Senate agreed to the House amendment to S. 283 by Unanimous Consent",
    "code": null,
    "source": "Senate",

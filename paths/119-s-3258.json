@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "s",
  "billNumber": "3258",
- "built_at": "2026-09-25T13:44:35+00:00",
+ "built_at": "2026-09-25T22:19:12+00:00",
  "source_count": 8,
  "holds_full_record": true,
  "entries": [
@@ -94,7 +94,7 @@
   {
    "order": 6,
    "date": "2026-09-24",
-   "text": "Passed Senate with an amendment by Unanimous Consent.",
+   "text": "Passed Senate with an amendment by Unanimous Consent. (consideration: CR S5019; text: CR S5019)",
    "core": "Passed Senate with an amendment by Unanimous Consent",
    "code": null,
    "source": "Senate",
