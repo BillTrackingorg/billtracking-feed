@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "s",
  "billNumber": "283",
- "built_at": "2026-09-25T01:28:20+00:00",
- "source_count": 18,
+ "built_at": "2026-09-25T13:44:35+00:00",
+ "source_count": 20,
  "holds_full_record": true,
  "entries": [
   {
@@ -244,6 +244,34 @@
    "tally": null,
    "spine": false,
    "subordinate": null
+  },
+  {
+   "order": 17,
+   "date": "2026-09-24",
+   "text": "Resolving differences -- Senate actions: Senate agreed to the House amendment to S. 283 by Unanimous Consent.",
+   "core": "Resolving differences -- Senate actions: Senate agreed to the House amendment to S. 283 by Unanimous Consent",
+   "code": "20500",
+   "source": "Library of Congress",
+   "chamber": "Senate",
+   "family": "concur_clean",
+   "label": "Agreed to other chamber's amendments (Senate)",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 18,
+   "date": "2026-09-24",
+   "text": "Senate agreed to the House amendment to S. 283 by Unanimous Consent.",
+   "core": "Senate agreed to the House amendment to S. 283 by Unanimous Consent",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": "concur_clean",
+   "label": "Agreed to other chamber's amendments (Senate)",
+   "tally": null,
+   "spine": false,
+   "subordinate": true
   }
  ]
 }
