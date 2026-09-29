@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "9340",
- "built_at": "2026-09-28T21:59:13+00:00",
- "source_count": 23,
+ "built_at": "2026-09-29T15:48:34+00:00",
+ "source_count": 25,
  "holds_full_record": true,
  "entries": [
   {
@@ -297,6 +297,34 @@
    "chamber": "Senate",
    "family": "calendar_placement",
    "label": "Placed on calendar (Senate)",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 21,
+   "date": "2026-09-28",
+   "text": "Motion to proceed to consideration of measure made in Senate.",
+   "core": "Motion to proceed to consideration of measure made in Senate",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": "mtp_pending",
+   "label": "Motion to proceed filed",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 22,
+   "date": "2026-09-28",
+   "text": "Cloture motion on the motion to proceed to the measure presented in Senate.",
+   "core": "Cloture motion on the motion to proceed to the measure presented in Senate",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": "cloture_filed",
+   "label": "Cloture motion filed",
    "tally": null,
    "spine": true,
    "subordinate": null
