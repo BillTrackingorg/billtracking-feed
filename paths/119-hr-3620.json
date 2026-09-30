@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "3620",
- "built_at": "2026-09-30T06:40:20+00:00",
- "source_count": 25,
+ "built_at": "2026-09-30T13:41:35+00:00",
+ "source_count": 27,
  "holds_full_record": true,
  "entries": [
   {
@@ -286,6 +286,34 @@
    "tally": null,
    "spine": true,
    "subordinate": null
+  },
+  {
+   "order": 20,
+   "date": "2026-09-29",
+   "text": "Passed/agreed to in Senate: Passed Senate without amendment by Unanimous Consent.",
+   "core": "Passed/agreed to in Senate: Passed Senate without amendment by Unanimous Consent",
+   "code": "17000",
+   "source": "Library of Congress",
+   "chamber": "Senate",
+   "family": "passed_senate",
+   "label": "Passed Senate",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 21,
+   "date": "2026-09-29",
+   "text": "Passed Senate without amendment by Unanimous Consent.",
+   "core": "Passed Senate without amendment by Unanimous Consent",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": "passed_senate",
+   "label": "Passed Senate",
+   "tally": null,
+   "spine": false,
+   "subordinate": true
   }
  ]
 }

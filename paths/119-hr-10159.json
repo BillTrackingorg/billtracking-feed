@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "10159",
- "built_at": "2026-09-30T00:24:36+00:00",
- "source_count": 10,
+ "built_at": "2026-09-30T13:41:36+00:00",
+ "source_count": 14,
  "holds_full_record": true,
  "entries": [
   {
@@ -132,6 +132,48 @@
    "tally": null,
    "spine": false,
    "subordinate": null
+  },
+  {
+   "order": 9,
+   "date": "2026-09-29",
+   "text": "Senate Committee on Armed Services discharged by Unanimous Consent.",
+   "core": "Senate Committee on Armed Services discharged by Unanimous Consent",
+   "code": "14500",
+   "source": "Library of Congress",
+   "chamber": "Senate",
+   "family": "discharged",
+   "label": "Discharged from committee (Senate)",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 10,
+   "date": "2026-09-29",
+   "text": "Passed/agreed to in Senate: Passed Senate without amendment by Unanimous Consent.",
+   "core": "Passed/agreed to in Senate: Passed Senate without amendment by Unanimous Consent",
+   "code": "17000",
+   "source": "Library of Congress",
+   "chamber": "Senate",
+   "family": "passed_senate",
+   "label": "Passed Senate",
+   "tally": null,
+   "spine": true,
+   "subordinate": null
+  },
+  {
+   "order": 11,
+   "date": "2026-09-29",
+   "text": "Passed Senate without amendment by Unanimous Consent.",
+   "core": "Passed Senate without amendment by Unanimous Consent",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": "passed_senate",
+   "label": "Passed Senate",
+   "tally": null,
+   "spine": false,
+   "subordinate": true
   }
  ]
 }
