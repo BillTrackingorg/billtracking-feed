@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "9340",
- "built_at": "2026-09-30T13:41:35+00:00",
+ "built_at": "2026-09-30T23:47:43+00:00",
  "source_count": 26,
  "holds_full_record": true,
  "entries": [
@@ -332,7 +332,7 @@
   {
    "order": 23,
    "date": "2026-09-29",
-   "text": "Motion to proceed to consideration of measure made in Senate.",
+   "text": "Motion to proceed to consideration of measure made in Senate. (CR S5186)",
    "core": "Motion to proceed to consideration of measure made in Senate",
    "code": null,
    "source": "Senate",

@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hconres",
  "billNumber": "93",
- "built_at": "2026-09-30T06:40:47+00:00",
- "source_count": 15,
+ "built_at": "2026-09-30T23:46:56+00:00",
+ "source_count": 14,
  "holds_full_record": true,
  "entries": [
   {
@@ -24,20 +24,6 @@
   {
    "order": 1,
    "date": "2026-04-28",
-   "text": "Submitted in House",
-   "core": "Submitted in House",
-   "code": "1025",
-   "source": "Library of Congress",
-   "chamber": "House",
-   "family": null,
-   "label": "Submitted in House",
-   "tally": null,
-   "spine": true,
-   "subordinate": null
-  },
-  {
-   "order": 2,
-   "date": "2026-04-28",
    "text": "Referred to the House Committee on Foreign Affairs.",
    "core": "Referred to the House Committee on Foreign Affairs",
    "code": "H11100",
@@ -50,7 +36,7 @@
    "subordinate": null
   },
   {
-   "order": 3,
+   "order": 2,
    "date": "2026-09-14",
    "text": "ORDER OF PROCEDURE - Mr. Mast asked unanimous consent that, it be in order at any time to consider H. Con. Res. 93 in the House if called up by the chair of the Committee on Foreign Affairs or his designee; that the concurrent resolution be considered as read; and that the previous question be considered as ordered on the concurrent resolution to adoption without intervening motion except for one hour of debate equally divided and controlled by Representative Mast of Florida and Representative Moulton of Massachusetts or their respective designees. Agreed to without objection.",
    "core": "ORDER OF PROCEDURE - Mr. Mast asked unanimous consent that, it be in order at any time to consider H. Con. Res. 93 in the House if called up by the chair of the Committee on Foreign Affairs or his designee; that the concurrent resolution be considered as read; and that the previous question be considered as ordered on the concurrent resolution to adoption without intervening motion except for one hour of debate equally divided and controlled by Representative Mast of Florida and Representative Moulton of Massachusetts or their respective designees. Agreed to without objection",
@@ -64,7 +50,7 @@
    "subordinate": null
   },
   {
-   "order": 4,
+   "order": 3,
    "date": "2026-09-14",
    "text": "Consideration initiated pursuant to a previous order of the House.",
    "core": "Consideration initiated pursuant to a previous order of the House",
@@ -78,7 +64,7 @@
    "subordinate": null
   },
   {
-   "order": 5,
+   "order": 4,
    "date": "2026-09-14",
    "text": "Considered pursuant to a previous order of the House (consideration: CR H5609-5615)",
    "core": "Considered pursuant to a previous order of the House",
@@ -92,7 +78,7 @@
    "subordinate": null
   },
   {
-   "order": 6,
+   "order": 5,
    "date": "2026-09-14",
    "text": "DEBATE - The House proceeded with one hour of debate on H. Con. Res. 93.",
    "core": "DEBATE - The House proceeded with one hour of debate on H. Con. Res. 93",
@@ -106,7 +92,7 @@
    "subordinate": null
   },
   {
-   "order": 7,
+   "order": 6,
    "date": "2026-09-14",
    "text": "The previous question was ordered pursuant to a previous order of the House.",
    "core": "The previous question was ordered pursuant to a previous order of the House",
@@ -120,7 +106,7 @@
    "subordinate": null
   },
   {
-   "order": 8,
+   "order": 7,
    "date": "2026-09-14",
    "text": "POSTPONED PROCEEDINGS - At the conclusion of debate on H. Con. Res. 93, the Chair put the question on agreeing to the resolution and by voice vote, announced the noes had prevailed. Mr. Moulton demanded the yeas and nays and the Chair postponed further proceedings until a time to be announced.",
    "core": "POSTPONED PROCEEDINGS - At the conclusion of debate on H. Con. Res. 93, the Chair put the question on agreeing to the resolution and by voice vote, announced the noes had prevailed. Mr. Moulton demanded the yeas and nays and the Chair postponed further proceedings until a time to be announced",
@@ -134,7 +120,7 @@
    "subordinate": null
   },
   {
-   "order": 9,
+   "order": 8,
    "date": "2026-09-15",
    "text": "Considered as unfinished business. (consideration: CR H5826-5827)",
    "core": "Considered as unfinished business",
@@ -148,7 +134,7 @@
    "subordinate": null
   },
   {
-   "order": 10,
+   "order": 9,
    "date": "2026-09-15",
    "text": "Passed/agreed to in House: On agreeing to the resolution Agreed to by the Yeas and Nays: 220 - 204 (Roll no. 307). (text: CR H5609)",
    "core": "Passed/agreed to in House: On agreeing to the resolution Agreed to by the Yeas and Nays: 220 - 204",
@@ -162,7 +148,7 @@
    "subordinate": null
   },
   {
-   "order": 11,
+   "order": 10,
    "date": "2026-09-15",
    "text": "On agreeing to the resolution Agreed to by the Yeas and Nays: 220 - 204 (Roll no. 307). (text: CR H5609)",
    "core": "On agreeing to the resolution Agreed to by the Yeas and Nays: 220 - 204",
@@ -176,7 +162,7 @@
    "subordinate": true
   },
   {
-   "order": 12,
+   "order": 11,
    "date": "2026-09-15",
    "text": "Motion to reconsider laid on the table Agreed to without objection.",
    "core": "Motion to reconsider laid on the table Agreed to without objection",
@@ -190,7 +176,7 @@
    "subordinate": null
   },
   {
-   "order": 13,
+   "order": 12,
    "date": "2026-09-16",
    "text": "Received in the Senate and referred to the Committee on Foreign Relations.",
    "core": "Received in the Senate and referred to the Committee on Foreign Relations",
