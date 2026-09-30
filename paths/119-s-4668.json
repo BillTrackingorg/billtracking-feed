@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "s",
  "billNumber": "4668",
- "built_at": "2026-09-29T15:48:32+00:00",
+ "built_at": "2026-09-30T00:25:34+00:00",
  "source_count": 25,
  "holds_full_record": true,
  "entries": [
@@ -304,7 +304,7 @@
   {
    "order": 21,
    "date": "2026-09-28",
-   "text": "Considered by Senate.",
+   "text": "Considered by Senate. (consideration: CR S5021-5064)",
    "core": "Considered by Senate",
    "code": null,
    "source": "Senate",
@@ -332,7 +332,7 @@
   {
    "order": 23,
    "date": "2026-09-28",
-   "text": "Passed Senate with an amendment by Yea-Nay Vote. 77 - 22. Record Vote Number: 250.",
+   "text": "Passed Senate with an amendment by Yea-Nay Vote. 77 - 22. Record Vote Number: 250. (text: CR S5044-5063)",
    "core": "Passed Senate with an amendment by Yea-Nay Vote. 77 - 22",
    "code": null,
    "source": "Senate",

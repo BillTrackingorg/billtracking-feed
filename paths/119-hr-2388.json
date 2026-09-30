@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "2388",
- "built_at": "2026-09-29T08:26:09+00:00",
- "source_count": 24,
+ "built_at": "2026-09-30T00:24:49+00:00",
+ "source_count": 25,
  "holds_full_record": true,
  "entries": [
   {
@@ -300,6 +300,20 @@
    "tally": null,
    "spine": false,
    "subordinate": true
+  },
+  {
+   "order": 21,
+   "date": "2026-09-28",
+   "text": "Message on Senate action sent to the House.",
+   "core": "Message on Senate action sent to the House",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null
   }
  ]
 }
