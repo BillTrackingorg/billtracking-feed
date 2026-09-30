@@ -3,14 +3,14 @@
  "congress": 119,
  "billType": "sres",
  "billNumber": "913",
- "built_at": "2026-09-30T00:25:37+00:00",
+ "built_at": "2026-09-30T19:17:05+00:00",
  "source_count": 2,
  "holds_full_record": true,
  "entries": [
   {
    "order": 0,
    "date": "2026-09-28",
-   "text": "Passed/agreed to in Senate: Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent.",
+   "text": "Passed/agreed to in Senate: Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S5064-5065; text: CR S5074-5075)",
    "core": "Passed/agreed to in Senate: Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent",
    "code": "17000",
    "source": "Library of Congress",

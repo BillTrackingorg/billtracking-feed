@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "997",
- "built_at": "2026-09-30T00:25:37+00:00",
+ "built_at": "2026-09-30T19:17:04+00:00",
  "source_count": 21,
  "holds_full_record": true,
  "entries": [
@@ -234,7 +234,7 @@
   {
    "order": 16,
    "date": "2026-09-28",
-   "text": "Passed/agreed to in Senate: Passed Senate without amendment by Unanimous Consent.",
+   "text": "Passed/agreed to in Senate: Passed Senate without amendment by Unanimous Consent. (consideration: CR S5123)",
    "core": "Passed/agreed to in Senate: Passed Senate without amendment by Unanimous Consent",
    "code": "17000",
    "source": "Library of Congress",

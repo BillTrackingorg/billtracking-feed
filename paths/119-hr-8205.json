@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "8205",
- "built_at": "2026-09-30T00:25:37+00:00",
+ "built_at": "2026-09-30T19:17:04+00:00",
  "source_count": 22,
  "holds_full_record": true,
  "entries": [
@@ -262,7 +262,7 @@
   {
    "order": 18,
    "date": "2026-09-28",
-   "text": "Passed/agreed to in Senate: Passed Senate without amendment by Voice Vote.",
+   "text": "Passed/agreed to in Senate: Passed Senate without amendment by Voice Vote. (consideration: CR S5120)",
    "core": "Passed/agreed to in Senate: Passed Senate without amendment by Voice Vote",
    "code": "17000",
    "source": "Library of Congress",
