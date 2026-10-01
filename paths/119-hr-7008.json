@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "7008",
- "built_at": "2026-10-01T11:36:16+00:00",
- "source_count": 27,
+ "built_at": "2026-10-01T12:06:01+00:00",
+ "source_count": 28,
  "holds_full_record": true,
  "entries": [
   {
@@ -506,6 +506,26 @@
    "lead": false,
    "emoji": null,
    "vote": null
+  },
+  {
+   "order": 25,
+   "date": "2026-09-30",
+   "text": "Cloture on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 53 - 47. Record Vote Number: 253.",
+   "core": "Cloture on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 53 - 47",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": "cloture_failed_mtp",
+   "label": "Cloture not invoked (on taking up the bill)",
+   "tally": "53 - 47",
+   "spine": true,
+   "subordinate": null,
+   "key": "1-016890d8fdec4440",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "⏱️",
+   "vote": "(53-47)"
   }
  ]
 }
