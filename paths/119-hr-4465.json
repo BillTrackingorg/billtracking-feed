@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "4465",
- "built_at": "2026-09-30T23:47:11+00:00",
+ "built_at": "2026-10-01T11:39:39+00:00",
  "source_count": 12,
  "holds_full_record": true,
  "entries": [
@@ -19,7 +19,13 @@
    "label": "Introduced in House",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-9f03c7591029e666",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 1,
@@ -33,7 +39,13 @@
    "label": "Referred to committee",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-2ad94b4dc3b3b0ee",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 2,
@@ -47,7 +59,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-0c69b5a0b576caf5",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 3,
@@ -61,7 +79,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-9b29950be3879b3a",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 4,
@@ -75,7 +99,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-eaaaed3b84459107",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 5,
@@ -89,7 +119,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-524b80fc85fd94fd",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 6,
@@ -103,7 +139,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-4f4229032e29e0a4",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 7,
@@ -117,7 +159,13 @@
    "label": "Passed House",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-c1b183325414d90f",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "✅🏛️",
+   "vote": "(voice vote)"
   },
   {
    "order": 8,
@@ -131,7 +179,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-22656b5d7b7f0bc0",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 9,
@@ -145,7 +199,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-b6254e1c053b5bd4",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 10,
@@ -159,7 +219,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-6b6fe63f3696b337",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   }
  ]
 }

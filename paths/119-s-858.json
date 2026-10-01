@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "s",
  "billNumber": "858",
- "built_at": "2026-09-30T23:46:36+00:00",
+ "built_at": "2026-10-01T11:39:09+00:00",
  "source_count": 24,
  "holds_full_record": true,
  "entries": [
@@ -19,7 +19,13 @@
    "label": "Introduced in Senate",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-2590dcd22ef6094f",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 1,
@@ -33,7 +39,13 @@
    "label": "Referred to committee",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-8790163c7c6754a2",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 2,
@@ -47,7 +59,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-961e3eff6fb6d93d",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 3,
@@ -61,7 +79,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-35f99d20ac72123c",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 4,
@@ -75,7 +99,13 @@
    "label": "Discharged from committee (Senate)",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-1db1f263b11fa308",
+   "stands_in": null,
+   "qualified": "Senate",
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 5,
@@ -89,7 +119,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-6baaa9b2b67cb83a",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 6,
@@ -103,7 +139,13 @@
    "label": "Passed Senate with amendment",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-cb256a68bdfd50eb",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "✅🏛️",
+   "vote": "(unanimous consent)"
   },
   {
    "order": 7,
@@ -117,7 +159,13 @@
    "label": "Passed Senate with amendment",
    "tally": null,
    "spine": false,
-   "subordinate": true
+   "subordinate": true,
+   "key": "1-78edbaf50b9f7918",
+   "stands_in": 6,
+   "qualified": null,
+   "lead": true,
+   "emoji": "✅🏛️",
+   "vote": "(unanimous consent)"
   },
   {
    "order": 8,
@@ -131,7 +179,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-068371ed0e55e3d5",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 9,
@@ -145,7 +199,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-a5ec9099b9b48a26",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 10,
@@ -159,7 +219,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-1fffc20d13b78363",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 11,
@@ -173,7 +239,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-f225189525922127",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 12,
@@ -187,7 +259,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-80ef03bede9edfe6",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 13,
@@ -201,7 +279,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-4cc0449d12e1a017",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 14,
@@ -215,7 +299,13 @@
    "label": "Passed House",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-64bcdbd47890a0be",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "✅🏛️",
+   "vote": "(voice vote)"
   },
   {
    "order": 15,
@@ -229,7 +319,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": true
+   "subordinate": true,
+   "key": "1-27b6db91d5ba53d0",
+   "stands_in": 14,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 16,
@@ -243,7 +339,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-b8c3ad8cfe1d9ad9",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 17,
@@ -257,7 +359,13 @@
    "label": "Presented to President",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-7d5b9e969d21cfbb",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "📌",
+   "vote": null
   },
   {
    "order": 18,
@@ -271,7 +379,13 @@
    "label": "Signed by Pres. Trump",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-7a68c15c041640b4",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "📜✍️",
+   "vote": null
   },
   {
    "order": 19,
@@ -285,7 +399,13 @@
    "label": "Became Public Law",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-4223d172a3088ca5",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   }
  ]
 }

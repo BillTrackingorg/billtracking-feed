@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "2846",
- "built_at": "2026-09-30T23:47:09+00:00",
+ "built_at": "2026-10-01T11:39:38+00:00",
  "source_count": 18,
  "holds_full_record": true,
  "entries": [
@@ -19,7 +19,13 @@
    "label": "Introduced in House",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-f0e43e8205064bbe",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 1,
@@ -33,7 +39,13 @@
    "label": "Referred to committee",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-abab88035bbb45ce",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 2,
@@ -47,7 +59,13 @@
    "label": "Referred to the Subcommittee on Health",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-727760946b305fd5",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 3,
@@ -61,7 +79,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-d85cd31c239c60ba",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 4,
@@ -75,7 +99,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-13799542847a9e31",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 5,
@@ -89,7 +119,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-1ba24bb96655868e",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 6,
@@ -103,7 +139,13 @@
    "label": null,
    "tally": "46 - 0",
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-021709abd89d92c7",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 7,
@@ -117,7 +159,13 @@
    "label": "Reported by committee",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-e9e98a7462027240",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "📋",
+   "vote": null
   },
   {
    "order": 8,
@@ -131,7 +179,13 @@
    "label": "Placed on calendar (House)",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-958ee55ef6877169",
+   "stands_in": null,
+   "qualified": "House",
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 9,
@@ -145,7 +199,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-933d332ff1bb1cc0",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 10,
@@ -159,7 +219,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-17da3986ed9cc090",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 11,
@@ -173,7 +239,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-42fbad617ec4ee83",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 12,
@@ -187,7 +259,13 @@
    "label": "Passed House",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-afe39dc910c9584d",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "✅🏛️",
+   "vote": "(voice vote)"
   },
   {
    "order": 13,
@@ -201,7 +279,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-3a5de50f44ffea57",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 14,
@@ -215,7 +299,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-445ad20df0d820f2",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 15,
@@ -229,7 +319,13 @@
    "label": "Placed on calendar (Senate)",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-49d6986fdbcb21ec",
+   "stands_in": null,
+   "qualified": "Senate",
+   "lead": false,
+   "emoji": null,
+   "vote": null
   }
  ]
 }

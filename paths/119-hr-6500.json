@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "6500",
- "built_at": "2026-09-30T23:47:17+00:00",
+ "built_at": "2026-10-01T11:39:45+00:00",
  "source_count": 46,
  "holds_full_record": true,
  "entries": [
@@ -19,7 +19,13 @@
    "label": "Introduced in House",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-9002c6cb5e621f24",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 1,
@@ -33,7 +39,13 @@
    "label": "Referred to committee",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-545ae17ff2e7f45c",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 2,
@@ -47,7 +59,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-d1107572ee42e48b",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 3,
@@ -61,7 +79,13 @@
    "label": null,
    "tally": "37 - 3",
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-2e46c80799b638c1",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 4,
@@ -75,7 +99,13 @@
    "label": "Reported by committee",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-ed61221b9216ef91",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "📋",
+   "vote": null
   },
   {
    "order": 5,
@@ -89,7 +119,13 @@
    "label": "Placed on calendar (House)",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-b52f75e8bc8ba441",
+   "stands_in": null,
+   "qualified": "House",
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 6,
@@ -103,7 +139,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-b58024486cd835c1",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 7,
@@ -117,7 +159,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-ac1ca4ca2e1c4266",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 8,
@@ -131,7 +179,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-f02c7906c8954a26",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 9,
@@ -145,7 +199,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-f4159781f6c82c32",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 10,
@@ -159,7 +219,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-7dd13fefb8440271",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 11,
@@ -173,7 +239,13 @@
    "label": "Passed House with amendment",
    "tally": "340 - 54",
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-151d88add5489d63",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "✅🏛️",
+   "vote": "(340-54)"
   },
   {
    "order": 12,
@@ -187,7 +259,13 @@
    "label": null,
    "tally": "340 - 54",
    "spine": false,
-   "subordinate": true
+   "subordinate": true,
+   "key": "1-fd2c7deddb59ee5a",
+   "stands_in": 11,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 13,
@@ -201,7 +279,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-82e3942b0381f828",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 14,
@@ -215,7 +299,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-c2feefafad93d06d",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 15,
@@ -229,7 +319,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-93e67bb6ad7533e0",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 16,
@@ -243,7 +339,13 @@
    "label": "Placed on calendar (Senate)",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-49bdd683ae2ee695",
+   "stands_in": null,
+   "qualified": "Senate",
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 17,
@@ -257,7 +359,13 @@
    "label": "Motion to proceed filed",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-2f7574685b3371f3",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "🗳️",
+   "vote": null
   },
   {
    "order": 18,
@@ -271,7 +379,13 @@
    "label": "Cloture motion filed",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-057c5d273a93dea5",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "⏱️",
+   "vote": null
   },
   {
    "order": 19,
@@ -285,7 +399,13 @@
    "label": "Cloture invoked (on taking up the bill)",
    "tally": "89 - 4",
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-5f8112e70a24c2cb",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "⏱️",
+   "vote": "(89-4)"
   },
   {
    "order": 20,
@@ -299,7 +419,13 @@
    "label": "Motion to proceed filed",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-eaabf8b3da458f2a",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "🗳️",
+   "vote": null
   },
   {
    "order": 21,
@@ -313,7 +439,13 @@
    "label": "Motion to proceed filed",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-df6984ab415292b6",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "🗳️",
+   "vote": null
   },
   {
    "order": 22,
@@ -327,7 +459,13 @@
    "label": "Motion to proceed filed",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-1cca39c8411be69c",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "🗳️",
+   "vote": null
   },
   {
    "order": 23,
@@ -341,7 +479,13 @@
    "label": "Motion to proceed agreed to",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-c79b7446ffcd633b",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "🗳️",
+   "vote": "(voice vote)"
   },
   {
    "order": 24,
@@ -355,7 +499,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-516368e0b94596cd",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 25,
@@ -369,7 +519,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-b8d9513940761e2f",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 26,
@@ -383,7 +539,13 @@
    "label": "Cloture motion filed",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-c46698789160bf6a",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "⏱️",
+   "vote": null
   },
   {
    "order": 27,
@@ -397,7 +559,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-d9002c57a806501f",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 28,
@@ -411,7 +579,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-aa00df8e307d92a4",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 29,
@@ -425,7 +599,13 @@
    "label": "Passed Senate with amendment",
    "tally": "90 - 6",
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-c415d191d26f5432",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "✅🏛️",
+   "vote": "(90-6)"
   },
   {
    "order": 30,
@@ -439,7 +619,13 @@
    "label": "Passed Senate with amendment",
    "tally": "90 - 6",
    "spine": false,
-   "subordinate": true
+   "subordinate": true,
+   "key": "1-8304d4b85be8ec5a",
+   "stands_in": 29,
+   "qualified": null,
+   "lead": true,
+   "emoji": "✅🏛️",
+   "vote": "(90-6)"
   },
   {
    "order": 31,
@@ -453,7 +639,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-450a9e86a72e75ba",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 32,
@@ -467,7 +659,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-d1bb958e7afe3f8d",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 33,
@@ -481,7 +679,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-d643cc0b5562efe1",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 34,
@@ -495,7 +699,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-a1431548a4a8be68",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 35,
@@ -509,7 +719,13 @@
    "label": "Agreed to other chamber's amendments (House)",
    "tally": "370 - 48",
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-4cda90d2720420f3",
+   "stands_in": null,
+   "qualified": "House",
+   "lead": true,
+   "emoji": "✅🏛️",
+   "vote": "(370-48)"
   },
   {
    "order": 36,
@@ -523,7 +739,13 @@
    "label": "Agreed to other chamber's amendments (House)",
    "tally": "370 - 48",
    "spine": false,
-   "subordinate": true
+   "subordinate": true,
+   "key": "1-a01d4f5e3e204b3f",
+   "stands_in": 35,
+   "qualified": "House",
+   "lead": true,
+   "emoji": "✅🏛️",
+   "vote": "(370-48)"
   },
   {
    "order": 37,
@@ -537,7 +759,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-a59a379886b084b4",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 38,
@@ -551,7 +779,13 @@
    "label": "Presented to President",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-d734da420c295773",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "📌",
+   "vote": null
   },
   {
    "order": 39,
@@ -565,7 +799,13 @@
    "label": "Signed by Pres. Trump",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-5d1d2b783ef85a3d",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "📜✍️",
+   "vote": null
   },
   {
    "order": 40,
@@ -579,7 +819,13 @@
    "label": "Became Public Law",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-d0d44263f88e4683",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   }
  ]
 }

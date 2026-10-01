@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "4646",
- "built_at": "2026-09-30T23:47:12+00:00",
+ "built_at": "2026-10-01T11:39:41+00:00",
  "source_count": 21,
  "holds_full_record": true,
  "entries": [
@@ -19,7 +19,13 @@
    "label": "Introduced in House",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-366fb77c03e962ea",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 1,
@@ -33,7 +39,13 @@
    "label": "Referred to committee",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-de8e3cc1ca9dd9a6",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 2,
@@ -47,7 +59,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-4a95f647be493358",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 3,
@@ -61,7 +79,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-0445449181cf349e",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 4,
@@ -75,7 +99,13 @@
    "label": null,
    "tally": "51 - 0",
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-c6f34e51e3b77380",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 5,
@@ -89,7 +119,13 @@
    "label": "Reported by committee",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-7bc14bdb9e00c63b",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "📋",
+   "vote": null
   },
   {
    "order": 6,
@@ -103,7 +139,13 @@
    "label": "Discharged from committee",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-8b215ceee9e8f76a",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 7,
@@ -117,7 +159,13 @@
    "label": "Placed on calendar (House)",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-75f5f73d34102a95",
+   "stands_in": null,
+   "qualified": "House",
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 8,
@@ -131,7 +179,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-75646588a6c3ddfe",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 9,
@@ -145,7 +199,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-9c4a1f67c6e1d380",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 10,
@@ -159,7 +219,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-a35ea91dac059139",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 11,
@@ -173,7 +239,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-d3375f014446968d",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 12,
@@ -187,7 +259,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-7eca9f2532c953e9",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 13,
@@ -201,7 +279,13 @@
    "label": "Passed House with amendment",
    "tally": "424 - 0",
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-23091be8979f96c6",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "✅🏛️",
+   "vote": "(424-0)"
   },
   {
    "order": 14,
@@ -215,7 +299,13 @@
    "label": null,
    "tally": "424 - 0",
    "spine": false,
-   "subordinate": true
+   "subordinate": true,
+   "key": "1-d0632142cb319551",
+   "stands_in": 13,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 15,
@@ -229,7 +319,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-0488a2c719b8cd25",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 16,
@@ -243,7 +339,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-abeec3a70c187193",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   }
  ]
 }

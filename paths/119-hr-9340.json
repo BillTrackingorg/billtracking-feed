@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "9340",
- "built_at": "2026-09-30T23:47:43+00:00",
- "source_count": 26,
+ "built_at": "2026-10-01T11:40:07+00:00",
+ "source_count": 29,
  "holds_full_record": true,
  "entries": [
   {
@@ -19,7 +19,13 @@
    "label": "Introduced in House",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-5d5a8f0326f659fa",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 1,
@@ -33,7 +39,13 @@
    "label": "Referred to committee",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-b5e2af1d9fcee83e",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 2,
@@ -47,7 +59,13 @@
    "label": "Referred to the Subcommittee on Energy",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-4cf6d8cb9d565a15",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 3,
@@ -61,7 +79,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-18dc71cd54a17ed3",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 4,
@@ -75,7 +99,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-9a6b253d36e5cc12",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 5,
@@ -89,7 +119,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-f389be73eea062c3",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 6,
@@ -103,7 +139,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-b4972b3aef724e39",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 7,
@@ -117,7 +159,13 @@
    "label": null,
    "tally": "52 - 0",
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-c0347ff969f121c4",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 8,
@@ -131,7 +179,13 @@
    "label": "Reported by committee",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-571dea9d561e232f",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "📋",
+   "vote": null
   },
   {
    "order": 9,
@@ -145,7 +199,13 @@
    "label": "Placed on calendar (House)",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-f2cd4620ab82d99f",
+   "stands_in": null,
+   "qualified": "House",
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 10,
@@ -159,7 +219,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-e8ce9cb0f08b4d27",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 11,
@@ -173,7 +239,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-d3db9867745a7763",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 12,
@@ -187,7 +259,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-cb535c9a9f582fa3",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 13,
@@ -201,7 +279,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-768d110b5b86fb46",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 14,
@@ -215,7 +299,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-47024fb4fe4ffdeb",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 15,
@@ -229,7 +319,13 @@
    "label": "Passed House with amendment",
    "tally": "417 - 3",
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-c4d5d46fcbb9ed11",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "✅🏛️",
+   "vote": "(417-3)"
   },
   {
    "order": 16,
@@ -243,7 +339,13 @@
    "label": null,
    "tally": "417 - 3",
    "spine": false,
-   "subordinate": true
+   "subordinate": true,
+   "key": "1-d175636d1b5d96fa",
+   "stands_in": 15,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 17,
@@ -257,7 +359,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-00b84e2f615c9d11",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 18,
@@ -271,7 +379,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-5308a7556b851317",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 19,
@@ -285,7 +399,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-50ab15e8bc7624e3",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 20,
@@ -299,7 +419,13 @@
    "label": "Placed on calendar (Senate)",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-8ebab8f388e3b128",
+   "stands_in": null,
+   "qualified": "Senate",
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 21,
@@ -313,7 +439,13 @@
    "label": "Motion to proceed filed",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-ab569048ce79c7bb",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "🗳️",
+   "vote": null
   },
   {
    "order": 22,
@@ -327,12 +459,18 @@
    "label": "Cloture motion filed",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-1a823bd8f651ebe4",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "⏱️",
+   "vote": null
   },
   {
    "order": 23,
    "date": "2026-09-29",
-   "text": "Motion to proceed to consideration of measure made in Senate. (CR S5186)",
+   "text": "Motion to proceed to consideration of measure made in Senate.",
    "core": "Motion to proceed to consideration of measure made in Senate",
    "code": null,
    "source": "Senate",
@@ -341,7 +479,73 @@
    "label": "Motion to proceed filed",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-22441008d6b7f687",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "🗳️",
+   "vote": null
+  },
+  {
+   "order": 24,
+   "date": "2026-09-30",
+   "text": "Motion to proceed to consideration of measure made in Senate.",
+   "core": "Motion to proceed to consideration of measure made in Senate",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": "mtp_pending",
+   "label": "Motion to proceed filed",
+   "tally": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-3e6846bb21f3932f",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "🗳️",
+   "vote": null
+  },
+  {
+   "order": 25,
+   "date": "2026-09-30",
+   "text": "Cloture on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 57 - 43. Record Vote Number: 254.",
+   "core": "Cloture on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 57 - 43",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": "cloture_failed_mtp",
+   "label": "Cloture not invoked (on taking up the bill)",
+   "tally": "57 - 43",
+   "spine": true,
+   "subordinate": null,
+   "key": "1-b4333002f916752a",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "⏱️",
+   "vote": "(57-43)"
+  },
+  {
+   "order": 26,
+   "date": "2026-09-30",
+   "text": "Motion to proceed to consideration of measure withdrawn in Senate.",
+   "core": "Motion to proceed to consideration of measure withdrawn in Senate",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null,
+   "key": "1-aec2e78c92ed9dcf",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   }
  ]
 }

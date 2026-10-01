@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "s",
  "billNumber": "4784",
- "built_at": "2026-09-30T23:47:38+00:00",
+ "built_at": "2026-10-01T11:40:04+00:00",
  "source_count": 12,
  "holds_full_record": true,
  "entries": [
@@ -19,7 +19,13 @@
    "label": "Reported by committee (Senate)",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-9a9a53356f9d306a",
+   "stands_in": null,
+   "qualified": "Senate",
+   "lead": true,
+   "emoji": "📋",
+   "vote": null
   },
   {
    "order": 1,
@@ -33,7 +39,13 @@
    "label": "Placed on calendar (Senate)",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-14d3306e9c648ae1",
+   "stands_in": null,
+   "qualified": "Senate",
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 2,
@@ -47,7 +59,13 @@
    "label": "Motion to proceed filed",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-10ee515baae92c83",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "🗳️",
+   "vote": null
   },
   {
    "order": 3,
@@ -61,7 +79,13 @@
    "label": "Cloture motion filed",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-1065fb6a3d0a03ed",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "⏱️",
+   "vote": null
   },
   {
    "order": 4,
@@ -75,7 +99,13 @@
    "label": "Cloture not invoked (on taking up the bill)",
    "tally": "50 - 46",
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-9e3c077d9bb4e10b",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "⏱️",
+   "vote": "(50-46)"
   },
   {
    "order": 5,
@@ -89,7 +119,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-cbae76a137ba3e2d",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 6,
@@ -103,7 +139,13 @@
    "label": "Motion to proceed filed",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-75c9c494571fa8d6",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "🗳️",
+   "vote": null
   },
   {
    "order": 7,
@@ -117,7 +159,13 @@
    "label": "Motion to proceed filed",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-79b1464849d6de32",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "🗳️",
+   "vote": null
   },
   {
    "order": 8,
@@ -131,7 +179,13 @@
    "label": "Motion to proceed filed",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-32f1b05c359e0bd6",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "🗳️",
+   "vote": null
   },
   {
    "order": 9,
@@ -145,7 +199,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-ad8272583a9724a4",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 10,
@@ -159,7 +219,13 @@
    "label": "Motion to proceed filed",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-3c3c06f6fc58f0da",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "🗳️",
+   "vote": null
   }
  ]
 }
