@@ -5,12 +5,12 @@
  "year": "2025",
  "number": "0419",
  "ptype": "COD",
- "built_at": "2026-09-30T19:28:26+00:00",
+ "built_at": "2026-10-01T19:36:53+00:00",
  "source": "oeil-key-events",
  "source_count": 8,
  "holds_full_record": true,
  "overrides_applied": null,
- "texture_count": 8,
+ "texture_count": 9,
  "texture_source": "cellar-authority-events",
  "entries": [
   {
@@ -252,6 +252,22 @@
    "source_note": null,
    "spine": false,
    "subordinate": true
+  },
+  {
+   "order": 16,
+   "date": "2026-09-24",
+   "text": "Deliberations in Council working party",
+   "doc": null,
+   "code": "DELIB_WP_byCONSIL",
+   "src": "cellar",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": false,
+   "subordinate": null
   }
  ]
 }
