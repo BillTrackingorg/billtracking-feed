@@ -3,14 +3,14 @@
  "congress": 119,
  "billType": "sres",
  "billNumber": "927",
- "built_at": "2026-10-01T05:46:41+00:00",
+ "built_at": "2026-10-01T11:57:36+00:00",
  "source_count": 2,
  "holds_full_record": true,
  "entries": [
   {
    "order": 0,
    "date": "2026-09-29",
-   "text": "Passed/agreed to in Senate: Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent.",
+   "text": "Passed/agreed to in Senate: Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S5186; text: CR S5177-5178)",
    "core": "Passed/agreed to in Senate: Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent",
    "code": "17000",
    "source": "Library of Congress",
@@ -19,7 +19,13 @@
    "label": "Agreed to",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-2d4aa93aec0fb7e0",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "✅🏛️",
+   "vote": "(unanimous consent)"
   },
   {
    "order": 1,
@@ -33,7 +39,13 @@
    "label": "Agreed to",
    "tally": null,
    "spine": false,
-   "subordinate": true
+   "subordinate": true,
+   "key": "1-97732359b7102fa1",
+   "stands_in": 0,
+   "qualified": null,
+   "lead": true,
+   "emoji": "✅🏛️",
+   "vote": "(unanimous consent)"
   }
  ]
 }
