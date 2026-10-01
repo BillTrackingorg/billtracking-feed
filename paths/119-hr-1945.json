@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "1945",
- "built_at": "2026-10-01T11:40:09+00:00",
+ "built_at": "2026-10-01T18:53:09+00:00",
  "source_count": 20,
  "holds_full_record": true,
  "entries": [
@@ -330,7 +330,7 @@
   {
    "order": 16,
    "date": "2026-09-29",
-   "text": "Passed/agreed to in Senate: Passed Senate without amendment by Unanimous Consent.",
+   "text": "Passed/agreed to in Senate: Passed Senate without amendment by Unanimous Consent. (consideration: CR S5140)",
    "core": "Passed/agreed to in Senate: Passed Senate without amendment by Unanimous Consent",
    "code": "17000",
    "source": "Library of Congress",
