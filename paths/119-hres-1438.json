@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hres",
  "billNumber": "1438",
- "built_at": "2026-09-30T19:16:24+00:00",
+ "built_at": "2026-10-01T11:35:38+00:00",
  "source_count": 12,
  "holds_full_record": true,
  "entries": [
@@ -19,7 +19,13 @@
    "label": "Reported by committee (House)",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-cf21c03e7bc2abec",
+   "stands_in": null,
+   "qualified": "House",
+   "lead": true,
+   "emoji": "📋",
+   "vote": null
   },
   {
    "order": 1,
@@ -33,7 +39,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-1ab75fde3aae057b",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 2,
@@ -47,7 +59,13 @@
    "label": "Placed on calendar (House)",
    "tally": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-a27943633df5a2e9",
+   "stands_in": null,
+   "qualified": "House",
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 3,
@@ -61,7 +79,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-be974a6a808d3411",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 4,
@@ -75,7 +99,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-246a7ffbc06c1f44",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 5,
@@ -89,7 +119,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-a168d8c886e73683",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 6,
@@ -103,7 +139,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-742433ffab8b8e9d",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 7,
@@ -117,7 +159,13 @@
    "label": null,
    "tally": "213 - 209",
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-9e1da1ba26e325fb",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   },
   {
    "order": 8,
@@ -131,7 +179,13 @@
    "label": "Agreed to",
    "tally": "214 - 211",
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-caa4f6d2b76efb70",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "✅🏛️",
+   "vote": "(214-211)"
   },
   {
    "order": 9,
@@ -145,7 +199,13 @@
    "label": "Agreed to",
    "tally": "214 - 211",
    "spine": false,
-   "subordinate": true
+   "subordinate": true,
+   "key": "1-941782fa7d674ec9",
+   "stands_in": 8,
+   "qualified": null,
+   "lead": true,
+   "emoji": "✅🏛️",
+   "vote": "(214-211)"
   },
   {
    "order": 10,
@@ -159,7 +219,13 @@
    "label": null,
    "tally": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-46c4f3500540a8a6",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   }
  ]
 }
