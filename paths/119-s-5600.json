@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "s",
  "billNumber": "5600",
- "built_at": "2026-09-30T13:41:40+00:00",
+ "built_at": "2026-10-01T05:46:39+00:00",
  "source_count": 3,
  "holds_full_record": true,
  "entries": [
@@ -38,7 +38,7 @@
   {
    "order": 2,
    "date": "2026-09-29",
-   "text": "Introduced in the Senate, read twice, considered, read the third time, and passed without amendment by Voice Vote.",
+   "text": "Introduced in the Senate, read twice, considered, read the third time, and passed without amendment by Voice Vote. (consideration: CR S5185-5186; text: CR S5185-5186)",
    "core": "Introduced in the Senate, read twice, considered, read the third time, and passed without amendment by Voice Vote",
    "code": null,
    "source": "Senate",
