@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "s",
  "billNumber": "3798",
- "built_at": "2026-10-01T23:10:31+00:00",
+ "built_at": "2026-10-02T16:16:22+00:00",
  "source_count": 8,
  "holds_full_record": true,
  "entries": [
@@ -130,7 +130,7 @@
   {
    "order": 6,
    "date": "2026-09-30",
-   "text": "Passed Senate with an amendment by Voice Vote.",
+   "text": "Passed Senate with an amendment by Voice Vote. (consideration: CR S5207; text: CR S5207)",
    "core": "Passed Senate with an amendment by Voice Vote",
    "code": null,
    "source": "Senate",

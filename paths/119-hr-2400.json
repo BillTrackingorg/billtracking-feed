@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "2400",
- "built_at": "2026-10-01T23:10:33+00:00",
+ "built_at": "2026-10-02T16:16:29+00:00",
  "source_count": 25,
  "holds_full_record": true,
  "entries": [
@@ -430,7 +430,7 @@
   {
    "order": 21,
    "date": "2026-09-30",
-   "text": "Passed Senate with an amendment by Unanimous Consent.",
+   "text": "Passed Senate with an amendment by Unanimous Consent. (consideration: CR S5297-5298)",
    "core": "Passed Senate with an amendment by Unanimous Consent",
    "code": null,
    "source": "Senate",

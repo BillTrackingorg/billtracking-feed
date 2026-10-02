@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "5349",
- "built_at": "2026-10-01T23:10:30+00:00",
+ "built_at": "2026-10-02T16:16:19+00:00",
  "source_count": 20,
  "holds_full_record": true,
  "entries": [
@@ -290,7 +290,7 @@
   {
    "order": 14,
    "date": "2026-09-30",
-   "text": "Measure laid before Senate by unanimous consent.",
+   "text": "Measure laid before Senate by unanimous consent. (consideration: CR S5207-5208)",
    "core": "Measure laid before Senate by unanimous consent",
    "code": null,
    "source": "Senate",
