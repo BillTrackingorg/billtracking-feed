@@ -5,7 +5,7 @@
  "year": "2025",
  "number": "0348",
  "ptype": "CNS",
- "built_at": "2026-10-01T23:54:55+00:00",
+ "built_at": "2026-10-02T01:20:33+00:00",
  "source": "oeil-key-events",
  "source_count": 6,
  "holds_full_record": true,
@@ -25,7 +25,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-6a7e55fd5af3e632",
+   "emoji": "📋"
   },
   {
    "order": 1,
@@ -39,7 +41,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-757f464b80c33977",
+   "emoji": null
   },
   {
    "order": 2,
@@ -55,7 +59,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-8aff1b6fe6bf51a5",
+   "emoji": null
   },
   {
    "order": 3,
@@ -69,7 +75,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-99b4121c2412907e",
+   "emoji": "🗳️"
   },
   {
    "order": 4,
@@ -83,7 +91,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-aced8d947c703fe5",
+   "emoji": null
   },
   {
    "order": 5,
@@ -97,7 +107,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-cb63118a0291bca8",
+   "emoji": "🗳️"
   },
   {
    "order": 6,
@@ -111,7 +123,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-a252f3c2cadc542d",
+   "emoji": null
   }
  ]
 }
