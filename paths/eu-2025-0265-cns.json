@@ -5,7 +5,7 @@
  "year": "2025",
  "number": "0265",
  "ptype": "CNS",
- "built_at": "2026-10-01T23:56:18+00:00",
+ "built_at": "2026-10-02T01:12:31+00:00",
  "source": "oeil-key-events",
  "source_count": 5,
  "holds_full_record": true,
@@ -25,7 +25,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-dbc36bf7e476c08c",
+   "emoji": "📋"
   },
   {
    "order": 1,
@@ -39,7 +41,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-af5935033527b8f7",
+   "emoji": null
   },
   {
    "order": 2,
@@ -53,7 +57,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-21af3b318dda3b0c",
+   "emoji": "🗳️"
   },
   {
    "order": 3,
@@ -67,7 +73,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-437e57d65eb3c4d2",
+   "emoji": null
   },
   {
    "order": 4,
@@ -81,7 +89,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-6c9cbc13f025a9b5",
+   "emoji": null
   }
  ]
 }

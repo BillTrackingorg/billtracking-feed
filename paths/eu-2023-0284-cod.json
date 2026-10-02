@@ -5,7 +5,7 @@
  "year": "2023",
  "number": "0284",
  "ptype": "COD",
- "built_at": "2026-10-01T23:56:29+00:00",
+ "built_at": "2026-10-02T01:11:07+00:00",
  "source": "oeil-key-events",
  "source_count": 17,
  "holds_full_record": true,
@@ -25,7 +25,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-d72cd68b914f5f00",
+   "emoji": "📋"
   },
   {
    "order": 1,
@@ -39,7 +41,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-2539e674ee5b1a19",
+   "emoji": null
   },
   {
    "order": 2,
@@ -53,7 +57,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-5885719dd89a6758",
+   "emoji": null
   },
   {
    "order": 3,
@@ -69,7 +75,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-2663597406af5bb0",
+   "emoji": null
   },
   {
    "order": 4,
@@ -83,7 +91,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-01bbd0e4211e333a",
+   "emoji": null
   },
   {
    "order": 5,
@@ -97,7 +107,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-c1da5953265c6857",
+   "emoji": "🗳️"
   },
   {
    "order": 6,
@@ -111,7 +123,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-8251a3a3332052ee",
+   "emoji": null
   },
   {
    "order": 7,
@@ -125,7 +139,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-e1b674e19bc06c5f",
+   "emoji": null
   },
   {
    "order": 8,
@@ -139,7 +155,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-cd90d1cb3a8d5f97",
+   "emoji": null
   },
   {
    "order": 9,
@@ -153,7 +171,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-91a0b95d6b437153",
+   "emoji": null
   },
   {
    "order": 10,
@@ -167,7 +187,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-60f433b5a6efe3ef",
+   "emoji": "↩️"
   },
   {
    "order": 11,
@@ -181,7 +203,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-11c6d47c9dd0d267",
+   "emoji": "🤝"
   },
   {
    "order": 12,
@@ -195,7 +219,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-3e72f23051da7304",
+   "emoji": "🗳️"
   },
   {
    "order": 13,
@@ -209,7 +235,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-30d60c25d1a6118a",
+   "emoji": null
   },
   {
    "order": 14,
@@ -223,7 +251,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-a7bdb925beadc76e",
+   "emoji": null
   },
   {
    "order": 15,
@@ -237,7 +267,9 @@
    "review_note": null,
    "source_note": "Verified by one of two sources",
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-b595233ff24ad20c",
+   "emoji": "✅"
   },
   {
    "order": 16,
@@ -251,7 +283,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-0facf69b19e32dc3",
+   "emoji": "✍️"
   },
   {
    "order": 17,
@@ -264,8 +298,10 @@
    "method_note": null,
    "review_note": null,
    "source_note": null,
-   "spine": false,
-   "subordinate": true
+   "spine": true,
+   "subordinate": null,
+   "key": "1-5b2009f3332b4a7f",
+   "emoji": "📜"
   }
  ]
 }

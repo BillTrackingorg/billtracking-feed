@@ -5,7 +5,7 @@
  "year": "2025",
  "number": "0258",
  "ptype": "COD",
- "built_at": "2026-10-01T06:07:57+00:00",
+ "built_at": "2026-10-02T01:12:26+00:00",
  "source": "oeil-key-events",
  "source_count": 3,
  "holds_full_record": true,
@@ -25,7 +25,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-4e3170d5b58bab60",
+   "emoji": "📋"
   },
   {
    "order": 1,
@@ -39,7 +41,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-4649a7fa63c55115",
+   "emoji": null
   },
   {
    "order": 2,
@@ -55,7 +59,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-ec706c19094fca46",
+   "emoji": null
   },
   {
    "order": 3,
@@ -71,7 +77,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-301a66be02e19a96",
+   "emoji": null
   },
   {
    "order": 4,
@@ -84,8 +92,10 @@
    "method_note": null,
    "review_note": null,
    "source_note": null,
-   "spine": false,
-   "subordinate": true
+   "spine": true,
+   "subordinate": null,
+   "key": "1-d56b8adfd21d2950",
+   "emoji": "🗳️"
   }
  ]
 }

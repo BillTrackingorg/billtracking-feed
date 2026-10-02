@@ -5,7 +5,7 @@
  "year": "2025",
  "number": "0052",
  "ptype": "COD",
- "built_at": "2026-10-01T19:37:22+00:00",
+ "built_at": "2026-10-02T01:11:52+00:00",
  "source": "oeil-key-events",
  "source_count": 7,
  "holds_full_record": true,
@@ -25,7 +25,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-400593b2d36e68e1",
+   "emoji": "📋"
   },
   {
    "order": 1,
@@ -39,7 +41,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-f291db0225140b1b",
+   "emoji": null
   },
   {
    "order": 2,
@@ -55,7 +59,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-8946261f4f0ef6fc",
+   "emoji": null
   },
   {
    "order": 3,
@@ -71,7 +77,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-7cc0e6d4a370f8e8",
+   "emoji": null
   },
   {
    "order": 4,
@@ -87,7 +95,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-29a9bc7802360f05",
+   "emoji": null
   },
   {
    "order": 5,
@@ -101,7 +111,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-7235f504258541f2",
+   "emoji": "🗳️"
   },
   {
    "order": 6,
@@ -109,13 +121,15 @@
    "text": "Committee decision to open interinstitutional negotiations with report adopted in committee",
    "doc": null,
    "family": "mandate",
-   "label": null,
+   "label": "Committee decision to open interinstitutional negotiations with report adopted in committee",
    "tally": null,
    "method_note": null,
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-9d225716de71f043",
+   "emoji": "🧭"
   },
   {
    "order": 7,
@@ -129,7 +143,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-84466f4d290a527b",
+   "emoji": null
   },
   {
    "order": 8,
@@ -137,13 +153,15 @@
    "text": "Committee decision to enter into interinstitutional negotiations announced in plenary (Rule 72)",
    "doc": null,
    "family": "mandate",
-   "label": null,
+   "label": "Committee decision to enter into interinstitutional negotiations announced in plenary (Rule 72)",
    "tally": null,
    "method_note": null,
    "review_note": null,
    "source_note": null,
-   "spine": false,
-   "subordinate": true
+   "spine": true,
+   "subordinate": null,
+   "key": "1-203ba8765ccdacce",
+   "emoji": "🧭"
   },
   {
    "order": 9,
@@ -151,13 +169,15 @@
    "text": "Committee decision to enter into interinstitutional negotiations confirmed by plenary (Rule 72)",
    "doc": null,
    "family": "mandate",
-   "label": null,
+   "label": "Committee decision to enter into interinstitutional negotiations confirmed by plenary (Rule 72)",
    "tally": null,
    "method_note": null,
    "review_note": null,
    "source_note": null,
-   "spine": false,
-   "subordinate": true
+   "spine": true,
+   "subordinate": null,
+   "key": "1-f6b28e9b891e80af",
+   "emoji": "🧭"
   }
  ]
 }

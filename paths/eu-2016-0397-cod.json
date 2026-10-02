@@ -5,7 +5,7 @@
  "year": "2016",
  "number": "0397",
  "ptype": "COD",
- "built_at": "2026-10-01T23:55:04+00:00",
+ "built_at": "2026-10-02T01:10:31+00:00",
  "source": "oeil-key-events",
  "source_count": 19,
  "holds_full_record": true,
@@ -25,7 +25,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-6787d96acdd78e1f",
+   "emoji": "📋"
   },
   {
    "order": 1,
@@ -39,7 +41,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-83a6da25284143ef",
+   "emoji": null
   },
   {
    "order": 2,
@@ -53,7 +57,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-72ac5fb2984cab12",
+   "emoji": null
   },
   {
    "order": 3,
@@ -67,7 +73,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-77fef62cc40ca20e",
+   "emoji": null
   },
   {
    "order": 4,
@@ -83,7 +91,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-4c9b8e0d23dafaff",
+   "emoji": null
   },
   {
    "order": 5,
@@ -99,7 +109,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-daf4963bf189b52c",
+   "emoji": null
   },
   {
    "order": 6,
@@ -113,7 +125,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-3c78d653f723b26f",
+   "emoji": "🗳️"
   },
   {
    "order": 7,
@@ -121,13 +135,15 @@
    "text": "Committee decision to open interinstitutional negotiations with report adopted in committee",
    "doc": null,
    "family": "mandate",
-   "label": null,
+   "label": "Committee decision to open interinstitutional negotiations with report adopted in committee",
    "tally": null,
    "method_note": null,
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-d996a6f3d7771c63",
+   "emoji": "🧭"
   },
   {
    "order": 8,
@@ -141,7 +157,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-178bad22e2a9d152",
+   "emoji": null
   },
   {
    "order": 9,
@@ -149,13 +167,15 @@
    "text": "Committee decision to enter into interinstitutional negotiations announced in plenary (Rule 72)",
    "doc": null,
    "family": "mandate",
-   "label": null,
+   "label": "Committee decision to enter into interinstitutional negotiations announced in plenary (Rule 72)",
    "tally": null,
    "method_note": null,
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-cc404688ac5bbeed",
+   "emoji": "🧭"
   },
   {
    "order": 10,
@@ -169,7 +189,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-8cf37ff9b32b0f43",
+   "emoji": null
   },
   {
    "order": 11,
@@ -177,13 +199,15 @@
    "text": "Committee decision to enter into interinstitutional negotiations confirmed by plenary (Rule 72 - vote)",
    "doc": null,
    "family": "mandate",
-   "label": null,
+   "label": "Committee decision to enter into interinstitutional negotiations confirmed by plenary (Rule 72 - vote)",
    "tally": null,
    "method_note": null,
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-dd9c5aad09b6c5bb",
+   "emoji": "🧭"
   },
   {
    "order": 12,
@@ -192,14 +216,16 @@
    "doc": null,
    "code": "ENDORSE_AGRPROV_COREPER_byCONSIL",
    "src": "cellar",
-   "family": null,
-   "label": null,
+   "family": "provisional_agreement",
+   "label": "Endorsement of the provisional agreement by Coreper",
    "tally": null,
    "method_note": null,
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-9d0750023260a6a1",
+   "emoji": "🤝"
   },
   {
    "order": 13,
@@ -208,14 +234,16 @@
    "doc": null,
    "code": "ENDORSE_AGRPROV_COREPER_byCONSIL",
    "src": "cellar",
-   "family": null,
-   "label": null,
+   "family": "provisional_agreement",
+   "label": "Endorsement of the provisional agreement by Coreper",
    "tally": null,
    "method_note": null,
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-3d2ea024d92ec93c",
+   "emoji": "🤝"
   },
   {
    "order": 14,
@@ -229,7 +257,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-c6345d090269cbdc",
+   "emoji": null
   },
   {
    "order": 15,
@@ -243,7 +273,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-fbcd1e3d7da66553",
+   "emoji": null
   },
   {
    "order": 16,
@@ -257,7 +289,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-631d56700a9852b1",
+   "emoji": null
   },
   {
    "order": 17,
@@ -266,14 +300,16 @@
    "doc": null,
    "code": "ENDORSE_AGRPROV_COREPER_byCONSIL",
    "src": "cellar",
-   "family": null,
-   "label": null,
+   "family": "provisional_agreement",
+   "label": "Endorsement of the provisional agreement by Coreper",
    "tally": null,
    "method_note": null,
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-36ee84dc25c22648",
+   "emoji": "🤝"
   },
   {
    "order": 18,
@@ -287,7 +323,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-32b50365b6dcb3eb",
+   "emoji": null
   },
   {
    "order": 19,
@@ -303,7 +341,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-bc8b885320e82047",
+   "emoji": null
   },
   {
    "order": 20,
@@ -319,7 +359,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-8fabe06066ac9e0d",
+   "emoji": null
   },
   {
    "order": 21,
@@ -335,7 +377,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-c07d6f25aa873878",
+   "emoji": null
   },
   {
    "order": 22,
@@ -351,7 +395,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-f75e9175fa6a24fe",
+   "emoji": null
   },
   {
    "order": 23,
@@ -367,7 +413,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-053e37c71f64e78f",
+   "emoji": null
   },
   {
    "order": 24,
@@ -376,14 +424,16 @@
    "doc": null,
    "code": "ENDORSE_AGRPROV_COREPER_byCONSIL",
    "src": "cellar",
-   "family": null,
-   "label": null,
+   "family": "provisional_agreement",
+   "label": "Endorsement of the provisional agreement by Coreper",
    "tally": null,
    "method_note": null,
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-b1cbcdd94de695bc",
+   "emoji": "🤝"
   },
   {
    "order": 25,
@@ -397,7 +447,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-0b5b3159c0cb6714",
+   "emoji": "🤝"
   },
   {
    "order": 26,
@@ -411,7 +463,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-2cdc35e7936d6c19",
+   "emoji": null
   },
   {
    "order": 27,
@@ -425,7 +479,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-95e45aded86b441f",
+   "emoji": "🗳️"
   },
   {
    "order": 28,
@@ -439,7 +495,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-4e801b55669bf354",
+   "emoji": null
   },
   {
    "order": 29,
@@ -452,8 +510,10 @@
    "method_note": null,
    "review_note": null,
    "source_note": null,
-   "spine": false,
-   "subordinate": true
+   "spine": true,
+   "subordinate": null,
+   "key": "1-be9a268850e69e59",
+   "emoji": "✅"
   }
  ]
 }

@@ -5,7 +5,7 @@
  "year": "2023",
  "number": "0156",
  "ptype": "COD",
- "built_at": "2026-10-01T13:31:59+00:00",
+ "built_at": "2026-10-02T01:10:56+00:00",
  "source": "oeil-key-events",
  "source_count": 20,
  "holds_full_record": true,
@@ -25,7 +25,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-79f0bb4097008545",
+   "emoji": "📋"
   },
   {
    "order": 1,
@@ -41,7 +43,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-3b8724bc83dba4c6",
+   "emoji": null
   },
   {
    "order": 2,
@@ -55,7 +59,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-8fc0a42affd33bba",
+   "emoji": null
   },
   {
    "order": 3,
@@ -69,7 +75,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-c89f9b1fe76810d6",
+   "emoji": null
   },
   {
    "order": 4,
@@ -83,7 +91,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-4123e16e3d213281",
+   "emoji": "🗳️"
   },
   {
    "order": 5,
@@ -97,7 +107,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-781135148d43bb34",
+   "emoji": null
   },
   {
    "order": 6,
@@ -111,7 +123,9 @@
    "review_note": null,
    "source_note": "Verified by one of two sources",
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-4eb761b5f6ef453f",
+   "emoji": "🗳️"
   },
   {
    "order": 7,
@@ -125,7 +139,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-3834800e9fbf4f66",
+   "emoji": null
   },
   {
    "order": 8,
@@ -139,7 +155,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-8e3f1d3cda6b45e8",
+   "emoji": null
   },
   {
    "order": 9,
@@ -147,13 +165,15 @@
    "text": "Committee decision to open interinstitutional negotiations after 1st reading in Parliament",
    "doc": null,
    "family": "mandate",
-   "label": null,
+   "label": "Committee decision to open interinstitutional negotiations after 1st reading in Parliament",
    "tally": null,
    "method_note": null,
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-32295976e0a60d76",
+   "emoji": "🧭"
   },
   {
    "order": 10,
@@ -169,7 +189,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-60f288153d3a81df",
+   "emoji": null
   },
   {
    "order": 11,
@@ -177,13 +199,15 @@
    "text": "Committee decision to enter into interinstitutional negotiations announced in plenary (Rule 73)",
    "doc": null,
    "family": "mandate",
-   "label": null,
+   "label": "Committee decision to enter into interinstitutional negotiations announced in plenary (Rule 73)",
    "tally": null,
    "method_note": null,
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-3832dcf45f4e23cf",
+   "emoji": "🧭"
   },
   {
    "order": 12,
@@ -199,7 +223,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-bbd38fc5d03e4938",
+   "emoji": null
   },
   {
    "order": 13,
@@ -215,7 +241,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-edfa33e9245e17d4",
+   "emoji": null
   },
   {
    "order": 14,
@@ -231,7 +259,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-1391d9cda217d15e",
+   "emoji": null
   },
   {
    "order": 15,
@@ -247,7 +277,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-831a14c7f2db7726",
+   "emoji": null
   },
   {
    "order": 16,
@@ -263,7 +295,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-4c402847d501c2c9",
+   "emoji": null
   },
   {
    "order": 17,
@@ -279,7 +313,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-4f4fdef5b7dc8ff2",
+   "emoji": null
   },
   {
    "order": 18,
@@ -295,7 +331,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-182c2f8e1aca5f2c",
+   "emoji": null
   },
   {
    "order": 19,
@@ -311,7 +349,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-3292f89343df81ed",
+   "emoji": null
   },
   {
    "order": 20,
@@ -327,7 +367,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-78eacc2aa540e2a9",
+   "emoji": null
   },
   {
    "order": 21,
@@ -343,7 +385,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-c644fcab8169b091",
+   "emoji": null
   },
   {
    "order": 22,
@@ -359,7 +403,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-d312131937f7546e",
+   "emoji": null
   },
   {
    "order": 23,
@@ -375,7 +421,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-45eb9a9fa74512df",
+   "emoji": null
   },
   {
    "order": 24,
@@ -391,7 +439,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-d522e289311c5f84",
+   "emoji": null
   },
   {
    "order": 25,
@@ -407,7 +457,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-c7afe656bb9a4daf",
+   "emoji": null
   },
   {
    "order": 26,
@@ -423,7 +475,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-8d45b250c7861092",
+   "emoji": null
   },
   {
    "order": 27,
@@ -439,7 +493,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-5afa05021e92d599",
+   "emoji": null
   },
   {
    "order": 28,
@@ -455,7 +511,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-445e043faf22fd74",
+   "emoji": null
   },
   {
    "order": 29,
@@ -471,7 +529,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-d718288163405411",
+   "emoji": null
   },
   {
    "order": 30,
@@ -487,7 +547,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-56d9abf256c19e4b",
+   "emoji": null
   },
   {
    "order": 31,
@@ -503,7 +565,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-f50bfe562bd1cab4",
+   "emoji": null
   },
   {
    "order": 32,
@@ -519,7 +583,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-a19afc53390eebeb",
+   "emoji": null
   },
   {
    "order": 33,
@@ -535,7 +601,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-277d1cdf18cb0d75",
+   "emoji": null
   },
   {
    "order": 34,
@@ -551,7 +619,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-ddc22e254ac66859",
+   "emoji": null
   },
   {
    "order": 35,
@@ -567,7 +637,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-2e1b3f5bd0488cc9",
+   "emoji": null
   },
   {
    "order": 36,
@@ -583,7 +655,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-701818033b0c0914",
+   "emoji": null
   },
   {
    "order": 37,
@@ -599,7 +673,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-f154a07f8a7b101c",
+   "emoji": null
   },
   {
    "order": 38,
@@ -615,7 +691,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-af518c2db6730160",
+   "emoji": null
   },
   {
    "order": 39,
@@ -631,7 +709,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-37bd93b117f84de0",
+   "emoji": null
   },
   {
    "order": 40,
@@ -647,7 +727,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-4ab58a245c43879a",
+   "emoji": null
   },
   {
    "order": 41,
@@ -663,7 +745,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-db8deb6be0e0e40d",
+   "emoji": null
   },
   {
    "order": 42,
@@ -679,7 +763,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-9d2e2be2ced423f1",
+   "emoji": null
   },
   {
    "order": 43,
@@ -695,7 +781,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-07d5823bc34f2ad7",
+   "emoji": null
   },
   {
    "order": 44,
@@ -711,7 +799,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-79520417947141f1",
+   "emoji": null
   },
   {
    "order": 45,
@@ -720,14 +810,16 @@
    "doc": null,
    "code": "ENDORSE_AGRPROV_COREPER_byCONSIL",
    "src": "cellar",
-   "family": null,
-   "label": null,
+   "family": "provisional_agreement",
+   "label": "Endorsement of the provisional agreement by Coreper",
    "tally": null,
    "method_note": null,
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-56c6b72a21a4f3c8",
+   "emoji": "🤝"
   },
   {
    "order": 46,
@@ -741,7 +833,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-04b9d624f471a8c8",
+   "emoji": "🤝"
   },
   {
    "order": 47,
@@ -754,8 +848,10 @@
    "method_note": null,
    "review_note": null,
    "source_note": null,
-   "spine": false,
-   "subordinate": true
+   "spine": true,
+   "subordinate": null,
+   "key": "1-bbadb208c407e773",
+   "emoji": "🧭"
   },
   {
    "order": 48,
@@ -769,7 +865,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-fd9c53be03141994",
+   "emoji": null
   },
   {
    "order": 49,
@@ -783,7 +881,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-b3f3052007754457",
+   "emoji": null
   },
   {
    "order": 50,
@@ -796,8 +896,10 @@
    "method_note": null,
    "review_note": null,
    "source_note": null,
-   "spine": false,
-   "subordinate": true
+   "spine": true,
+   "subordinate": null,
+   "key": "1-154a3d493b0612c3",
+   "emoji": "🗳️"
   },
   {
    "order": 51,
@@ -811,7 +913,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-8a93c47250bc2e7f",
+   "emoji": null
   },
   {
    "order": 52,
@@ -824,8 +928,10 @@
    "method_note": null,
    "review_note": null,
    "source_note": null,
-   "spine": false,
-   "subordinate": true
+   "spine": true,
+   "subordinate": null,
+   "key": "1-bb9139d11391a5bd",
+   "emoji": "🗳️"
   },
   {
    "order": 53,
@@ -839,7 +945,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-2039d599c5830abc",
+   "emoji": null
   },
   {
    "order": 54,
@@ -852,8 +960,10 @@
    "method_note": null,
    "review_note": null,
    "source_note": null,
-   "spine": false,
-   "subordinate": true
+   "spine": true,
+   "subordinate": null,
+   "key": "1-84255f3969963cbd",
+   "emoji": "✍️"
   },
   {
    "order": 55,
@@ -866,8 +976,10 @@
    "method_note": null,
    "review_note": null,
    "source_note": null,
-   "spine": false,
-   "subordinate": true
+   "spine": true,
+   "subordinate": null,
+   "key": "1-4bc3a5dd824cf0f6",
+   "emoji": "📜"
   }
  ]
 }

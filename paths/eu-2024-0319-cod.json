@@ -5,7 +5,7 @@
  "year": "2024",
  "number": "0319",
  "ptype": "COD",
- "built_at": "2026-10-01T06:10:21+00:00",
+ "built_at": "2026-10-02T01:11:42+00:00",
  "source": "oeil-key-events",
  "source_count": 14,
  "holds_full_record": true,
@@ -25,7 +25,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-7f62a10bb9762b12",
+   "emoji": "📋"
   },
   {
    "order": 1,
@@ -39,7 +41,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-32cb92e4af583d9e",
+   "emoji": null
   },
   {
    "order": 2,
@@ -55,7 +59,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-569e3305770e92fd",
+   "emoji": null
   },
   {
    "order": 3,
@@ -71,7 +77,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-e9b0fb5c72df8d16",
+   "emoji": null
   },
   {
    "order": 4,
@@ -85,7 +93,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-4d96e12391058819",
+   "emoji": "🗳️"
   },
   {
    "order": 5,
@@ -99,7 +109,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-ec7724fba3141365",
+   "emoji": null
   },
   {
    "order": 6,
@@ -113,7 +125,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-2b8dfe9ddbde5ada",
+   "emoji": null
   },
   {
    "order": 7,
@@ -127,7 +141,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-9e7e11ecad5e90a7",
+   "emoji": null
   },
   {
    "order": 8,
@@ -141,7 +157,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-f95c4635283173d4",
+   "emoji": null
   },
   {
    "order": 9,
@@ -155,7 +173,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-08ea3d3879f43b0f",
+   "emoji": "↩️"
   },
   {
    "order": 10,
@@ -164,14 +184,16 @@
    "doc": null,
    "code": "ENDORSE_AGRPROV_SPCO_byCONSIL",
    "src": "cellar",
-   "family": null,
-   "label": null,
+   "family": "provisional_agreement",
+   "label": "Endorsement of the provisional agreement by the Special Committee on Agriculture",
    "tally": null,
    "method_note": null,
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-e8f4df2248e73a4a",
+   "emoji": "🤝"
   },
   {
    "order": 11,
@@ -185,7 +207,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-4a6b30899f1dce8d",
+   "emoji": "🤝"
   },
   {
    "order": 12,
@@ -199,7 +223,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-45443a0fb15e94ea",
+   "emoji": "🗳️"
   },
   {
    "order": 13,
@@ -213,7 +239,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-1a8c83f96a297d97",
+   "emoji": null
   },
   {
    "order": 14,
@@ -227,7 +255,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-1b55f49e0dee154b",
+   "emoji": "✅"
   },
   {
    "order": 15,
@@ -241,7 +271,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-a502c437b8766dfd",
+   "emoji": "✍️"
   },
   {
    "order": 16,
@@ -254,8 +286,10 @@
    "method_note": null,
    "review_note": null,
    "source_note": null,
-   "spine": false,
-   "subordinate": true
+   "spine": true,
+   "subordinate": null,
+   "key": "1-8056d272cb31fdbc",
+   "emoji": "📜"
   }
  ]
 }
