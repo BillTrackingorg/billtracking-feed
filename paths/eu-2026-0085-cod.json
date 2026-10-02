@@ -5,7 +5,7 @@
  "year": "2026",
  "number": "0085",
  "ptype": "COD",
- "built_at": "2026-10-01T19:36:37+00:00",
+ "built_at": "2026-10-02T01:17:34+00:00",
  "source": "oeil-key-events",
  "source_count": 8,
  "holds_full_record": true,
@@ -25,7 +25,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-887f8eeaa3f72eaa",
+   "emoji": "📋"
   },
   {
    "order": 1,
@@ -39,7 +41,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-47f01f0592c6fb34",
+   "emoji": null
   },
   {
    "order": 2,
@@ -55,7 +59,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-36fe552c51ea6dfe",
+   "emoji": null
   },
   {
    "order": 3,
@@ -68,8 +74,10 @@
    "method_note": null,
    "review_note": null,
    "source_note": null,
-   "spine": false,
-   "subordinate": true
+   "spine": true,
+   "subordinate": null,
+   "key": "1-accf47e93ff49b23",
+   "emoji": "🗳️"
   },
   {
    "order": 4,
@@ -83,7 +91,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-4f2701be5b240a5e",
+   "emoji": null
   },
   {
    "order": 5,
@@ -97,7 +107,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-0140c0080eca4806",
+   "emoji": null
   },
   {
    "order": 6,
@@ -111,7 +123,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-b7ca162abb0b87da",
+   "emoji": null
   },
   {
    "order": 7,
@@ -125,7 +139,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-c6a46aa63b233cda",
+   "emoji": null
   },
   {
    "order": 8,
@@ -138,27 +154,13 @@
    "method_note": null,
    "review_note": null,
    "source_note": null,
-   "spine": false,
-   "subordinate": true
+   "spine": true,
+   "subordinate": null,
+   "key": "1-e7994cdafc107278",
+   "emoji": "↩️"
   },
   {
    "order": 9,
-   "date": "2026-09-16",
-   "text": "Deliberations in Coreper",
-   "doc": null,
-   "code": "DELIB_COREPER_byCONSIL",
-   "src": "cellar",
-   "family": null,
-   "label": null,
-   "tally": null,
-   "method_note": null,
-   "review_note": null,
-   "source_note": null,
-   "spine": false,
-   "subordinate": null
-  },
-  {
-   "order": 10,
    "date": "2026-09-16",
    "text": "Adoption of negotiating mandate by Coreper",
    "doc": null,
@@ -171,7 +173,27 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-c09a55f2b2ecd587",
+   "emoji": null
+  },
+  {
+   "order": 10,
+   "date": "2026-09-16",
+   "text": "Deliberations in Coreper",
+   "doc": null,
+   "code": "DELIB_COREPER_byCONSIL",
+   "src": "cellar",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": false,
+   "subordinate": null,
+   "key": "1-075df9b56eed978b",
+   "emoji": null
   },
   {
    "order": 11,
@@ -187,7 +209,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-084d62cb81093cef",
+   "emoji": null
   }
  ]
 }

@@ -5,7 +5,7 @@
  "year": "2026",
  "number": "0211",
  "ptype": "COD",
- "built_at": "2026-10-01T06:09:12+00:00",
+ "built_at": "2026-10-02T01:18:15+00:00",
  "source": "oeil-key-events",
  "source_count": 3,
  "holds_full_record": true,
@@ -24,8 +24,10 @@
    "method_note": null,
    "review_note": null,
    "source_note": null,
-   "spine": false,
-   "subordinate": true
+   "spine": true,
+   "subordinate": null,
+   "key": "1-0a42c4170a8a10c4",
+   "emoji": "📋"
   },
   {
    "order": 1,
@@ -41,7 +43,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-e5ac5114b238a8c1",
+   "emoji": null
   },
   {
    "order": 2,
@@ -55,7 +59,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-d2f9abad4dbea0e7",
+   "emoji": null
   },
   {
    "order": 3,
@@ -71,7 +77,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-6c506a1d4db2ac77",
+   "emoji": null
   },
   {
    "order": 4,
@@ -85,7 +93,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-6beafa31c21b67b4",
+   "emoji": null
   },
   {
    "order": 5,
@@ -101,7 +111,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-843e210f6156ccb7",
+   "emoji": null
   }
  ]
 }

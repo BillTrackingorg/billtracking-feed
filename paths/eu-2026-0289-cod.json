@@ -5,7 +5,7 @@
  "year": "2026",
  "number": "0289",
  "ptype": "COD",
- "built_at": "2026-10-01T23:56:07+00:00",
+ "built_at": "2026-10-02T01:18:44+00:00",
  "source": "oeil-key-events",
  "source_count": 1,
  "holds_full_record": true,
@@ -24,8 +24,10 @@
    "method_note": null,
    "review_note": null,
    "source_note": null,
-   "spine": false,
-   "subordinate": true
+   "spine": true,
+   "subordinate": null,
+   "key": "1-13ecfb2583a93615",
+   "emoji": "📋"
   }
  ]
 }

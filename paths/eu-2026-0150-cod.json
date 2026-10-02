@@ -5,7 +5,7 @@
  "year": "2026",
  "number": "0150",
  "ptype": "COD",
- "built_at": "2026-10-01T13:32:12+00:00",
+ "built_at": "2026-10-02T01:17:44+00:00",
  "source": "oeil-key-events",
  "source_count": 8,
  "holds_full_record": false,
@@ -25,7 +25,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-c4215ca4fcd2d230",
+   "emoji": "📋"
   },
   {
    "order": 1,
@@ -39,7 +41,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-f4ce2b2de55532b5",
+   "emoji": null
   },
   {
    "order": 2,
@@ -53,7 +57,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-d92f382cf9cb1e33",
+   "emoji": null
   },
   {
    "order": 3,
@@ -62,14 +68,16 @@
    "doc": null,
    "code": "ENDORSE_AGRPROV_SPCO_byCONSIL",
    "src": "cellar",
-   "family": null,
-   "label": null,
+   "family": "provisional_agreement",
+   "label": "Endorsement of the provisional agreement by the Special Committee on Agriculture",
    "tally": null,
    "method_note": null,
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-f998fc762466b09f",
+   "emoji": "🤝"
   },
   {
    "order": 4,
@@ -83,7 +91,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-57f7397616f991e1",
+   "emoji": "🗳️"
   },
   {
    "order": 5,
@@ -97,7 +107,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-97ab5de06c3a79cc",
+   "emoji": "✅"
   },
   {
    "order": 6,
@@ -111,7 +123,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-77d68cccec26fc13",
+   "emoji": "✍️"
   },
   {
    "order": 7,
@@ -127,7 +141,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-a9dcf9f4dc9be612",
+   "emoji": null
   },
   {
    "order": 8,
@@ -140,8 +156,10 @@
    "method_note": null,
    "review_note": null,
    "source_note": null,
-   "spine": false,
-   "subordinate": true
+   "spine": true,
+   "subordinate": null,
+   "key": "1-5c925db1e627b3a4",
+   "emoji": "📜"
   }
  ]
 }

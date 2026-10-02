@@ -5,7 +5,7 @@
  "year": "2026",
  "number": "0261",
  "ptype": "CNS",
- "built_at": "2026-10-01T23:55:31+00:00",
+ "built_at": "2026-10-02T01:18:36+00:00",
  "source": "oeil-key-events",
  "source_count": 1,
  "holds_full_record": true,
@@ -25,7 +25,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-42047b46899228b1",
+   "emoji": null
   }
  ]
 }
