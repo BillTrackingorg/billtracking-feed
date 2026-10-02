@@ -5,7 +5,7 @@
  "year": "2023",
  "number": "0131",
  "ptype": "COD",
- "built_at": "2026-10-02T08:41:06+00:00",
+ "built_at": "2026-10-02T12:04:22+00:00",
  "source": "oeil-key-events",
  "source_count": 13,
  "holds_full_record": true,
@@ -688,7 +688,7 @@
    "method_note": null,
    "review_note": null,
    "source_note": null,
-   "spine": false,
+   "spine": true,
    "subordinate": null,
    "key": "1-d0f7f2175eb2dfc9",
    "emoji": "🤝"

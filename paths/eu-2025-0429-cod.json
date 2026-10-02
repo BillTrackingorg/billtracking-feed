@@ -5,7 +5,7 @@
  "year": "2025",
  "number": "0429",
  "ptype": "COD",
- "built_at": "2026-10-02T01:16:17+00:00",
+ "built_at": "2026-10-02T12:05:40+00:00",
  "source": "oeil-key-events",
  "source_count": 16,
  "holds_full_record": true,
@@ -246,7 +246,7 @@
    "method_note": null,
    "review_note": null,
    "source_note": null,
-   "spine": false,
+   "spine": true,
    "subordinate": null,
    "key": "1-97c6a8b75963b192",
    "emoji": "🤝"

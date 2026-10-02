@@ -5,7 +5,7 @@
  "year": "2016",
  "number": "0397",
  "ptype": "COD",
- "built_at": "2026-10-02T08:40:48+00:00",
+ "built_at": "2026-10-02T12:04:09+00:00",
  "source": "oeil-key-events",
  "source_count": 19,
  "holds_full_record": true,
@@ -222,7 +222,7 @@
    "method_note": null,
    "review_note": null,
    "source_note": null,
-   "spine": false,
+   "spine": true,
    "subordinate": null,
    "key": "1-9d0750023260a6a1",
    "emoji": "🤝"
@@ -240,7 +240,7 @@
    "method_note": null,
    "review_note": null,
    "source_note": null,
-   "spine": false,
+   "spine": true,
    "subordinate": null,
    "key": "1-3d2ea024d92ec93c",
    "emoji": "🤝"
@@ -306,7 +306,7 @@
    "method_note": null,
    "review_note": null,
    "source_note": null,
-   "spine": false,
+   "spine": true,
    "subordinate": null,
    "key": "1-36ee84dc25c22648",
    "emoji": "🤝"
@@ -430,7 +430,7 @@
    "method_note": null,
    "review_note": null,
    "source_note": null,
-   "spine": false,
+   "spine": true,
    "subordinate": null,
    "key": "1-b1cbcdd94de695bc",
    "emoji": "🤝"
