@@ -5,7 +5,7 @@
  "year": "2025",
  "number": "0358",
  "ptype": "COD",
- "built_at": "2026-10-01T23:55:41+00:00",
+ "built_at": "2026-10-02T01:14:46+00:00",
  "source": "oeil-key-events",
  "source_count": 5,
  "holds_full_record": true,
@@ -25,7 +25,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-fe183a0b05d44680",
+   "emoji": "📋"
   },
   {
    "order": 1,
@@ -41,7 +43,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-09e994a3e4d19ed3",
+   "emoji": null
   },
   {
    "order": 2,
@@ -57,7 +61,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-58132ea31755ab10",
+   "emoji": null
   },
   {
    "order": 3,
@@ -73,7 +79,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-be206096d05fd5f6",
+   "emoji": null
   },
   {
    "order": 4,
@@ -89,7 +97,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-2d689b7b05991a0c",
+   "emoji": null
   },
   {
    "order": 5,
@@ -103,7 +113,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-d4237283a8915b91",
+   "emoji": null
   },
   {
    "order": 6,
@@ -119,7 +131,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-5559039fce527f66",
+   "emoji": null
   },
   {
    "order": 7,
@@ -135,7 +149,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-e4b1c29a683665e9",
+   "emoji": null
   },
   {
    "order": 8,
@@ -151,7 +167,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-cbe58261dc886de7",
+   "emoji": null
   },
   {
    "order": 9,
@@ -164,8 +182,10 @@
    "method_note": null,
    "review_note": null,
    "source_note": null,
-   "spine": false,
-   "subordinate": true
+   "spine": true,
+   "subordinate": null,
+   "key": "1-368585ebf0d3ae49",
+   "emoji": "🗳️"
   },
   {
    "order": 10,
@@ -178,8 +198,10 @@
    "method_note": null,
    "review_note": null,
    "source_note": null,
-   "spine": false,
-   "subordinate": true
+   "spine": true,
+   "subordinate": null,
+   "key": "1-c35fbabd45b2ae47",
+   "emoji": "🧭"
   },
   {
    "order": 11,
@@ -193,7 +215,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-fb9d0ec12fb2211d",
+   "emoji": null
   }
  ]
 }

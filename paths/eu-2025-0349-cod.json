@@ -5,7 +5,7 @@
  "year": "2025",
  "number": "0349",
  "ptype": "COD",
- "built_at": "2026-10-01T23:55:48+00:00",
+ "built_at": "2026-10-02T01:14:37+00:00",
  "source": "oeil-key-events",
  "source_count": 8,
  "holds_full_record": true,
@@ -25,7 +25,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-175e2dedd1480dba",
+   "emoji": "📋"
   },
   {
    "order": 1,
@@ -39,7 +41,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-a450711a5335c5af",
+   "emoji": null
   },
   {
    "order": 2,
@@ -55,7 +59,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-5e6adb50305ad1ff",
+   "emoji": null
   },
   {
    "order": 3,
@@ -69,7 +75,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-95674b1949668c91",
+   "emoji": "🗳️"
   },
   {
    "order": 4,
@@ -77,13 +85,15 @@
    "text": "Committee decision to open interinstitutional negotiations with report adopted in committee",
    "doc": null,
    "family": "mandate",
-   "label": null,
+   "label": "Committee decision to open interinstitutional negotiations with report adopted in committee",
    "tally": null,
    "method_note": null,
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-5d28736f65936981",
+   "emoji": "🧭"
   },
   {
    "order": 5,
@@ -97,7 +107,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-a5dbc74939c184f1",
+   "emoji": null
   },
   {
    "order": 6,
@@ -105,13 +117,15 @@
    "text": "Committee decision to enter into interinstitutional negotiations announced in plenary (Rule 72)",
    "doc": null,
    "family": "mandate",
-   "label": null,
+   "label": "Committee decision to enter into interinstitutional negotiations announced in plenary (Rule 72)",
    "tally": null,
    "method_note": null,
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-dd237dfaf88a7f6a",
+   "emoji": "🧭"
   },
   {
    "order": 7,
@@ -119,13 +133,15 @@
    "text": "Committee decision to enter into interinstitutional negotiations confirmed by plenary (Rule 72)",
    "doc": null,
    "family": "mandate",
-   "label": null,
+   "label": "Committee decision to enter into interinstitutional negotiations confirmed by plenary (Rule 72)",
    "tally": null,
    "method_note": null,
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-22d2a00bc5b14d0e",
+   "emoji": "🧭"
   },
   {
    "order": 8,
@@ -141,7 +157,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-8ffa659d54482451",
+   "emoji": null
   },
   {
    "order": 9,
@@ -157,7 +175,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-4957c8b4be0a4a13",
+   "emoji": null
   },
   {
    "order": 10,
@@ -173,7 +193,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-53d62a4adcbc81b8",
+   "emoji": null
   },
   {
    "order": 11,
@@ -189,7 +211,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-cc45c0ed0464fd2b",
+   "emoji": null
   },
   {
    "order": 12,
@@ -198,14 +222,16 @@
    "doc": null,
    "code": "ENDORSE_AGRPROV_COREPER_byCONSIL",
    "src": "cellar",
-   "family": null,
-   "label": null,
+   "family": "provisional_agreement",
+   "label": "Endorsement of the provisional agreement by Coreper",
    "tally": null,
    "method_note": null,
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-0ae96df75b3d2436",
+   "emoji": "🤝"
   },
   {
    "order": 13,
@@ -218,8 +244,10 @@
    "method_note": null,
    "review_note": null,
    "source_note": null,
-   "spine": false,
-   "subordinate": true
+   "spine": true,
+   "subordinate": null,
+   "key": "1-72c5f6f4c488b52f",
+   "emoji": "🤝"
   }
  ]
 }

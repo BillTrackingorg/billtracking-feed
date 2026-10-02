@@ -5,7 +5,7 @@
  "year": "2025",
  "number": "0418",
  "ptype": "COD",
- "built_at": "2026-10-01T19:36:46+00:00",
+ "built_at": "2026-10-02T01:16:03+00:00",
  "source": "oeil-key-events",
  "source_count": 8,
  "holds_full_record": true,
@@ -25,7 +25,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-295f6a6a8ab475a9",
+   "emoji": "📋"
   },
   {
    "order": 1,
@@ -39,7 +41,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-0fa482dcbab63541",
+   "emoji": null
   },
   {
    "order": 2,
@@ -55,7 +59,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-4172eb8f256cae95",
+   "emoji": null
   },
   {
    "order": 3,
@@ -71,7 +77,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-f06bfa31093d635b",
+   "emoji": null
   },
   {
    "order": 4,
@@ -87,7 +95,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-f5dd9d2612fd3576",
+   "emoji": null
   },
   {
    "order": 5,
@@ -101,7 +111,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-3b658e64aaa92512",
+   "emoji": "🗳️"
   },
   {
    "order": 6,
@@ -115,7 +127,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-56445515a29b32aa",
+   "emoji": null
   },
   {
    "order": 7,
@@ -129,7 +143,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-57020fbeda5ef3cd",
+   "emoji": null
   },
   {
    "order": 8,
@@ -143,7 +159,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-3ebdbe9a577bb560",
+   "emoji": null
   },
   {
    "order": 9,
@@ -157,7 +175,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-cd54f980a8f845fe",
+   "emoji": null
   },
   {
    "order": 10,
@@ -170,8 +190,10 @@
    "method_note": null,
    "review_note": null,
    "source_note": null,
-   "spine": false,
-   "subordinate": true
+   "spine": true,
+   "subordinate": null,
+   "key": "1-a8a12754fac620ab",
+   "emoji": "↩️"
   }
  ]
 }

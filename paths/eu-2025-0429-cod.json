@@ -5,7 +5,7 @@
  "year": "2025",
  "number": "0429",
  "ptype": "COD",
- "built_at": "2026-10-01T06:10:30+00:00",
+ "built_at": "2026-10-02T01:16:17+00:00",
  "source": "oeil-key-events",
  "source_count": 16,
  "holds_full_record": true,
@@ -25,7 +25,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-3e31e1988be73a55",
+   "emoji": "📋"
   },
   {
    "order": 1,
@@ -41,7 +43,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-933a017719f4e6ff",
+   "emoji": null
   },
   {
    "order": 2,
@@ -55,7 +59,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-3de4272b5c35bcff",
+   "emoji": null
   },
   {
    "order": 3,
@@ -71,7 +77,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-c4a605eb46729424",
+   "emoji": null
   },
   {
    "order": 4,
@@ -85,7 +93,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-60694d5efb209df6",
+   "emoji": "🗳️"
   },
   {
    "order": 5,
@@ -99,7 +109,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-72588247c40afa54",
+   "emoji": null
   },
   {
    "order": 6,
@@ -115,7 +127,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-6b9468b3ac45c1bb",
+   "emoji": null
   },
   {
    "order": 7,
@@ -129,7 +143,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-650ae844cb57a342",
+   "emoji": null
   },
   {
    "order": 8,
@@ -143,7 +159,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-352114622b9e2078",
+   "emoji": null
   },
   {
    "order": 9,
@@ -157,7 +175,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-b350cb126409a399",
+   "emoji": "↩️"
   },
   {
    "order": 10,
@@ -173,7 +193,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-2a23e13b514051a1",
+   "emoji": null
   },
   {
    "order": 11,
@@ -189,7 +211,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-784dd9ce93604b00",
+   "emoji": null
   },
   {
    "order": 12,
@@ -205,7 +229,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-54f351833d597b14",
+   "emoji": null
   },
   {
    "order": 13,
@@ -214,14 +240,16 @@
    "doc": null,
    "code": "ENDORSE_AGRPROV_COREPER_byCONSIL",
    "src": "cellar",
-   "family": null,
-   "label": null,
+   "family": "provisional_agreement",
+   "label": "Endorsement of the provisional agreement by Coreper",
    "tally": null,
    "method_note": null,
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-97c6a8b75963b192",
+   "emoji": "🤝"
   },
   {
    "order": 14,
@@ -235,7 +263,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-2191cbee1ef76492",
+   "emoji": "🗳️"
   },
   {
    "order": 15,
@@ -249,7 +279,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-1d5d65e482b784de",
+   "emoji": null
   },
   {
    "order": 16,
@@ -265,7 +297,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-d8d57189b4482e3d",
+   "emoji": null
   },
   {
    "order": 17,
@@ -281,7 +315,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-e1d05daed1f9f8ec",
+   "emoji": null
   },
   {
    "order": 18,
@@ -295,7 +331,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-cfc54f58a79fbe9d",
+   "emoji": null
   },
   {
    "order": 19,
@@ -309,7 +347,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-8e86df80d0ded4c4",
+   "emoji": "🧭"
   },
   {
    "order": 20,
@@ -323,7 +363,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-e999ead68dddad2b",
+   "emoji": null
   },
   {
    "order": 21,
@@ -337,7 +379,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-ee1117cd575215d1",
+   "emoji": "🗳️"
   },
   {
    "order": 22,
@@ -353,7 +397,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-202e09a57e7a0224",
+   "emoji": null
   },
   {
    "order": 23,
@@ -369,7 +415,9 @@
    "review_note": null,
    "source_note": null,
    "spine": false,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-36a6694b2de00bdc",
+   "emoji": null
   },
   {
    "order": 24,
@@ -383,7 +431,9 @@
    "review_note": null,
    "source_note": null,
    "spine": true,
-   "subordinate": null
+   "subordinate": null,
+   "key": "1-1976836a513bae38",
+   "emoji": null
   },
   {
    "order": 25,
@@ -396,8 +446,10 @@
    "method_note": null,
    "review_note": null,
    "source_note": null,
-   "spine": false,
-   "subordinate": true
+   "spine": true,
+   "subordinate": null,
+   "key": "1-ec7c8abe5b549994",
+   "emoji": "✍️"
   },
   {
    "order": 26,
@@ -410,8 +462,10 @@
    "method_note": null,
    "review_note": null,
    "source_note": null,
-   "spine": false,
-   "subordinate": true
+   "spine": true,
+   "subordinate": null,
+   "key": "1-bb60cb2c1900b2ae",
+   "emoji": "📜"
   }
  ]
 }
