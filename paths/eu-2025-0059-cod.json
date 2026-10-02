@@ -5,9 +5,9 @@
  "year": "2025",
  "number": "0059",
  "ptype": "COD",
- "built_at": "2026-10-02T01:12:00+00:00",
+ "built_at": "2026-10-02T08:41:39+00:00",
  "source": "oeil-key-events",
- "source_count": 12,
+ "source_count": 13,
  "holds_full_record": true,
  "overrides_applied": null,
  "texture_count": 26,
@@ -672,6 +672,22 @@
    "subordinate": null,
    "key": "1-a8ff8c29ab897aa3",
    "emoji": null
+  },
+  {
+   "order": 38,
+   "date": "2026-10-01",
+   "text": "Act adopted by Council after Parliament's 1st reading",
+   "doc": null,
+   "family": "council_adoption",
+   "label": "Adopted — Council gave the final green light",
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-63edc492e19ef4d2",
+   "emoji": "✅"
   }
  ]
 }
