@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "1703",
- "built_at": "2026-10-02T02:18:20+00:00",
+ "built_at": "2026-10-03T01:10:31+00:00",
  "source_count": 25,
  "holds_full_record": true,
  "entries": [
@@ -390,7 +390,7 @@
   {
    "order": 19,
    "date": "2026-09-30",
-   "text": "Passed Senate without amendment by Voice Vote.",
+   "text": "Passed Senate without amendment by Voice Vote. (consideration: CR S5299)",
    "core": "Passed Senate without amendment by Voice Vote",
    "code": null,
    "source": "Senate",

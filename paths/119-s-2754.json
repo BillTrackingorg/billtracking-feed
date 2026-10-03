@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "s",
  "billNumber": "2754",
- "built_at": "2026-10-02T09:43:33+00:00",
+ "built_at": "2026-10-03T01:11:22+00:00",
  "source_count": 9,
  "holds_full_record": true,
  "entries": [
@@ -150,7 +150,7 @@
   {
    "order": 7,
    "date": "2026-09-30",
-   "text": "Passed Senate with an amendment by Unanimous Consent.",
+   "text": "Passed Senate with an amendment by Unanimous Consent. (consideration: CR S5201-5203; text: CR S5202-5203)",
    "core": "Passed Senate with an amendment by Unanimous Consent",
    "code": null,
    "source": "Senate",
