@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "s",
  "billNumber": "1055",
- "built_at": "2026-10-02T09:43:57+00:00",
+ "built_at": "2026-10-03T06:35:28+00:00",
  "source_count": 9,
  "holds_full_record": true,
  "entries": [
@@ -150,7 +150,7 @@
   {
    "order": 7,
    "date": "2026-09-30",
-   "text": "Passed Senate without amendment by Unanimous Consent.",
+   "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S5298; text: CR S5298)",
    "core": "Passed Senate without amendment by Unanimous Consent",
    "code": null,
    "source": "Senate",

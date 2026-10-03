@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "2347",
- "built_at": "2026-10-02T16:16:25+00:00",
+ "built_at": "2026-10-03T06:35:50+00:00",
  "source_count": 19,
  "holds_full_record": true,
  "entries": [
@@ -310,7 +310,7 @@
   {
    "order": 15,
    "date": "2026-09-30",
-   "text": "Motion to proceed to consideration of measure made in Senate.",
+   "text": "Motion to proceed to consideration of measure made in Senate. (CR S5241)",
    "core": "Motion to proceed to consideration of measure made in Senate",
    "code": null,
    "source": "Senate",
@@ -330,7 +330,7 @@
   {
    "order": 16,
    "date": "2026-09-30",
-   "text": "Cloture motion on the motion to proceed to the measure presented in Senate.",
+   "text": "Cloture motion on the motion to proceed to the measure presented in Senate. (CR S5241)",
    "core": "Cloture motion on the motion to proceed to the measure presented in Senate",
    "code": null,
    "source": "Senate",
