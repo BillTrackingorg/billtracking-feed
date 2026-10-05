@@ -5,7 +5,7 @@
  "year": "2026",
  "number": "0261",
  "ptype": "CNS",
- "built_at": "2026-10-04T07:04:34+00:00",
+ "built_at": "2026-10-05T07:13:01+00:00",
  "source": "oeil-key-events",
  "source_count": 1,
  "holds_full_record": true,
@@ -16,18 +16,18 @@
   {
    "order": 0,
    "date": "2026-09-10",
-   "text": "Preparatory document",
+   "text": "Legislative proposal published",
    "doc": "COM(2026)0661",
-   "family": null,
-   "label": null,
+   "family": "proposed",
+   "label": "New legislative proposal",
    "tally": null,
    "method_note": null,
    "review_note": null,
    "source_note": null,
    "spine": true,
    "subordinate": null,
-   "key": "1-42047b46899228b1",
-   "emoji": null
+   "key": "1-06665d108f4e816a",
+   "emoji": "📋"
   }
  ]
 }
