@@ -3,12 +3,52 @@
  "congress": 119,
  "billType": "hres",
  "billNumber": "1505",
- "built_at": "2026-10-05T15:58:39+00:00",
- "source_count": 6,
+ "built_at": "2026-10-06T10:14:06+00:00",
+ "source_count": 8,
  "holds_full_record": true,
  "entries": [
   {
    "order": 0,
+   "date": "2026-06-10",
+   "text": "The committee report referred to in this resolution is H.Rept. 119-694.",
+   "core": "The committee report referred to in this resolution is H.Rept. 119-694",
+   "code": "H33000",
+   "source": "House committee actions",
+   "chamber": "House",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null,
+   "key": "1-26fa801e2e83e27f",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
+  },
+  {
+   "order": 1,
+   "date": "2026-06-10",
+   "text": "The committee favorably reported H.Rept. 119-694.",
+   "core": "The committee favorably reported H.Rept. 119-694",
+   "code": "H33000",
+   "source": "House committee actions",
+   "chamber": "House",
+   "family": "reported",
+   "label": "Reported by committee (House)",
+   "tally": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-f1706a67e4abe1f6",
+   "stands_in": null,
+   "qualified": "House",
+   "lead": true,
+   "emoji": "📋",
+   "vote": null
+  },
+  {
+   "order": 2,
    "date": "2026-09-01",
    "text": "Mr. Guest moved to suspend the rules and agree to the resolution.",
    "core": "Mr. Guest moved to suspend the rules and agree to the resolution",
@@ -28,7 +68,7 @@
    "vote": null
   },
   {
-   "order": 1,
+   "order": 3,
    "date": "2026-09-01",
    "text": "Considered under suspension of the rules. (consideration: CR H5394-5395)",
    "core": "Considered under suspension of the rules",
@@ -48,7 +88,7 @@
    "vote": null
   },
   {
-   "order": 2,
+   "order": 4,
    "date": "2026-09-01",
    "text": "DEBATE - The House proceeded with forty minutes of debate on H. Res. 1505.",
    "core": "DEBATE - The House proceeded with forty minutes of debate on H. Res. 1505",
@@ -68,7 +108,7 @@
    "vote": null
   },
   {
-   "order": 3,
+   "order": 5,
    "date": "2026-09-01",
    "text": "Passed/agreed to in House: On motion to suspend the rules and agree to the resolution Agreed to by voice vote. (text: CR H5394)",
    "core": "Passed/agreed to in House: On motion to suspend the rules and agree to the resolution Agreed to by voice vote",
@@ -88,7 +128,7 @@
    "vote": "(voice vote)"
   },
   {
-   "order": 4,
+   "order": 6,
    "date": "2026-09-01",
    "text": "On motion to suspend the rules and agree to the resolution Agreed to by voice vote. (text: CR H5394)",
    "core": "On motion to suspend the rules and agree to the resolution Agreed to by voice vote",
@@ -101,14 +141,14 @@
    "spine": false,
    "subordinate": true,
    "key": "1-ce4a1dfc1a36e723",
-   "stands_in": 3,
+   "stands_in": 5,
    "qualified": null,
    "lead": true,
    "emoji": "✅🏛️",
    "vote": "(voice vote)"
   },
   {
-   "order": 5,
+   "order": 7,
    "date": "2026-09-01",
    "text": "Motion to reconsider laid on the table Agreed to without objection.",
    "core": "Motion to reconsider laid on the table Agreed to without objection",
