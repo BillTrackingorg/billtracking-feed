@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "s",
  "billNumber": "5600",
- "built_at": "2026-10-06T10:13:07+00:00",
- "source_count": 5,
+ "built_at": "2026-10-07T01:31:31+00:00",
+ "source_count": 6,
  "holds_full_record": true,
  "entries": [
   {
@@ -70,6 +70,26 @@
   {
    "order": 3,
    "date": "2026-10-05",
+   "text": "Message on Senate action sent to the House.",
+   "core": "Message on Senate action sent to the House",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null,
+   "key": "1-14a3d412231a8a61",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
+  },
+  {
+   "order": 4,
+   "date": "2026-10-05",
    "text": "Received in the House.",
    "core": "Received in the House",
    "code": "H14000",
@@ -88,7 +108,7 @@
    "vote": null
   },
   {
-   "order": 4,
+   "order": 5,
    "date": "2026-10-05",
    "text": "Held at the desk.",
    "core": "Held at the desk",
