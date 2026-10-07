@@ -5,12 +5,12 @@
  "year": "2026",
  "number": "0210",
  "ptype": "COD",
- "built_at": "2026-10-06T10:34:33+00:00",
+ "built_at": "2026-10-07T16:48:16+00:00",
  "source": "oeil-key-events",
  "source_count": 2,
  "holds_full_record": true,
  "overrides_applied": null,
- "texture_count": 5,
+ "texture_count": 9,
  "texture_source": "cellar-authority-events",
  "entries": [
   {
@@ -31,6 +31,60 @@
   },
   {
    "order": 1,
+   "date": "2026-07-20",
+   "text": "Deliberations in Council working party",
+   "doc": null,
+   "code": "DELIB_WP_byCONSIL",
+   "src": "cellar",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": false,
+   "subordinate": null,
+   "key": "1-bcb0dbc2fc72d1e3",
+   "emoji": null
+  },
+  {
+   "order": 2,
+   "date": "2026-07-22",
+   "text": "Deliberations in Council working party",
+   "doc": null,
+   "code": "DELIB_WP_byCONSIL",
+   "src": "cellar",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": false,
+   "subordinate": null,
+   "key": "1-8a3ed40516a6189e",
+   "emoji": null
+  },
+  {
+   "order": 3,
+   "date": "2026-09-02",
+   "text": "Deliberations in Council working party",
+   "doc": null,
+   "code": "DELIB_WP_byCONSIL",
+   "src": "cellar",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": false,
+   "subordinate": null,
+   "key": "1-fbba3a8281d9c822",
+   "emoji": null
+  },
+  {
+   "order": 4,
    "date": "2026-09-04",
    "text": "Deliberations in Council working party",
    "doc": null,
@@ -48,7 +102,7 @@
    "emoji": null
   },
   {
-   "order": 2,
+   "order": 5,
    "date": "2026-09-07",
    "text": "Deliberations in Council working party",
    "doc": null,
@@ -66,7 +120,7 @@
    "emoji": null
   },
   {
-   "order": 3,
+   "order": 6,
    "date": "2026-09-17",
    "text": "Committee referral announced in Parliament, 1st reading",
    "doc": null,
@@ -82,7 +136,7 @@
    "emoji": null
   },
   {
-   "order": 4,
+   "order": 7,
    "date": "2026-09-17",
    "text": "Deliberations in Council working party",
    "doc": null,
@@ -100,7 +154,7 @@
    "emoji": null
   },
   {
-   "order": 5,
+   "order": 8,
    "date": "2026-09-18",
    "text": "Deliberations in Council working party",
    "doc": null,
@@ -118,7 +172,7 @@
    "emoji": null
   },
   {
-   "order": 6,
+   "order": 9,
    "date": "2026-09-23",
    "text": "Deliberations in Council working party",
    "doc": null,
@@ -133,6 +187,24 @@
    "spine": false,
    "subordinate": null,
    "key": "1-91b33334e30f3aff",
+   "emoji": null
+  },
+  {
+   "order": 10,
+   "date": "2026-09-30",
+   "text": "Deliberations in Coreper",
+   "doc": null,
+   "code": "DELIB_COREPER_byCONSIL",
+   "src": "cellar",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": false,
+   "subordinate": null,
+   "key": "1-af975ed4391d0b81",
    "emoji": null
   }
  ]
