@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "s",
  "billNumber": "766",
- "built_at": "2026-10-08T16:27:00+00:00",
- "source_count": 22,
+ "built_at": "2026-10-09T09:01:23+00:00",
+ "source_count": 23,
  "holds_full_record": true,
  "entries": [
   {
@@ -385,6 +385,26 @@
    "qualified": null,
    "lead": true,
    "emoji": "📜✍️",
+   "vote": null
+  },
+  {
+   "order": 19,
+   "date": "2026-10-07",
+   "text": "Became Public Law No: 119-120.",
+   "core": "Became Public Law No: 119-120",
+   "code": "E40000",
+   "source": "Library of Congress",
+   "chamber": null,
+   "family": "became_law",
+   "label": "Became Public Law",
+   "tally": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-7d4d1b2ef3080217",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
    "vote": null
   }
  ]
