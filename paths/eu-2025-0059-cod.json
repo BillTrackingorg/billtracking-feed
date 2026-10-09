@@ -5,9 +5,9 @@
  "year": "2025",
  "number": "0059",
  "ptype": "COD",
- "built_at": "2026-10-07T16:47:23+00:00",
+ "built_at": "2026-10-09T09:17:49+00:00",
  "source": "oeil-key-events",
- "source_count": 13,
+ "source_count": 14,
  "holds_full_record": true,
  "overrides_applied": null,
  "texture_count": 26,
@@ -688,6 +688,22 @@
    "subordinate": null,
    "key": "1-63edc492e19ef4d2",
    "emoji": "✅"
+  },
+  {
+   "order": 39,
+   "date": "2026-10-07",
+   "text": "Final act signed",
+   "doc": null,
+   "family": "signed",
+   "label": "Signed by the European Parliament and the Council",
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-3f2bcd4af3543771",
+   "emoji": "✍️"
   }
  ]
 }
