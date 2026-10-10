@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "s",
  "billNumber": "766",
- "built_at": "2026-10-09T09:01:23+00:00",
- "source_count": 23,
+ "built_at": "2026-10-10T00:47:27+00:00",
+ "source_count": 24,
  "holds_full_record": true,
  "entries": [
   {
@@ -392,7 +392,7 @@
    "date": "2026-10-07",
    "text": "Became Public Law No: 119-120.",
    "core": "Became Public Law No: 119-120",
-   "code": "E40000",
+   "code": "36000",
    "source": "Library of Congress",
    "chamber": null,
    "family": "became_law",
