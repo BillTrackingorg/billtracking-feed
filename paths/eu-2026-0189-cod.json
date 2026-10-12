@@ -5,9 +5,9 @@
  "year": "2026",
  "number": "0189",
  "ptype": "COD",
- "built_at": "2026-10-12T11:42:26+00:00",
+ "built_at": "2026-10-12T19:54:13+00:00",
  "source": "oeil-key-events",
- "source_count": 8,
+ "source_count": 9,
  "holds_full_record": true,
  "overrides_applied": null,
  "texture_count": 3,
@@ -194,6 +194,22 @@
    "subordinate": null,
    "key": "1-4371e556a0861aad",
    "emoji": "✍️"
+  },
+  {
+   "order": 11,
+   "date": "2026-10-09",
+   "text": "Final act published in Official Journal",
+   "doc": null,
+   "family": "oj_published",
+   "label": "Published in the Official Journal",
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-f688c7088de911fa",
+   "emoji": "📜"
   }
  ]
 }
