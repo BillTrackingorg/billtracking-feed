@@ -5,7 +5,7 @@
  "year": "2013",
  "number": "0072",
  "ptype": "COD",
- "built_at": "2026-10-11T02:04:25+00:00",
+ "built_at": "2026-10-12T00:42:44+00:00",
  "source": "oeil-key-events",
  "source_count": 31,
  "holds_full_record": true,
@@ -1004,8 +1004,8 @@
    "date": "2026-03-24",
    "text": "Parliament's amendments rejected by Council",
    "doc": null,
-   "family": null,
-   "label": null,
+   "family": "conciliation_convened",
+   "label": "Parliament's amendments rejected by Council",
    "tally": null,
    "method_note": null,
    "review_note": null,
@@ -1013,7 +1013,7 @@
    "spine": true,
    "subordinate": null,
    "key": "1-5be388228bb0e6de",
-   "emoji": null
+   "emoji": "⚖️"
   },
   {
    "order": 58,
@@ -1093,7 +1093,7 @@
    "text": "Formal meeting of Conciliation Committee",
    "doc": null,
    "family": "conciliation_convened",
-   "label": "Conciliation committee convened — last-chance talks",
+   "label": "Formal meeting of Conciliation Committee",
    "tally": null,
    "method_note": null,
    "review_note": null,
