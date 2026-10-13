@@ -41,6 +41,16 @@ Note it carries `family`, never `bucket`: the bucket is derived app-side from
 decision D9, because that mapping drives notifications and belongs with the
 product, not the transport.
 
+## The one workflow here
+
+`.github/workflows/render-site.yml` runs on every push to `main`: it waits until
+GitHub Pages serves the push, then asks the website repo to render its `/p/` and
+`/b/` pages, so a page follows its post by minutes instead of waiting for a cron
+GitHub mostly drops (added 2026-10-14, app OPEN-ITEMS OI-0305). It holds one
+secret, `SITE_RENDER_TOKEN`, which can only start or cancel workflow runs on the
+website repo — it cannot write there, or here. Its failure posture is in the
+file's header.
+
 ## This is published data, not a database
 
 Everything here has already been posted publicly on X. Nothing about a reader
