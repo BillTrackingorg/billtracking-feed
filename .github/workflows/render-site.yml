@@ -1,0 +1,134 @@
+# Ask the website to render its pages as soon as a publish lands here.
+#
+# WHAT THIS IS. The bots publish the record into this repository (the month
+# files at the root, the per-bill path artifacts under paths/), and GitHub
+# Pages serves those bytes to the app, to the website's feed pages and to the
+# website's page renderer. That renderer lives in the site repository
+# (BillTrackingorg/billtracking-site, .github/workflows/permalinks.yml): it
+# draws /p/<id> and /b/<polity>/<slug> from what Pages serves. It used to run
+# on a 15-minute cron alone, and GitHub drops most of a cron's slots (measured
+# 13 Oct 2026: three scheduled renders in sixteen hours), so a fresh post sat
+# on the website's read-only fallback page for hours. This workflow makes page
+# generation FOLLOW publishing: every push here waits until Pages serves it,
+# then asks the site to render. The site's cron stays, as the backstop.
+#
+# WHAT IT HOLDS. One secret, SITE_RENDER_TOKEN: a fine-grained token on the
+# BillTrackingorg account with ONE permission on ONE repository, Actions:
+# write on billtracking-site, which is exactly what starting a workflow run
+# there needs, and nothing more. It cannot change a file, a post, a page or a
+# bot anywhere; the worst a leaked copy can do is start or cancel renders of
+# public data. (The bots' FEED_TOKEN, which writes here, is a different token
+# with a different scope; neither can do the other's job.)
+#
+# FAILURE POSTURE (the app's loudness doctrine). No token set: the run says so
+# and stays green, the cron still renders later. A request GitHub refuses
+# because the token is dead or mis-scoped (401, 403, 404, 422): the run goes
+# RED, because that never heals by itself, only the owner can rotate the
+# token, and a red run reaches the drilled failure-mail channel (the bots'
+# FEED_TOKEN precedent). A transient failure (5xx, a network error): three
+# tries, then a warning on a green run; the cron is the backstop. Pages taking
+# longer than this job waits: the request goes out anyway with a warning; the
+# render reads whatever Pages serves, and the next publish or the cron catches
+# the rest. Nothing here can fail silently.
+name: render-site
+
+on:
+  push:
+    branches: [main]
+
+# Nothing from the built-in token: this job reads public URLs and uses the one
+# secret above. Each bot pushes one commit at a time; a second push while this
+# job is still waiting simply queues behind it (no cancel: every run asks for a
+# full render, so the order does not matter, and the site serialises its
+# renders in its own concurrency group).
+permissions: {}
+
+concurrency:
+  group: render-site
+  cancel-in-progress: false
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0  # v7.0.0 (the bots' pin)
+        with:
+          fetch-depth: 0   # the diff below needs the parent of a multi-commit push
+
+      # Pages deploys this repository about half a minute after a push, and
+      # until it has, the renderer would read the previous bytes and miss the
+      # very post this push carried. So: the files this push changed, as the
+      # renderer will fetch them, compared byte for byte with what Pages
+      # serves, until they match, for up to five minutes. A file this push
+      # deleted counts as served once Pages answers 404 for it.
+      - name: Wait until GitHub Pages serves this push
+        env:
+          FEED: https://billtrackingorg.github.io/billtracking-feed
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+          if [ -n "$BEFORE" ] && git cat-file -e "${BEFORE}^{commit}" 2>/dev/null; then
+            changed=$(git diff --name-only "$BEFORE" "$AFTER" -- '*.jsonl' 'paths/*.json')
+          else
+            # A first push, a force push or a parent this clone cannot see:
+            # compare everything the renderer reads.
+            changed=$(git ls-files -- '*.jsonl' 'paths/*.json')
+          fi
+          if [ -z "$changed" ]; then
+            echo "this push changed nothing the renderer reads; asking for the render anyway"
+            exit 0
+          fi
+          echo "files to see on Pages:"; printf '  %s\n' $changed
+          for try in $(seq 1 30); do
+            pending=0
+            for f in $changed; do
+              if [ -f "$f" ]; then
+                want=$(sha256sum "$f" | cut -c1-64)
+                got=$(curl -sS --max-time 30 "$FEED/$f" 2>/dev/null | sha256sum | cut -c1-64) || got=""
+                [ "$want" = "$got" ] || pending=$((pending+1))
+              else
+                code=$(curl -sS -o /dev/null -w '%{http_code}' --max-time 30 "$FEED/$f" 2>/dev/null || echo 000)
+                [ "$code" = "404" ] || pending=$((pending+1))
+              fi
+            done
+            if [ "$pending" -eq 0 ]; then echo "Pages serves this push (try $try)"; exit 0; fi
+            echo "waiting for Pages: $pending file(s) still differ (try $try of 30)"
+            sleep 10
+          done
+          echo "::warning::GitHub Pages did not serve this push within five minutes; asking for the render anyway. The render reads what Pages serves now; the next publish or the site's backstop cron catches what it misses."
+
+      - name: Ask the site to render
+        env:
+          GH_TOKEN: ${{ secrets.SITE_RENDER_TOKEN }}
+        run: |
+          set -uo pipefail
+          if [ -z "${GH_TOKEN:-}" ]; then
+            echo "::warning::SITE_RENDER_TOKEN is not set, so no render was asked for; the site's backstop cron will render later"
+            exit 0
+          fi
+          for attempt in 1 2 3; do
+            code=$(curl -sS -o /tmp/resp -w '%{http_code}' --max-time 30 -X POST \
+              -H "Accept: application/vnd.github+json" \
+              -H "Authorization: Bearer ${GH_TOKEN}" \
+              -H "X-GitHub-Api-Version: 2022-11-28" \
+              "https://api.github.com/repos/BillTrackingorg/billtracking-site/actions/workflows/permalinks.yml/dispatches" \
+              -d '{"ref":"main"}' 2>/dev/null || echo 000)
+            case "$code" in
+              204)
+                echo "render asked for after push ${GITHUB_SHA:0:9}"
+                echo "render asked for after push ${GITHUB_SHA:0:9}" >> "$GITHUB_STEP_SUMMARY"
+                exit 0;;
+              401|403|404|422)
+                echo "::error::the site refused the render request (HTTP $code): SITE_RENDER_TOKEN is expired, revoked or lacks Actions: write on billtracking-site. Rotate it. This run is RED on purpose; it never heals by itself."
+                cat /tmp/resp 2>/dev/null || true
+                exit 1;;
+              *)
+                echo "render request attempt $attempt returned HTTP $code"
+                cat /tmp/resp 2>/dev/null || true
+                sleep 15;;
+            esac
+          done
+          echo "::warning::could not ask for the render after three attempts (transient); the site's backstop cron will render later"
+          exit 0
