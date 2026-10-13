@@ -18,30 +18,34 @@
 # there needs, and nothing more. It cannot change a file, a post, a page or a
 # bot anywhere; the worst a leaked copy can do is start or cancel renders of
 # public data. (The bots' FEED_TOKEN, which writes here, is a different token
-# with a different scope; neither can do the other's job.)
+# with a different scope; neither can do the other's job.) The token does not
+# expire (owner, 13 Oct 2026); only a revocation ends it.
 #
-# FAILURE POSTURE (the app's loudness doctrine). No token set: the run says so
-# and stays green, the cron still renders later. A request GitHub refuses
-# because the token is dead or mis-scoped (401, 403, 404, 422): the run goes
-# RED, because that never heals by itself, only the owner can rotate the
-# token, and a red run reaches the drilled failure-mail channel (the bots'
-# FEED_TOKEN precedent). A transient failure (5xx, a network error): three
-# tries, then a warning on a green run; the cron is the backstop. Pages taking
-# longer than this job waits: the request goes out anyway with a warning; the
-# render reads whatever Pages serves, and the next publish or the cron catches
-# the rest. Nothing here can fail silently.
+# FAILURE POSTURE (the app's loudness doctrine). The secret missing, or a
+# request GitHub refuses because the token is dead or mis-scoped (401, 403 other
+# than a rate limit, 404, 422): the run goes RED, because that never heals by
+# itself, only the owner can put the token back, and a red run reaches the
+# drilled failure-mail channel (the bots' FEED_TOKEN precedent). A transient
+# failure (a rate limit, a 5xx, a network error): three tries, then a warning on
+# a green run; the cron is the backstop. Pages taking longer than this job
+# waits: the request goes out anyway with a warning; the render reads whatever
+# Pages serves, and the next publish or the cron catches the rest. Nothing here
+# can fail silently.
 name: render-site
 
 on:
   push:
     branches: [main]
 
-# Nothing from the built-in token: this job reads public URLs and uses the one
-# secret above. Each bot pushes one commit at a time; a second push while this
-# job is still waiting simply queues behind it (no cancel: every run asks for a
-# full render, so the order does not matter, and the site serialises its
-# renders in its own concurrency group).
-permissions: {}
+# The built-in token reads this public repository for the checkout and nothing
+# else; the request to the site uses the one secret above. Each bot pushes one
+# commit at a time; a push that arrives while this job is still waiting queues
+# behind it, and a third replaces the queued second (GitHub keeps one pending
+# run per group). No cancel of a running job: every run asks for a full render,
+# so the latest run's render covers whatever the replaced one carried, and the
+# site serialises its renders in its own concurrency group.
+permissions:
+  contents: read
 
 concurrency:
   group: render-site
@@ -60,8 +64,12 @@ jobs:
       # until it has, the renderer would read the previous bytes and miss the
       # very post this push carried. So: the files this push changed, as the
       # renderer will fetch them, compared byte for byte with what Pages
-      # serves, until they match, for up to five minutes. A file this push
-      # deleted counts as served once Pages answers 404 for it.
+      # serves, until they match, for up to five minutes of wall clock. A file
+      # this push deleted counts as served once Pages answers 404 for it.
+      # Known limit: the comparison is against THIS push's bytes, so a later
+      # push to the same file while this job waits makes the match impossible
+      # and the job waits the five minutes out, then asks anyway with a warning;
+      # the render reads the newer bytes, which is the right outcome.
       - name: Wait until GitHub Pages serves this push
         env:
           FEED: https://billtrackingorg.github.io/billtracking-feed
@@ -81,20 +89,23 @@ jobs:
             exit 0
           fi
           echo "files to see on Pages:"; printf '  %s\n' $changed
-          for try in $(seq 1 30); do
+          try=0
+          while [ "$SECONDS" -lt 300 ]; do
+            try=$((try+1))
             pending=0
             for f in $changed; do
               if [ -f "$f" ]; then
                 want=$(sha256sum "$f" | cut -c1-64)
-                got=$(curl -sS --max-time 30 "$FEED/$f" 2>/dev/null | sha256sum | cut -c1-64) || got=""
+                got=$(curl -sS --max-time 15 "$FEED/$f" 2>/dev/null | sha256sum | cut -c1-64) || got=""
                 [ "$want" = "$got" ] || pending=$((pending+1))
               else
-                code=$(curl -sS -o /dev/null -w '%{http_code}' --max-time 30 "$FEED/$f" 2>/dev/null || echo 000)
+                # curl prints 000 itself on a transport failure; `|| true` only keeps `set -e` quiet.
+                code=$(curl -sS -o /dev/null -w '%{http_code}' --max-time 15 "$FEED/$f" 2>/dev/null || true)
                 [ "$code" = "404" ] || pending=$((pending+1))
               fi
             done
-            if [ "$pending" -eq 0 ]; then echo "Pages serves this push (try $try)"; exit 0; fi
-            echo "waiting for Pages: $pending file(s) still differ (try $try of 30)"
+            if [ "$pending" -eq 0 ]; then echo "Pages serves this push (try $try, ${SECONDS}s)"; exit 0; fi
+            echo "waiting for Pages: $pending file(s) still differ (try $try, ${SECONDS}s)"
             sleep 10
           done
           echo "::warning::GitHub Pages did not serve this push within five minutes; asking for the render anyway. The render reads what Pages serves now; the next publish or the site's backstop cron catches what it misses."
@@ -105,23 +116,26 @@ jobs:
         run: |
           set -uo pipefail
           if [ -z "${GH_TOKEN:-}" ]; then
-            echo "::warning::SITE_RENDER_TOKEN is not set, so no render was asked for; the site's backstop cron will render later"
-            exit 0
+            echo "::error::SITE_RENDER_TOKEN is not set on this repository, so no render can be asked for. Put the secret back (a fine-grained token, Actions: write on billtracking-site). This run is RED on purpose; it never heals by itself. The site's cron still renders, late."
+            exit 1
           fi
           for attempt in 1 2 3; do
+            # curl prints 000 itself on a transport failure; `|| true` keeps the pipeline's status quiet.
             code=$(curl -sS -o /tmp/resp -w '%{http_code}' --max-time 30 -X POST \
               -H "Accept: application/vnd.github+json" \
               -H "Authorization: Bearer ${GH_TOKEN}" \
               -H "X-GitHub-Api-Version: 2022-11-28" \
               "https://api.github.com/repos/BillTrackingorg/billtracking-site/actions/workflows/permalinks.yml/dispatches" \
-              -d '{"ref":"main"}' 2>/dev/null || echo 000)
+              -d '{"ref":"main"}' 2>/dev/null || true)
+            # A 403 can also be GitHub's secondary rate limit, which is transient and says so.
+            if [ "$code" = "403" ] && grep -qi 'rate limit' /tmp/resp 2>/dev/null; then code=429; fi
             case "$code" in
               204)
                 echo "render asked for after push ${GITHUB_SHA:0:9}"
                 echo "render asked for after push ${GITHUB_SHA:0:9}" >> "$GITHUB_STEP_SUMMARY"
                 exit 0;;
               401|403|404|422)
-                echo "::error::the site refused the render request (HTTP $code): SITE_RENDER_TOKEN is expired, revoked or lacks Actions: write on billtracking-site. Rotate it. This run is RED on purpose; it never heals by itself."
+                echo "::error::the site refused the render request (HTTP $code): SITE_RENDER_TOKEN is revoked, replaced or lacks Actions: write on billtracking-site. Put a working token back. This run is RED on purpose; it never heals by itself."
                 cat /tmp/resp 2>/dev/null || true
                 exit 1;;
               *)
