@@ -14,8 +14,13 @@ That is the entire reason this is not part of the website repo.
 ## Layout
 
 ```
-YYYY-MM.jsonl     one file per month, append-only, one JSON object per line
-paths/<ref>.json  per-bill path artifacts (US first, EU to follow)
+us-YYYY-MM.jsonl     one file per bot per month, append-only, one JSON object per line
+eu-YYYY-MM.jsonl     (prefixed by bot since July 2026, so neither bot can overwrite the other's)
+us-overrides.jsonl   each bot's public corrections sheet (app docs/CORRECTIONS.md)
+eu-overrides.jsonl
+paths/<ref>.json     per-bill path artifacts, both bots (US since 19 July 2026, EU since 23 July 2026)
+2026-07.jsonl        the first July file from before the prefix, and overrides.jsonl, empty: both
+overrides.jsonl      legacy, read by nothing, kept because nothing published ever leaves
 ```
 
 Monthly sharding is deliberate: the app fetches the current month (~180 KB at
@@ -53,7 +58,8 @@ file's header.
 
 ## This is published data, not a database
 
-Everything here has already been posted publicly on X. Nothing about a reader
+Everything here is the bots' public record of what the legislatures did; X carries a
+paced selection of it (app DECISIONS D37). Nothing about a reader
 appears in this repo — no accounts, no votes, no identifiers, no analytics.
 It is a one-way archive of what the bots said.
 
