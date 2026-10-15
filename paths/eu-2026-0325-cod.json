@@ -1,0 +1,49 @@
+{
+ "v": 1,
+ "polity": "eu",
+ "reference": "2026/0325(COD)",
+ "year": "2026",
+ "number": "0325",
+ "ptype": "COD",
+ "built_at": "2026-10-15T20:24:02+00:00",
+ "source": "oeil-key-events",
+ "source_count": 2,
+ "holds_full_record": true,
+ "overrides_applied": null,
+ "texture_count": null,
+ "texture_source": null,
+ "entries": [
+  {
+   "order": 0,
+   "date": "2026-10-14",
+   "text": "Legislative proposal published",
+   "doc": "COM(2026)0569",
+   "family": "proposed",
+   "label": "New legislative proposal",
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-d8ba458339e49f02",
+   "emoji": "📋"
+  },
+  {
+   "order": 1,
+   "date": "2026-10-15",
+   "text": "Urgent procedure requested by a political group",
+   "doc": null,
+   "family": null,
+   "label": null,
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-bcb30b83ce13c45b",
+   "emoji": null
+  }
+ ]
+}
