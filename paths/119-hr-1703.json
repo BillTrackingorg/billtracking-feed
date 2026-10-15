@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "1703",
- "built_at": "2026-10-14T22:23:39+00:00",
- "source_count": 25,
+ "built_at": "2026-10-15T13:23:23+00:00",
+ "source_count": 26,
  "holds_full_record": true,
  "entries": [
   {
@@ -406,6 +406,26 @@
    "lead": true,
    "emoji": "✅🏛️",
    "vote": "(voice vote)"
+  },
+  {
+   "order": 20,
+   "date": "2026-10-14",
+   "text": "Message on Senate action sent to the House.",
+   "core": "Message on Senate action sent to the House",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null,
+   "key": "1-530f89619d906d60",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   }
  ]
 }
