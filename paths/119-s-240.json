@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "s",
  "billNumber": "240",
- "built_at": "2026-10-16T14:08:29+00:00",
- "source_count": 23,
+ "built_at": "2026-10-16T17:23:06+00:00",
+ "source_count": 27,
  "holds_full_record": true,
  "entries": [
   {
@@ -425,6 +425,46 @@
    "qualified": null,
    "lead": true,
    "emoji": "📌",
+   "vote": null
+  },
+  {
+   "order": 21,
+   "date": "2026-10-15",
+   "text": "Signed by President.",
+   "core": "Signed by President",
+   "code": "36000",
+   "source": "Library of Congress",
+   "chamber": null,
+   "family": "signed",
+   "label": "Signed by Pres. Trump",
+   "tally": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-ed2e4e6df58baa13",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "📜✍️",
+   "vote": null
+  },
+  {
+   "order": 22,
+   "date": "2026-10-15",
+   "text": "Became Public Law No: 119-122.",
+   "core": "Became Public Law No: 119-122",
+   "code": "36000",
+   "source": "Library of Congress",
+   "chamber": null,
+   "family": "became_law",
+   "label": "Became Public Law",
+   "tally": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-3023b12a39432f0e",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
    "vote": null
   }
  ]
