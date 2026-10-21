@@ -5,12 +5,12 @@
  "year": "2023",
  "number": "0131",
  "ptype": "COD",
- "built_at": "2026-10-10T18:46:11+00:00",
+ "built_at": "2026-10-21T23:25:51+00:00",
  "source": "oeil-key-events",
  "source_count": 14,
  "holds_full_record": true,
  "overrides_applied": null,
- "texture_count": 28,
+ "texture_count": 26,
  "texture_source": "cellar-authority-events",
  "entries": [
   {
@@ -375,24 +375,6 @@
   },
   {
    "order": 21,
-   "date": "2025-05-14",
-   "text": "Adoption of negotiating mandate by Coreper",
-   "doc": null,
-   "code": "ADP_MAND_NGT_INST_COREPER_byCONSIL",
-   "src": "cellar",
-   "family": null,
-   "label": null,
-   "tally": null,
-   "method_note": null,
-   "review_note": null,
-   "source_note": null,
-   "spine": false,
-   "subordinate": null,
-   "key": "1-8cd31aa147c02a66",
-   "emoji": null
-  },
-  {
-   "order": 22,
    "date": "2025-05-21",
    "text": "Adoption of negotiating mandate by Coreper",
    "doc": null,
@@ -410,7 +392,7 @@
    "emoji": null
   },
   {
-   "order": 23,
+   "order": 22,
    "date": "2025-06-03",
    "text": "Committee decision to open interinstitutional negotiations after 1st reading in Parliament",
    "doc": null,
@@ -426,7 +408,7 @@
    "emoji": "🧭"
   },
   {
-   "order": 24,
+   "order": 23,
    "date": "2025-06-04",
    "text": "Adoption of negotiating mandate by Coreper",
    "doc": null,
@@ -444,7 +426,7 @@
    "emoji": null
   },
   {
-   "order": 25,
+   "order": 24,
    "date": "2025-06-16",
    "text": "Committee decision to enter into interinstitutional negotiations announced in plenary (Rule 73)",
    "doc": null,
@@ -460,7 +442,7 @@
    "emoji": "🧭"
   },
   {
-   "order": 26,
+   "order": 25,
    "date": "2025-06-24",
    "text": "Deliberations in Council working party",
    "doc": null,
@@ -478,7 +460,7 @@
    "emoji": null
   },
   {
-   "order": 27,
+   "order": 26,
    "date": "2025-06-25",
    "text": "Deliberations in Coreper",
    "doc": null,
@@ -496,7 +478,7 @@
    "emoji": null
   },
   {
-   "order": 28,
+   "order": 27,
    "date": "2025-07-09",
    "text": "Deliberations in Council working party",
    "doc": null,
@@ -514,25 +496,7 @@
    "emoji": null
   },
   {
-   "order": 29,
-   "date": "2025-09-03",
-   "text": "Deliberations in Council working party",
-   "doc": null,
-   "code": "DELIB_WP_byCONSIL",
-   "src": "cellar",
-   "family": null,
-   "label": null,
-   "tally": null,
-   "method_note": null,
-   "review_note": null,
-   "source_note": null,
-   "spine": false,
-   "subordinate": null,
-   "key": "1-0b3f493082c0f343",
-   "emoji": null
-  },
-  {
-   "order": 30,
+   "order": 28,
    "date": "2025-09-22",
    "text": "Deliberations in Council working party",
    "doc": null,
@@ -550,7 +514,7 @@
    "emoji": null
   },
   {
-   "order": 31,
+   "order": 29,
    "date": "2025-09-25",
    "text": "Deliberations in Council working party",
    "doc": null,
@@ -568,7 +532,7 @@
    "emoji": null
   },
   {
-   "order": 32,
+   "order": 30,
    "date": "2025-10-01",
    "text": "Deliberations in Coreper",
    "doc": null,
@@ -586,7 +550,7 @@
    "emoji": null
   },
   {
-   "order": 33,
+   "order": 31,
    "date": "2025-10-15",
    "text": "Deliberations in Coreper",
    "doc": null,
@@ -604,7 +568,7 @@
    "emoji": null
   },
   {
-   "order": 34,
+   "order": 32,
    "date": "2025-11-07",
    "text": "Deliberations in Coreper",
    "doc": null,
@@ -622,7 +586,7 @@
    "emoji": null
   },
   {
-   "order": 35,
+   "order": 33,
    "date": "2025-11-14",
    "text": "Deliberations in Coreper",
    "doc": null,
@@ -640,7 +604,7 @@
    "emoji": null
   },
   {
-   "order": 36,
+   "order": 34,
    "date": "2025-12-03",
    "text": "Deliberations in Coreper",
    "doc": null,
@@ -658,7 +622,7 @@
    "emoji": null
   },
   {
-   "order": 37,
+   "order": 35,
    "date": "2025-12-19",
    "text": "Deliberations in Coreper",
    "doc": null,
@@ -676,7 +640,7 @@
    "emoji": null
   },
   {
-   "order": 38,
+   "order": 36,
    "date": "2026-03-06",
    "text": "Endorsement of the provisional agreement by Coreper",
    "doc": null,
@@ -694,7 +658,7 @@
    "emoji": "🤝"
   },
   {
-   "order": 39,
+   "order": 37,
    "date": "2026-03-18",
    "text": "Approval in committee of the text agreed at early 2nd reading interinstitutional negotiations",
    "doc": "GEDA/A/(2026)201324 PE792.227",
@@ -710,7 +674,7 @@
    "emoji": "🤝"
   },
   {
-   "order": 40,
+   "order": 38,
    "date": "2026-10-01",
    "text": "Council position published",
    "doc": "07105/2/2026",
@@ -726,7 +690,7 @@
    "emoji": "🧭"
   },
   {
-   "order": 41,
+   "order": 39,
    "date": "2026-10-08",
    "text": "Committee referral announced in Parliament, 2nd reading",
    "doc": null,
