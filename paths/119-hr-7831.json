@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "7831",
- "built_at": "2026-10-21T04:41:06+00:00",
- "source_count": 28,
+ "built_at": "2026-10-21T15:13:30+00:00",
+ "source_count": 30,
  "holds_full_record": true,
  "entries": [
   {
@@ -485,6 +485,26 @@
    "qualified": null,
    "lead": true,
    "emoji": "📌",
+   "vote": null
+  },
+  {
+   "order": 24,
+   "date": "2026-10-20",
+   "text": "Signed by President.",
+   "core": "Signed by President",
+   "code": "36000",
+   "source": "Library of Congress",
+   "chamber": null,
+   "family": "signed",
+   "label": "Signed by Pres. Trump",
+   "tally": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-51df7279c2749504",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "📜✍️",
    "vote": null
   }
  ]

@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "2388",
- "built_at": "2026-10-20T23:52:20+00:00",
- "source_count": 27,
+ "built_at": "2026-10-21T15:13:30+00:00",
+ "source_count": 29,
  "holds_full_record": true,
  "entries": [
   {
@@ -465,6 +465,26 @@
    "qualified": null,
    "lead": true,
    "emoji": "📌",
+   "vote": null
+  },
+  {
+   "order": 23,
+   "date": "2026-10-20",
+   "text": "Signed by President.",
+   "core": "Signed by President",
+   "code": "36000",
+   "source": "Library of Congress",
+   "chamber": null,
+   "family": "signed",
+   "label": "Signed by Pres. Trump",
+   "tally": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-6e51e1d6ccc0f6cd",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "📜✍️",
    "vote": null
   }
  ]
