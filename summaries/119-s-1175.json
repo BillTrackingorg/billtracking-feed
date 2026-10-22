@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 1175",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "bde8fec0712eb50b50fa9ad629e8a2d9efd8faf02fd078440cb877588300b773"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119s1175rs",
+        "sha256": "bde8fec0712eb50b50fa9ad629e8a2d9efd8faf02fd078440cb877588300b773",
+        "chars": 1236
+      },
+      "short": "The bill would change the rules for payments to small local governments that serve few residents, which are set out in federal law. It would lower the population threshold for which the adjustment applies from 4,999 to 999 people, and would raise the population level used in the related table from 5,000 to 1,000. It would also replace the existing table of payment limits with a new table that sets a dollar limit tied to each population level, ranging from 1,000 to 50,000 residents.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:51:05Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

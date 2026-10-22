@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 1353",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "3c0e4b8af0beb99142707a68568fea1003dd689c78615965da29508d9874986f"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119s1353rs",
+        "sha256": "3c0e4b8af0beb99142707a68568fea1003dd689c78615965da29508d9874986f",
+        "chars": 328
+      },
+      "short": "The bill would extend, through September 30, 2033, the authority that lets modifications be made to the Second Division Memorial in the District of Columbia, notwithstanding a certain provision of federal law on memorial construction that would otherwise apply.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:51:05Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

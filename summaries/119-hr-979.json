@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 979",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "pcs",
+        "text_sha256": "0450596c00c47f780d0e09706b93152dbfe725509cc1ce36a943c2e9939cc1cc"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119hr979pcs",
+        "sha256": "0450596c00c47f780d0e09706b93152dbfe725509cc1ce36a943c2e9939cc1cc",
+        "chars": 11656
+      },
+      "short": "The bill would require the Secretary of Transportation to issue a rule, within one year of enactment, requiring that passenger vehicles made or sold in the United States include AM radio receivers as standard equipment, easy for drivers to reach, with an option for manufacturers to comply by including digital AM receivers instead. The rule would take effect within two years of being issued, or at least four years for manufacturers that made 40,000 or fewer passenger vehicles for sale in the United States in 2022. Until the rule takes effect, vehicles without AM radio would have to carry clear labels saying so, and makers could not charge extra for AM access. The bill would also bar states from setting their own AM access rules for vehicles, let the government seek civil penalties and court orders for violations, and direct the Comptroller General to study emergency alert systems and AM radio's role in them. The measure would expire eight years after enactment.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:51:05Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "v": 1,
   "bot": "us",
-  "built_at": "2026-10-22T15:49:42Z",
+  "built_at": "2026-10-22T15:52:39Z",
   "unversioned": "title",
   "bills": {
     "119-hconres-113": {
@@ -769,6 +769,106 @@
       "more": false
     },
     "119-hr-9772": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-979": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-997": {
+      "current": 1,
+      "more": false
+    },
+    "119-hres-1438": {
+      "current": 1,
+      "more": false
+    },
+    "119-hres-1486": {
+      "current": 1,
+      "more": false
+    },
+    "119-hres-1490": {
+      "current": 1,
+      "more": false
+    },
+    "119-hres-1498": {
+      "current": 1,
+      "more": false
+    },
+    "119-hres-1499": {
+      "current": 1,
+      "more": false
+    },
+    "119-hres-1504": {
+      "current": 1,
+      "more": false
+    },
+    "119-hres-1505": {
+      "current": 1,
+      "more": false
+    },
+    "119-hres-1530": {
+      "current": 1,
+      "more": false
+    },
+    "119-hres-179": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-1055": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-1135": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-1175": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-1257": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-1288": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-1321": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-1353": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-1363": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-1413": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-1414": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-1470": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-1513": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-1514": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-1516": {
       "current": 1,
       "more": false
     }

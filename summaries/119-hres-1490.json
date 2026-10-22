@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.Res. 1490",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": "2026-09-10T21:40:24Z",
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": true,
+      "version": {
+        "code": "eh",
+        "text_sha256": "67d8a361974e13d096689f60c92a00e2a1438e7ff397d835576f4d6a42adfeda"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:00 Introduced in House",
+        "sha256": "251751f311e6dc7d7220b37fbc33cd4d0dcfc3b03edd0c53547f0318ce6fdaab",
+        "chars": 462
+      },
+      "short": "The resolution states that the House of Representatives condemns and denounces socialism in all its forms, including the Democratic Socialists of America, and opposes putting socialist policies into effect in the United States. It reaffirms support for free, fair, and secure elections and calls for passage of the SAVE America Act. It restates that American elections are for American citizens only and recommits the House to upholding the U.S. Constitution.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:51:05Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

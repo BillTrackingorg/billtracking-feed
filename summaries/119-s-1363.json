@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 1363",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "es",
+        "text_sha256": "0d1b54177c1a660739dbd63009d5fcdd41558ef79729e513173fb1a70fc06d44"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119s1363es",
+        "sha256": "0d1b54177c1a660739dbd63009d5fcdd41558ef79729e513173fb1a70fc06d44",
+        "chars": 13450
+      },
+      "short": "The bill would require the Department of Agriculture and the Department of the Interior to enter into and keep updating a memorandum of understanding with the New Mexico Land Grant Council, setting out how historical or traditional uses of federal land by qualified land grant-mercedes are handled. The bill would cover permits, fees and possible fee reductions or waivers, the use of motorized and mechanized vehicles, routine maintenance and major improvements to infrastructure, notice and comment on land decisions, and consultation with affected Indian Tribes. It would also require federal land use plans to consider the effect of other uses on these traditional uses, and it would state that nothing in the Act changes tribal treaty rights, state water and wildlife authority, or existing valid rights on federal land.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:51:05Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

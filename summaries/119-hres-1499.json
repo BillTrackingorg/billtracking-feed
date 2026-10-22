@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.Res. 1499",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": "2026-09-10T21:40:34Z",
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": true,
+      "version": {
+        "code": "eh",
+        "text_sha256": "5ccf298563d834bdb742e8d2e8667c9bc7f3082faf48c3416619795822aa6a5a"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:07 Reported to House",
+        "sha256": "7291859457b86287aa73b6528d89ee043728f3d818b70a13524f197b1ab1a3e6",
+        "chars": 1082
+      },
+      "short": "The resolution provides for floor consideration of four bills and one resolution, covering several subjects: including certain mineral production activities as a covered project under the FAST Act (H.R. 1501), extending the time period for certain regulations concerning the North Atlantic right whale (H.R. 9436), condemning and denouncing socialism in all its forms (H. Res. 1490), and barring institutions that participate in a nonexpressive commercial boycott of Israel from certain Higher Education Act funds while requiring certain certifications about students' access to academic programs in Israel (H.R. 4795). It also relates to the consideration of motions to suspend the rules.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:51:05Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

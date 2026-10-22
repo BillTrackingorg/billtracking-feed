@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.Res. 1486",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "ih",
+        "text_sha256": "6fd607af4edfb8ac5fae6c3b2c16f2b862967295cdd071e50f165b5f2c7f9133"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:00 Introduced in House",
+        "sha256": "81e4a9787928adc782161a798453512b648f8170fc21624169ef5ceb1c97f115",
+        "chars": 423
+      },
+      "short": "The resolution would impeach President Donald Trump for high crimes and misdemeanors. It sets out one article of impeachment, which concerns abuse of presidential powers. The article says he allowed U.S. Immigration and Customs Enforcement and U.S. Customs and Border Protection to operate in violation of the First, Fourth, and Fifth Amendments to the Constitution, while undermining judicial oversight.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:51:05Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}
