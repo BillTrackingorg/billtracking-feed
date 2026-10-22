@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 766",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": "2026-10-08T16:26:54Z",
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": true,
+      "version": {
+        "code": "enr",
+        "text_sha256": "0fc93c08925df6fbf519d3c8fc31d854ad3b6c0f5d9cb3fd0b15729a325f0083"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:49 Public Law",
+        "sha256": "0d7d58bf785fb1789b4fefa615aff2cc7b8fcfa7afa367c3e93b46339cb656e2",
+        "chars": 1244
+      },
+      "short": "The law requires the Office of Management and Budget to gather information from federal agencies about federally funded projects that are more than five years behind schedule or that have spending at least $1 billion above their original cost estimate. Agencies must report each project's description, any changes to its scope, original and current completion dates, original and current cost estimates adjusted for inflation, the reasons for any delays or cost increases, and any bonuses or incentive fees awarded for the project. The Office of Management and Budget must then submit an annual report to Congress with this information and post it on its website.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:21:15Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

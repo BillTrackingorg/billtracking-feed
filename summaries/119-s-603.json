@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 603",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": "2026-09-25T22:17:52Z",
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": true,
+      "version": {
+        "code": "enr",
+        "text_sha256": "64243735f6dfcc4cae117aaf29fe30921e23a4f361ba697f449dbb32ffbd0538"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:55 Passed Senate",
+        "sha256": "b21ddcfa0c9c4a3e227aca40433fed2a2841bcc5ed21450017226929ac89285d",
+        "chars": 922
+      },
+      "short": "The law establishes the General George C. Marshall House in Leesburg, Virginia, as an affiliated area of the National Park System to promote public appreciation of George Catlett Marshall, Jr.'s historic contributions. It names the George C. Marshall International Center as the entity that manages the site, requires the Department of the Interior to sign an agreement with the center setting out its management roles and responsibilities, and allows the Interior Department to provide technical help and financial assistance through cooperative agreements for marketing, marking, interpretation, and preservation of the site.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:21:15Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

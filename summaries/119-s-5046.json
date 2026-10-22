@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 5046",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "c9fe876fcad30543d3b1442b5211f782881dc58ca3b1696d420f21b8305fbbd4"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:25 Reported to Senate",
+        "sha256": "146a5f2d67df3cfe9ed9dd6f0f2a095dac86ca41f0dcd5a95283e6a75916d58f",
+        "chars": 1565
+      },
+      "short": "The bill would stop the Department of Education from transferring certain offices and functions to other federal agencies through interagency agreements. The covered offices are Special Education and Rehabilitative Services, Postsecondary Education, Indian Education, and Elementary and Secondary Education. The restriction would cover tasks such as running programs, making grants, providing technical assistance, enforcing requirements, handling oversight, and monitoring grantees. It would not apply to agreements already in effect on February 1, 2025, or to renewals on substantially similar terms. The Department would also have to report to Congress and publish on its website, within 14 days of enactment and then quarterly, a report and cost analysis for each new agreement made on or after February 1, 2025, and it could not use certain fiscal year 2026 or 2027 funds for travel unless it provided that information.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:21:15Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

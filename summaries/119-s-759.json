@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 759",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": "2026-09-25T22:17:57Z",
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": true,
+      "version": {
+        "code": "enr",
+        "text_sha256": "3e8300b00970fc961fb889344cc30b6ef1af7fc8527e49c993cbb7e8ddb24c26"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:49 Public Law",
+        "sha256": "c03a038aa9043d6ba85e3a3e19b3a9e815514dc556b253f7faa8dbd2ef8d498c",
+        "chars": 1741
+      },
+      "short": "The law directs the National Oceanic and Atmospheric Administration (NOAA) to set standards for and publish mapping-style data on where recreational activities like boating and fishing are restricted in federal waters, including the Exclusive Economic Zone, which generally covers waters from 3 to 200 miles off the U.S. coast. Within four years, NOAA must post this information on a public website, covering fishing restrictions, limits on certain recreational vessel types, and federally protected areas such as National Marine Sanctuaries. NOAA must also keep sharing digitized navigation information where practical, may partner with outside groups, and must work with other federal agencies so their databases are compatible.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:21:15Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

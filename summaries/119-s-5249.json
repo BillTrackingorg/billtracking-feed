@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 5249",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "es",
+        "text_sha256": "454483d4a19983d640b265ecf1812d4136cfa16ecec972dddb83ac1a02c0c5e1"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119s5249es",
+        "sha256": "454483d4a19983d640b265ecf1812d4136cfa16ecec972dddb83ac1a02c0c5e1",
+        "chars": 4434
+      },
+      "short": "The bill would allow the construction of a uranium enrichment facility to begin before the Nuclear Regulatory Commission issues the license to operate it, as long as construction starts after the application is docketed, follows all applicable federal laws and regulations, and is entirely at the applicant's risk. It would require applicants to certify that they will notify the governor of the state, local governments, and certain Indian Tribes at least 15 days before starting construction. It would also require the Commission to update its regulations within 180 days of enactment and allow it to exempt pending applications from new rules. The bill would not limit the Commission's authority to regulate construction, deny licenses, or affect judicial review of its decisions. It would also remove the requirement for a single combined hearing on construction and operation, instead granting a hearing on request to any person whose interests may be affected.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:21:15Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

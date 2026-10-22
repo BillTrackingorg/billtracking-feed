@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 5600",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "es",
+        "text_sha256": "7d8878817cb3d63f6bd65a8ca96ad79759c1044fbac620143105b872a4613036"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119s5600es",
+        "sha256": "7d8878817cb3d63f6bd65a8ca96ad79759c1044fbac620143105b872a4613036",
+        "chars": 8173
+      },
+      "short": "The bill would extend and update federal traumatic brain injury programs through 2031, adding attention to populations at higher risk and to the causes and risk factors of these injuries. It would direct the Centers for Disease Control and Prevention to track more data on these injuries, including occupation where relevant, and to publish aggregated information on its website. It would also extend state grant programs for traumatic brain injury projects and for protection and advocacy services, and would make Tribal entities eligible for certain outreach grants. The Health and Human Services Secretary would report to Congress within two years on higher-risk populations and data gaps, and would conduct a study on long-term symptoms and conditions linked to traumatic brain injury, reporting its findings within the same timeframe.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:21:15Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

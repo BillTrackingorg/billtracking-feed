@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 528",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "es",
+        "text_sha256": "7743554688d3ada1f96c42c191d953d2c8d93f60cf083e5891d7ec821c53e34c"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119s528es",
+        "sha256": "7743554688d3ada1f96c42c191d953d2c8d93f60cf083e5891d7ec821c53e34c",
+        "chars": 450
+      },
+      "short": "The bill would amend the Federal Water Pollution Control Act to authorize $475,000,000 for each of fiscal years 2027 through 2030 to carry out the Great Lakes Restoration Initiative.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:21:15Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

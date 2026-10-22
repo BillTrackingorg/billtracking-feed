@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 58",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "d4a3ac0a0f2e427f2bf954f7b16df5dbb919fd266384a553456e5262e8f92d30"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:00 Introduced in Senate",
+        "sha256": "e5044546cd10322f18e0af39fb416fef8373564c7638b7d4bb2dc673aad936d6",
+        "chars": 157
+      },
+      "short": "The bill would name the United States Postal Service facility at 107 North Hoyne Avenue in Fritch, Texas, the Chief Zeb Smith Post Office.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:21:15Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}
