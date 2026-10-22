@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 9228",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rh",
+        "text_sha256": "bcd45734daa4bacdb9c634db0b8e1ac22bc1bc3aee6e33f827965986a67379f9"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119hr9228rh",
+        "sha256": "bcd45734daa4bacdb9c634db0b8e1ac22bc1bc3aee6e33f827965986a67379f9",
+        "chars": 12262
+      },
+      "short": "The bill would require employer group health plans to have full access to their claims and related health data from the companies that administer or service those plans, such as insurers, pharmacy benefit managers, and third-party administrators. Contracts would have to allow the plan's fiduciaries and designated agents to see claims, payment records, pricing terms, overpayment information, and fees, and could not limit or delay that access beyond 15 days or a period set by the Labor Secretary, whichever is shorter. Service providers would have to share data in standard electronic formats, follow federal health privacy rules, and make non-claim costs available in real time through a web portal, an API, or a downloadable file. Violators could face civil penalties of up to $10,000 per day, contract clauses that shield providers from such penalties would be void, and plans would need to submit annual attestations confirming compliance. The requirements would start with the first plan year that begins one year after enactment.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:45:45Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 9203",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rh",
+        "text_sha256": "5b20d97d119bf579de8465594fd6a79e0d4a15b6554c3afeaf0b6bd7cbce69f6"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:07 Reported to House",
+        "sha256": "406332085fa2840855eae4688a14bfb4d4c37c65db9f9578fb7b5e48e8f1d045",
+        "chars": 1638
+      },
+      "short": "The bill would require colleges and universities that take part in federal student aid programs to investigate alleged violations of Title VI of the Civil Rights Act of 1964, which bars discrimination based on race, color, or national origin in federally funded programs. Each school would have to create and widely share complaint investigation procedures with students and their families, appoint at least one Title VI coordinator, and keep records of complaints. A school that fails these requirements for two consecutive award years would lose eligibility for federal student aid for at least two later award years, though it could regain eligibility by showing it complies. The Department of Education's Office for Civil Rights would have to brief Congress every two months on the number of complaints, how it plans to handle them, and how long investigations take. The bill would also change how that office investigates these complaints, including barring it from closing a complaint merely because another complaint with the same allegations against the same school has been filed under certain circumstances.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:45:45Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

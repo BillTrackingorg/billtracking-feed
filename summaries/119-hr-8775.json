@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 8775",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "eh",
+        "text_sha256": "f72c29e01e7152d7a454c8601dcafc3aa14c265171c412ac1c8aad8b672457cc"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119hr8775eh",
+        "sha256": "f72c29e01e7152d7a454c8601dcafc3aa14c265171c412ac1c8aad8b672457cc",
+        "chars": 567
+      },
+      "short": "The bill would amend a federal labor law to bar people convicted of a sex offense against a minor from holding union office, adding this to the existing list of crimes that already bar such service. It would also make a small wording fix to the same law and would take effect 30 days after it is enacted.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:45:45Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

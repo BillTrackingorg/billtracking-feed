@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 9086",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rfs",
+        "text_sha256": "a707a8f8fd17a963663dae4a686613f109630bf00eda0c2e80def2d6fec20613"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119hr9086rfs",
+        "sha256": "a707a8f8fd17a963663dae4a686613f109630bf00eda0c2e80def2d6fec20613",
+        "chars": 83101
+      },
+      "short": "The bill would update how the United States Foreign Service is run and staffed. It would cover several areas: how diplomats recruit and hire people, including from community colleges and veterans; training requirements for diplomats, such as crisis leadership, cybersecurity, consular work, and critical minerals; protections for diplomats who take outside assignments; promotion rules tied to joint duty and training; limits on favoritism in selecting outside members of hiring boards; cybersecurity and technology rules for overseas posts; and a pilot program to create a reserve corps of trained personnel for emergencies.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:45:45Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

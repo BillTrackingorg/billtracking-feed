@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 8005",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rfs",
+        "text_sha256": "66ad8f146af91b2d2f67cff9ac2bc3efc50870393e36d2c0c706780bd19e85c0"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119hr8005rfs",
+        "sha256": "66ad8f146af91b2d2f67cff9ac2bc3efc50870393e36d2c0c706780bd19e85c0",
+        "chars": 13823
+      },
+      "short": "The bill would tighten federal rules on machines used to make pills and capsules, including tableting and encapsulating machines and their key parts such as punches and dies. It would require that these machines and parts carry permanent serial numbers, require records and reports on transactions involving them, and make it a crime to remove or alter those serial numbers. It would also make it illegal to make or sell such machines knowing they will be used to produce illegal drugs or imported unlawfully into the United States, with set prison terms for violations. Finally, it would require the Drug Enforcement Administration to create a plan to address counterfeit pills containing illicit synthetic substances such as fentanyl, expand the law on selling those pills, and require yearly reports to Congress on seizures, markings, and prosecutions.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:45:45Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

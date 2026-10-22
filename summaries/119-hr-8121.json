@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 8121",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rfs",
+        "text_sha256": "2d2bc535457e6f6f96fb1e287d7caff75f1eccf45bac000d65aba0b53cd54640"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:07 Reported to House",
+        "sha256": "0d4cb8ba8e7d4b6bc2f55be0b2b35559b99e7d3e67d834b873bf3e601f6e44da",
+        "chars": 188
+      },
+      "short": "The bill would name the bandstand at the Christiansted National Historic Site on St. Croix in the U.S. Virgin Islands the Peter G. Thurland, Sr., Bandstand. The historic site is located within St. Croix.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:45:45Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

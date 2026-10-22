@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 8141",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rh",
+        "text_sha256": "88e2aaae6918ad518167b7dcff6446a5b20e91d3bf6e3ce2d9ffee5051a20960"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119hr8141rh",
+        "sha256": "88e2aaae6918ad518167b7dcff6446a5b20e91d3bf6e3ce2d9ffee5051a20960",
+        "chars": 906
+      },
+      "short": "The bill would require companies that resell consumer credit reports to follow reasonable procedures to make sure the information they pass on to end users or other resellers is as accurate as possible. It would also shield a reseller from liability under this law when it accurately passes along information it obtained from another consumer reporting agency.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:45:45Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

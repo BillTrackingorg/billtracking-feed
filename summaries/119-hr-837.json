@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 837",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": "2026-10-21T15:13:23Z",
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": true,
+      "version": {
+        "code": "enr",
+        "text_sha256": "b933e291dfbb43e6c4346f0c6411bfd1bb1290eac5777da6fd9a4a40e5a69d1f"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:00 Introduced in House",
+        "sha256": "ccfc90cf57905723ce2bd140a4e1c1202597d30554b3b24f872f7f5d2b0ad775",
+        "chars": 1207
+      },
+      "short": "The law requires the Forest Service, which manages national forest land, to transfer about 232.9 acres of Tonto National Forest land in Arizona, known as the Gila County Area, to Gila County once the county submits a written request. The county must use the land to serve and support veterans, and if it stops doing so, the land returns to the United States at the Forest Service's discretion. The transfer is made by quitclaim deed at no cost, without any promises or warranties from the Forest Service, and the county pays all related costs, including surveys and required environmental and historic-preservation reviews.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:45:45Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}
