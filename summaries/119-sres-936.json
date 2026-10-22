@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S.Res. 936",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": "2026-10-01T13:09:49Z",
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": true,
+      "version": {
+        "code": "ats",
+        "text_sha256": "24685f5c04d23aa16a0c96c9609f3d50cbf7c2d5e41f7caa5ad73b3c33fe9a48"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119sres936ats",
+        "sha256": "24685f5c04d23aa16a0c96c9609f3d50cbf7c2d5e41f7caa5ad73b3c33fe9a48",
+        "chars": 84
+      },
+      "short": "The resolution designates October 8, 2026, as National Hydrogen and Fuel Cell Day, a single observance date recognized by the Senate.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:31:10Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

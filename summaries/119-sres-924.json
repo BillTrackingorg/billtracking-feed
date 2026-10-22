@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S.Res. 924",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": "2026-09-30T13:40:51Z",
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": true,
+      "version": {
+        "code": "ats",
+        "text_sha256": "730337ba4e699a5e5b6702a26f185bed53aa5ae94619a8a5709214fbfd60a1f1"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119sres924ats",
+        "sha256": "730337ba4e699a5e5b6702a26f185bed53aa5ae94619a8a5709214fbfd60a1f1",
+        "chars": 212
+      },
+      "short": "The resolution designates October 7, 2026, as Energy Efficiency Day and calls on people across the United States to observe the day with appropriate programs, ceremonies, and activities.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:31:10Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

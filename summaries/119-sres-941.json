@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S.Res. 941",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": "2026-10-01T13:10:08Z",
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": true,
+      "version": {
+        "code": "ats",
+        "text_sha256": "07a1515404e17ab0ac66904ea01b14d38434c95ed7305318ea04a2e69033e435"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119sres941ats",
+        "sha256": "07a1515404e17ab0ac66904ea01b14d38434c95ed7305318ea04a2e69033e435",
+        "chars": 452
+      },
+      "short": "The resolution expresses the Senate's support for designating the week of October 24 to October 31, 2026, as Bat Week and encourages events and activities to mark it. It recognizes the role bats play as pollinators and in controlling pests that affect agriculture. It also states the Senate's intention to keep working to conserve bat species and their habitat and to combat white-nose syndrome, a disease affecting bats.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:31:10Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S.Res. 914",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": "2026-09-29T15:48:00Z",
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": true,
+      "version": {
+        "code": "ats",
+        "text_sha256": "612ccfaf560b1cde2efb40ac42b3f256b269cb9d4117c804aa6207e0b2dc048c"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119sres914ats",
+        "sha256": "612ccfaf560b1cde2efb40ac42b3f256b269cb9d4117c804aa6207e0b2dc048c",
+        "chars": 491
+      },
+      "short": "The resolution encourages everyone in the United States to find out their LDL-C (low density lipoprotein cholesterol) number. It designates September 2026 as National Cholesterol Education Month and September 30, 2026, as LDL-C Awareness Day. It also recognizes the urgent need to screen for and treat elevated LDL-C in order to reduce the risk of cardiovascular disease, heart attacks, and strokes.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:31:10Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

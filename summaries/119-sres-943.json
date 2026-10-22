@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S.Res. 943",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": "2026-10-01T13:10:15Z",
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": true,
+      "version": {
+        "code": "ats",
+        "text_sha256": "a943f4ad59073f40d192b16a1bc1826b45b84c529adb09b9a75661d218a469c1"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119sres943ats",
+        "sha256": "a943f4ad59073f40d192b16a1bc1826b45b84c529adb09b9a75661d218a469c1",
+        "chars": 390
+      },
+      "short": "The resolution expresses the Senate's support for the goals and ideals of a National Move Over Law Day. It urges national, state, and regional incident management organizations to raise awareness of state move over laws and encourage people to follow them. It also calls on these organizations to educate the public about the dangers and loss of life that can result when those laws are not followed.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:31:10Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

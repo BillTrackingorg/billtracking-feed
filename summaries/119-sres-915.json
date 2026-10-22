@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S.Res. 915",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": "2026-09-29T15:48:04Z",
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": true,
+      "version": {
+        "code": "ats",
+        "text_sha256": "dc3705328428fe519fbd68715c6d4d2867038babfee718959860dd5277da182f"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119sres915ats",
+        "sha256": "dc3705328428fe519fbd68715c6d4d2867038babfee718959860dd5277da182f",
+        "chars": 689
+      },
+      "short": "The resolution honors Prison Fellowship on its 50th anniversary, which marks the founding of the organization by Charles Colson. It praises the group's decades of work on restoration, rehabilitation, and second chances through faith-based programs that aim to strengthen individuals, families, and communities. It also recognizes the contributions of the group's staff, volunteers, church partners, correctional leaders, and program participants, whose efforts it says have changed many lives and fostered hope across the United States.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:31:10Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S.Res. 923",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": "2026-09-30T13:40:47Z",
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": true,
+      "version": {
+        "code": "ats",
+        "text_sha256": "8d6bdda846cd3b91e24895328ca98d21b9cbb1949f754dc22577d9c760f88241"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119sres923ats",
+        "sha256": "8d6bdda846cd3b91e24895328ca98d21b9cbb1949f754dc22577d9c760f88241",
+        "chars": 603
+      },
+      "short": "The resolution expresses support for designating October 4 through October 10, 2026, as National 4-H Week. It recognizes 4-H as the youth development program of the Cooperative Extension System and the Department of Agriculture. It encourages all citizens to recognize the organization and its members for their impact in giving young people the skills to lead for a lifetime. It also celebrates 4-H's work in developing engaged, healthy, and productive citizens who are prepared for work and life in a changing world.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:31:10Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}
