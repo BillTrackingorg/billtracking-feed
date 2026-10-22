@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 1744",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "enr",
+        "text_sha256": "330527c9063cbe5f4b0a1eb5bda8533e98a51263972feba156bcdc3b48eb09fc"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:53 Passed House",
+        "sha256": "5d4155dfe2b2d3e4d306bc8ac8fe7ae8af431a20ef9ed67e70b9b4747ae343c2",
+        "chars": 433
+      },
+      "short": "The bill would extend the authorization of the U.S. Commission on International Religious Freedom through 2028. The commission is an independent federal body that monitors religious freedom around the world, reviews U.S. government policy on the issue, and makes policy recommendations.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:30:19Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

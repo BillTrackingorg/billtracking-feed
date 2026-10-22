@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 2140",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "pcs",
+        "text_sha256": "7db2c0d5c476e692253e0401bb772ef345bd57b736ae13782e3aea6349e46dd3"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:00 Introduced in House",
+        "sha256": "4a1ac7c20d7eb3a5fef457d2c24ffe071b74bc793bbef8bd351e3db13c6f01bd",
+        "chars": 290
+      },
+      "short": "The bill would extend through fiscal year 2029 a program run by the Environmental Protection Agency that offers grants, rebates, or loans to help replace older diesel engines or add pollution control technology to them.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:30:19Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

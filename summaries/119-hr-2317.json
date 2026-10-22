@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 2317",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rfs",
+        "text_sha256": "8395bcd1b8fb20f26866250b62e75fff92d438d5a0c24db633b9fe5f3b2da902"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119hr2317rfs",
+        "sha256": "8395bcd1b8fb20f26866250b62e75fff92d438d5a0c24db633b9fe5f3b2da902",
+        "chars": 102871
+      },
+      "short": "The bill would make many land transfers and related changes across Nevada, covering Douglas County, Incline Village fire protection, Truckee River flood control, Carson City, Pershing County, a federal complex, Elko and Fernley economic development, Sparks cemetery and park conveyances, a Greenlink West power project, and a Jean prison land release. For Douglas County it would convey federal land to the state and county, sell some federal parcels, and place land in trust for the Washoe Tribe, while designating the Burbank Canyons Wilderness. For Pershing County it would sell or exchange checkerboard lands and designate several new wilderness areas. Other parts would convey land to Carson City, Elko, Fernley, Sparks, and local districts, direct sale proceeds to special accounts, and release reversionary interests in land held by the State of Nevada.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:30:19Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

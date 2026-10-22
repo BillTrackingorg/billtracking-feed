@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 1703",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "enr",
+        "text_sha256": "0475bf942c12bf0e73b2c2dacf010099fd8bf1823b78126e2501eafd98f22ebd"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119hr1703enr",
+        "sha256": "0475bf942c12bf0e73b2c2dacf010099fd8bf1823b78126e2501eafd98f22ebd",
+        "chars": 1940
+      },
+      "short": "The bill would require Medicare to set up separate billing codes for ultralightweight manual wheelchairs, based on whether the base of the wheelchair is made of titanium or carbon fiber. Starting January 1, 2028, Medicare would pay suppliers for titanium or carbon fiber wheelchairs at the same frequency and amount it would otherwise pay for that wheelchair. Suppliers could charge the person the difference between their actual price and Medicare's payment. The Secretary of Health and Human Services could require suppliers to give people a notice about this possible cost before they buy or rent such a wheelchair.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:30:19Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

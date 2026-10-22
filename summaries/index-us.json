@@ -1,7 +1,7 @@
 {
   "v": 1,
   "bot": "us",
-  "built_at": "2026-10-22T15:27:01Z",
+  "built_at": "2026-10-22T15:31:43Z",
   "unversioned": "title",
   "bills": {
     "119-hconres-113": {
@@ -97,6 +97,106 @@
       "more": false
     },
     "119-hr-1431": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-1483": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-1501": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-1550": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-1640": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-1693": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-1703": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-1706": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-1721": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-1744": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-1829": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-1830": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-1869": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-1945": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-2004": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-204": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-2069": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-2140": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-2175": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-2196": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-227": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-2283": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-2302": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-2317": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-2332": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-2347": {
       "current": 1,
       "more": false
     }

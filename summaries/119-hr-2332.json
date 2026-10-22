@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 2332",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rh",
+        "text_sha256": "80446791761dd47a9e546dd3f1e3bf5c7d6636002963732fd6789ed349294f75"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119hr2332rh",
+        "sha256": "80446791761dd47a9e546dd3f1e3bf5c7d6636002963732fd6789ed349294f75",
+        "chars": 3849
+      },
+      "short": "The bill would require the Federal Bureau of Investigation to share criminal history record information with state licensing authorities that are part of an interstate compact, so they can check the backgrounds of people seeking a license to practice an occupation or profession in a member state. Those licensing authorities would be allowed to use that information only for that licensing decision and could not pass the details on to the compact's commission, other state agencies, or the public. They would still be permitted to tell the compact commission whether a background check was satisfactory, without sharing the underlying records.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:30:19Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

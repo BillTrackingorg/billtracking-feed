@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 1829",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "64503c635f5fc3c01035b9983416e8b0dfefb4de453e37231a886f4517365d3a"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119hr1829rs",
+        "sha256": "64503c635f5fc3c01035b9983416e8b0dfefb4de453e37231a886f4517365d3a",
+        "chars": 6180
+      },
+      "short": "The bill would transfer two parcels of National Forest land in Arizona to local counties for use as cemeteries. Under the first section, Navajo County could request about 2.5 acres of Pinedale Cemetery land, including an existing area and an expansion area, within 180 days of enactment, and the Forest Service would convey it at no cost by quitclaim deed. Under the second section, Apache County could request land for the Alpine Cemetery, including an existing area and an expansion area, within 365 days of enactment, on the same no-cost terms. In both cases the county would pay the costs of the transfer, including any needed survey and environmental review, the land would have to remain a cemetery, and it would revert to the United States if used otherwise.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:30:19Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

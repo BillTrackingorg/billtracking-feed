@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 1721",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": "2026-10-21T15:12:46Z",
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": true,
+      "version": {
+        "code": "enr",
+        "text_sha256": "9ee712d97f13f21db6c4a9c7c88970d7d0ba99691ee01d10673a9467d60a961f"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:00 Introduced in House",
+        "sha256": "e527befc3cfc0f89d42ea326a316494abc672d56ee3e28f2c03ca1ccd70b988d",
+        "chars": 653
+      },
+      "short": "The law requires the Department of Commerce to study which products that are vital to national security, the economy, and public health or safety are in high demand and are being imported because of manufacturing, material, or supply chain problems. The study must also examine the costs, benefits, and practicality of making those products in the United States.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:30:19Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

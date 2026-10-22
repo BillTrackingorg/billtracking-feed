@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 2004",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "pcs",
+        "text_sha256": "4e0fe52ecd8a07dd776e251f0784458f13dbdc388ad877d0b809e5ab95a07df9"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:00 Introduced in House",
+        "sha256": "26c75d2e8427a0c797f496ce3af353c9ab5f1503a1c86396360667026468dd68",
+        "chars": 791
+      },
+      "short": "The bill would require the Department of Health and Human Services to study how often hospital emergency departments that take Medicare patients test people who have overdosed for fentanyl, what that testing costs, and how it may affect patients. Within six months after the study is finished, the department would issue guidance on whether fentanyl testing should become routine for overdose patients, how clinicians can make sure they know which substances are being tested for, and how fentanyl testing may affect the future risk of overdose and other health outcomes.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:30:19Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

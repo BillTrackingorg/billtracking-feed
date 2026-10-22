@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 2069",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": "2026-09-12T01:05:12Z",
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": true,
+      "version": {
+        "code": "enr",
+        "text_sha256": "1a38ffe0292655d94a23ae0c96a5c0a3c79739d1a852741581d4507dbb9b5941"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:00 Introduced in House",
+        "sha256": "03adc023e16fbf0d3b097d1a21b63dcdb3731d1f13d7286ef5ff220276462f18",
+        "chars": 1475
+      },
+      "short": "The law expands federal spending reporting on USAspending.gov to cover other transaction agreements, a type of contract that is exempt from many standard federal procurement rules. The Department of the Treasury must make this data transmit automatically and provide a centralized view of it on the website. Treasury must also post an annual report listing the total amount of federal awards spending not posted on the site and the reasons it was not posted. For 10 years, the Inspector General of specified federal agencies must periodically report to Congress and the public on each agency's spending data and its use of data standards.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:30:19Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}
