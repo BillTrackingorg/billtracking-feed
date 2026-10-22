@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 2403",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": "2026-10-16T21:03:12Z",
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": true,
+      "version": {
+        "code": "enr",
+        "text_sha256": "ca49d798044c4476478a3bb2b76cc0b395234b17befc0b0f592116078dab7975"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:55 Passed Senate",
+        "sha256": "153c921a6734a189ae748f67a947571a5109bdeb895cbdd93a9d18c7b1ed0ada",
+        "chars": 959
+      },
+      "short": "The law allows the trustee of an Employee Stock Ownership Plan to rely on a valuation from an independent expert or appraiser when setting the value of company shares that are not publicly traded, provided the expert follows a set valuation method. Employee Stock Ownership Plans are retirement plans in which workers build up shares of their employer's stock in individual accounts, and when workers leave their job or retire, they receive the cash value of those shares. The valuation must follow the approach set out in Internal Revenue Service Ruling 59-60, which lists the factors a professional appraiser should consider when valuing stock in a closely held business.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:05:26Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

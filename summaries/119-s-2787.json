@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 2787",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "f95841f1f772d1d564a46778b37d955eb710c68a9025193556f8e21890124d6f"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119s2787rs",
+        "sha256": "f95841f1f772d1d564a46778b37d955eb710c68a9025193556f8e21890124d6f",
+        "chars": 954
+      },
+      "short": "The bill would change a federal land law so that grazing leases and permits on national grasslands are handled under the same rules that apply to other National Forest System land, rather than the separate rules that currently cover lands within National Forests in sixteen Western states. It would leave other parts of the Federal Land Policy and Management Act, along with certain other laws on farm tenancy and rangeland improvement, unchanged.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:05:26Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

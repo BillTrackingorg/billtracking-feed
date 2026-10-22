@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 2733",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "31035156f4e7b0a46aa1ab6471731e3cea05733d8efe92380be2363a5f227a12"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119s2733rs",
+        "sha256": "31035156f4e7b0a46aa1ab6471731e3cea05733d8efe92380be2363a5f227a12",
+        "chars": 3539
+      },
+      "short": "The bill would require the Government Accountability Office to review bills that committees of Congress have reported and assess whether each one risks creating a new federal program, office, or initiative that duplicates or overlaps with one already identified as duplicative in the office's annual duplication and overlap reports. For each such bill, the office would send its findings to the Congressional Budget Office and the committee that reported the bill, and publish them on its website. The Congressional Budget Office could then include these findings as a supplement to its cost estimate for the bill. If the office has not sent its findings in time, the budget office could prepare and send the supplement itself once the findings arrive. The changes would take effect on the earlier of two dates tied to updates of federal spending information or the start of a new Congress one year after enactment.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:05:26Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

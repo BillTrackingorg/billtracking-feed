@@ -1,7 +1,7 @@
 {
   "v": 1,
   "bot": "us",
-  "built_at": "2026-10-22T16:03:47Z",
+  "built_at": "2026-10-22T16:06:44Z",
   "unversioned": "title",
   "bills": {
     "119-hconres-113": {
@@ -969,6 +969,106 @@
       "more": false
     },
     "119-s-2394": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-2398": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-24": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-240": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-2403": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-2432": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-2437": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-2498": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-2511": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-252": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-2542": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-2546": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-2554": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-2578": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-2658": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-2666": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-2677": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-2733": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-2735": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-2753": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-2754": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-2767": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-2787": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-2801": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-283": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-2881": {
       "current": 1,
       "more": false
     }

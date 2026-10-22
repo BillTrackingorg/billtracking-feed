@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 2554",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "17461a4bd9c7dd94d7a34ed1fc1c1580b0e95ab6d9f1f38add74b5685504f9fd"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119s2554rs",
+        "sha256": "17461a4bd9c7dd94d7a34ed1fc1c1580b0e95ab6d9f1f38add74b5685504f9fd",
+        "chars": 22957
+      },
+      "short": "The bill would allow Native residents of Haines, Ketchikan, Petersburg, Tenakee, and Wrangell in southeast Alaska to form Urban Corporations under the Alaska Native Claims Settlement Act, giving them shareholder status and related rights in the regional Native corporation. It would also direct the Secretary of the Interior to convey roughly 23,040 acres of federal land to each community's corporation, with the subsurface rights going to the Regional Corporation for Southeast Alaska. The measure further covers public access and hunting and fishing rights on the transferred land, existing guiding and outfitting permits, shared use agreements for roads and facilities, and the creation of optional settlement trusts for community members.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:05:26Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}
