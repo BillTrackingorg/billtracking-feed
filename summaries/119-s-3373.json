@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 3373",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "8318568c0e1641521bd776d36bcd32a4c2ba4d718a04ca2838f56f589e14416c"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:00 Introduced in Senate",
+        "sha256": "6301b39b571649e575705687ae55f2ad5446bc7e56219707e9f0495c64c6a1d6",
+        "chars": 193
+      },
+      "short": "The bill would name the U.S. Postal Service facility at 14855 South Van Dyke Road in Plainfield, Illinois, the \"Staff Sergeant Jose Duenez Jr. Post Office Building.\"",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:10:59Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

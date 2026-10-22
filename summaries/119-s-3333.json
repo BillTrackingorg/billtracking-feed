@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 3333",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "c95e19123cda14d154dc475442066125c9b76e519caf4d4d5c1e9ae156284091"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:25 Reported to Senate",
+        "sha256": "ad3da3bfb6b5c184a1d07146a1d5299885776996d2e2b672ee0a0035d691aba9",
+        "chars": 1103
+      },
+      "short": "The bill would make it easier for more workers to use pension-linked emergency savings accounts, which are savings accounts tied to a workplace retirement plan and can be withdrawn from for any reason. It would remove the rule that excluded higher-paid employees from these accounts, so anyone meeting the plan's age, service, and other requirements could take part. It would also raise the cap on the amount workers can put into these accounts to $5,000, a limit that would continue to rise with inflation. In addition, it would extend and add funding to a Labor Department program that gives grants to states to encourage employee ownership and participation in businesses.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:10:59Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

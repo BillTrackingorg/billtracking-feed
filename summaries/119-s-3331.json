@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 3331",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "ed599895c4082f57cb48b40ac195b2441ecc83edc443ddebd46bc48240101791"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:00 Introduced in Senate",
+        "sha256": "869c83827e33215018b0184c3edf26fb487b3d2cd8bc89ad0c1ae5c3db297695",
+        "chars": 165
+      },
+      "short": "The bill would name the United States Postal Service facility at 50 East 100 North in Moab, Utah, the \"2nd Lieutenant Mitch Williams Post Office\".",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:10:59Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

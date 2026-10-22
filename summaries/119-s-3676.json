@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 3676",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "04f3231f54157daae44747206f3637b794cce3fbd11a4c228012ca838b3e8a0b"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119s3676rs",
+        "sha256": "04f3231f54157daae44747206f3637b794cce3fbd11a4c228012ca838b3e8a0b",
+        "chars": 6251
+      },
+      "short": "The bill would direct the Secretary of State to write and publish a five-year sports diplomacy strategy, due within 180 days of enactment, that uses major international sporting events hosted in the United States between 2024 and 2034, such as the 2026 FIFA World Cup and the 2028 Summer Olympics, to build U.S. influence and foreign relationships. It would require a follow-up five-year strategy that includes lessons learned, plans for faster visa processing for athletes and visitors, and periodic progress reports to Congress through 2034. It would also create an Office of Sports Diplomacy within the State Department's Bureau of Educational and Cultural Affairs to run sports exchange programs and coordinate this work, and that office would end ten years after enactment.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:10:59Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}
