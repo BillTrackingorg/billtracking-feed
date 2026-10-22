@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 3097",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "af8d10b09ff456048c1f7721cbfb3064cfd801731e5ef4af29798c4d38e81d59"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119s3097rs",
+        "sha256": "af8d10b09ff456048c1f7721cbfb3064cfd801731e5ef4af29798c4d38e81d59",
+        "chars": 21493
+      },
+      "short": "The bill would require the Secretary of Health and Human Services, working with the Federal Trade Commission, to create privacy, security, and breach notification rules for health information that is not already covered by existing federal health privacy laws, and would apply those rules to companies that handle such information and their service providers. It would give individuals rights over their health information, including the right to receive a privacy notice, access, correct, delete, and move their data, and would require written permission before such information is sold, licensed, transferred, or used for marketing. It would limit how much health information can be collected, processed, and kept, with exceptions for things like completing a requested service, legal duties, fraud prevention, public health, and certain research. It would also set rules for the minimum data needed for uses such as training artificial intelligence models, create national standards for de-identifying health information, bar re-identification of de-identified data, and let the Secretary and the Federal Trade Commission share enforcement with civil penalties.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:08:21Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

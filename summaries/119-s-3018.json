@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 3018",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "c5b0e7b88fefaf0006f73957bb7e4a386d9289b692f4831368c899249f591e7c"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119s3018rs",
+        "sha256": "c5b0e7b88fefaf0006f73957bb7e4a386d9289b692f4831368c899249f591e7c",
+        "chars": 1026
+      },
+      "short": "The bill would require the Secretary of State and the Secretary of Defense to allow members of the Armed Forces and representatives from Taiwan or the Taipei Economic and Cultural Representative Office to display the flag of Taiwan and the matching military unit emblems. The display would be permitted when wearing official uniforms, at ceremonies or functions, and in appearances on Department of State and Department of Defense social media accounts that promote engagement with Taiwan. The bill would also state that it does not change the One China Policy of the United States.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:08:21Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

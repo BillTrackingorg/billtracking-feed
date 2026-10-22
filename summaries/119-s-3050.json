@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 3050",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "63ebdac9ea00b60ca9de7f76f13ff64f4215ca651bc2f2cf61341bf9a54b9b81"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119s3050rs",
+        "sha256": "63ebdac9ea00b60ca9de7f76f13ff64f4215ca651bc2f2cf61341bf9a54b9b81",
+        "chars": 3350
+      },
+      "short": "The bill would change how the Foreign Agents Registration Act treats agents of foreign government-owned or -controlled entities from certain listed countries, so that the usual exemptions from registration would not apply to them. It would also let the Secretary of State propose adding or removing countries from the list of countries of concern, but such a change would take effect only after Congress passes a joint resolution approving it. The changes would end five years after the bill is enacted.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:08:21Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 3172",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "9b32ff4fa73c0b5a9c1d4bf5f910130fa087860daafec7782cf6669dd170483c"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119s3172rs",
+        "sha256": "9b32ff4fa73c0b5a9c1d4bf5f910130fa087860daafec7782cf6669dd170483c",
+        "chars": 388
+      },
+      "short": "The bill would repeal two laws that placed sanctions on Syria: the Syria Accountability and Lebanese Sovereignty Restoration Act of 2003, and the Syria Human Rights Accountability Act of 2012, which would remove both measures from the law books.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:08:21Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

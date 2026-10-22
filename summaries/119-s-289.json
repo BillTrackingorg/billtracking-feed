@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 289",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "es",
+        "text_sha256": "b9c6858cff313e9f9d968a0dfb39a4eacf12e7c9fcb23cc126001d1d8f1f9e55"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:00 Introduced in Senate",
+        "sha256": "32ea2d3b8c2cdb0da3509ac68143885b83f588f66390c3c4247c16ca06f080d1",
+        "chars": 247
+      },
+      "short": "The bill would ban consumer products that contain sodium nitrite at a concentration of 10% or greater, classing them as banned hazardous products. It would not apply to certain drugs, medical devices, cosmetics, or food products.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:08:21Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

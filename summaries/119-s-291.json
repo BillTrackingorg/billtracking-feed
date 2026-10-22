@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 291",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "e4b724905546dcb8236130f5bccb55b49028031089c723390cb0ee8fea26f405"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:00 Introduced in Senate",
+        "sha256": "faaa6d57143c1979e220dc25413147c516ab34e8b602da77e8aafb224402b6af",
+        "chars": 409
+      },
+      "short": "The bill would create an interest-bearing account to hold the non-federal contributions for the Lower Colorado River Multi-Species Conservation Program. That program is a cooperative effort between federal and non-federal groups in Arizona, California, and Nevada. It works to recover several species protected under the Endangered Species Act.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:08:21Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

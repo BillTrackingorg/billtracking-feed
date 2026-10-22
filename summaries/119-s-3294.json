@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 3294",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "9e719f8faf4cb1d58494538ab31956e2e15b5a74a41460084acab9516f8f5b55"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:00 Introduced in Senate",
+        "sha256": "6d8707df5bee34dba99dae5f1711a287841e57ebe4255c843c41c2a69af286dd",
+        "chars": 182
+      },
+      "short": "The bill would name the United States Postal Service facility at 10660 Page Avenue in Fairfax, Virginia, the \"Congressman Gerald E. Connolly Post Office Building.\"",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:08:21Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}
