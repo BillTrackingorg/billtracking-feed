@@ -5,9 +5,9 @@
  "year": "2025",
  "number": "0395",
  "ptype": "COD",
- "built_at": "2026-10-21T15:39:30+00:00",
+ "built_at": "2026-10-22T10:22:47+00:00",
  "source": "oeil-key-events",
- "source_count": 6,
+ "source_count": 8,
  "holds_full_record": true,
  "overrides_applied": null,
  "texture_count": 14,
@@ -348,6 +348,22 @@
   {
    "order": 19,
    "date": "2026-10-20",
+   "text": "Decision by Parliament, 1st reading",
+   "doc": "T10-0345/2026",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-c8a212a8010523c2",
+   "emoji": null
+  },
+  {
+   "order": 20,
+   "date": "2026-10-20",
    "text": "Results of vote in Parliament",
    "doc": null,
    "family": null,
@@ -360,6 +376,22 @@
    "subordinate": null,
    "key": "1-0aa65fe8e24258a1",
    "emoji": null
+  },
+  {
+   "order": 21,
+   "date": "2026-10-20",
+   "text": "Matter referred back to the committee responsible for interinstitutional negotiations",
+   "doc": null,
+   "family": "referred_back",
+   "label": "Plenary sent the file back to committee",
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-2da0543602407c33",
+   "emoji": "↩️"
   }
  ]
 }
