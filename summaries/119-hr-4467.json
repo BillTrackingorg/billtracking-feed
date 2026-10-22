@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 4467",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": "2026-10-21T15:13:10Z",
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": true,
+      "version": {
+        "code": "enr",
+        "text_sha256": "dbca938fb0ffa45603e8ff4d86e2e9c3dbaed16a220ac2c1daac97f51b7480c3"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:07 Reported to House",
+        "sha256": "37199eb0376f080617a884e31febde6ea4315aedbc634fee9af3d32b9a7979df",
+        "chars": 688
+      },
+      "short": "The law directs the Department of the Interior to transfer about 7 acres of land in two parcels within the Vicksburg National Military Park to the State of Mississippi for an interpretive center. The land must be used to help the public reach the park and cannot be used in a way that harms the park's resources or visitors' experience, and any use limits Interior considers appropriate still apply. The transfer is made by quitclaim deed at no cost, and once it is complete Interior must adjust the park's boundary to leave that land out.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:36:54Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

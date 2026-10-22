@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 5284",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "enr",
+        "text_sha256": "775a6df8166ed47934728271424f94d1dca09c22030e6063ad50b881b486b4d8"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119hr5284enr",
+        "sha256": "775a6df8166ed47934728271424f94d1dca09c22030e6063ad50b881b486b4d8",
+        "chars": 838
+      },
+      "short": "The bill would require the Social Security Administration, within the later of 12 months after enactment or January 1, 2027, to replace several retirement-related terms in its rules, regulations, guidance, and other materials, whether online or in print. The term \"early eligibility age\" would become \"minimum monthly benefit age,\" \"full retirement age\" and \"normal retirement age\" would both become \"standard monthly benefit age,\" and \"delayed retirement credit\" would no longer be used, with references to age 70 as the maximum age for earning those credits replaced by \"maximum monthly benefit age.\"",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:36:54Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

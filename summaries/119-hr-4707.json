@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 4707",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "57cab041c5b40a42380e95677d283e8aa0ff63acb2bffd169bf01523a0eb7903"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:00 Introduced in House",
+        "sha256": "f7e063025b9ec789c9fe85acbad8016215a97d49508cc1ea7a78988499bcf06c",
+        "chars": 156
+      },
+      "short": "The bill would name the U.S. Postal Service facility at 1019 Avenue H in Fort Madison, Iowa, the \"Martin L. Graber Post Office.\"",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:36:54Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

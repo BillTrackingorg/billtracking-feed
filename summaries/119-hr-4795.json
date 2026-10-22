@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 4795",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rfs",
+        "text_sha256": "6f9f2350755a1ec339ade62ee762714c762003e6ce240c7e03093fd4ae931d58"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:07 Reported to House",
+        "sha256": "d2c821ba47a8edc227541775eb045bc89a439127d82e96afe546b90cc30ff1a5",
+        "chars": 1034
+      },
+      "short": "The bill would prohibit colleges and universities that take part in federal student aid programs from boycotting Israel, meaning they could not take commercial actions meant to limit business dealings with Israel or Israeli entities without a valid business reason. It would also require colleges and universities that receive or apply for federal international education funding to certify each year that students and faculty from Israeli institutions, and students and faculty going to programs in Israel, are treated the same as those from or going to other foreign countries.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:36:54Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

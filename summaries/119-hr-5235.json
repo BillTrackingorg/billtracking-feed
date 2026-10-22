@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 5235",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "enr",
+        "text_sha256": "30509fccf11d7aa69ef666d22a2e4bb8db3baec8ffdd6bb6b1ff924445c6ce72"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119hr5235enr",
+        "sha256": "30509fccf11d7aa69ef666d22a2e4bb8db3baec8ffdd6bb6b1ff924445c6ce72",
+        "chars": 3434
+      },
+      "short": "The bill would stop federal agencies from requiring a college degree or similar education for contractor workers in most cases, unless the contracting officer writes a justification explaining why the agency's needs cannot be met without that requirement and how it ensures those needs are met. It would direct the Office of Management and Budget to issue guidance on carrying this out, requiring each use of an education requirement to be determined, justified, and reviewed, and encouraging alternatives. The rules would apply to solicitations issued 15 months after enactment, and an older related defense-law provision would be repealed once that guidance takes effect. The Government Accountability Office would also be required to evaluate agency compliance within three years.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:36:54Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}
