@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 741",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rfs",
+        "text_sha256": "875e7eb0ea44129b3923097a4e613e81c16feb6fb232ee134498e04902f0109f"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119hr741rfs",
+        "sha256": "875e7eb0ea44129b3923097a4e613e81c16feb6fb232ee134498e04902f0109f",
+        "chars": 2964
+      },
+      "short": "The bill would change the head of the Indian Health Service from a Director to an Assistant Secretary for Indian Health, who would report directly to the Secretary of Health and Human Services and could appoint a Deputy Assistant Secretary with the Secretary's approval. It would also update references to the Director throughout federal law so they refer to the Assistant Secretary, and it would move the Indian Health Service head's pay grade from Level V to Level IV while adding one more position to that Level IV group.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:42:23Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

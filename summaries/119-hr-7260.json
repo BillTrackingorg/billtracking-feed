@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 7260",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rh",
+        "text_sha256": "b3b96c0bb6656831055855f8bc5914ed98546ccb9fd29597a28438888599925d"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119hr7260rh",
+        "sha256": "b3b96c0bb6656831055855f8bc5914ed98546ccb9fd29597a28438888599925d",
+        "chars": 3710
+      },
+      "short": "The bill would require the Department of Veterans Affairs to submit a yearly report to the Veterans' Affairs committees of the House and Senate on the work of the National Cemetery Administration, with the first report due one year after the law is enacted. The report would cover burial counts by cemetery and by category of eligible person, including casketed and cremated remains, and an assessment of customer satisfaction. It would also include maps of national and certain state, county, and tribal veterans' cemeteries, descriptions of burial options at each open national cemetery, and the number of memorial certificates, headstones, burial markers, and medallions provided. Further required contents include summaries of completed and planned construction projects, unclaimed veterans' remains interments, and grants made under two specified programs, with each recipient, grant amount, and purpose. The Secretary would also make each report publicly available online in digital form.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:42:23Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

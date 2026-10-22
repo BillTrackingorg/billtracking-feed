@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 6995",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "3d6c1d692b9907977e90767723a0025d8e609ce19a0394798b8d53b2d6004159"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:00 Introduced in House",
+        "sha256": "a973e388ccb5bdaafa0e0f974dd7136776536822f9f5ac594fa2920f075a4b24",
+        "chars": 158
+      },
+      "short": "The bill would name the United States Postal Service facility at 825 Highway 198 in Beaumont, Mississippi, the \"Jeremy Malone Post Office.\"",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:42:23Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

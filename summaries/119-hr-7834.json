@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 7834",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "eh",
+        "text_sha256": "22cb89fac0f11b6a30cee6bf6214895332f821a12e3aea724ade526e064a8592"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119hr7834eh",
+        "sha256": "22cb89fac0f11b6a30cee6bf6214895332f821a12e3aea724ade526e064a8592",
+        "chars": 9151
+      },
+      "short": "The bill would add a new section to the PROTECT Our Children Act of 2008 that lets federal, state, tribal, and local law enforcement and prosecutors store digital child pornography, child obscenity, and intimate visual depictions of minors with approved cloud storage companies. It would shield those approved vendors from civil and criminal lawsuits over their contracted work, except in cases of intentional or negligent misconduct, actual malice, reckless disregard, or unrelated purposes. Approved vendors would have to meet cybersecurity rules, including encryption, limited employee access, and annual independent audits. The bill would also set rules for keeping the evidence in the United States, for notifying the Justice Department after contracts are signed or broken, and for how long agencies must keep the material.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:42:23Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

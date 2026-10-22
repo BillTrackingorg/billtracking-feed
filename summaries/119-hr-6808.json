@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 6808",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "53407e4a50458cafe52550caf4bfad457c6ebd556fdede0a8394eddfa49f47a9"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:00 Introduced in House",
+        "sha256": "7326a65d6f3f4dc4d2dea9ca6e6c5787593113ef3327a3458f7de625858c225f",
+        "chars": 204
+      },
+      "short": "The bill would name the United States Postal Service facility at 417 West 7th Street in Columbia, Tennessee, the \"Pharmacist's Mate First Class John Harlan Willis Post Office Building\".",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:42:23Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

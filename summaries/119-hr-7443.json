@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 7443",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "eh",
+        "text_sha256": "025b6e5fc02a9c01ff31ba575c1803ca74d050d0995697b25412c5ecbed30f6c"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119hr7443eh",
+        "sha256": "025b6e5fc02a9c01ff31ba575c1803ca74d050d0995697b25412c5ecbed30f6c",
+        "chars": 4385
+      },
+      "short": "The bill would direct the Office of Intelligence and Analysis at the Department of Homeland Security to put greater priority on giving timely intelligence support to state, local, Tribal, and territorial governments and private sector entities, not just to the wider intelligence community. It would require the office to work on identifying emerging threats through forward-deployed intelligence capabilities, share information in both directions with those governments and entities, stay closely engaged with fusion centers, and make sure support for department leadership does not hinder its broader responsibilities to those partners. The bill would also require the Under Secretary for Intelligence and Analysis to report to Congress within 180 days of enactment on steps taken, progress on two-way information sharing, metrics used to evaluate effectiveness, and any resource or organizational changes needed, and it would state that nothing in it changes the office's watchlisting functions.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:42:23Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

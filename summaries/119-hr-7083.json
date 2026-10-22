@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 7083",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rh",
+        "text_sha256": "29c696155d2647fb79a978a6870fa84b0517e43a5e517fc0cd6758d5c3ad6075"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119hr7083rh",
+        "sha256": "29c696155d2647fb79a978a6870fa84b0517e43a5e517fc0cd6758d5c3ad6075",
+        "chars": 4138
+      },
+      "short": "The bill would change how the Department of Veterans Affairs pays car sellers for vehicles bought for certain disabled veterans. It would require the department to make these payments on time under federal payment rules, publish how many days it takes to process any payment not handled within 30 days, and handle all these payments through one office. It would also require regular reports to Congress and the public on payment timing and possible technology improvements, and a Government Accountability Office review of the new setup. Finally, it would extend a limit on pension payments from January 31, 2033 to October 31, 2033.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:42:23Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

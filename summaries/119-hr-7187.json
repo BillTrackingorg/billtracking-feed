@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 7187",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rh",
+        "text_sha256": "7fc5380f8399a75c2613a33189229e2c8d7716f5aff397cb0f31e1c4073b06f4"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119hr7187rh",
+        "sha256": "7fc5380f8399a75c2613a33189229e2c8d7716f5aff397cb0f31e1c4073b06f4",
+        "chars": 4974
+      },
+      "short": "The bill would add an exception to the federal securities law so that a personal services entity set up by a registered securities representative would not be treated as a broker just because it receives that representative's pay from the registered broker. To qualify, the broker would have to control and approve the payments and keep records, the entity could not present itself as a broker or do other broker work, and the broker and entity would need a written agreement. The entity could be owned only by the representative, immediate family members, or wholly owned entities of those people, and it would have to agree to certain dispute resolution and remain liable for the representative's obligations. The entity would also have to keep and provide records to regulators. The exception would take effect 180 days after enactment.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:42:23Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

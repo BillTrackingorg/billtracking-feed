@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 7889",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rfs",
+        "text_sha256": "6a3ab36d6c49a747fbadfe6ef9aea7a135924afadcd5f0fde8cb07b2038fad40"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119hr7889rfs",
+        "sha256": "6a3ab36d6c49a747fbadfe6ef9aea7a135924afadcd5f0fde8cb07b2038fad40",
+        "chars": 2332
+      },
+      "short": "The bill would amend the Water Resources Research Act of 1984 to add the growing artificial intelligence industry to the purposes that the act's research is meant to serve, alongside private industry. It would authorize $16,000,000 per year for fiscal years 2026 through 2029 for water resources research and technology institutes. It would also allow up to 20 percent of those yearly amounts to be used for research focused on water problems of an interstate nature, and it would set out the kinds of research that funding could support and how the funds would be made available.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:42:23Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

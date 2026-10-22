@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 7809",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "d71e349f2b1a7423d8c3fc27d46af4ec0bbecb5bd5329d1d8ff18422ab7d6175"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:00 Introduced in House",
+        "sha256": "f219aaa1cb03cb1cd991cfdfc3242d6f516d2d3bba1f52c95b379112528f633d",
+        "chars": 171
+      },
+      "short": "The bill would name the U.S. Postal Service facility at 201 East Grant Avenue in Georgetown, Ohio, the \"Ulysses S. Grant Post Office Building.\" This is a simple naming change that would not alter how the post office operates.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:42:23Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}
