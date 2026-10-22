@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 6365",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "e71a714f7aca6bd9b0f4c87e531a4c8394df1c89f190a2e5ea3faed4b460778b"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119hr6365rs",
+        "sha256": "e71a714f7aca6bd9b0f4c87e531a4c8394df1c89f190a2e5ea3faed4b460778b",
+        "chars": 1447
+      },
+      "short": "The bill would require the Secretary of the Interior to issue a right-of-way across Blue Ridge Parkway land near milepost 9.6 to create an emergency exit route for the Wintergreen area. The Secretary would first have to report to Congress that alternatives not crossing federal land were evaluated, including whether existing trails could be converted to roads. The Secretary would also have to report that an analysis of expected fire behavior for the route was completed and that required environmental and historic-preservation reviews were finished.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:39:15Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

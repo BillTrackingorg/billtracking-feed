@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 6020",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "8318568c0e1641521bd776d36bcd32a4c2ba4d718a04ca2838f56f589e14416c"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:00 Introduced in House",
+        "sha256": "ed437ad3a708485c096b7bf22f0c50cb973e716595632cdef45994285c8399e0",
+        "chars": 193
+      },
+      "short": "The bill would name the U.S. Postal Service facility at 14855 South Van Dyke Road in Plainfield, Illinois, the \"Staff Sergeant Jose Dueñez Jr. Post Office Building.\" It is a simple change that would only affect the building's official name.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:39:15Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

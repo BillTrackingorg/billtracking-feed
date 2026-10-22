@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 5436",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rh",
+        "text_sha256": "bef8727c39fa8df4239fcb304d032c1b70a28983e819f39b670cbd432835ae56"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119hr5436rh",
+        "sha256": "bef8727c39fa8df4239fcb304d032c1b70a28983e819f39b670cbd432835ae56",
+        "chars": 793
+      },
+      "short": "The bill would prohibit schools from holding back a student's transcript because of an unpaid debt to the school, if that student attended using Post-9/11 GI Bill education benefits for veterans and their families.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:39:15Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

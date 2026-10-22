@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 6633",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rfs",
+        "text_sha256": "8a6bc9a2145f6d884a9ba59d0d31d3df027fd708597d0e86f0449e34a09e95a9"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119hr6633rfs",
+        "sha256": "8a6bc9a2145f6d884a9ba59d0d31d3df027fd708597d0e86f0449e34a09e95a9",
+        "chars": 3936
+      },
+      "short": "The bill would amend the Federal Power Act to require electric utilities, when building new transmission lines or making major changes to existing ones, to use conductors from a designated group of the best-available transmission conductors. The Federal Energy Regulatory Commission would have one year after enactment to write rules, in consultation with the Secretary of Energy, setting out how conductors are chosen based on energy-carrying capacity, electrical efficiency, and mechanical performance, weighed against reliability, safety, and affordability. The requirement would not apply to projects already permitted or with conductors already bought before enactment, to emergency repairs after disasters or other declared emergencies, or where use would hurt safety, violate a reliability standard, or significantly raise the cost per kilowatt-hour without a matching gain in performance. The Commission could also periodically review and update the designation method and the list of conductors as technology improves.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:39:15Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

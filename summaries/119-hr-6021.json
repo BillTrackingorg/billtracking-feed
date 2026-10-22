@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 6021",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rfs",
+        "text_sha256": "4ac232d677eafeaf0bf62c96f7f6424deeb743db852a4be0f40c5584f186f083"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119hr6021rfs",
+        "sha256": "4ac232d677eafeaf0bf62c96f7f6424deeb743db852a4be0f40c5584f186f083",
+        "chars": 4014
+      },
+      "short": "The bill would clarify how authentic Alaska Native handicrafts that contain parts of migratory birds may be offered for sale under the existing migratory bird treaty with Japan. It would require the State Department and the Interior Department, within 180 days of enactment, to work with Japan on bilateral procedures for these items, and would let the Interior Department adjust related regulations, including rules on resale, certification of authenticity, and species of conservation concern. The Interior Department would also be able to remove a species from this exception if its population shows significant decline or it is designated a bird of conservation concern. Finally, the bill would direct the Interior Department to develop outreach materials explaining the sale rules, and would define key terms such as Alaska Native, authentic handicraft, and Indian Tribe.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:39:15Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

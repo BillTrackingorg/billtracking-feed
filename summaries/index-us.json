@@ -1,7 +1,7 @@
 {
   "v": 1,
   "bot": "us",
-  "built_at": "2026-10-22T15:37:52Z",
+  "built_at": "2026-10-22T15:40:38Z",
   "unversioned": "title",
   "bills": {
     "119-hconres-113": {
@@ -373,6 +373,106 @@
       "more": false
     },
     "119-hr-5345": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-5349": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-5366": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-5402": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-5436": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-5505": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-5517": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-5576": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-5631": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-5634": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-5773": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-5831": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-6006": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-6020": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-6021": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-6048": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-6247": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-625": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-6310": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-6317": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-6332": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-6365": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-6380": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-6500": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-6633": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-6698": {
       "current": 1,
       "more": false
     }

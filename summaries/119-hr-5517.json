@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 5517",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "eh",
+        "text_sha256": "2fdc3d6aea2d8172546821c544718a1e6ed39b6a1a9c81adef01d51375251a17"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119hr5517eh",
+        "sha256": "2fdc3d6aea2d8172546821c544718a1e6ed39b6a1a9c81adef01d51375251a17",
+        "chars": 1972
+      },
+      "short": "The bill would move the deadline for the Department of Homeland Security's northern border threat analysis to September 2, 2026, and require it to be repeated every two years after that. It would require the department to update its northern border strategy within 90 days of each threat analysis, or notify Congress if no update is needed. It would also require a classified briefing to Congress within 30 days of each analysis. Finally, it would require the department to develop measures within six months to judge how well its air and marine officers secure the northern border between official crossing points.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:39:15Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

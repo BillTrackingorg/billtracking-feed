@@ -1,0 +1,45 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 5349",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rfs",
+        "text_sha256": "6903f13a06837a061c1779cef46b9119af4cf47908187890f7d00ec37ba19c48"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119hr5349rfs + BILLS-119hr5349eas",
+        "sha256": "a4ffce58678e5f7ef70156afb13ca878eb40e10eabd2a6501e29437e345a5a88",
+        "chars": 181531
+      },
+      "short": "The bill would amend the Internal Revenue Code to improve how the IRS serves taxpayers, covering areas such as tax administration and customer service, support for Americans living abroad, judicial review in the Tax Court, the Office of the Taxpayer Advocate, tax return preparers, the Office of Appeals, whistleblower awards, relief for hostages and wrongfully detained individuals, small businesses, and miscellaneous tax matters. Its main provisions would require electronic processing and digitization of returns, publish wait-time information, expand online access to tax accounts, and let the Tax Court hear more cases and grant relief from judgments. It would also tighten rules and penalties for tax return preparers, expand appeals rights, and extend deadlines and protections for certain taxpayers.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:39:15Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": [
+        {
+          "code": "eas",
+          "text_sha256": "4bfe9962fccf561fbcdd1008935eaa93e149bcf576e08da163796294c34697d4",
+          "at": "2026-10-22T15:39:15Z",
+          "how": "amendment"
+        }
+      ]
+    }
+  ]
+}

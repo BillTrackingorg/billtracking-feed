@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 6500",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": "2026-09-03T15:01:40Z",
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": true,
+      "version": {
+        "code": "enr",
+        "text_sha256": "3b02f1f94f0b24fdee442e8eebcc0f512d9a08a32b84a429f26ef74dfbaf8496"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:49 Public Law",
+        "sha256": "b89e80efcfe4f38514e0d30f3ae6fc2f5886dec5aa6c958b13308cdf36eda1bc",
+        "chars": 13989
+      },
+      "short": "The law keeps federal agencies funded at FY2026 levels through December 11, 2026, or until the applicable FY2027 appropriations act is enacted, preventing a government shutdown in the meantime. It also extends a long list of programs and authorities that would otherwise expire, covering agriculture and grain standards, foreign trade and duty-free access for African and Haitian goods, customs fees, cybersecurity, passport fees, surface transportation and highway funding, and many veterans' health care, housing, and benefits programs.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:39:15Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

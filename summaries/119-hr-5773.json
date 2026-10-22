@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 5773",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "897aec5d4dfd705da35e0c10bc72b885eb127723fc3fee9a8da64d555ac26224"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:00 Introduced in House",
+        "sha256": "f68606d26445a3a61689b05b0f60ce8df7c49f15aaab01649362e39f01091e5b",
+        "chars": 171
+      },
+      "short": "The bill would name the United States Postal Service facility at 1300 East Northwest Highway in Palatine, Illinois, the \"Bernie Bluestein Post Office Building\".",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:39:15Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

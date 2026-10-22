@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 5631",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "61157d34d4f9ae117b83c8bb791c076d594b6248d5f6c63246631de67ea3342a"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119hr5631rs",
+        "sha256": "61157d34d4f9ae117b83c8bb791c076d594b6248d5f6c63246631de67ea3342a",
+        "chars": 15717
+      },
+      "short": "The bill would speed up federal decisions on geothermal energy projects on public land, requiring the Interior Department to approve or deny pending permit applications within 60 days after all required reviews are complete, even when a lawsuit is pending, unless a court orders otherwise. It would also let the government charge geothermal lease applicants and holders for the costs of processing their applications and inspecting their operations through 2033, with possible reductions for economic hardship. The bill would require the Interior Department to set up a Geothermal Ombudsman and a permitting task force to help resolve disputes and coordinate reviews, and to update its Gold Book of standard operating guidelines to cover geothermal development. It would change how royalties are calculated for electricity-producing geothermal facilities, tying the 10-year royalty period to each facility's start of operation, and would extend federal environmental review rules that already apply to oil and gas so they also cover geothermal projects. Finally, it would require a report to Congress within five years on how these changes have affected the Bureau of Land Management's geothermal program.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:39:15Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}
