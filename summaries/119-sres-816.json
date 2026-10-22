@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S.Res. 816",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": "2026-09-18T15:01:20Z",
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": true,
+      "version": {
+        "code": "ats",
+        "text_sha256": "7de09bb90254cf753d218d27959b87f7da12f73224f76ca726792205a2f65ec3"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119sres816ats",
+        "sha256": "7de09bb90254cf753d218d27959b87f7da12f73224f76ca726792205a2f65ec3",
+        "chars": 591
+      },
+      "short": "The resolution congratulates the five Central Asian countries of Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, and Uzbekistan on 35 years of independence and affirms the strategic importance of the United States' relationship with them. It supports each country's right to set its own foreign policy, security arrangements, and economic alliances without outside pressure, and states that the independence, sovereignty, and territorial integrity of these countries are foundational to peace, security, and the balance of power across Eurasia.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:23:50Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S.Res. 822",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": "2026-07-31T13:05:51Z",
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": true,
+      "version": {
+        "code": "ats",
+        "text_sha256": "f7370d9aa2bd8ec932f6c7439f3ddd5d39c752c61d43b919f7898e5e5e29cdac"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119sres822ats",
+        "sha256": "f7370d9aa2bd8ec932f6c7439f3ddd5d39c752c61d43b919f7898e5e5e29cdac",
+        "chars": 854
+      },
+      "short": "The resolution designates July 2026 as American Grown Flower and Foliage Month. It recognizes that buying flowers and foliage grown in the United States supports American farmers, small businesses, jobs, and the economy, and that domestic growing is a vital part of the country's agricultural industry. It also recognizes that homegrown flowers and foliage help Americans celebrate holidays and special occasions, and it urges people to showcase them to support flower and foliage farmers, processors, distributors, and the wider agricultural industry.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:23:50Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

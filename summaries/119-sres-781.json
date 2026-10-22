@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S.Res. 781",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": "2026-07-28T12:10:59Z",
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": true,
+      "version": {
+        "code": "ats",
+        "text_sha256": "646118f66e1d7a26af81b985e8755e637fc8ea78538b831ec96c1e2706b07799"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:00 Introduced in Senate",
+        "sha256": "35dc96acb373cd988899eb5b89d186d919b9795c68d70cf9ceb70db231650994",
+        "chars": 149
+      },
+      "short": "The resolution commemorates June 19, 2026, as Juneteenth National Independence Day, recognizing and observing the end of slavery in the United States.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:23:50Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S.Res. 818",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": "2026-07-30T12:03:06Z",
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": true,
+      "version": {
+        "code": "ats",
+        "text_sha256": "e9535bb49bf4b2171b834acf91302e547ce502ca0145d0e1019f450585626f73"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119sres818ats",
+        "sha256": "e9535bb49bf4b2171b834acf91302e547ce502ca0145d0e1019f450585626f73",
+        "chars": 1083
+      },
+      "short": "The resolution designates July 2026 as National Anti-Counterfeiting and Consumer Education and Awareness Month. It supports educating the public about the dangers counterfeit products pose to consumer health and safety. It affirms the need for federal, state, and private education efforts that help consumers avoid illegal counterfeit goods sold in stores, online, and on other electronic platforms. It also reaffirms the United States' commitment to fighting counterfeiting through awareness campaigns and programs aimed at reducing both the supply of and demand for counterfeit products.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:23:50Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}
