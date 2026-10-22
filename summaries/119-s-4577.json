@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 4577",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "ce762db21d92d72de393b6b68b5e0087803c2a07e9dbf75a019a1366560a7d88"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119s4577rs",
+        "sha256": "ce762db21d92d72de393b6b68b5e0087803c2a07e9dbf75a019a1366560a7d88",
+        "chars": 13172
+      },
+      "short": "The bill would direct the Secretary of State, working with other federal agencies, to conduct a comprehensive reassessment of the United States' relationship with Tanzania and report the findings to Congress within 90 days. The reassessment would cover reviewing efforts to secure the release of detained religious and opposition leaders, Tanzania's democratic direction and needed reforms, U.S. security assistance to Tanzania's military and police, and Tanzania's ties with China and Russia. The bill would also require a report within 180 days listing senior Tanzanian officials believed responsible for serious human rights abuses, and would allow the President to impose Global Magnitsky sanctions on those individuals. It would further bar the International Development Finance Corporation, Export-Import Bank, and Trade and Development Agency from providing most support to entities in Tanzania, and bar Millennium Challenge Corporation funds for Tanzania, with both restrictions ending after certain democratic reforms are certified, subject to exceptions for humanitarian, health, and democracy-related aid and a national-interest waiver. The bill would expire five years after enactment.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:17:19Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

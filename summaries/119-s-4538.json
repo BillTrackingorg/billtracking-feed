@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 4538",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "185bec35a337f2501b40f506857e2cecd0bea83b823776804b15251798e537d8"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119s4538rs",
+        "sha256": "185bec35a337f2501b40f506857e2cecd0bea83b823776804b15251798e537d8",
+        "chars": 733
+      },
+      "short": "The bill would add Washington's Trail—1753 to the list of routes studied for possible designation as a national historic trail under the National Trails System Act. The trail would run about 500 miles from Williamsburg, Virginia, to Fort LeBoeuf in Pennsylvania, following the route George Washington took on his diplomatic mission to the French for Virginia Governor Robert Dinwiddie, just before the French and Indian War began.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:17:19Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

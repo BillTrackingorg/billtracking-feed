@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 4709",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "651e5b1b6c98ec5e3fd8f4ba848320953d27e7b14dcc60aefba6079288237d55"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119s4709rs",
+        "sha256": "651e5b1b6c98ec5e3fd8f4ba848320953d27e7b14dcc60aefba6079288237d55",
+        "chars": 469
+      },
+      "short": "The bill would amend the Arms Export Control Act so that a specific limitation on exports and transfers of defense articles and services under the AUKUS partnership would exclude three listed subclauses from that limitation.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:17:19Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 4395",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "es",
+        "text_sha256": "6ba3d5b4c4a9f8bfe5d25eba0052fe3c811cbb02ab2dac417c4ab8de05e1de25"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:55 Passed Senate",
+        "sha256": "75434223a1b85367cd55e31d817e4c7b1b9cb3cf7846d2090e94a8bd52288b61",
+        "chars": 271
+      },
+      "short": "The bill would extend the Terrorism Risk Insurance Program through 2034. Under the program, the federal government would cover a share of the losses that private insurance companies face from property and casualty policies that pay out for terrorism-related damage.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:17:19Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

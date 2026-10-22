@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 4443",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "72cf8546d04d6372be9d647aebd0cc9236155dfe7e3718256082a8eb4f1b2aae"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119s4443rs",
+        "sha256": "72cf8546d04d6372be9d647aebd0cc9236155dfe7e3718256082a8eb4f1b2aae",
+        "chars": 7815
+      },
+      "short": "The bill would make the Eastern Mediterranean region a strategic priority for US foreign policy, focusing on energy security and defense cooperation with Egypt, Greece, Cyprus, and Israel. It would support the India-Middle East-Europe Economic Corridor, a connectivity project linking Asia, the Middle East, and Europe, and would encourage the Secretary of State to hold strategic dialogues with partner countries. It would also require the Secretary of State to submit recurring reports on how the corridor is boosting trade and countering China's influence, and to study creating bilateral research and development programs with Eastern Mediterranean countries modeled on existing US-Israel programs. The main areas covered are energy and infrastructure, defense and security cooperation, diplomacy, and reporting.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:17:19Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 4523",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "8b4a100b26608512bb51dae5056e2b8b8a98dc0543eabe48ddfbf09db5160cf9"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:00 Introduced in Senate",
+        "sha256": "0264ede180f8ac7fd01dc7fe442831553706ce19de2af2d7865f05e460c0e973",
+        "chars": 164
+      },
+      "short": "The bill would name the United States Postal Service facility at 111 South Tremont Street in Tremonton, Utah, the \"Sorensen-Estrada Post Office\".",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:17:19Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

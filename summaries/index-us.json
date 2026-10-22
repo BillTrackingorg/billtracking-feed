@@ -1,7 +1,7 @@
 {
   "v": 1,
   "bot": "us",
-  "built_at": "2026-10-22T16:15:52Z",
+  "built_at": "2026-10-22T16:18:49Z",
   "unversioned": "title",
   "bills": {
     "119-hconres-113": {
@@ -1365,6 +1365,106 @@
       "more": false
     },
     "119-s-4392": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-4395": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-4429": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-4443": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-4472": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-4505": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-4523": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-4538": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-4570": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-4577": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-4600": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-4610": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-4623": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-4665": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-4668": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-4680": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-4689": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-4708": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-4709": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-4723": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-4726": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-4745": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-4784": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-4830": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-4850": {
+      "current": 1,
+      "more": false
+    },
+    "119-s-494": {
       "current": 1,
       "more": false
     }

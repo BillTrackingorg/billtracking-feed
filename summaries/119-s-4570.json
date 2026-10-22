@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 4570",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "0ea00e5b05612db6c10f46641fbdd5a32d504bd0871ea9d9abdf7f90b2b243d5"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119s4570rs",
+        "sha256": "0ea00e5b05612db6c10f46641fbdd5a32d504bd0871ea9d9abdf7f90b2b243d5",
+        "chars": 25146
+      },
+      "short": "The bill would create a United States Cyber and Digital Technology Procurement Program within the State Department to help foreign government partners buy trusted American technology such as software, hardware, cybersecurity products, telecommunications equipment, and artificial intelligence tools, and it would set up an office to run the program. It would also require risk assessments and monitoring, bar funds from going to sanctioned countries or entities, screen partners for human rights abuses, and preserve market competition among U.S. technology providers. Further provisions would authorize funding and staffing, extend a regional technology officer program, require annual reports and a Government Accountability Office review, and direct a study on a technology career track for Foreign Service officers.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:17:19Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}
