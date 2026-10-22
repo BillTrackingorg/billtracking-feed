@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "4307",
- "built_at": "2026-10-21T15:13:31+00:00",
- "source_count": 22,
+ "built_at": "2026-10-22T04:37:45+00:00",
+ "source_count": 24,
  "holds_full_record": true,
  "entries": [
   {
@@ -365,6 +365,26 @@
    "qualified": null,
    "lead": true,
    "emoji": "📜✍️",
+   "vote": null
+  },
+  {
+   "order": 18,
+   "date": "2026-10-20",
+   "text": "Became Public Law No: 119-131.",
+   "core": "Became Public Law No: 119-131",
+   "code": "36000",
+   "source": "Library of Congress",
+   "chamber": null,
+   "family": "became_law",
+   "label": "Became Public Law",
+   "tally": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-7706bab4c3702bad",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
    "vote": null
   }
  ]

@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "6380",
- "built_at": "2026-10-21T15:13:31+00:00",
- "source_count": 29,
+ "built_at": "2026-10-22T04:37:45+00:00",
+ "source_count": 31,
  "holds_full_record": true,
  "entries": [
   {
@@ -485,6 +485,26 @@
    "qualified": null,
    "lead": true,
    "emoji": "📜✍️",
+   "vote": null
+  },
+  {
+   "order": 24,
+   "date": "2026-10-20",
+   "text": "Became Public Law No: 119-133.",
+   "core": "Became Public Law No: 119-133",
+   "code": "36000",
+   "source": "Library of Congress",
+   "chamber": null,
+   "family": "became_law",
+   "label": "Became Public Law",
+   "tally": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-c0dfb4e976301203",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
    "vote": null
   }
  ]
