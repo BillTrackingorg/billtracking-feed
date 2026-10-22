@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 1787",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "7251337e37d27f89214f85beec12b1c6b76c6de3f37d035a29251ba084e7e402"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:00 Introduced in Senate",
+        "sha256": "e44099dfd2b335eb63144741d0dfaf5dd1ec5f1bed6ffd2395e53b9381f17769",
+        "chars": 1369
+      },
+      "short": "The bill would establish the Dolores River National Conservation Area and the Dolores River Special Management Area in Colorado to protect their natural, recreational, scenic, cultural, and historical values. The conservation area would cover about 52,872 acres of Bureau of Land Management land, and the special management area would cover about 15,452 acres of federal land in the San Juan National Forest. Each area would get a management plan, and members of Indian tribes would keep access to the areas for traditional ceremonies and for gathering traditional plants and materials. The bill would also require the Ponderosa Gorge portion to keep its wilderness character by banning new roads, motor vehicles and mechanical transport, and commercial timber harvesting. In addition, it would create an advisory council for the conservation area and exempt river segments inside the areas from further study for possible inclusion in the Wild and Scenic Rivers System.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:02:15Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 2016",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "e519c468bd78fc9df4fb23977c2a9ea088b3bf6fc64fab2ab60c8c362601941f"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119s2016rs",
+        "sha256": "e519c468bd78fc9df4fb23977c2a9ea088b3bf6fc64fab2ab60c8c362601941f",
+        "chars": 17543
+      },
+      "short": "The bill would authorize and speed up a land swap between the Chugach Alaska Corporation and the federal government. Within one year of enactment, if the corporation offers to transfer its non-federal land to the Secretary of the Interior, the Secretary would accept and give the corporation about 65,374 acres of federal land in exchange, subject to existing rights and public easements. The federal land is listed by parcel, mostly national forest land plus some Bureau of Land Management and National Park Service land, and the corporation would exclude up to 209 acres held for village development or shareholder homesites. The bill also allows minor map or acreage errors to be corrected by mutual agreement, with maps controlling in any conflict, and aims to consolidate federal ownership of the surface and subsurface rights to land acquired under the Habitat Protection and Acquisition Program.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:02:15Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

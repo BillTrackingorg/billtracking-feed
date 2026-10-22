@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 2394",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "815194f5f49ffd9fd59d7602f7dc25b09f969d4c44e0321d0a52807f929274f8"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:00 Introduced in Senate",
+        "sha256": "ece08128d62ba39c88e75c2bd134c3136615aeb3d78707bf1cc67faa6d09017f",
+        "chars": 172
+      },
+      "short": "The bill would name the U.S. Postal Service facility at 505 East 9th Avenue in Amarillo, Texas, the \"Mayor Jerry H. Hodge Post Office Building.\"",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:02:15Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

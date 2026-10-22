@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 2273",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "es",
+        "text_sha256": "50586525b7930ce0aaf018db481ca01bb1153df06b159655d428a7dcb141320f"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:00 Introduced in Senate",
+        "sha256": "ddee084a4362bdbaffd9d8a2122a7f2ffbca6063c93a4e8d6d416fff92f3e73f",
+        "chars": 511
+      },
+      "short": "The bill would give Wyoming more flexibility in how it invests the money in its permanent school fund, allowing the state to use investment earnings and not only interest. The fund was created when Wyoming became a state, when Congress granted certain federal lands to be held in trust for the state. Money from sales, exchanges, or other disposals of those school trust lands is deposited into the fund to support public schools.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:02:15Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

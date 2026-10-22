@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 2098",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "126a082fcb7f7f2f3a93f9695d3f210fa552dc3a2e3db831b75bdf9905d6268b"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:00 Introduced in Senate",
+        "sha256": "c6a7d69128fccb77281d4bae9ec0e121ec9224e720e486afa38c15d23b17e26b",
+        "chars": 1025
+      },
+      "short": "The bill would direct the Department of Health and Human Services to transfer about 3.4 acres of land in Anchorage, Alaska, to the Southcentral Foundation for use in its health and social services programs. The transfer would be made by warranty deed and would not require the foundation to pay for the land, take on conditions tied to it, or give the federal government a right to reclaim it. The foundation would not be responsible for certain environmental contamination that happened before the transfer, and the department would not be responsible for contamination occurring after the foundation took control and use of the property.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:02:15Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}
