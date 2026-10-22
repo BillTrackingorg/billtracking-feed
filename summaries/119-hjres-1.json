@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.J.Res. 1",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rh",
+        "text_sha256": "02cb8819a0a0acf528a87741242e77b01621ab7e54969b18feb7a25f6c6c2f92"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:00 Introduced in House",
+        "sha256": "c1bc1c71a97562463dec0f547bb71274ba238b32cf4169be766a85dc6728e397",
+        "chars": 165
+      },
+      "short": "The joint resolution would propose an amendment to the Constitution requiring the Supreme Court to have nine members, made up of one Chief Justice and eight Associate Justices.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:25:38Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

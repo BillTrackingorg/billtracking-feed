@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.Con.Res. 89",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "eh",
+        "text_sha256": "020787d93896881b87f90940da479a6620839550d7aa73d8cb458d9899a92394"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:00 Introduced in House",
+        "sha256": "4ce652f979890c6de4e916efb67b0351b3cd59b1e317e26a55ef0920bad31649",
+        "chars": 442
+      },
+      "short": "The concurrent resolution would direct the President to remove U.S. Armed Forces from hostilities against Iran or any part of its government or military, unless Congress has enacted a declaration of war or an authorization to use military force for that purpose. It would also state that it does not prevent the United States from defending itself, its Armed Forces, its diplomatic facilities, or allied states from an imminent attack.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:25:38Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

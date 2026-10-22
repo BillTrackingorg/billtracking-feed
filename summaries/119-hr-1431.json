@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 1431",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "afbb137da6c95414835157b2f911330f4535b1ed162228ead2ab1356a7b76415"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:00 Introduced in House",
+        "sha256": "38a02cabf11c74d85c48a7c646630c5c7e3d31cd4dcf3a7644e46dacaef9146b",
+        "chars": 176
+      },
+      "short": "The bill would name the U.S. Postal Service facility at 2407 State Route 71, Suite 1, in Spring Lake, New Jersey, the \"James J. Howard Post Office.\"",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:25:38Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 10159",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "enr",
+        "text_sha256": "43cf5dcb4af16d7c3c333a8aab1d9d2f996ee9918cbce4778449472db8d56ce3"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:00 Introduced in House",
+        "sha256": "15e2b7469d345b4775b94b6b4ba4536267b5e0dbf099ec33b63a0f3e976d9fcf",
+        "chars": 1071
+      },
+      "short": "The bill would allow the Army to transfer a 20-acre piece of land at Fort Bragg, North Carolina, to the state at no cost, so North Carolina can build a veterans' state home there. The state would pay all costs of the transfer. If the Army finds the land is no longer being used for the state home, ownership of the land could return to the federal government.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:25:38Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

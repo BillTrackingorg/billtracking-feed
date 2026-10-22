@@ -1,7 +1,104 @@
 {
   "v": 1,
   "bot": "us",
-  "built_at": "2026-10-22T15:16:13Z",
+  "built_at": "2026-10-22T15:27:01Z",
   "unversioned": "title",
-  "bills": {}
+  "bills": {
+    "119-hconres-113": {
+      "current": 1,
+      "more": false
+    },
+    "119-hconres-89": {
+      "current": 1,
+      "more": false
+    },
+    "119-hconres-93": {
+      "current": 1,
+      "more": false
+    },
+    "119-hjres-1": {
+      "current": 1,
+      "more": false
+    },
+    "119-hjres-210": {
+      "current": 1,
+      "more": false
+    },
+    "119-hjres-213": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-1008": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-1009": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-10159": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-10167": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-10204": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-10238": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-10326": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-10329": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-10352": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-10353": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-10355": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-10371": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-10375": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-1266": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-1276": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-1342": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-1372": {
+      "current": 1,
+      "more": false
+    },
+    "119-hr-1431": {
+      "current": 1,
+      "more": false
+    }
+  }
 }

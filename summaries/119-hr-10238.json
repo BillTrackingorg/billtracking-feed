@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 10238",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rh",
+        "text_sha256": "216b5a130750af97d9b287bb9c0f3660002c53a4fcbeaa016a82d3cb35f1e7ba"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119hr10238rh",
+        "sha256": "216b5a130750af97d9b287bb9c0f3660002c53a4fcbeaa016a82d3cb35f1e7ba",
+        "chars": 2451
+      },
+      "short": "The bill would direct the Small Business Administration, working with federal cybersecurity and standards agencies, to develop and share information and resources that help small businesses strengthen their cybersecurity and follow cybersecurity best practices. It would also require the Administration to give small businesses seeking federal contracts or subcontracts information about the Cybersecurity Maturity Model Certification program and related resources from the Department of Defense. The Administration would have to publish this information on its website and in its outreach, consult the Office of Advocacy on how to share other cybersecurity information, and submit an annual report to Congress on the small businesses that contacted it about cybersecurity.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:25:38Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

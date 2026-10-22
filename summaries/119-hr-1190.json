@@ -1,0 +1,25 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 1190",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": null,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [
+    {
+      "task": "step1",
+      "ref": "BILLS-119hr1190enr",
+      "sha256": "2e5b1805bcaef77f7d08a82c0ca8cb6879ceca0fa1dbf6136fabd1c0606bdc54",
+      "at": "2026-10-22T15:25:38Z",
+      "prompts_sha256": "330d3d55b0966eefe3d26d08f7b504e5f7f4037b4bf6c4b804fa00fb7491202d",
+      "model": "claude-haiku-5-5",
+      "figure_check": 2
+    }
+  ],
+  "versions": []
+}

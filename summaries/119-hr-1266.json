@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 1266",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "pcs",
+        "text_sha256": "0945f98ab1f5183fc533fde0ea27f47f2e96f7d444decfa67b50123357d3d262"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119hr1266pcs",
+        "sha256": "0945f98ab1f5183fc533fde0ea27f47f2e96f7d444decfa67b50123357d3d262",
+        "chars": 6445
+      },
+      "short": "The bill would add xylazine, an animal sedative that is sometimes misused, to the federal list of controlled substances in Schedule III of the Controlled Substances Act, and would define the term xylazine for that law. It would exempt most manufacturers from installing the security standards that apply to Schedule III drugs for xylazine production. It would delay the labeling, packaging, and distribution rules for xylazine by one year, and the practitioner registration, inventory, and recordkeeping rules by 60 days after enactment. It would let veterinarians, pharmacies, and certain government and wildlife programs hold xylazine for animal use as \"ultimate users,\" and would include xylazine in the federal drug tracking system known as ARCOS. It would direct the U.S. Sentencing Commission to review penalties for xylazine offenses. It would also require the Attorney General to report to Congress on illicit xylazine use, its sources, and related substances, with an initial report and a later update.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:25:38Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}
