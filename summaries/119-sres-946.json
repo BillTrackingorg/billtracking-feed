@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S.Res. 946",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": "2026-10-01T13:10:28Z",
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": true,
+      "version": {
+        "code": "ats",
+        "text_sha256": "15a257b1f8835b64c384c6c122fa1e4ca91646decf39148ecb46d8b9484f7383"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119sres946ats",
+        "sha256": "15a257b1f8835b64c384c6c122fa1e4ca91646decf39148ecb46d8b9484f7383",
+        "chars": 379
+      },
+      "short": "The resolution expresses the Senate's support for designating September 30, 2026, as National Veterans Suicide Prevention Day. It also encourages people across the United States, veteran service organizations, community partners, and health care providers to mark the day with programs and activities that raise awareness of veteran suicide prevention and the resources available to help.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:44:31Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

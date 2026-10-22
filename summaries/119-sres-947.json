@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S.Res. 947",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": "2026-10-01T13:10:32Z",
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": true,
+      "version": {
+        "code": "ats",
+        "text_sha256": "2541279a836d91fc0d9dc897cc7bdcc5fd8473243cc3b750f13c310437984695"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119sres947ats",
+        "sha256": "2541279a836d91fc0d9dc897cc7bdcc5fd8473243cc3b750f13c310437984695",
+        "chars": 752
+      },
+      "short": "The resolution designates September 2026 as National Childhood Cancer Awareness Month. It asks the federal government, states, localities, and nonprofit groups to observe the month with programs and activities aimed at raising public knowledge of the risks of childhood cancer. It also encourages childhood cancer survivors to keep receiving monitoring and care throughout their adult lives, recognizes the human toll of the disease, and pledges to make preventing and curing childhood cancer a public health priority. Finally, it honors the bravery of children diagnosed with cancer and reminds Americans of their courage.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:44:31Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}
