@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 2466",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "fa4a31e782200ff29a5853d283b7969a0017615f6a6c89602a3b4dbccda8ee05"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:00 Introduced in House",
+        "sha256": "4c50592b91305da6eca24bc2b2acbad436845a0055d63e2e82cc52b77c105472",
+        "chars": 169
+      },
+      "short": "The bill would name the United States Postal Service facility at 5225 Harrison Avenue in Rockford, Illinois, the \"Jay P. Larson Post Office Building\".",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:33:21Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

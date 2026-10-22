@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 3937",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "a5a837dda9bf9cce48c7d71dd1320247329f3073139b70797875da333846770d"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119hr3937rs",
+        "sha256": "a5a837dda9bf9cce48c7d71dd1320247329f3073139b70797875da333846770d",
+        "chars": 4561
+      },
+      "short": "The bill would allow the federal government to sell about 14 acres of National Forest System land in the Chequamegon-Nicolet National Forest in Wisconsin to Tony's Wabeno Redi-Mix, LLC, if the company offers to buy it at appraised market value within a set period after the appraisal is approved. The sale would be made by quitclaim deed, subject to existing rights, and the company would pay the market value along with the costs of the survey, appraisal, and any required environmental review. The bill would also require the Secretary of the Interior to review federal permitting processes for stone, sand, and gravel development on federal lands and report back to Congress within 180 days with findings and recommendations for streamlining that permitting.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:33:21Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

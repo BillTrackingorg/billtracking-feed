@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 2481",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": "2026-10-21T15:12:59Z",
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": true,
+      "version": {
+        "code": "enr",
+        "text_sha256": "0ec64e0111f8962c3d8b987e4b3535b02e971f4e91e8aa0e844f9512c559c7d4"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:00 Introduced in House",
+        "sha256": "67d30bd6d84d6358b1a641734fc10b7e6cd838f63e0833985e0a0d61eaf8656a",
+        "chars": 1082
+      },
+      "short": "The law requires online dating services, whether apps or websites, to notify users when they have received a message from an account the service has banned. The notice must give the banned user's username or other profile identifier and when the two last exchanged messages, state that the banned account may be using a false identity or trying to scam people, and warn users not to send cash or personal financial information to other users. It must also include information on avoiding online fraud and the provider's customer service contact details. The Federal Trade Commission and state attorneys general enforce these requirements.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:33:21Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 3925",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rfs",
+        "text_sha256": "f9ac48fbea8662e0745dd18d206530ecfd2d3b3d004fedfb893e5a9d17b6585d"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119hr3925rfs",
+        "sha256": "f9ac48fbea8662e0745dd18d206530ecfd2d3b3d004fedfb893e5a9d17b6585d",
+        "chars": 5505
+      },
+      "short": "The bill would require the Secretary of Agriculture, through the Forest Service, to accept an offer from the Yuhaaviatam of San Manuel Nation to transfer about 1,460 acres of tribal land to the United States in exchange for about 1,475 acres of National Forest System land in San Bernardino County, California, which would then be conveyed to the Nation. The exchange would take place within one year of the Secretary receiving the offer, with the Forest Service keeping an access easement over parts of three named forest roads. Exact acreage and boundaries would be set by surveys approved by both parties, with the Nation paying for the survey of its land, and minor map or boundary errors could be corrected by mutual agreement. As a condition of the transfer, the Nation would agree within one year to preserve the historical and cultural integrity of the Arrowhead landmark site. Land received by the government would become part of the San Bernardino National Forest, and the exchange would be exempt from a specified provision of the Federal Land Policy Management Act of 1976.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:33:21Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

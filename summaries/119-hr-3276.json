@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 3276",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rfs",
+        "text_sha256": "af823d5b91d1074cbe5168b6b99fd9cca52303f4e49cfad9aa28a0e5b4a0a765"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:07 Reported to House",
+        "sha256": "dcb9ace584ac8823732d84d1f6bd03d5910e83fa493a42fdd7de7dc6d6b1463f",
+        "chars": 551
+      },
+      "short": "The bill would give legal authority to the Urban Bird Treaty Program, which is run by the U.S. Fish and Wildlife Service and works with communities to protect birds that live in or pass through cities. It would allow grants, managed by the National Fish and Wildlife Foundation, to government agencies, community groups, and universities to carry out activities under the program.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:33:21Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

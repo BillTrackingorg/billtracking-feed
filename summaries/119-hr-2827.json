@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 2827",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rh",
+        "text_sha256": "39e17d60dacb45048916799f9400c60222af65a78844e0f33368cb82b17ba76e"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:00 Introduced in House",
+        "sha256": "c3a3f68991c78927b77d74937440fe8b3505697efe43ccbfa80125270c915e5c",
+        "chars": 426
+      },
+      "short": "The bill would give the U.S. Court of Federal Claims the authority to hear a land claim brought by the Miami Tribe of Oklahoma, based on the Treaty of Grouseland. The court would have to decide the case without applying the statute of limitations or any defense based on delay. This authority would end unless the claim is filed within one year. The bill would also end all other claims the tribe has to land in Illinois, including any claims it might bring in the future.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:33:21Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

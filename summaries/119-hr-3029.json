@@ -1,0 +1,26 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 3029",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": null,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [
+    {
+      "task": "step1",
+      "ref": "BILLS-119hr3029rfs",
+      "sha256": "18016eef7ecac6d94861a26929344583780cf9ca608cfaadd445135924413b2e",
+      "at": "2026-10-22T15:33:21Z",
+      "refused": "bio",
+      "prompts_sha256": "330d3d55b0966eefe3d26d08f7b504e5f7f4037b4bf6c4b804fa00fb7491202d",
+      "model": "claude-haiku-5-5",
+      "figure_check": 2
+    }
+  ],
+  "versions": []
+}

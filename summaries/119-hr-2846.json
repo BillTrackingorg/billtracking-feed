@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 2846",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "pcs",
+        "text_sha256": "91b022f431139a1a86799c89d6b9a69502b54e2a90fe8639814cec30c915a8c9"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:07 Reported to House",
+        "sha256": "cde283231b7f300dc3630b0144cc118c5ba82e9db2e27a452bba1f81cd74fb46",
+        "chars": 308
+      },
+      "short": "The bill would give officers of the U.S. Public Health Service Commissioned Corps, along with their eligible family members, the same leave benefits that officers of the armed forces receive. Specifically, it would expand the leave available to these officers for parental leave, emergency leave, and rest and recuperation leave.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:33:21Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

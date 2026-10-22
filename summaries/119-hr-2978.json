@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 2978",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "pcs",
+        "text_sha256": "68b443f0076a48cbde93c191a9c8c2927fed678d2c68791069fb5aabaa4b5830"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119hr2978pcs",
+        "sha256": "68b443f0076a48cbde93c191a9c8c2927fed678d2c68791069fb5aabaa4b5830",
+        "chars": 8338
+      },
+      "short": "The bill would let state, local, and Tribal law enforcement agencies and grantees that receive certain federal grant funds use that money to investigate elder financial fraud, pig butchering (a scam where victims are lured into investing more and more money, often in cryptocurrency), and general financial fraud. Permitted uses include hiring investigators and analysts, providing specialized training, buying investigative software, improving data collection, and setting up a financial sector liaison to share information with investigators. Agencies that use the funds would have to report to the federal grant provider within a year on how the money was spent and how it affected fraud statistics. The bill would also require the Treasury Department's Financial Crimes Enforcement Network to report to Congress on efforts to combat these frauds and scams, and then every two years on the state of such scams, including trends in suspicious activity reports. Finally, federal law enforcement agencies would be allowed to help state, local, and Tribal agencies and fusion centers use blockchain tracing tools.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:33:21Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

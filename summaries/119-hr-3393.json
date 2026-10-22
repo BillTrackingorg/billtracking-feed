@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 3393",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "f14f61ff313a04bed9f68518b74e8aa1932148e2b44a5cbf57a894b530a4a3f0"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:00 Introduced in House",
+        "sha256": "3ab01c528ec16c0af1fadbad5b2592bf9ffa6834be1c11a142d1e24c9b3f9ccb",
+        "chars": 172
+      },
+      "short": "The bill would name the United States Postal Service facility at 12208 North 19th Avenue in Phoenix, Arizona, the \"Officer Zane T. Coolidge Post Office.\"",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:33:21Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

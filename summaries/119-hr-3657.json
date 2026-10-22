@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 3657",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": "2026-09-25T22:17:38Z",
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": true,
+      "version": {
+        "code": "enr",
+        "text_sha256": "cf79e47370a9a03fb519bfb0fa63516992b65042452ccfe41da794966d61b65e"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119hr3657enr",
+        "sha256": "cf79e47370a9a03fb519bfb0fa63516992b65042452ccfe41da794966d61b65e",
+        "chars": 2797
+      },
+      "short": "The law requires the Federal Energy Regulatory Commission to send Congress a yearly report on the status of hydropower licensing. The report covers licenses that existing licensees or other parties, such as citizens, states, Indian Tribes, and municipalities, have said they intend to apply for at least three years in advance but that have not yet been issued. For each such license, the report must state when notice was given, any docket number, whether an application has been filed, the expected issuance date, upcoming meetings, and the actions still needed or completed by those involved, including fish and wildlife agencies. The information must be separated by whether it concerns a new or subsequent license or an original license.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:33:21Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

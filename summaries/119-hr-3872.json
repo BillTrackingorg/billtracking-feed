@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 3872",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "3b52cd1c08cd82d4f600051c29666d30efc4c935e3b957ddff126a0d60379ea5"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:07 Reported to House",
+        "sha256": "1f8b6d4e97d330bf80c2bca52de9bad378be1b54a3f0714cfb5a0ef7ef3ad8b8",
+        "chars": 973
+      },
+      "short": "The bill would make all federally acquired lands eligible for hardrock mineral leasing under the Mineral Leasing Act for Acquired Lands. It would define hardrock minerals to include deposits found in sedimentary or other rocks, base metals, precious metals, industrial minerals, and precious and semi-precious gemstones, while excluding coal, oil, oil shale, gas, sodium, potassium, sulfur, and mineral materials covered by the Materials Act of 1947. Currently, hardrock minerals are not listed as leasable under that Act, so federal lands can be leased for hardrock mining only if they were acquired under a law that specifically authorizes such leasing, such as the Weeks Act.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:33:21Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}
