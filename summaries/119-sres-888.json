@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S.Res. 888",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": "2026-09-24T15:05:24Z",
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": true,
+      "version": {
+        "code": "ats",
+        "text_sha256": "f1b89cf361c3eea326db1ba2ddfbcd063121a474c8d15edd867512546b8a3f94"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119sres888ats",
+        "sha256": "f1b89cf361c3eea326db1ba2ddfbcd063121a474c8d15edd867512546b8a3f94",
+        "chars": 275
+      },
+      "short": "The resolution congratulates and honors the Paseo Verde Little League of Henderson, Nevada, for winning the 2026 Little League World Series United States Championship, and commends its players, coaches, families, volunteers, and supporters for their outstanding achievement.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:27:02Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

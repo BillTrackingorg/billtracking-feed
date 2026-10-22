@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S.Res. 847",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": "2026-09-17T18:12:27Z",
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": true,
+      "version": {
+        "code": "ats",
+        "text_sha256": "fb81aa17697c42ecc709b974c32c3bbaedce17b06b3f29493cb012b6868b6c9c"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119sres847ats",
+        "sha256": "fb81aa17697c42ecc709b974c32c3bbaedce17b06b3f29493cb012b6868b6c9c",
+        "chars": 593
+      },
+      "short": "The resolution congratulates the Pennsylvania State University Nittany Lions men's wrestling team for winning the 2026 National Collegiate Athletic Association Division I National Championship. It recognizes the dedication, teamwork, and perseverance of the student-athletes, coaches, and staff who contributed to the achievement. It also commends the team for continuing its tradition of excellence and leadership in collegiate wrestling.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:27:02Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

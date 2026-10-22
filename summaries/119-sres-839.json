@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S.Res. 839",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": "2026-08-07T11:06:05Z",
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": true,
+      "version": {
+        "code": "ats",
+        "text_sha256": "770c682a73d19354dfcc809e6741fa3a94b45e8e91cb11e11340204bd8878c93"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119sres839ats",
+        "sha256": "770c682a73d19354dfcc809e6741fa3a94b45e8e91cb11e11340204bd8878c93",
+        "chars": 108
+      },
+      "short": "The resolution authorizes the Senate Legal Counsel to represent Senator Blackburn and Senator Luján in a Federal Trade Commission case against Key Investment Group, LLC, et al.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:27:02Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

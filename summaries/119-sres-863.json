@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S.Res. 863",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": "2026-09-24T15:05:20Z",
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": true,
+      "version": {
+        "code": "ats",
+        "text_sha256": "62cf2905b8dd810d81a10ca9f806e6f41f50a46711ab0040a556acc19fe615a6"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119sres863ats",
+        "sha256": "62cf2905b8dd810d81a10ca9f806e6f41f50a46711ab0040a556acc19fe615a6",
+        "chars": 1398
+      },
+      "short": "The resolution expresses Senate support for making the week of September 13 through 19, 2026, National Adult Education and Family Literacy Week, to raise public awareness of how adult education and family literacy help people build job skills, move up economically, and strengthen families, communities, and the economy. It recognizes these programs as essential parts of the country's education, workforce, and economic opportunity systems, and stresses the importance of expanding access to high-quality adult education, literacy, numeracy, English-language, digital literacy, workforce preparation, and family literacy services. It encourages partnerships among adult education providers, workforce systems, employers, career and technical programs, colleges, community groups, and other public and private partners to create pathways to training, jobs, and career advancement. It also calls on public, private, and nonprofit groups to support and expand these programs so people can develop the skills to succeed in a changing economy.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:27:02Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

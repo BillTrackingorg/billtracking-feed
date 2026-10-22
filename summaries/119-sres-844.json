@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S.Res. 844",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": "2026-08-08T16:50:39Z",
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": true,
+      "version": {
+        "code": "ats",
+        "text_sha256": "936e48756400f40a1e77abc82e1ce4c2c570c238d2c45964c7e92020e1012de9"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119sres844ats",
+        "sha256": "936e48756400f40a1e77abc82e1ce4c2c570c238d2c45964c7e92020e1012de9",
+        "chars": 1118
+      },
+      "short": "The resolution honors the lives and service of five people who died while serving as wildland firefighters, namely Emily Barker, Nicholas Hutcherson, Sydney Watson, Nathan Matthews, and Nicholas Dale. It extends sympathy to their families, friends, and colleagues and recognizes the courage and ongoing recovery of firefighters who were injured on duty. It also thanks wildland firefighters, aviation crews, emergency responders, dispatchers, and support staff for protecting communities across the United States. Finally, it states that protecting communities from catastrophic wildfire requires both responsible care of forests and public lands and continued support for these workers, and it invites the public to honor their courage and service.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:27:02Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

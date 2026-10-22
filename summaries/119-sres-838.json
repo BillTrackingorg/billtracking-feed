@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S.Res. 838",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": "2026-08-07T11:06:16Z",
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": true,
+      "version": {
+        "code": "ats",
+        "text_sha256": "5304e0b33fb1077f6ea36806ef9059534afadeb311423690237a057da5ebccc7"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119sres838ats",
+        "sha256": "5304e0b33fb1077f6ea36806ef9059534afadeb311423690237a057da5ebccc7",
+        "chars": 470
+      },
+      "short": "The resolution honors the victims of the August 6, 2025 shooting at Fort Stewart, Georgia, and commends the soldiers who responded to stop the shooter and the first responders who showed bravery. It also recognizes those who have supported the Fort Stewart community since the shooting, including religious leaders and mental health care providers, and expresses support for the victims, their families, and the community.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:27:02Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}
