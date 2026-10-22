@@ -1,0 +1,32 @@
+{
+ "v": 1,
+ "bot": "eu",
+ "built_at": "2026-10-22T18:32:40Z",
+ "unversioned": "title",
+ "bills": {
+  "eu-2013-0072-cod": {
+   "current": 1,
+   "more": false
+  },
+  "eu-2016-0397-cod": {
+   "current": 1,
+   "more": false
+  },
+  "eu-2023-0134-cod": {
+   "current": 1,
+   "more": false
+  },
+  "eu-2023-0169-cod": {
+   "current": 1,
+   "more": false
+  },
+  "eu-2023-0284-cod": {
+   "current": 1,
+   "more": false
+  },
+  "eu-2023-0437-cod": {
+   "current": 1,
+   "more": false
+  }
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "v": 1,
+ "bot": "eu",
+ "reference": "2023/0437(COD)",
+ "opened": "2026-10-22",
+ "current": 1,
+ "pending": null,
+ "awaiting": null,
+ "legacy": null,
+ "law_since": null,
+ "declined": [],
+ "versions": [
+  {
+   "kind": "real",
+   "law": false,
+   "version": {
+    "code": "T10-0347/2026",
+    "text_sha256": null
+   },
+   "source": {
+    "kind": "text",
+    "ref": "T10-0347/2026",
+    "sha256": "0aeb08f6c36de8c021e2789cd6c168c2d48bae228236eaa2ca0bc58d9c91b98f",
+    "chars": 129525
+   },
+   "short": "The proposal would strengthen how passenger rights are enforced across air, rail, sea and inland waterway, bus and coach travel in the EU. It would clarify how refunds work when tickets are bought through an intermediary, including how intermediation fees are handled, and set rules on how long personal data can be kept. It would require national enforcement bodies to monitor compliance and give them stronger powers, and set up bodies to handle passenger complaints and a common form for refund and compensation requests. It would also extend service quality standards for disabled passengers and persons with reduced mobility, improve information provided to passengers, and cover recognised assistance dogs and accompanying persons.",
+   "more": [],
+   "model": "claude-haiku-5-5",
+   "written_at": "2026-10-22T18:32:40Z",
+   "made": "step1",
+   "via": "backfill",
+   "confirmed": [],
+   "n": 1
+  }
+ ]
+}
