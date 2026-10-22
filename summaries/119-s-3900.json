@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 3900",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "7ad3e9d9e183acf82a4871e0b86b544e90f2c0f47a1c7a742ffe410fccd1f750"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119s3900rs",
+        "sha256": "7ad3e9d9e183acf82a4871e0b86b544e90f2c0f47a1c7a742ffe410fccd1f750",
+        "chars": 19673
+      },
+      "short": "The bill would direct the United States to support internet freedom and free information for people in Iran, including expanding uncensored internet access and communication lines, backing independent media and civil society, and documenting human rights abuses. It would make the Secretary of State the lead official for these efforts, require updated strategies and reports to Congress on circumvention tools, satellite-based connectivity, and Iran's telecom providers, and extend the Iran Internet Freedom Grant Program through fiscal year 2030. It would also require a strategy for human rights assistance and a GAO review of past Near East Regional Democracy spending, establish cybersecurity training and digital-safety programs for Iranian activists and journalists, and state that it does not authorize military force or any transaction barred by sanctions or export-control laws.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:14:35Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

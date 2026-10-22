@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 4040",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "28b7bcf49f713f53c24962d264feac6efe2cd123d1e2e2acbfe1cabfac0fdeaa"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119s4040rs",
+        "sha256": "28b7bcf49f713f53c24962d264feac6efe2cd123d1e2e2acbfe1cabfac0fdeaa",
+        "chars": 7273
+      },
+      "short": "The bill would authorize additional federal funding for water projects in North Dakota and for Tribal reservations in the state. It would provide specific amounts for the Northwest Area Water Supply project, the McClusky Canal and Missouri River alternative water supply project, the Southwest Pipeline Project, and several North Dakota rural water districts. It would also provide funding to complete rural water systems on the Fort Totten, Fort Berthold, Standing Rock, and Turtle Mountain Indian Reservations, and a feasibility study for a water system on the Lake Traverse Indian Reservation. Amounts for these projects could be moved among the listed projects within limits, and the Secretary of the Interior would be allowed to use some funds to complete final engineering reports within two years of enactment. The bill would also change how certain funding amounts are adjusted for construction cost changes, and it would update a related natural resources trust provision to refer to the new funding.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:14:35Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

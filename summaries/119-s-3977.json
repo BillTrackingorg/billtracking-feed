@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 3977",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "es",
+        "text_sha256": "94cf13bbb246b66578fb0ea1da394215577a1e7bf0a7d195e975aef2d00d4913"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:55 Passed Senate",
+        "sha256": "29492bbadf55dd7aa0acfe5218bff1afce265cf90891e8ca7ccc4cbe95a6b84c",
+        "chars": 620
+      },
+      "short": "The bill would raise the debt limit for small business reorganization bankruptcies under Subchapter V from about $3.4 million to $7.5 million. It would also raise the overall debt limit for wage earner's plan bankruptcies under Chapter 13 from about $2.1 million to $2.75 million. In addition, it would count both secured and unsecured debt toward that Chapter 13 limit, instead of applying separate limits to each type.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:14:35Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

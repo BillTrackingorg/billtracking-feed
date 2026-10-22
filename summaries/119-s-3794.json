@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 3794",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "0ab4aec17fb6301b2c975db790b4de81d6b2f23008e00d933787740dabac2e2e"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119s3794rs",
+        "sha256": "0ab4aec17fb6301b2c975db790b4de81d6b2f23008e00d933787740dabac2e2e",
+        "chars": 3872
+      },
+      "short": "The bill would require licensed pharmacists and physicians who compound drugs and send them across state lines to report serious adverse events linked to those drugs to the federal Secretary of Health and Human Services, the state where the drugs are made, and each state where they are sent. It would also require compounders who ship more than 5 percent of their annual output out of state to file yearly reports listing their license details and the number of units sent to each state, using a shared information system to cut paperwork. Hospital pharmacies compounding for their own patients would be exempt from the reporting rules, and states could keep or add stricter reporting rules. Finally, compounded drug labels would need to state that the drug has not been approved by the Food and Drug Administration and include FDA contact information for reporting side effects, plus any other label information the Secretary sets.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:14:35Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

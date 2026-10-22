@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 434",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "es",
+        "text_sha256": "9df95f3c2ba9dd410fd151f6722aff9f4b765663ad051ef0475f5f387f868c09"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119s434es",
+        "sha256": "9df95f3c2ba9dd410fd151f6722aff9f4b765663ad051ef0475f5f387f868c09",
+        "chars": 3895
+      },
+      "short": "The bill would require the Secretary of Commerce, working through the Office of Space Commerce, to set up a 15-member Commercial Space Activity Advisory Committee within 180 days of enactment. Members would come from fields such as space policy, engineering, science, law, academia, and finance, and would serve terms of up to 4 years, with a 2-year break before they could serve again. The committee would advise on the status of nongovernmental space activities and recommend ways the country could support a safe, competitive commercial space sector, including any regulations for it. It would also look at challenges facing American commercial space companies, such as international obligations, export controls, harmful interference, and access to radio frequency spectrum, and review best practices to prevent contaminating the Moon and other celestial bodies or harming Earth's environment. The committee would end 10 years after it is created.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:14:35Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

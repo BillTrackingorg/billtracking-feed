@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 4189",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "ab1b275ca44ab180ce9d38503ff2724dba9ac646d8efd5746cbc3e458953c430"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119s4189rs",
+        "sha256": "ab1b275ca44ab180ce9d38503ff2724dba9ac646d8efd5746cbc3e458953c430",
+        "chars": 27878
+      },
+      "short": "The bill would require most group and individual health plans to cover selected insulin products starting in 2028, with a cost-sharing cap of $35 per 30-day supply or 25 percent of the net negotiated price, whichever is less, and would bar deductibles and most prior authorization for those products. It would also require catastrophic plans to cover these insulin products before the annual cost-sharing limit is reached, direct the Government Accountability Office to study uninsured insulin users, change rules on generic drug citizen petitions and expedite competition for biosimilar insulin-related products, create a five-year pilot giving grants to 10 states to make insulin affordable for uninsured people, and fund a resource center and 24/7 hotline to help uninsured individuals find insulin assistance programs.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:14:35Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 3897",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "es",
+        "text_sha256": "13611ebbd93f2f109dabda6d14b3c345553fabffcc0578e60506a18f660cb08e"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:55 Passed Senate",
+        "sha256": "93a014fb50d6379c4456eda96d4b735b09ef68643ad4c23baab2cab3580f0e90",
+        "chars": 1584
+      },
+      "short": "The bill would set timelines for the federal Public Safety Officers' Benefits program, which pays death, disability, and education benefits to public safety officers killed or injured in the line of duty and their survivors. It would require the Bureau of Justice Assistance to tell claimants within 90 days of receiving a claim what information is missing, and generally to decide eligibility within 270 days of a completed claim. It would let the bureau use its subpoena power to get records a public agency has not provided within 30 days of a request. It would also require ongoing outreach to raise awareness of the program, reporting on whether claim delays were caused by claimants or public agencies, and carrying out recommendations from a 2024 Government Accountability Office report. Finally, it would require the Government Accountability Office to audit annually any claims pending for more than one year.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:14:35Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

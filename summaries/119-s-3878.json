@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "S. 3878",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rs",
+        "text_sha256": "c598d459ece24e81d9717f9a91eb73549430583ec8c4f5a1dfd40f2ed2ce6b78"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:00 Introduced in Senate",
+        "sha256": "ba3a2d4618a25255706fec16664bba9e0bc74e1ff9de18005dc7de14a2056817",
+        "chars": 388
+      },
+      "short": "The bill would establish the Grand Village of the Natchez Indians in Natchez, Mississippi, as an affiliated area of the National Park System. It would also establish Historic Jefferson College in Natchez as an affiliated area of the National Park System, but only if the Department of the Interior determines that the site meets its established criteria for such areas.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T16:14:35Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}
