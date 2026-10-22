@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 9772",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rh",
+        "text_sha256": "4d08da63066d05e4bbb4f6ae3ada17ea6831a4e51a3f9c4ed5e9d38b5c7c1af8"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119hr9772rh",
+        "sha256": "4d08da63066d05e4bbb4f6ae3ada17ea6831a4e51a3f9c4ed5e9d38b5c7c1af8",
+        "chars": 2604
+      },
+      "short": "The bill would require certain tax-exempt organizations to report on their annual tax return the total amount of contributions they receive from foreign nationals, and the amounts from each foreign country of concern. It would apply to organizations whose gross receipts or assets meet specified dollar thresholds, and organizations could rely on a donor's statement of nationality unless they knew or should have known it was false. The Treasury Secretary would be able to require these organizations to collect nationality information from foreign donors. The requirements would apply to tax returns for tax years beginning one year after the bill is enacted.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:48:26Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

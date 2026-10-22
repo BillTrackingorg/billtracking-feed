@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 9340",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "pcs",
+        "text_sha256": "a8fd6605a6abd44cfa2311360cf09bd6c960e8b4d943316d52045efc781d73b3"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:07 Reported to House",
+        "sha256": "54b76dc46ea6241ed8ff6bcb31dbdc9c529dd8a088bb809472c01ab43bd0fa31",
+        "chars": 1728
+      },
+      "short": "The bill would require state utility regulators and nonregulated utilities to consider adopting a standard that makes very large electricity users, such as data centers that draw 100 megawatts or more at one site, pay the full added cost of any new power generation, transmission, or distribution upgrades needed to serve them. Under the standard, those rates would have to cover those costs even if the customer later leaves or stops buying power from the utility. Utilities would also have to require these customers to provide financial guarantees or upfront payments before the utility builds the upgrades.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:48:26Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

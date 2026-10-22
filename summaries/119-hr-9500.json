@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 9500",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rfs",
+        "text_sha256": "f206da61ff6198ea4d520355b9d61aa494c9723893717b4490a393d687dd7f0c"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119hr9500rfs",
+        "sha256": "f206da61ff6198ea4d520355b9d61aa494c9723893717b4490a393d687dd7f0c",
+        "chars": 7121
+      },
+      "short": "The bill would change federal tax rules for people who lose money or property to theft, especially theft involving fraud, deceit, or misrepresentation. It would remove a limit on deducting personal casualty losses, and let taxpayers choose to count a fraud-related theft loss in the year it happened rather than the year it was discovered. It would extend the time allowed to file refund claims for these losses to at least one year after discovery, and would let people repay certain retirement distributions tied to such losses within one year after discovery. It would also require the Treasury to process certain related refund claims within two years of filing, and would cover losses from pyrrhotite damage to home foundations.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:48:26Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

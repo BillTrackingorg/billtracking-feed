@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 952",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "enr",
+        "text_sha256": "f919ad7c7201d58bbce048e5b6c1e37cdfe052ab8d0adbdd9bd62863f75f1090"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:00 Introduced in House",
+        "sha256": "4142e8d35773dfa6c49364e521535a176d34a51b29355ad3d6debb9082981465",
+        "chars": 869
+      },
+      "short": "The bill would direct the Bureau of Land Management to offer to sell the federal government's reversionary interest in about 8.43 acres of land in Sacramento, California, shown on a specified map, when the landowner asks for it within two years. The buyer would have to pay at least the fair market value of that interest, plus all costs of the sale, including surveys, appraisals, and other administrative expenses. The sale would remain subject to existing valid rights in the land, and the money received would go into the Federal Land Disposal Account.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:48:26Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 9394",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "eh",
+        "text_sha256": "767dd1af057f4b8645ce8ba67b90b7cca3735570cddf40c9a830fbf3298d6be2"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:00 Introduced in House",
+        "sha256": "407c9bff1ae919eb9af5d69669e1bdaf38227cae7858e356d668035f247eead4",
+        "chars": 1031
+      },
+      "short": "The bill would require the Department of Homeland Security to run an exercise within four years of the bill becoming law to practice how government and private groups prevent, respond to, and recover from agroterrorism, meaning terrorist attacks aimed at farming and food systems. The exercise would simulate attackers bringing a harmful biological agent into the United States and damaging critical agriculture and food operations. It would also test how public and private organizations can coordinate to prepare and limit widespread disruption. Within 180 days after the exercise, the department would have to send Congress a report on what was found, how lessons would be used in future work, and any recommended laws.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:48:26Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

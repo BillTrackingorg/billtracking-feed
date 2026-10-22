@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 9499",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rfs",
+        "text_sha256": "8dcd578623417230a5f508536e8d861d68182c5484ec7a8e33ad270d66b86d9b"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:53 Passed House",
+        "sha256": "99c52e0ce61eac62a26501a5a8c9c6bce63f5a3cc363426008c56133cd6083fc",
+        "chars": 1073
+      },
+      "short": "The bill would limit how long the IRS can assess taxes tied to false or fraudulent federal tax returns when the taxpayer did not intend to evade taxes. Currently the IRS generally has three years from filing to assess taxes, but it may assess at any time when a return is fraudulent. Courts have disagreed on whether that unlimited window applies when a preparer adds false entries without the taxpayer knowing. The bill would restrict the unlimited window to cases where the taxpayer intends to evade taxes.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:48:26Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

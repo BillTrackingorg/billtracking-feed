@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 9617",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rfs",
+        "text_sha256": "6b27bbcd89787f46fe6d608624e025f9774ecdac92b03d136d5714ff0da9cdcd"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:00 Introduced in House",
+        "sha256": "242db2f71e91ee5d2b16aab26e5e69d9ccfa2b6faeb362df4ed19ab0cb57c72a",
+        "chars": 658
+      },
+      "short": "The bill would require the Environmental Protection Agency to create and carry out a national plan for recovering critical minerals from discarded materials. Critical minerals are those the U.S. Geological Survey has designated as essential to the country's economic or national security, that have a vulnerable supply chain, and that play an essential role in making a product. The agency would report to Congress every two years on its actions, plans, and recommendations under the plan.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:48:26Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

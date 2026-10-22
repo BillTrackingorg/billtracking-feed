@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 9723",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "eh",
+        "text_sha256": "be7827d44c0a0fef5d6a0621ac65980f751040f0d9ee8fe52b373f719d97cea1"
+      },
+      "source": {
+        "kind": "text",
+        "ref": "BILLS-119hr9723eh",
+        "sha256": "be7827d44c0a0fef5d6a0621ac65980f751040f0d9ee8fe52b373f719d97cea1",
+        "chars": 5505
+      },
+      "short": "The bill would establish a President's Council on Sports, Fitness, and Nutrition of up to 30 members appointed by the President, serving two-year terms. The Council would advise the President and the Secretary of Health and Human Services on progress in promoting physical fitness and recommend ways to speed it up, including strategies for the Presidential Fitness Test and Presidential Fitness Award, adaptive fitness programs, campaigns and partnerships, lowering the costs of youth sports, expanding access to sports and physical activity for youth including those with disabilities, and addressing childhood obesity and its threat to military and workforce readiness. The bill would also set out how the Council is run, including an executive director, funding from the Department of Health and Human Services and a related national foundation, and the Council would end on a date set by the President.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:48:26Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

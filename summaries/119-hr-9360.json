@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 9360",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rfs",
+        "text_sha256": "cd151790383b105aae3303299db4b4355d5031bd3adeaf8878b7edbe9fa884a5"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:07 Reported to House",
+        "sha256": "ff5cb8089dedde5c8a978c7bc4df6faa50f4fdedba92a1ed8a70fb59204911eb",
+        "chars": 626
+      },
+      "short": "The bill would abolish the Advisory Committee on the Records of Congress 60 days after it becomes law. It would require the Center for Legislative Archives at the National Archives to submit a yearly report on how Congress's records were managed and preserved during the previous year, sent to the National Archives, the Senate, and the House of Representatives. It would also require the Archivist, the Secretary of the Senate, and the Clerk of the House to meet regularly to review how those records are managed and preserved.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:48:26Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "v": 1,
+  "bot": "us",
+  "reference": "H.R. 9501",
+  "congress": 119,
+  "opened": "2026-10-22",
+  "opened_via": "backfill",
+  "current": 1,
+  "pending": null,
+  "awaiting": null,
+  "legacy": null,
+  "law_since": null,
+  "declined": [],
+  "versions": [
+    {
+      "n": 1,
+      "kind": "real",
+      "law": false,
+      "version": {
+        "code": "rh",
+        "text_sha256": "047dc137401224acef2120ffc04a7b83f90842ae6d36dfb1c2d5e7921af11ac8"
+      },
+      "source": {
+        "kind": "official",
+        "ref": "crs:00 Introduced in House",
+        "sha256": "fe92f06b3382ab0e3808f1fe18f30ab701e5919c9736d83b7d6cc1beb99c19f8",
+        "chars": 606
+      },
+      "short": "The bill would require the Internal Revenue Service to run a pilot program that uses artificial intelligence to find tax returns that are inaccurate. When the pilot ends, the Government Accountability Office would report to Congress on the total amount of improper refunds or reduced tax bills tied to fraud the program found, the total amount recovered because of it, and how accurate the artificial intelligence tools were at spotting fraudulent returns.",
+      "more": [],
+      "model": "claude-haiku-5-5",
+      "written_at": "2026-10-22T15:48:26Z",
+      "made": "step1",
+      "via": "backfill",
+      "confirmed": []
+    }
+  ]
+}
