@@ -5,9 +5,9 @@
  "year": "2025",
  "number": "0222",
  "ptype": "COD",
- "built_at": "2026-10-23T01:28:12+00:00",
+ "built_at": "2026-10-23T19:26:26+00:00",
  "source": "oeil-key-events",
- "source_count": 5,
+ "source_count": 8,
  "holds_full_record": true,
  "overrides_applied": null,
  "texture_count": 14,
@@ -331,6 +331,38 @@
   },
   {
    "order": 18,
+   "date": "2026-10-21",
+   "text": "Debate in Parliament",
+   "doc": null,
+   "family": null,
+   "label": null,
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": false,
+   "subordinate": null,
+   "key": "1-fdf6f15de795a57d",
+   "emoji": null
+  },
+  {
+   "order": 19,
+   "date": "2026-10-22",
+   "text": "Decision by Parliament, 1st reading",
+   "doc": "T10-0361/2026",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-b5ae5f47221e04d0",
+   "emoji": null
+  },
+  {
+   "order": 20,
    "date": "2026-10-22",
    "text": "Results of vote in Parliament",
    "doc": null,
@@ -344,6 +376,22 @@
    "subordinate": null,
    "key": "1-095de16d29a349d9",
    "emoji": null
+  },
+  {
+   "order": 21,
+   "date": "2026-10-22",
+   "text": "Matter referred back to the committee responsible for interinstitutional negotiations",
+   "doc": null,
+   "family": "referred_back",
+   "label": "Plenary sent the file back to committee",
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-c72cdace82d6d87d",
+   "emoji": "↩️"
   }
  ]
 }
