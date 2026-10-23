@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "s",
  "billNumber": "3135",
- "built_at": "2026-10-23T03:06:59+00:00",
+ "built_at": "2026-10-23T12:16:18+00:00",
  "source_count": 7,
  "holds_full_record": true,
  "entries": [
@@ -50,8 +50,8 @@
   {
    "order": 2,
    "date": "2026-03-11",
-   "text": "Committee on Environment and Public Works. Hearings held.",
-   "core": "Committee on Environment and Public Works. Hearings held",
+   "text": "Committee on Environment and Public Works. Hearings held. Hearings printed: S.Hrg. 119-407.",
+   "core": "Committee on Environment and Public Works. Hearings held. Hearings printed: S.Hrg. 119-407",
    "code": null,
    "source": "Senate",
    "chamber": "Senate",
@@ -60,7 +60,7 @@
    "tally": null,
    "spine": false,
    "subordinate": null,
-   "key": "1-bea853b03feffb51",
+   "key": "1-4b6b6d5b83b0abaa",
    "stands_in": null,
    "qualified": null,
    "lead": false,
