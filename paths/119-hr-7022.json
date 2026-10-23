@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "7022",
- "built_at": "2026-10-23T03:08:01+00:00",
- "source_count": 26,
+ "built_at": "2026-10-23T15:02:04+00:00",
+ "source_count": 28,
  "holds_full_record": true,
  "entries": [
   {
@@ -445,6 +445,26 @@
    "qualified": null,
    "lead": true,
    "emoji": "📌",
+   "vote": null
+  },
+  {
+   "order": 22,
+   "date": "2026-10-22",
+   "text": "Signed by President.",
+   "core": "Signed by President",
+   "code": "36000",
+   "source": "Library of Congress",
+   "chamber": null,
+   "family": "signed",
+   "label": "Signed by Pres. Trump",
+   "tally": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-97551fb81f251bc5",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "📜✍️",
    "vote": null
   }
  ]

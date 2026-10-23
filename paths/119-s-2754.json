@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "s",
  "billNumber": "2754",
- "built_at": "2026-10-23T03:07:52+00:00",
+ "built_at": "2026-10-23T15:02:09+00:00",
  "source_count": 12,
  "holds_full_record": true,
  "entries": [
@@ -50,8 +50,8 @@
   {
    "order": 2,
    "date": "2026-02-12",
-   "text": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held.",
-   "core": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held",
+   "text": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held. With printed Hearing: S.Hrg. 119-305.",
+   "core": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held. With printed Hearing: S.Hrg. 119-305",
    "code": null,
    "source": "Senate",
    "chamber": "Senate",
@@ -60,7 +60,7 @@
    "tally": null,
    "spine": false,
    "subordinate": null,
-   "key": "1-980edb4eba189470",
+   "key": "1-f9a47e3fb2e52d99",
    "stands_in": null,
    "qualified": null,
    "lead": false,

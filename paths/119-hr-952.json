@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "952",
- "built_at": "2026-10-23T12:16:26+00:00",
- "source_count": 20,
+ "built_at": "2026-10-23T15:02:04+00:00",
+ "source_count": 22,
  "holds_full_record": true,
  "entries": [
   {
@@ -345,6 +345,26 @@
    "qualified": null,
    "lead": true,
    "emoji": "📌",
+   "vote": null
+  },
+  {
+   "order": 17,
+   "date": "2026-10-22",
+   "text": "Signed by President.",
+   "core": "Signed by President",
+   "code": "36000",
+   "source": "Library of Congress",
+   "chamber": null,
+   "family": "signed",
+   "label": "Signed by Pres. Trump",
+   "tally": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-1de3d8e1a996d828",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "📜✍️",
    "vote": null
   }
  ]
