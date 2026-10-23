@@ -5,9 +5,9 @@
  "year": "2025",
  "number": "0222",
  "ptype": "COD",
- "built_at": "2026-10-15T11:43:02+00:00",
+ "built_at": "2026-10-23T01:28:12+00:00",
  "source": "oeil-key-events",
- "source_count": 4,
+ "source_count": 5,
  "holds_full_record": true,
  "overrides_applied": null,
  "texture_count": 14,
@@ -327,6 +327,22 @@
    "spine": false,
    "subordinate": null,
    "key": "1-ce59f6be46b3a9f4",
+   "emoji": null
+  },
+  {
+   "order": 18,
+   "date": "2026-10-22",
+   "text": "Results of vote in Parliament",
+   "doc": null,
+   "family": null,
+   "label": null,
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": false,
+   "subordinate": null,
+   "key": "1-095de16d29a349d9",
    "emoji": null
   }
  ]
