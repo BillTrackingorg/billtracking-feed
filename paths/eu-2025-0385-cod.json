@@ -5,9 +5,9 @@
  "year": "2025",
  "number": "0385",
  "ptype": "COD",
- "built_at": "2026-10-21T19:28:09+00:00",
+ "built_at": "2026-10-23T10:10:52+00:00",
  "source": "oeil-key-events",
- "source_count": 14,
+ "source_count": 16,
  "holds_full_record": true,
  "overrides_applied": null,
  "texture_count": 7,
@@ -253,7 +253,7 @@
    "text": "Matter referred back to the committee responsible for reconsideration",
    "doc": null,
    "family": "referred_back",
-   "label": "Plenary sent the file back to committee",
+   "label": "Matter referred back to the committee responsible for reconsideration",
    "tally": null,
    "method_note": null,
    "review_note": null,
@@ -350,6 +350,22 @@
   {
    "order": 20,
    "date": "2026-10-20",
+   "text": "Decision by Parliament, 1st reading",
+   "doc": "T10-0343/2026",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-a160394cdea9572a",
+   "emoji": null
+  },
+  {
+   "order": 21,
+   "date": "2026-10-20",
    "text": "Results of vote in Parliament",
    "doc": null,
    "family": null,
@@ -362,6 +378,22 @@
    "subordinate": null,
    "key": "1-c233c3a96e1eccbe",
    "emoji": null
+  },
+  {
+   "order": 22,
+   "date": "2026-10-20",
+   "text": "Matter referred back to the committee responsible for interinstitutional negotiations",
+   "doc": null,
+   "family": "referred_back",
+   "label": "Matter referred back to the committee responsible for interinstitutional negotiations",
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-f43702501a4b6ee8",
+   "emoji": "↩️"
   }
  ]
 }
