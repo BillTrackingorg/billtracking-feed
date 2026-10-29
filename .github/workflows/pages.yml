@@ -17,6 +17,9 @@
 #      month, and the click may bring a moment of 404s.
 #   2. This workflow's run for main's latest push is green ("Built and checked, not
 #      deployed"), and no bot publish is in flight.
+#   2b. In the app's Supabase, switch the notice job off (the app's
+#      supabase/functions/README.md: switching the job off stops both). A sender run that
+#      holds no saved copy would read a month the host 404s as empty for that run.
 #   3. Settings → Pages → Build and deployment → Source: "GitHub Actions". Choose that and
 #      nothing else: this repository already has its workflow, this one. Do not click
 #      "Configure" on any workflow GitHub suggests there; committing one adds a second deploy
@@ -25,6 +28,7 @@
 #   It worked when that run's deploy job is green and
 #   https://billtrackingorg.github.io/billtracking-feed/us-fingerprint.json (and eu-) answers
 #   200 with main's latest commit in "commit".
+#   5. Then switch the notice job back on.
 #
 # ROLLBACK. Settings → Pages → Source: "Deploy from a branch", `main`, `/ (root)`. GitHub
 # should then start a "pages build and deployment" run that serves the same files again (not
