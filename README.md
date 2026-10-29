@@ -58,10 +58,11 @@ push within five minutes, the render is still asked for and the run then goes
 red, so a stuck feed host reaches the owner by GitHub's failure mail. Its failure
 posture is in the file's header.
 
-`.github/workflows/pages.yml` deploys this repository to GitHub Pages once the
-Pages source is "GitHub Actions" (until then it only builds and checks). It
-serves every file as committed, after checking each against the commit's bytes,
-and adds one generated file per legislature that is never committed:
+`.github/workflows/pages.yml` deploys this repository to GitHub Pages: the Pages
+source is "GitHub Actions" since 2026-10-29 (on a branch build it only builds
+and checks). It serves every file as committed, after checking each against the
+commit's bytes, and adds one generated file per legislature that is never
+committed:
 
 ```
 us-fingerprint.json  {"v":1,"polity":"us","commit":"<sha>","files":[{"name":"us-2026-07.jsonl",

@@ -1,16 +1,17 @@
 # Deploy this repository to GitHub Pages from Actions, with a fingerprint per legislature.
 #
 # WHAT THIS IS. GitHub Pages serves this repository's files to the app, the website and the
-# website's renderer. Until the owner switches Settings → Pages → Source to "GitHub Actions",
-# GitHub's branch build serves them and this workflow only builds and checks (it deploys
-# nothing). After the switch it is the deploy: every push here stages the files, checks each
-# against the bytes the commit records, writes `<polity>-fingerprint.json` beside the month
-# files, and deploys. A reader's app reads a legislature's fingerprint first and asks only for
-# the month files whose sha256 changed (the app's OPEN-ITEMS OI-0329).
+# website's renderer, at https://feed.billtracking.org. Since 2026-10-29 Settings → Pages →
+# Source is "GitHub Actions", and this workflow is the deploy: every push here stages the
+# files, checks each against the bytes the commit records, writes `<polity>-fingerprint.json`
+# beside the month files, and deploys. On a branch build (a rollback) GitHub's branch build
+# serves them and this workflow only builds and checks (it deploys nothing). A reader's app
+# reads a legislature's fingerprint first and asks only for the month files whose sha256
+# changed (the app's OPEN-ITEMS OI-0329).
 #
-# THE SWITCH: THE OWNER'S SITTING, IN THIS ORDER. Not rehearsed: how long the feed goes
-# without a fresh deploy across the click, and what GitHub does on a switch back, have not
-# been measured.
+# THE SWITCH: THE OWNER'S SITTING, IN THIS ORDER (done 2026-10-29; the same steps switch the
+# source back after a rollback). Not rehearsed: how long the feed goes without a fresh deploy
+# across the click, and what GitHub does on a switch back, have not been measured.
 #   1. Only once the app's 404 fix and its feed-host early warning (slices A and E of the
 #      feed scale build) are merged, and the notice sender has been redeployed with the 404
 #      fix (`npm run deploy:sender` in the app). A client without it keeps a 404 as an empty
@@ -26,7 +27,7 @@
 #      that serves no fingerprints.
 #   4. At once: Actions → pages → Run workflow (branch main).
 #   It worked when that run's deploy job is green,
-#   https://billtrackingorg.github.io/billtracking-feed/us-fingerprint.json (and eu-) answers
+#   https://feed.billtracking.org/us-fingerprint.json (and eu-) answers
 #   200 with main's latest commit in "commit", and its Last-Modified is the same as a month
 #   file's (`curl -sI` on both: one deploy, one time, which the app's canary relies on).
 #   5. Then switch the notice job back on.
@@ -41,13 +42,14 @@
 # The fingerprints stop being served, and the app reads every month as it did before them; a
 # session sets the app canary's FINGERPRINTS_SERVED (and FINGERPRINTS_LIVE_ON_BOTH_PLATFORMS)
 # back to false.
-# ⚠️ ONCE THE FEED HAS ITS OWN ADDRESS (feed.billtracking.org): a branch build keeps its
-# custom domain in a `CNAME` file at the root of the branch (GitHub's docs), which a deploy
-# from here never needs, so none is committed. Before switching back, commit a file named
-# `CNAME` holding the one line `feed.billtracking.org` to main (under Actions it is served
-# as an ordinary file and changes nothing); without it the branch build can drop the address
-# and readers of feed.billtracking.org get GitHub's 404. After the branch build, confirm that
-# `gh api repos/BillTrackingorg/billtracking-feed/pages --jq .cname` prints the address.
+# ⚠️ THE FEED HAS ITS OWN ADDRESS (feed.billtracking.org): a branch build keeps its custom
+# domain in a `CNAME` file at the root of the branch (GitHub's docs), which a deploy from here
+# never needs. One is committed to main for that alone, holding the one line
+# `feed.billtracking.org` (under Actions it is served as an ordinary file and changes
+# nothing). Before switching back, confirm it is still on main; without it the branch build
+# can drop the address and readers of feed.billtracking.org get GitHub's 404. After the
+# branch build, confirm that `gh api repos/BillTrackingorg/billtracking-feed/pages --jq .cname`
+# prints the address.
 #
 # ⚠️ TO DEPLOY AGAIN, USE "Run workflow", NEVER "Re-run" ON AN OLD RUN. A re-run deploys
 # that run's own artifact, which can be older than main. The deploy job therefore checks
@@ -120,11 +122,11 @@ jobs:
           path: _site
           include-hidden-files: true   # `.nojekyll`, which the branch build served
 
-      # Deploy only once the owner has switched the source. Before that, GitHub's branch
-      # build deploys every push itself, and a deploy from here would be accepted and race
-      # it (the two do not share a concurrency group), so this run deploys only when the
-      # source is "GitHub Actions". One retry, so a passing API error does not turn an inert
-      # run red.
+      # Deploy only while the source is "GitHub Actions", as it is since 2026-10-29. On a
+      # branch build (a rollback) GitHub deploys every push itself, and a deploy from here
+      # would be accepted and race it (the two do not share a concurrency group), so this run
+      # then deploys nothing. One retry, so a passing API error does not turn an inert run
+      # red.
       - name: Is the Pages source "GitHub Actions"?
         id: source
         env:
@@ -178,9 +180,9 @@ jobs:
         if: steps.tip.outputs.current == 'true'
         uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346  # v5.0.1
 
-  # Red AFTER the deploy (or after the inert build, before the switch), so one file the app
-  # cannot check never holds back every legislature. The build job's error names the file
-  # and its source in the bot's repository.
+  # Red AFTER the deploy (or after the inert build on a branch build, after a rollback), so
+  # one file the app cannot check never holds back every legislature. The build job's error
+  # names the file and its source in the bot's repository.
   unchecked:
     needs: [build, deploy]
     if: ${{ !cancelled() && needs.build.outputs.unchecked == 'true' }}
