@@ -66,11 +66,18 @@ jobs:
       # renderer will fetch them, compared byte for byte with what Pages
       # serves, until they match, for up to five minutes of wall clock. A file
       # this push deleted counts as served once Pages answers 404 for it.
-      # Known limit: the comparison is against THIS push's bytes, so a later
-      # push to the same file while this job waits makes the match impossible
-      # and the job waits the five minutes out, then asks anyway with a warning;
-      # the render reads the newer bytes, which is the right outcome.
+      # A file also counts as served once Pages serves it as the newest `main`
+      # has it: a later push to the same file while this job waits replaces
+      # this push's bytes, and the later push's own run waits for those.
+      #
+      # ⚠️ FIVE MINUTES WITHOUT IT IS A RED RUN (2026-10-29, the feed scale
+      # build). The render is still asked for first (the next step), then the
+      # last step turns the run red, so GitHub's failure mail tells the owner
+      # that the feed host has stopped serving what the bots publish: a stuck
+      # Pages deploy queue, or a deploy that fails. This step's verdict is its
+      # output `served`; it never fails the run itself.
       - name: Wait until GitHub Pages serves this push
+        id: wait
         env:
           FEED: https://billtrackingorg.github.io/billtracking-feed
           BEFORE: ${{ github.event.before }}
@@ -86,29 +93,34 @@ jobs:
           fi
           if [ -z "$changed" ]; then
             echo "this push changed nothing the renderer reads; asking for the render anyway"
+            echo "served=true" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           echo "files to see on Pages:"; printf '  %s\n' $changed
           try=0
           while [ "$SECONDS" -lt 300 ]; do
             try=$((try+1))
+            git fetch -q origin main 2>/dev/null || true
             pending=0
             for f in $changed; do
-              if [ -f "$f" ]; then
-                want=$(sha256sum "$f" | cut -c1-64)
-                got=$(curl -sS --max-time 15 "$FEED/$f" 2>/dev/null | sha256sum | cut -c1-64) || got=""
-                [ "$want" = "$got" ] || pending=$((pending+1))
-              else
-                # curl prints 000 itself on a transport failure; `|| true` only keeps `set -e` quiet.
-                code=$(curl -sS -o /dev/null -w '%{http_code}' --max-time 15 "$FEED/$f" 2>/dev/null || true)
-                [ "$code" = "404" ] || pending=$((pending+1))
-              fi
+              # curl prints 000 itself on a transport failure; `|| true` only keeps `set -e` quiet.
+              code=$(curl -sS -o /tmp/served -w '%{http_code}' --max-time 15 "$FEED/$f" 2>/dev/null || true)
+              got=$( [ "$code" = "200" ] && sha256sum /tmp/served | cut -c1-64 || echo "$code")
+              want=$( [ -f "$f" ] && sha256sum "$f" | cut -c1-64 || echo 404)
+              newest=$(git show "origin/main:$f" 2>/dev/null | sha256sum | cut -c1-64) || newest=""
+              git cat-file -e "origin/main:$f" 2>/dev/null || newest=404
+              [ "$got" = "$want" ] || [ "$got" = "$newest" ] || pending=$((pending+1))
             done
-            if [ "$pending" -eq 0 ]; then echo "Pages serves this push (try $try, ${SECONDS}s)"; exit 0; fi
+            if [ "$pending" -eq 0 ]; then
+              echo "Pages serves this push (try $try, ${SECONDS}s)"
+              echo "served=true" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
             echo "waiting for Pages: $pending file(s) still differ (try $try, ${SECONDS}s)"
             sleep 10
           done
-          echo "::warning::GitHub Pages did not serve this push within five minutes; asking for the render anyway. The render reads what Pages serves now; the next publish or the site's backstop cron catches what it misses."
+          echo "served=false" >> "$GITHUB_OUTPUT"
+          echo "GitHub Pages did not serve this push within five minutes; asking for the render anyway, then this run goes red."
 
       - name: Ask the site to render
         env:
@@ -146,3 +158,9 @@ jobs:
           done
           echo "::warning::could not ask for the render after three attempts (transient); the site's backstop cron will render later"
           exit 0
+
+      - name: Pages did not serve this push in five minutes
+        if: steps.wait.outputs.served == 'false'
+        run: |
+          echo "::error::GitHub Pages did not serve this push within five minutes: the feed host is not serving what the bots publish, so readers see older posts. Look at this repository's 'pages' workflow runs (a deploy failing or queued), then githubstatus.com (Pages, Actions). The app's docs/FEED-HOST-RUNBOOK.md, 'Old posts'. The render was asked for anyway."
+          exit 1
