@@ -95,7 +95,9 @@ jobs:
       - name: Wait until GitHub Pages serves this push
         id: wait
         env:
-          FEED: https://billtrackingorg.github.io/billtracking-feed
+          # The feed's own address (the app's feed scale build, before the 1 November 2026
+          # submission); github.io answers a 301 to it, which curl -L follows.
+          FEED: https://feed.billtracking.org
           BEFORE: ${{ github.event.before }}
           AFTER: ${{ github.sha }}
         run: |
