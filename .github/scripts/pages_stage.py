@@ -115,6 +115,28 @@ def main(out):
               "The checkout altered them (line endings, a filter); the live site still serves the last deploy.")
         return 2
 
+    # CLEAN UTF-8, NO BYTE-ORDER MARK. The app checks a file it holds as text against the
+    # fingerprint's sha256 by encoding that text again: a BOM, which a browser drops, or a
+    # byte that is not UTF-8, which it replaces, would make the two never agree, and a
+    # device would keep its old copy of that file for good. So such a file is refused here,
+    # red, before anything deploys (a hand edit saved by PowerShell 5.1 carries a BOM).
+    unclean = []
+    for name in sorted(data_of):
+        if MONTH.match(name) or SHEET.match(name):
+            data = data_of[name]
+            try:
+                data.decode("utf-8", errors="strict")
+            except UnicodeDecodeError:
+                unclean.append(f"{name} (not UTF-8)")
+                continue
+            if data.startswith(b"\xef\xbb\xbf"):
+                unclean.append(f"{name} (starts with a byte-order mark)")
+    if unclean:
+        print(f"::error::{', '.join(unclean)}: a month file or corrections sheet must be plain UTF-8 with no "
+              "byte-order mark, or the app cannot check it against its fingerprint. Nothing deployed; the live "
+              "site still serves the last deploy. Save the file again as UTF-8 without a BOM.")
+        return 2
+
     polities = sorted({m.group(1) for name in data_of if (m := MONTH.match(name))})
     for polity in polities:
         files = []

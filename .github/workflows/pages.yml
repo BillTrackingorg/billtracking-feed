@@ -9,19 +9,28 @@
 # the month files whose sha256 changed (the app's OPEN-ITEMS OI-0329; the design is the app's
 # `docs/FEED-LOADING.md`).
 #
-# ROLLBACK. Settings → Pages → Source back to "Deploy from a branch", `main`, `/ (root)`. The
-# branch build serves the same files again; the fingerprints stop being served, and the app
-# then reads every month as it did before them. Nothing in the repository changes.
+# THE SWITCH, AND ROLLBACK. Settings → Pages → Source: "GitHub Actions", then Actions →
+# pages → Run workflow (nothing deploys until a push or a run). Rollback: Source back to
+# "Deploy from a branch", `main`, `/ (root)`. The branch build serves the same files again;
+# the fingerprints stop being served, and the app then reads every month as it did before
+# them. Nothing in the repository changes.
+#
+# ⚠️ TO DEPLOY AGAIN, USE "Run workflow", NEVER "Re-run" ON AN OLD RUN. A re-run deploys
+# that run's own artifact, which can be older than main. The deploy job therefore checks
+# that its build is still main's tip and deploys nothing otherwise (the newer run does).
 #
 # FAILURE POSTURE (the app's loudness doctrine). A file that differs from what the commit
-# records stops the run red and deploys nothing: the live site keeps the last good deploy. A
-# failed deploy is red too. Both reach the owner by GitHub's failure mail. The site's size
-# against GitHub's 1 GB limit is an annotation at 70% and 90%, never a stopped deploy.
+# records, or a month file that is not clean UTF-8, stops the run red and deploys nothing:
+# the live site keeps the last good deploy. A failed deploy is red too. Both reach the owner
+# by GitHub's failure mail. The site's size against GitHub's 1 GB limit is an annotation at
+# 70% and 90%, never a stopped deploy.
 #
 # QUEUE. One deploy at a time (the `pages` group). A push that arrives while one runs waits;
 # a third replaces the waiting second, which loses nothing because each run checks out `main`
 # by name and so deploys the tip. `render-site.yml` waits for Pages to serve a push before it
-# asks the website to render, as it did with the branch build.
+# asks the website to render, as it did with the branch build. A deployment's record names
+# the push that started the run; what it served is main's tip, which the fingerprints'
+# `commit` names.
 name: pages
 
 on:
@@ -31,8 +40,6 @@ on:
 
 permissions:
   contents: read
-  pages: write       # read the Pages source; deploy once it is "GitHub Actions"
-  id-token: write    # the deploy proves where it runs
 
 concurrency:
   group: pages
@@ -42,12 +49,20 @@ jobs:
   build:
     runs-on: ubuntu-24.04
     timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: read        # read the Pages source
     outputs:
       deploy: ${{ steps.source.outputs.deploy }}
+      commit: ${{ steps.commit.outputs.sha }}
     steps:
       - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0  # v7.0.0 (the bots' pin)
         with:
           ref: main
+
+      - name: The commit this run builds
+        id: commit
+        run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
       - name: Stage, check and fingerprint
         run: python3 .github/scripts/pages_stage.py _site
@@ -58,14 +73,16 @@ jobs:
           include-hidden-files: true   # `.nojekyll`, which the branch build served
 
       # Deploy only once the owner has switched the source. Before that, GitHub's branch
-      # build serves the site and a deploy from here would fail.
+      # build serves the site and a deploy from here would fail. One retry, so a passing
+      # API error does not turn an inert run red.
       - name: Is the Pages source "GitHub Actions"?
         id: source
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
-          type=$(gh api "repos/${GITHUB_REPOSITORY}/pages" --jq .build_type)
+          type=$(gh api "repos/${GITHUB_REPOSITORY}/pages" --jq .build_type 2>/dev/null) \
+            || { sleep 10; type=$(gh api "repos/${GITHUB_REPOSITORY}/pages" --jq .build_type); }
           echo "Pages source: ${type}"
           if [ "$type" = "workflow" ]; then
             echo "deploy=true" >> "$GITHUB_OUTPUT"
@@ -79,9 +96,29 @@ jobs:
     if: needs.build.outputs.deploy == 'true'
     runs-on: ubuntu-24.04
     timeout-minutes: 10
+    permissions:
+      pages: write       # deploy
+      id-token: write    # the deploy proves where it runs
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      # A re-run of an old run would deploy that run's older artifact. Deploy only while the
+      # build is still main's tip; a newer push has its own run, which deploys it.
+      - name: Is this build still main's tip?
+        id: tip
+        env:
+          BUILT: ${{ needs.build.outputs.commit }}
+        run: |
+          set -euo pipefail
+          tip=$(git ls-remote "https://github.com/${GITHUB_REPOSITORY}" refs/heads/main | cut -f1)
+          if [ "$tip" = "$BUILT" ]; then
+            echo "current=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "current=false" >> "$GITHUB_OUTPUT"
+            echo "Not deployed: this run built ${BUILT:0:9}, and main is now ${tip:0:9}; the run for that push deploys it." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
       - id: deployment
+        if: steps.tip.outputs.current == 'true'
         uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346  # v5.0.1

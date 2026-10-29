@@ -75,7 +75,10 @@ jobs:
       # last step turns the run red, so GitHub's failure mail tells the owner
       # that the feed host has stopped serving what the bots publish: a stuck
       # Pages deploy queue, or a deploy that fails. This step's verdict is its
-      # output `served`; it never fails the run itself.
+      # output `served`; it never fails the run itself. A file seen served
+      # leaves the list, so each try asks only for what is still pending, and
+      # no try runs past the five minutes. curl follows a redirect (`-L`): once
+      # the feed has its own address, this one answers 301 to it.
       - name: Wait until GitHub Pages serves this push
         id: wait
         env:
@@ -101,22 +104,24 @@ jobs:
           while [ "$SECONDS" -lt 300 ]; do
             try=$((try+1))
             git fetch -q origin main 2>/dev/null || true
-            pending=0
+            still=""
             for f in $changed; do
+              if [ "$SECONDS" -ge 300 ]; then still="$still $f"; continue; fi
               # curl prints 000 itself on a transport failure; `|| true` only keeps `set -e` quiet.
-              code=$(curl -sS -o /tmp/served -w '%{http_code}' --max-time 15 "$FEED/$f" 2>/dev/null || true)
+              code=$(curl -sSL -o /tmp/served -w '%{http_code}' --max-time 15 "$FEED/$f" 2>/dev/null || true)
               got=$( [ "$code" = "200" ] && sha256sum /tmp/served | cut -c1-64 || echo "$code")
               want=$( [ -f "$f" ] && sha256sum "$f" | cut -c1-64 || echo 404)
               newest=$(git show "origin/main:$f" 2>/dev/null | sha256sum | cut -c1-64) || newest=""
               git cat-file -e "origin/main:$f" 2>/dev/null || newest=404
-              [ "$got" = "$want" ] || [ "$got" = "$newest" ] || pending=$((pending+1))
+              [ "$got" = "$want" ] || [ "$got" = "$newest" ] || still="$still $f"
             done
-            if [ "$pending" -eq 0 ]; then
+            changed=$still
+            if [ -z "$changed" ]; then
               echo "Pages serves this push (try $try, ${SECONDS}s)"
               echo "served=true" >> "$GITHUB_OUTPUT"
               exit 0
             fi
-            echo "waiting for Pages: $pending file(s) still differ (try $try, ${SECONDS}s)"
+            echo "waiting for Pages: $(echo $changed | wc -w) file(s) still differ (try $try, ${SECONDS}s)"
             sleep 10
           done
           echo "served=false" >> "$GITHUB_OUTPUT"
