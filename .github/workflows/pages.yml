@@ -25,16 +25,22 @@
 #      "Configure" on any workflow GitHub suggests there; committing one adds a second deploy
 #      that serves no fingerprints.
 #   4. At once: Actions → pages → Run workflow (branch main).
-#   It worked when that run's deploy job is green and
+#   It worked when that run's deploy job is green,
 #   https://billtrackingorg.github.io/billtracking-feed/us-fingerprint.json (and eu-) answers
-#   200 with main's latest commit in "commit".
+#   200 with main's latest commit in "commit", and its Last-Modified is the same as a month
+#   file's (`curl -sI` on both: one deploy, one time, which the app's canary relies on).
 #   5. Then switch the notice job back on.
+#   6. In the app, a session sets the daily canary's FINGERPRINTS_SERVED to true, with its
+#      pin (the app's docs/FEED-HOST-RUNBOOK.md, "Where the numbers are"). Until it does,
+#      the canary files one issue asking for it.
 #
 # ROLLBACK. Settings → Pages → Source: "Deploy from a branch", `main`, `/ (root)`. GitHub
 # should then start a "pages build and deployment" run that serves the same files again (not
 # yet seen here): check Actions for it, and if none starts, ask for one
 # (`gh api -X POST repos/BillTrackingorg/billtracking-feed/pages/builds`, the owner's call).
-# The fingerprints stop being served, and the app reads every month as it did before them.
+# The fingerprints stop being served, and the app reads every month as it did before them; a
+# session sets the app canary's FINGERPRINTS_SERVED (and FINGERPRINTS_LIVE_ON_BOTH_PLATFORMS)
+# back to false.
 # ⚠️ ONCE THE FEED HAS ITS OWN ADDRESS (feed.billtracking.org): a branch build keeps its
 # custom domain in a `CNAME` file at the root of the branch (GitHub's docs), which a deploy
 # from here never needs, so none is committed. Before switching back, commit a file named
