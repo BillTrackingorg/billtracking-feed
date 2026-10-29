@@ -28,9 +28,13 @@
 # drilled failure-mail channel (the bots' FEED_TOKEN precedent). A transient
 # failure (a rate limit, a 5xx, a network error): three tries, then a warning on
 # a green run; the cron is the backstop. Pages taking longer than this job
-# waits: the request goes out anyway with a warning; the render reads whatever
-# Pages serves, and the next publish or the cron catches the rest. Nothing here
-# can fail silently.
+# waits (five minutes): the render is still asked for. If Pages served no file
+# of the push in that time, no deploy landed, and the run then goes RED, so
+# GitHub's failure mail tells the owner that the feed host has stopped serving
+# what the bots publish (a stuck or failing Pages deploy). If it served some
+# but an edge still served an older copy of another, the deploy landed: a
+# warning on a green run, and the next publish or the cron renders what the
+# render missed. Nothing here can fail silently.
 name: render-site
 
 on:
@@ -60,25 +64,34 @@ jobs:
         with:
           fetch-depth: 0   # the diff below needs the parent of a multi-commit push
 
-      # Pages deploys this repository about half a minute after a push, and
-      # until it has, the renderer would read the previous bytes and miss the
-      # very post this push carried. So: the files this push changed, as the
-      # renderer will fetch them, compared byte for byte with what Pages
-      # serves, until they match, for up to five minutes of wall clock. A file
-      # this push deleted counts as served once Pages answers 404 for it.
-      # A file also counts as served once Pages serves it as the newest `main`
-      # has it: a later push to the same file while this job waits replaces
-      # this push's bytes, and the later push's own run waits for those.
+      # Pages serves a push some time after it: over this job's 200 runs of
+      # 13-29 Oct 2026, under the branch build, a wait that had to wait ended 12
+      # to 250 s in (median about 40 s), and three waited out the five minutes.
+      # The deploy from Actions, after the Pages source switch, is timed during
+      # its soak. Until Pages serves it, the renderer would read the previous
+      # bytes and miss the very post this push carried. So: the files this push
+      # changed, as the renderer will fetch them, compared byte for byte with
+      # what Pages serves, until EVERY ONE matches in the same try, for up to
+      # five minutes of wall clock; no try runs past them. One try, not a file
+      # at a time, because an edge can serve a file fresh and then an older copy
+      # again (2026-10-27). A file this push deleted counts as served once Pages
+      # answers 404 for it. A file also counts as served once Pages serves it as
+      # the newest `main` has it: a later push to the same file while this job
+      # waits replaces this push's bytes, and the later push's own run waits for
+      # those. curl follows a redirect (`-L`): once the feed has its own
+      # address, this one answers 301 to it.
       #
-      # ⚠️ FIVE MINUTES WITHOUT IT IS A RED RUN (2026-10-29, the feed scale
-      # build). The render is still asked for first (the next step), then the
-      # last step turns the run red, so GitHub's failure mail tells the owner
-      # that the feed host has stopped serving what the bots publish: a stuck
-      # Pages deploy queue, or a deploy that fails. This step's verdict is its
-      # output `served`; it never fails the run itself. A file seen served
-      # leaves the list, so each try asks only for what is still pending, and
-      # no try runs past the five minutes. curl follows a redirect (`-L`): once
-      # the feed has its own address, this one answers 301 to it.
+      # ⚠️ RED ONLY WHEN NO DEPLOY LANDED (2026-10-29, the feed scale build).
+      # A deploy is atomic, so one file of this push served with this push's
+      # bytes, or the newest main's (a 200; a 404 proves nothing), shows that
+      # Pages deployed it. Past five minutes the render is still asked for
+      # (the next step) either way. With a deploy seen, an edge copy is only
+      # lagging: a warning on a green run. With none seen, the last step turns
+      # the run red, so GitHub's failure mail tells the owner that the feed
+      # host has stopped serving what the bots publish: a stuck Pages deploy
+      # queue, or a deploy that fails. This step's verdicts are its outputs
+      # `served` (every file, one try) and `landed` (a deploy seen); it never
+      # fails the run itself.
       - name: Wait until GitHub Pages serves this push
         id: wait
         env:
@@ -100,32 +113,44 @@ jobs:
             exit 0
           fi
           echo "files to see on Pages:"; printf '  %s\n' $changed
+          landed=false
           try=0
           while [ "$SECONDS" -lt 300 ]; do
             try=$((try+1))
             git fetch -q origin main 2>/dev/null || true
-            still=""
+            pending=0
             for f in $changed; do
-              if [ "$SECONDS" -ge 300 ]; then still="$still $f"; continue; fi
+              if [ "$SECONDS" -ge 300 ]; then pending=$((pending+1)); continue; fi
               # curl prints 000 itself on a transport failure; `|| true` only keeps `set -e` quiet.
               code=$(curl -sSL -o /tmp/served -w '%{http_code}' --max-time 15 "$FEED/$f" 2>/dev/null || true)
               got=$( [ "$code" = "200" ] && sha256sum /tmp/served | cut -c1-64 || echo "$code")
               want=$( [ -f "$f" ] && sha256sum "$f" | cut -c1-64 || echo 404)
               newest=$(git show "origin/main:$f" 2>/dev/null | sha256sum | cut -c1-64) || newest=""
               git cat-file -e "origin/main:$f" 2>/dev/null || newest=404
-              [ "$got" = "$want" ] || [ "$got" = "$newest" ] || still="$still $f"
+              if [ "$got" = "$want" ] || [ "$got" = "$newest" ]; then
+                if [ "$code" = "200" ] && [ "$landed" = false ]; then
+                  landed=true
+                  echo "a deploy of this push has landed: $f is served fresh (try $try, ${SECONDS}s)"
+                fi
+              else
+                pending=$((pending+1))
+              fi
             done
-            changed=$still
-            if [ -z "$changed" ]; then
+            if [ "$pending" -eq 0 ]; then
               echo "Pages serves this push (try $try, ${SECONDS}s)"
               echo "served=true" >> "$GITHUB_OUTPUT"
               exit 0
             fi
-            echo "waiting for Pages: $(echo $changed | wc -w) file(s) still differ (try $try, ${SECONDS}s)"
+            echo "waiting for Pages: $pending file(s) still differ (try $try, ${SECONDS}s)"
             sleep 10
           done
           echo "served=false" >> "$GITHUB_OUTPUT"
-          echo "GitHub Pages did not serve this push within five minutes; asking for the render anyway, then this run goes red."
+          echo "landed=$landed" >> "$GITHUB_OUTPUT"
+          if [ "$landed" = true ]; then
+            echo "GitHub Pages deployed this push, but an edge still served an older copy at five minutes; asking for the render anyway."
+          else
+            echo "GitHub Pages served no file of this push within five minutes; asking for the render anyway, then this run goes red."
+          fi
 
       - name: Ask the site to render
         env:
@@ -166,6 +191,12 @@ jobs:
 
       - name: Pages did not serve this push in five minutes
         if: steps.wait.outputs.served == 'false'
+        env:
+          LANDED: ${{ steps.wait.outputs.landed }}
         run: |
-          echo "::error::GitHub Pages did not serve this push within five minutes: the feed host is not serving what the bots publish, so readers see older posts. Look at this repository's 'pages' workflow runs (a deploy failing or queued), then githubstatus.com (Pages, Actions). The app's docs/FEED-HOST-RUNBOOK.md, 'Old posts'. The render was asked for anyway."
+          if [ "$LANDED" = "true" ]; then
+            echo "::warning::GitHub Pages deployed this push, but after five minutes an edge still served an older copy of a file it changed. The render was asked for anyway; the next publish or the site's cron renders what it missed."
+            exit 0
+          fi
+          echo "::error::GitHub Pages served no file of this push within five minutes: the feed host is not serving what the bots publish, so readers see older posts. Look at this repository's 'pages' workflow runs (or its 'pages build and deployment' runs while the Pages source is still the branch) for a deploy failing or queued, then githubstatus.com (Pages, Actions). The app's docs/FEED-HOST-RUNBOOK.md, 'Old posts'. The render was asked for anyway."
           exit 1

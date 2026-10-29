@@ -1,11 +1,17 @@
 #!/usr/bin/env python3
 """Stage what GitHub Pages serves from this repository, check it, and write the fingerprints.
 
-Run by `.github/workflows/pages.yml` (and, unchanged, by the replay that proved it):
+Run by `.github/workflows/pages.yml`:
 
     python3 .github/scripts/pages_stage.py <out_dir>
 
-from the root of a checkout of the commit being deployed.
+from the root of a checkout of the commit being deployed. Exit 0: staged. Exit 2: refused,
+deploy nothing. Exit 3: staged, but a legislature goes out without its fingerprint (below);
+deploy, then turn the run red.
+
+PROOF. The replay of this script over every commit of main's history, and each refusal shown
+on a mutated scratch commit, are recorded in the message of the last commit that changed it
+(`git log -1 -- .github/scripts/pages_stage.py`); a change to it runs both again.
 
 WHAT IT STAGES. Every tracked file except `.github/`, byte for byte: exactly what the
 branch build served before the switch to Actions (`.github/` was never served; checked on
@@ -20,7 +26,7 @@ published, so nothing is deployed and the run goes red.
 THE FINGERPRINTS. For each legislature with a month file, `<polity>-fingerprint.json`:
 
     {"v": 1, "polity": "us", "commit": "<sha>",
-     "files": [{"name": "us-2026-07.jsonl", "bytes": 55790, "posts": 61, "sha256": "…"}, …,
+     "files": [{"name": "us-2026-07.jsonl", "bytes": 55790, "posts": 41, "sha256": "…"}, …,
                {"name": "us-overrides.jsonl", "bytes": 586, "sha256": "…"}]}
 
 `files` lists every month file of the legislature and its corrections sheet, sorted by name.
@@ -28,6 +34,19 @@ THE FINGERPRINTS. For each legislature with a month file, `<polity>-fingerprint.
 `SUMMARY_LINE_TYPES`, `src/data/feed-schema.ts`); the app may still drop a line it cannot
 adapt, so it is a count for planning a load, never a claim about the record. Readers ignore
 fields they do not know, so a field can be added without a new `v`.
+
+A FILE THE APP COULD NOT CHECK (exit 3: deployed, then red). A month file or corrections
+sheet that is not UTF-8, or starts with a byte-order mark, leaves its legislature without a
+fingerprint; every other legislature's is written. A fingerprint must list every file (the
+app never asks for one it does not list), and the app checks a file by hashing the text its
+decoder gave it: a browser's decoder drops a leading BOM, the phones' have not been checked,
+and a byte that is not UTF-8 is replaced in ways that differ by decoder. A sha of the
+decoded text could therefore match on one platform and never on another, which would
+download that file again at every load. Without a fingerprint, the app reads that
+legislature's files the way it did before fingerprints, on every platform. The error names
+the source to fix: `feed/<name without the prefix>` in that legislature's bot repository,
+which copies its `feed/*.jsonl` here at every publish, so a fix made in this repository is
+undone by the next one.
 
 HEADROOM. GitHub Pages sites are limited to 1 GB. At 70% of it the run carries a warning,
 at 90% an error annotation; neither stops the deploy, because a stopped deploy is worse
@@ -115,30 +134,40 @@ def main(out):
               "The checkout altered them (line endings, a filter); the live site still serves the last deploy.")
         return 2
 
-    # CLEAN UTF-8, NO BYTE-ORDER MARK. The app checks a file it holds as text against the
-    # fingerprint's sha256 by encoding that text again: a BOM, which a browser drops, or a
-    # byte that is not UTF-8, which it replaces, would make the two never agree, and a
-    # device would keep its old copy of that file for good. So such a file is refused here,
-    # red, before anything deploys (a hand edit saved by PowerShell 5.1 carries a BOM).
-    unclean = []
-    for name in sorted(data_of):
-        if MONTH.match(name) or SHEET.match(name):
-            data = data_of[name]
-            try:
-                data.decode("utf-8", errors="strict")
-            except UnicodeDecodeError:
-                unclean.append(f"{name} (not UTF-8)")
-                continue
-            if data.startswith(b"\xef\xbb\xbf"):
-                unclean.append(f"{name} (starts with a byte-order mark)")
-    if unclean:
-        print(f"::error::{', '.join(unclean)}: a month file or corrections sheet must be plain UTF-8 with no "
-              "byte-order mark, or the app cannot check it against its fingerprint. Nothing deployed; the live "
-              "site still serves the last deploy. Save the file again as UTF-8 without a BOM.")
-        return 2
-
     polities = sorted({m.group(1) for name in data_of if (m := MONTH.match(name))})
     for polity in polities:
+        if f"{polity}-fingerprint.json" in recorded:
+            print(f"::error::{polity}-fingerprint.json is committed to the repository; the deploy writes it. "
+                  "Nothing deployed.")
+            return 2
+
+    # PLAIN UTF-8, NO BYTE-ORDER MARK, or the legislature goes out without its fingerprint
+    # (the docstring says why). Its files still deploy; the run goes red after the deploy
+    # (a hand edit saved by PowerShell 5.1 carries a BOM).
+    unchecked = set()
+    for name in sorted(data_of):
+        m = MONTH.match(name) or SHEET.match(name)
+        if not m:
+            continue
+        data = data_of[name]
+        try:
+            data.decode("utf-8", errors="strict")
+            why = "starts with a byte-order mark" if data.startswith(b"\xef\xbb\xbf") else None
+        except UnicodeDecodeError:
+            why = "is not UTF-8"
+        if why:
+            polity = m.group(1)
+            unchecked.add(polity)
+            print(f"::error::{name} {why}, so the app could not check it against a fingerprint: "
+                  f"{polity}-fingerprint.json is not deployed, and the app reads {polity}'s files without one. "
+                  f"Fix the source, feed/{name[len(polity) + 1:]} in the {polity} bot's repository (save it as "
+                  "UTF-8 without a byte-order mark): the bot copies its feed/*.jsonl here at every publish, so a "
+                  "fix made in this repository is undone by the next one. Every other legislature is deployed.")
+
+    for polity in polities:
+        if polity in unchecked:
+            print(f"{polity}-fingerprint.json: not written (a file above could not be checked)")
+            continue
         files = []
         for name in sorted(data_of):
             month, sheet = MONTH.match(name), SHEET.match(name)
@@ -151,9 +180,6 @@ def main(out):
                 files.append(entry)
         doc = {"v": 1, "polity": polity, "commit": commit, "files": files}
         name = f"{polity}-fingerprint.json"
-        if name in recorded:
-            print(f"::error::{name} is committed to the repository; the deploy writes it. Nothing deployed.")
-            return 2
         blob = (json.dumps(doc, separators=(",", ":"), ensure_ascii=False) + "\n").encode("utf-8")
         with open(os.path.join(out, name), "wb") as f:
             f.write(blob)
@@ -168,7 +194,7 @@ def main(out):
     elif share >= 0.7:
         print(f"::warning::The feed site is {share:.0%} of GitHub's 1 GB Pages limit; plan the hosting split "
               "(the app's OPEN-ITEMS).")
-    return 0
+    return 3 if unchecked else 0
 
 
 if __name__ == "__main__":

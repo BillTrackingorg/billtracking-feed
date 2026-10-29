@@ -6,31 +6,60 @@
 # nothing). After the switch it is the deploy: every push here stages the files, checks each
 # against the bytes the commit records, writes `<polity>-fingerprint.json` beside the month
 # files, and deploys. A reader's app reads a legislature's fingerprint first and asks only for
-# the month files whose sha256 changed (the app's OPEN-ITEMS OI-0329; the design is the app's
-# `docs/FEED-LOADING.md`).
+# the month files whose sha256 changed (the app's OPEN-ITEMS OI-0329).
 #
-# THE SWITCH, AND ROLLBACK. Settings → Pages → Source: "GitHub Actions", then Actions →
-# pages → Run workflow (nothing deploys until a push or a run). Rollback: Source back to
-# "Deploy from a branch", `main`, `/ (root)`. The branch build serves the same files again;
-# the fingerprints stop being served, and the app then reads every month as it did before
-# them. Nothing in the repository changes.
+# THE SWITCH: THE OWNER'S SITTING, IN THIS ORDER. Not rehearsed: how long the feed goes
+# without a fresh deploy across the click, and what GitHub does on a switch back, have not
+# been measured.
+#   1. Only once the app's 404 fix and its feed-host early warning (slices A and E of the
+#      feed scale build) are merged, and the notice sender has been redeployed with the 404
+#      fix (`npm run deploy:sender` in the app). A client without it keeps a 404 as an empty
+#      month, and the click may bring a moment of 404s.
+#   2. This workflow's run for main's latest push is green ("Built and checked, not
+#      deployed"), and no bot publish is in flight.
+#   3. Settings → Pages → Build and deployment → Source: "GitHub Actions". Choose that and
+#      nothing else: this repository already has its workflow, this one. Do not click
+#      "Configure" on any workflow GitHub suggests there; committing one adds a second deploy
+#      that serves no fingerprints.
+#   4. At once: Actions → pages → Run workflow (branch main).
+#   It worked when that run's deploy job is green and
+#   https://billtrackingorg.github.io/billtracking-feed/us-fingerprint.json (and eu-) answers
+#   200 with main's latest commit in "commit".
+#
+# ROLLBACK. Settings → Pages → Source: "Deploy from a branch", `main`, `/ (root)`. GitHub
+# should then start a "pages build and deployment" run that serves the same files again (not
+# yet seen here): check Actions for it, and if none starts, ask for one
+# (`gh api -X POST repos/BillTrackingorg/billtracking-feed/pages/builds`, the owner's call).
+# The fingerprints stop being served, and the app reads every month as it did before them.
+# ⚠️ ONCE THE FEED HAS ITS OWN ADDRESS (feed.billtracking.org): a branch build keeps its
+# custom domain in a `CNAME` file at the root of the branch (GitHub's docs), which a deploy
+# from here never needs, so none is committed. Before switching back, commit a file named
+# `CNAME` holding the one line `feed.billtracking.org` to main (under Actions it is served
+# as an ordinary file and changes nothing); without it the branch build can drop the address
+# and readers of feed.billtracking.org get GitHub's 404. After the branch build, confirm that
+# `gh api repos/BillTrackingorg/billtracking-feed/pages --jq .cname` prints the address.
 #
 # ⚠️ TO DEPLOY AGAIN, USE "Run workflow", NEVER "Re-run" ON AN OLD RUN. A re-run deploys
 # that run's own artifact, which can be older than main. The deploy job therefore checks
-# that its build is still main's tip and deploys nothing otherwise (the newer run does).
+# that its build is still main's tip and deploys nothing otherwise; a re-run that finds main
+# has moved is red, because it may have taken the place of the newer push's waiting run.
 #
-# FAILURE POSTURE (the app's loudness doctrine). A file that differs from what the commit
-# records, or a month file that is not clean UTF-8, stops the run red and deploys nothing:
-# the live site keeps the last good deploy. A failed deploy is red too. Both reach the owner
-# by GitHub's failure mail. The site's size against GitHub's 1 GB limit is an annotation at
-# 70% and 90%, never a stopped deploy.
+# FAILURE POSTURE (the app's loudness doctrine). Stopped red, nothing deployed, the live
+# site keeping the last good deploy: a file that differs from what the commit records, a
+# symbolic link, or a committed `<polity>-fingerprint.json` (`pages_stage.py` names each).
+# Deployed, then red: a month file or corrections sheet that is not UTF-8 or starts with a
+# byte-order mark. Its legislature goes out without a fingerprint (the app reads its files
+# the old way) and every other legislature deploys as usual; the error names the file's
+# source in its bot's repository, where the fix belongs. A failed deploy is red too. Each
+# reaches the owner by GitHub's failure mail. The site's size against GitHub's 1 GB limit is
+# an annotation at 70% and 90%, never a stopped deploy.
 #
 # QUEUE. One deploy at a time (the `pages` group). A push that arrives while one runs waits;
 # a third replaces the waiting second, which loses nothing because each run checks out `main`
-# by name and so deploys the tip. `render-site.yml` waits for Pages to serve a push before it
-# asks the website to render, as it did with the branch build. A deployment's record names
-# the push that started the run; what it served is main's tip, which the fingerprints'
-# `commit` names.
+# by name and so deploys the tip (a re-run of an old run is the exception, above).
+# `render-site.yml` waits for Pages to serve a push before it asks the website to render, as
+# it did with the branch build. A deployment's record names the push that started the run;
+# what it served is main's tip, which the fingerprints' `commit` names.
 name: pages
 
 on:
@@ -55,6 +84,7 @@ jobs:
     outputs:
       deploy: ${{ steps.source.outputs.deploy }}
       commit: ${{ steps.commit.outputs.sha }}
+      unchecked: ${{ steps.stage.outputs.unchecked }}
     steps:
       - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0  # v7.0.0 (the bots' pin)
         with:
@@ -64,8 +94,16 @@ jobs:
         id: commit
         run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
+      # Exit 3: a legislature goes out without its fingerprint (a file the app could not
+      # check); the deploy goes ahead and the last job turns the run red. Any other failure
+      # stops the run here, nothing deployed.
       - name: Stage, check and fingerprint
-        run: python3 .github/scripts/pages_stage.py _site
+        id: stage
+        run: |
+          rc=0
+          python3 .github/scripts/pages_stage.py _site || rc=$?
+          if [ "$rc" -eq 3 ]; then echo "unchecked=true" >> "$GITHUB_OUTPUT"; exit 0; fi
+          exit "$rc"
 
       - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9  # v5.0.0
         with:
@@ -73,8 +111,10 @@ jobs:
           include-hidden-files: true   # `.nojekyll`, which the branch build served
 
       # Deploy only once the owner has switched the source. Before that, GitHub's branch
-      # build serves the site and a deploy from here would fail. One retry, so a passing
-      # API error does not turn an inert run red.
+      # build deploys every push itself, and a deploy from here would be accepted and race
+      # it (the two do not share a concurrency group), so this run deploys only when the
+      # source is "GitHub Actions". One retry, so a passing API error does not turn an inert
+      # run red.
       - name: Is the Pages source "GitHub Actions"?
         id: source
         env:
@@ -104,7 +144,8 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       # A re-run of an old run would deploy that run's older artifact. Deploy only while the
-      # build is still main's tip; a newer push has its own run, which deploys it.
+      # build is still main's tip; a newer push has its own run, which deploys it. A re-run
+      # that finds main moved is red: it may have displaced that newer run while it waited.
       - name: Is this build still main's tip?
         id: tip
         env:
@@ -114,6 +155,10 @@ jobs:
           tip=$(git ls-remote "https://github.com/${GITHUB_REPOSITORY}" refs/heads/main | cut -f1)
           if [ "$tip" = "$BUILT" ]; then
             echo "current=true" >> "$GITHUB_OUTPUT"
+          elif [ "${GITHUB_RUN_ATTEMPT:-1}" -gt 1 ]; then
+            echo "current=false" >> "$GITHUB_OUTPUT"
+            echo "::error::A re-run of an old run: it built ${BUILT:0:9}, and main is now ${tip:0:9}, so it deploys nothing, and it may have taken the place of the newer push's waiting run. Deploy main with Actions → pages → Run workflow."
+            exit 1
           else
             echo "current=false" >> "$GITHUB_OUTPUT"
             echo "Not deployed: this run built ${BUILT:0:9}, and main is now ${tip:0:9}; the run for that push deploys it." >> "$GITHUB_STEP_SUMMARY"
@@ -122,3 +167,18 @@ jobs:
       - id: deployment
         if: steps.tip.outputs.current == 'true'
         uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346  # v5.0.1
+
+  # Red AFTER the deploy (or after the inert build, before the switch), so one file the app
+  # cannot check never holds back every legislature. The build job's error names the file
+  # and its source in the bot's repository.
+  unchecked:
+    needs: [build, deploy]
+    if: ${{ !cancelled() && needs.build.outputs.unchecked == 'true' }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 2
+    permissions: {}
+    steps:
+      - name: A legislature went out without its fingerprint
+        run: |
+          echo "::error::A month file or corrections sheet is not UTF-8 or starts with a byte-order mark, so its legislature went out without its fingerprint, and the app reads that legislature's files the old way. The build job's error names the file and its source in the bot's repository, where the fix belongs (a fix made here is undone by the next publish). Red until it is fixed there."
+          exit 1

@@ -53,10 +53,10 @@ GitHub Pages serves the push, then asks the website repo to render its `/p/` and
 `/b/` pages, so a page follows its post by minutes instead of waiting for a cron
 GitHub mostly drops (added 2026-10-13, app OPEN-ITEMS OI-0305). It holds one
 secret, `SITE_RENDER_TOKEN`, which can only start or cancel workflow runs on the
-website repo — it cannot write there, or here. If Pages has not served a push
-within five minutes, the render is still asked for and the run then goes red, so
-a stuck feed host reaches the owner by GitHub's failure mail. Its failure posture
-is in the file's header.
+website repo — it cannot write there, or here. If Pages has served no file of a
+push within five minutes, the render is still asked for and the run then goes
+red, so a stuck feed host reaches the owner by GitHub's failure mail. Its failure
+posture is in the file's header.
 
 `.github/workflows/pages.yml` deploys this repository to GitHub Pages once the
 Pages source is "GitHub Actions" (until then it only builds and checks). It
@@ -69,8 +69,9 @@ eu-fingerprint.json    "bytes":55790,"posts":41,"sha256":"…"}, …, {"name":"u
 ```
 
 The app reads a legislature's fingerprint first and downloads only the month
-files whose sha256 changed (app OPEN-ITEMS OI-0329). Rollback, and everything
-else, is in the file's header.
+files whose sha256 changed (app OPEN-ITEMS OI-0329). The owner's switch of the
+Pages source (its steps, in order), the rollback, and everything else are in the
+file's header.
 
 When something looks wrong with the feed host (a GitHub email, old posts, a slow
 feed), the app's `docs/FEED-HOST-RUNBOOK.md` starts from the symptom.
