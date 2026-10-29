@@ -87,3 +87,7 @@ It is a one-way archive of what the bots said.
 Don't. It is machine-written and append-only. Corrections go through the
 overrides mechanism in the bot repos, which records them publicly rather than
 rewriting history.
+
+Never delete or rename a month file or a corrections sheet. To empty a month,
+publish it as a 0-byte file. The app keeps a copy it holds through a 404, so a
+deleted file stays on every device that already has it (app DECISIONS D17).
