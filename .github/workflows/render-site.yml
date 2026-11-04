@@ -5,8 +5,8 @@
 # Pages serves those bytes to the app, to the website's feed pages and to the
 # website's page renderer. That renderer lives in the site repository
 # (BillTrackingorg/billtrackingorg.github.io, billtracking-site until its rename;
-# .github/workflows/permalinks.yml): it
-# draws /p/<id> and /b/<polity>/<slug> from what Pages serves. It used to run
+# .github/workflows/permalinks.yml), which every legislature's own repository calls:
+# it draws /<id>/p/<post> and /<id>/b/<slug> from what Pages serves. It used to run
 # on a 15-minute cron alone, and GitHub drops most of a cron's slots (measured
 # 13 Oct 2026: three scheduled renders in sixteen hours), so a fresh post sat
 # on the website's read-only fallback page for hours. This workflow makes page
@@ -14,9 +14,10 @@
 # then asks the site to render. The site's cron stays, as the backstop.
 #
 # WHAT IT HOLDS. One secret, SITE_RENDER_TOKEN: a fine-grained token on the
-# BillTrackingorg account with ONE permission on ONE repository, Actions:
-# write on the site repository, which is exactly what starting a workflow run
-# there needs, and nothing more. It cannot change a file, a post, a page or a
+# BillTrackingorg account with ONE permission, Actions: write, on the site
+# repositories alone (the website's and each legislature's, selected one by
+# one), which is exactly what starting a workflow run there needs, and nothing
+# more. It cannot change a file, a post, a page or a
 # bot anywhere; the worst a leaked copy can do is start or cancel renders of
 # public data. (The bots' FEED_TOKEN, which writes here, is a different token
 # with a different scope; neither can do the other's job.) The token does not
@@ -36,6 +37,25 @@
 # but an edge still served an older copy of another, the deploy landed: a
 # warning on a green run, and the next publish or the cron renders what the
 # render missed. Nothing here can fail silently.
+#
+# WHICH SITES (the website split, the app's feed scale build, 2026-10-29). Every
+# legislature, the US and the EU included, is rendered by a repository of its own,
+# named exactly its id (billtracking.org/<id>/); the website's own repository draws
+# the one corrections log, which every legislature's posts and sheet feed, and the
+# forwarding pages at the US's and the EU's old addresses, one per post, so it is
+# asked on every push that changes a record or a sheet, beside the legislature that
+# changed. This workflow cannot read the app's registry, so the map from a changed
+# file to the repository that renders it is written below, one line per armed
+# legislature (SITE_MAP; the charter's arming step adds the line), and a push that
+# changes a legislature with no line is RED, the same posture as a refused token:
+# only a person can fix it. Before asking a legislature's repository for a render,
+# this reads its permalinks workflow and switches it back on if GitHub switched its
+# schedule off after 60 days without activity (a legislature in recess); one the
+# owner switched off by hand is a deliberate stop, left as it is and named. The
+# token needs Actions: write on each repository: the owner adds each one to it, by
+# hand, before the legislature's first public post (the charter's gate, proven by a
+# green dispatch). The website's own workflow is never idle and is not enabled from
+# here.
 name: render-site
 
 on:
@@ -46,8 +66,10 @@ on:
 # else; the request to the site uses the one secret above. Each bot pushes one
 # commit at a time; a push that arrives while this job is still waiting queues
 # behind it, and a third replaces the queued second (GitHub keeps one pending
-# run per group). No cancel of a running job: every run asks for a full render,
-# so the latest run's render covers whatever the replaced one carried, and the
+# run per group). No cancel of a running job. A replaced run's push is not lost:
+# each run asks every site a file changed in the last forty-five minutes belongs to,
+# not only its own push's (the next step), so the latest run asks for whatever a
+# replaced one carried; a render is always a full render of its site, and the
 # site serialises its renders in its own concurrency group.
 permissions:
   contents: read
@@ -59,7 +81,9 @@ concurrency:
 jobs:
   dispatch:
     runs-on: ubuntu-24.04
-    timeout-minutes: 9
+    # Five minutes' wait, then at worst about three minutes a site (a read, an enable and
+    # three asks, each bounded), for the website and the legislatures one push touches.
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0  # v7.0.0 (the bots' pin)
         with:
@@ -155,45 +179,157 @@ jobs:
             echo "GitHub Pages served no file of this push within five minutes; asking for the render anyway, then this run goes red."
           fi
 
+      # WHICH SITES RENDER THIS PUSH (the header's "WHICH SITES"). The files this push
+      # changed, as the wait step reads them, each to the repository that renders it:
+      # an exact SITE_MAP line for the US bot's legacy unprefixed files, else its
+      # legislature, read from its name (<id>-YYYY-MM.jsonl, <id>-overrides.jsonl,
+      # paths/<id>-<slug>.json; the US path artifacts carry no prefix,
+      # paths/119-hr-3497.json). A month file or a sheet also asks the website's own
+      # repository (the log and the forwarding pages); a path artifact does not (the
+      # website draws no bill page). A push that changed nothing the renderer reads asks
+      # the website's repository alone, as before. Never fails the run: an unmapped
+      # legislature is the last step's red.
+      - name: Which sites render this push
+        id: sites
+        env:
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+          # THE POLITY-TO-REPOSITORY MAP. One line per armed legislature, `<id> <repository>`,
+          # added by the charter's arming step (a later legislature's repository is named
+          # exactly its id); the two legacy files are the website's. Nothing else decides
+          # where a render is asked for.
+          SITE_MAP: |
+            us us
+            eu eu
+            2026-07.jsonl billtrackingorg.github.io
+            overrides.jsonl billtrackingorg.github.io
+        run: |
+          set -uo pipefail
+          if [ -n "$BEFORE" ] && git cat-file -e "${BEFORE}^{commit}" 2>/dev/null; then
+            changed=$(git diff --name-only "$BEFORE" "$AFTER" -- '*.jsonl' 'paths/*.json')
+          else
+            changed=$(git ls-files -- '*.jsonl' 'paths/*.json')
+          fi
+          # A RUN THAT WAS REPLACED IN THE QUEUE LOSES NOTHING (the website split, 2026-10-29). GitHub
+          # keeps one pending run per group, so a push queued behind a running one is dropped when a third
+          # arrives; when every push asked one site for everything that held, but each push now asks only
+          # the sites its files belong to, so an EU push replaced by a US one would leave the EU's site
+          # unasked, silently. So the files every commit of the last forty-five minutes changed are read too:
+          # a replaced push is at most one run (twenty minutes) and this run's own wait (five) old.
+          recent=$(git log --since='45 minutes ago' --name-only --format= "$AFTER" -- '*.jsonl' 'paths/*.json' | sort -u)
+          changed=$(printf '%s\n%s\n' "$changed" "$recent" | grep -v '^$' | sort -u)
+          repo_of() { printf '%s\n' "$SITE_MAP" | awk -v k="$1" '$1 == k { print $2; exit }'; }
+          repos=""; unmapped=""
+          add() { case " $repos " in *" $1 "*) ;; *) repos="$repos $1";; esac; }
+          for f in $changed; do
+            # A record or a sheet feeds the website's log and forwarding pages.
+            case "$f" in paths/*) ;; *) add billtrackingorg.github.io;; esac
+            key=$f
+            if [ -z "$(repo_of "$f")" ]; then
+              case "$f" in
+                paths/[0-9]*) key=us;;
+                paths/*) name=${f#paths/}; key=${name%%-*};;
+                *) key=${f%%-*};;
+              esac
+            fi
+            repo=$(repo_of "$key")
+            if [ -z "$repo" ]; then unmapped="$unmapped $f"; continue; fi
+            add "$repo"
+          done
+          [ -n "$repos$unmapped" ] || repos=" billtrackingorg.github.io"
+          echo "sites to render:${repos:- none}"
+          [ -z "$unmapped" ] || echo "files of a legislature with no map line:$unmapped"
+          echo "repos=${repos# }" >> "$GITHUB_OUTPUT"
+          echo "unmapped=${unmapped# }" >> "$GITHUB_OUTPUT"
+          exit 0
+
       - name: Ask the site to render
         env:
           GH_TOKEN: ${{ secrets.SITE_RENDER_TOKEN }}
+          REPOS: ${{ steps.sites.outputs.repos }}
         run: |
           set -uo pipefail
           if [ -z "${GH_TOKEN:-}" ]; then
             echo "::error::SITE_RENDER_TOKEN is not set on this repository, so no render can be asked for. Put the secret back (a fine-grained token, Actions: write on billtrackingorg.github.io). This run is RED on purpose; it never heals by itself. The site's cron still renders, late."
             exit 1
           fi
-          for attempt in 1 2 3; do
+          # call METHOD URL -> the HTTP code (000 on a transport failure), the body in /tmp/resp.
+          call() {
             # curl prints 000 itself on a transport failure; `|| true` keeps the pipeline's status quiet.
-            code=$(curl -sS -o /tmp/resp -w '%{http_code}' --max-time 30 -X POST \
+            local code
+            code=$(curl -sS -o /tmp/resp -w '%{http_code}' --max-time 30 -X "$1" \
               -H "Accept: application/vnd.github+json" \
               -H "Authorization: Bearer ${GH_TOKEN}" \
               -H "X-GitHub-Api-Version: 2022-11-28" \
-              "https://api.github.com/repos/BillTrackingorg/billtrackingorg.github.io/actions/workflows/permalinks.yml/dispatches" \
-              -d '{"ref":"main"}' 2>/dev/null || true)
+              "$2" ${3:+-d "$3"} 2>/dev/null || true)
             # A 403 can also be GitHub's secondary rate limit, which is transient and says so.
             if [ "$code" = "403" ] && grep -qi 'rate limit' /tmp/resp 2>/dev/null; then code=429; fi
-            case "$code" in
-              204)
-                echo "render asked for after push ${GITHUB_SHA:0:9}"
-                echo "render asked for after push ${GITHUB_SHA:0:9}" >> "$GITHUB_STEP_SUMMARY"
-                exit 0;;
-              401|403|404|422)
-                echo "::error::the site refused the render request (HTTP $code): SITE_RENDER_TOKEN is revoked, replaced or lacks Actions: write on billtrackingorg.github.io. Put a working token back. This run is RED on purpose; it never heals by itself."
-                cat /tmp/resp 2>/dev/null || true
-                exit 1;;
-              *)
-                echo "render request attempt $attempt returned HTTP $code"
-                cat /tmp/resp 2>/dev/null || true
-                sleep 15;;
-            esac
+            echo "$code"
+          }
+          # ask REPO -> 0 when the render was asked for or a transient failure left it to the cron,
+          # 1 when the repository refused it (red).
+          ask() {
+            local repo=$1 attempt code tag=""
+            # The website's own render is logged as it always was; a legislature's is named.
+            [ "$repo" = "billtrackingorg.github.io" ] || tag=" ($repo)"
+            for attempt in 1 2 3; do
+              code=$(call POST "https://api.github.com/repos/BillTrackingorg/${repo}/actions/workflows/permalinks.yml/dispatches" '{"ref":"main"}')
+              case "$code" in
+                204)
+                  echo "render asked for after push ${GITHUB_SHA:0:9}${tag}"
+                  echo "render asked for after push ${GITHUB_SHA:0:9}${tag}" >> "$GITHUB_STEP_SUMMARY"
+                  return 0;;
+                401|403|404|422)
+                  echo "::error::the site refused the render request (HTTP $code): SITE_RENDER_TOKEN is revoked, replaced or lacks Actions: write on ${repo}. Put a working token back. This run is RED on purpose; it never heals by itself."
+                  cat /tmp/resp 2>/dev/null || true
+                  return 1;;
+                *)
+                  echo "render request attempt $attempt returned HTTP $code"
+                  cat /tmp/resp 2>/dev/null || true
+                  sleep 15;;
+              esac
+            done
+            echo "::warning::could not ask ${repo} for the render after three attempts (transient); the site's backstop cron will render later"
+            return 0
+          }
+          refused() {
+            echo "::error::${1} refused to $2 (HTTP $3): SITE_RENDER_TOKEN lacks Actions: write on ${1} (the owner adds each legislature's repository to the token before its first public post), or the repository or its workflow does not exist. This run is RED on purpose."
+            cat /tmp/resp 2>/dev/null || true
+          }
+          red=0
+          for repo in $REPOS; do
+            # A legislature's own repository: read first. GitHub switches a public repository's
+            # schedule off after 60 days without activity (disabled_inactivity), and that is
+            # switched back on; a workflow the owner switched off by hand (disabled_manually) is a
+            # deliberate stop, and is left as it is, named, while the other sites are still asked.
+            if [ "$repo" != "billtrackingorg.github.io" ]; then
+              code=$(call GET "https://api.github.com/repos/BillTrackingorg/${repo}/actions/workflows/permalinks.yml")
+              state=$( [ "$code" = "200" ] && jq -r '.state // ""' /tmp/resp 2>/dev/null || echo "")
+              case "$code" in
+                200) ;;
+                401|403|404|422) refused "$repo" "be read" "$code"; red=1; continue;;
+                *) echo "::warning::could not read ${repo}'s permalinks workflow (HTTP $code, transient); asking for its render anyway";;
+              esac
+              if [ "$state" = "disabled_manually" ]; then
+                echo "::warning::${repo}'s permalinks workflow was switched off by hand, a deliberate stop: its render is not asked for, and nothing here switches it back on (gh workflow enable permalinks.yml -R BillTrackingorg/${repo} when the stop is over)."
+                continue
+              fi
+              if [ "$state" = "disabled_inactivity" ]; then
+                code=$(call PUT "https://api.github.com/repos/BillTrackingorg/${repo}/actions/workflows/permalinks.yml/enable")
+                case "$code" in
+                  204) echo "${repo}: its permalinks workflow was switched off after 60 idle days; switched back on";;
+                  401|403|404|422) refused "$repo" "switch its permalinks workflow back on" "$code"; red=1; continue;;
+                  *) echo "::warning::could not switch ${repo}'s permalinks workflow back on (HTTP $code, transient); asking for its render anyway";;
+                esac
+              fi
+            fi
+            ask "$repo" || red=1
           done
-          echo "::warning::could not ask for the render after three attempts (transient); the site's backstop cron will render later"
-          exit 0
+          exit $red
 
+      # `!cancelled()`: these two say why a run is red, and must run when the ask before them failed too.
       - name: Pages did not serve this push in five minutes
-        if: steps.wait.outputs.served == 'false'
+        if: ${{ !cancelled() && steps.wait.outputs.served == 'false' }}
         env:
           LANDED: ${{ steps.wait.outputs.landed }}
         run: |
@@ -202,4 +338,14 @@ jobs:
             exit 0
           fi
           echo "::error::GitHub Pages served no file of this push within five minutes: the feed host is not serving what the bots publish, so readers see older posts. Look at this repository's 'pages' workflow runs (or its 'pages build and deployment' runs while the Pages source is still the branch) for a deploy failing or queued, then githubstatus.com (Pages, Actions). The app's docs/FEED-HOST-RUNBOOK.md, 'Old posts'. The render was asked for anyway."
+          exit 1
+
+      # [2026-10-29, the website split] A legislature this workflow has no map line for:
+      # no site renders its pages. Red, because only a person can add the line.
+      - name: A changed legislature has no site to render it
+        if: ${{ !cancelled() && steps.sites.outputs.unmapped != '' }}
+        env:
+          UNMAPPED: ${{ steps.sites.outputs.unmapped }}
+        run: |
+          echo "::error::this push changed files of a legislature this workflow has no map line for, so no site renders them: ${UNMAPPED}. An armed legislature has one line in SITE_MAP above, \`<id> <repository>\`, added at its arming (the app's NEW-LEGISLATURE-CHARTER, Part III). Once the line is on main, ask for the render by hand (gh workflow run permalinks.yml -R BillTrackingorg/<id>): a re-run of this run reads this push's own copy of this file and stays red. This run is RED on purpose."
           exit 1
