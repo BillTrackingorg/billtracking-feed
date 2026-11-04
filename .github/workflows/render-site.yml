@@ -217,7 +217,7 @@ jobs:
           # unasked, silently. So the files every commit of the last forty-five minutes changed are read too:
           # a replaced push is at most one run (twenty minutes) and this run's own wait (five) old.
           recent=$(git log --since='45 minutes ago' --name-only --format= "$AFTER" -- '*.jsonl' 'paths/*.json' | sort -u)
-          changed=$(printf '%s\n%s\n' "$changed" "$recent" | grep -v '^$' | sort -u)
+          changed=$(printf '%s\n%s\n' "$changed" "$recent" | sed '/^$/d' | sort -u)
           repo_of() { printf '%s\n' "$SITE_MAP" | awk -v k="$1" '$1 == k { print $2; exit }'; }
           repos=""; unmapped=""
           add() { case " $repos " in *" $1 "*) ;; *) repos="$repos $1";; esac; }
