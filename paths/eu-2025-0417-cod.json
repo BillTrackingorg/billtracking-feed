@@ -5,12 +5,12 @@
  "year": "2025",
  "number": "0417",
  "ptype": "COD",
- "built_at": "2026-10-22T15:26:48+00:00",
+ "built_at": "2026-11-04T15:39:24+00:00",
  "source": "oeil-key-events",
  "source_count": 7,
  "holds_full_record": true,
  "overrides_applied": null,
- "texture_count": 3,
+ "texture_count": 4,
  "texture_source": "cellar-authority-events",
  "entries": [
   {
@@ -178,6 +178,24 @@
    "subordinate": null,
    "key": "1-e53c6be9b9edfa01",
    "emoji": "🧭"
+  },
+  {
+   "order": 10,
+   "date": "2026-10-26",
+   "text": "Endorsement of the provisional agreement by the Special Committee on Agriculture",
+   "doc": null,
+   "code": "ENDORSE_AGRPROV_SPCO_byCONSIL",
+   "src": "cellar",
+   "family": "provisional_agreement",
+   "label": "Endorsement of the provisional agreement by the Special Committee on Agriculture",
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-f51c86dd542c39c8",
+   "emoji": "🤝"
   }
  ]
 }
