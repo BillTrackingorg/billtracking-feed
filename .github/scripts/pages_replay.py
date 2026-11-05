@@ -4,17 +4,16 @@
     python3 .github/scripts/pages_replay.py <feed clone> <rev> <work dir> [--jobs N] [--every K]
 
 For each commit of `git rev-list <rev>`, in a scratch clone of its own (line endings as stored):
-the stage (`pages_stage.py <site>`), each builder this checkout carries in `.github/tools/`
-(`node bt-feed-<digest>.cjs derive <site> <commit month, UTC> <derived>`), then
-`pages_stage.py --add-derived`, exactly as `.github/workflows/pages.yml` runs them, with the
-scripts and builders of THIS checkout (an old commit has none). Then it checks what a deploy
-would serve:
+the stage (`pages_stage.py <site>`), then `pages_stage.py --derive <site> <commit month, UTC>
+<work> <tools>`, the same two commands `.github/workflows/pages.yml` runs, with the scripts and
+builders of THIS checkout (an old commit has none). Then it checks what a deploy would serve:
   - the stage's exit is 0 or 3, and each fingerprint's record rows are the ones the stage wrote;
   - every fingerprint is still one today's app accepts (`v` 1, its polity, every row a name,
     bytes and a 64-hex sha256), and each `derived` entry names a list that is served, of its
     size, whose every file is served under `search/`;
-  - the builder reported no error for a legislature it was given;
-  - every K-th commit (and the last), a second derive gives the same bytes.
+  - the run reported no error (a builder, or a file the stage could not take);
+  - the staged record is byte for byte what it was before the search files' run;
+  - every K-th commit (and the last), a second derive over the same copy gives the same bytes.
 Prints one line per failure and a summary; exit 0 only when nothing failed. The proof of a
 change to the stage or a builder is this run's summary, quoted in that change's commit message.
 """
@@ -74,21 +73,24 @@ def replay_one(clone, sha, builders, twice):
         return res
     prints = sorted(n for n in os.listdir(site) if re.match(r"^[a-z]+-fingerprint\.json$", n))
     before = {n: json.load(open(os.path.join(site, n), encoding="utf-8")) for n in prints}
+    staged = {p: b for p, b in tree(site).items() if not p.endswith("-fingerprint.json")}
     res["prints"] = len(prints)
     asof = run(["git", "show", "-s", "--date=format-local:%Y-%m", "--format=%cd", "HEAD"], cwd=clone,
                env={**os.environ, "TZ": "UTC"}).stdout.strip()
-    log = derive_all(clone, site, asof, derived, builders)
-    for line in log.splitlines():
+    dv = run([sys.executable, STAGE, "--derive", site, asof, derived, TOOLS], cwd=clone)
+    for line in (dv.stdout + dv.stderr).splitlines():
         m = PROVEN.match(line)
         if m:
             res["decoded"] += int(m.group(4))
             res["months"] += int(m.group(5))
             res["sets"] += int(m.group(6))
         if line.startswith("::error::"):
-            res["fail"].append(f"builder: {line[9:300]}")
-    ad = run([sys.executable, STAGE, "--add-derived", site, derived], cwd=clone)
-    if ad.returncode != 0 or "::error::" in ad.stdout:
-        res["fail"].append(f"add-derived exit {ad.returncode}: {ad.stdout.strip()[-300:]}")
+            res["fail"].append(f"derive: {line[9:300]}")
+    if dv.returncode != 0:
+        res["fail"].append(f"derive exit {dv.returncode}: {dv.stdout.strip()[-300:]}")
+    after = {p: b for p, b in tree(site).items() if not p.endswith("-fingerprint.json") and not p.startswith("search/")}
+    if after != staged:
+        res["fail"].append("the staged record changed in the search files' run")
     for n in prints:
         doc = json.load(open(os.path.join(site, n), encoding="utf-8"))
         polity = n[: -len("-fingerprint.json")]
@@ -117,8 +119,9 @@ def replay_one(clone, sha, builders, twice):
                         if not os.path.exists(os.path.join(site, "search", d, f"{m[kind]}.{ext}")):
                             res["fail"].append(f"{n}: {m['m']}'s {kind} is not served")
     if twice:
-        first = tree(os.path.join(derived, "search")) if os.path.isdir(os.path.join(derived, "search")) else {}
-        derive_all(clone, site, asof, derived + "2", builders)
+        out = os.path.join(derived, "out", "search")
+        first = tree(out) if os.path.isdir(out) else {}
+        derive_all(clone, os.path.join(derived, "in"), asof, derived + "2", builders)
         second = tree(os.path.join(derived + "2", "search")) if os.path.isdir(os.path.join(derived + "2", "search")) else {}
         res["twice"] = True
         if first != second:

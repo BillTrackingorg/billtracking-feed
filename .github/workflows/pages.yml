@@ -128,22 +128,24 @@ jobs:
       # them, places them under search/ and lists them in each fingerprint's "derived" block.
       # No app or website reads them yet. A failure here only leaves them out: an error
       # annotation on a green run (Class 1 of the app's loudness doctrine), never a held-back
-      # month file, sheet or fingerprint. "As of" is the month of the commit, in UTC, so a
-      # rebuild of one commit gives the same bytes; every month before it gets its base.
+      # month file, sheet or fingerprint. The builders read a copy of the staged site, never the
+      # folder that is served (`pages_stage.py --derive`). "As of" is the month of the commit,
+      # in UTC, so a rebuild of one commit gives the same bytes; every month before it gets its
+      # base.
+      # THE LIMIT, two minutes: render-site waits five minutes for a push to be served, and this
+      # step sits in front of every deploy, so a hung builder must end well inside that wait
+      # (300 s, less about 30 s for the rest of this run and the edge's lag), or every bot push
+      # would turn render-site red. Both legislatures took 1.0 s on 2026-11-05; the builder warns
+      # past 60 s that the build cache the design left out is due.
       - name: Search files (shadow)
         if: steps.stage.outcome == 'success'
         continue-on-error: true
-        timeout-minutes: 6
+        timeout-minutes: 2
         env:
           NODE_OPTIONS: --max-old-space-size=4096
         run: |
           asof=$(TZ=UTC git show -s --date=format-local:%Y-%m --format=%cd HEAD)
-          mkdir -p _derived
-          for b in .github/tools/bt-feed-*.cjs; do
-            [ -e "$b" ] || continue
-            node "$b" derive _site "$asof" _derived || echo "::error::$b did not finish; its search files are left out of this deploy, and the record deploys as staged."
-          done
-          python3 .github/scripts/pages_stage.py --add-derived _site _derived
+          python3 .github/scripts/pages_stage.py --derive _site "$asof" _derived .github/tools
 
       - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9  # v5.0.0
         with:

@@ -53,23 +53,28 @@ at 90% an error annotation; neither stops the deploy, because a stopped deploy i
 than a full one (the hosting-splits row in the app's OPEN-ITEMS is the plan).
 
 THE SEARCH FILES, IN SHADOW (the app's search design of 2026-10-29, §5; app OPEN-ITEMS
-OI-0108). A second run, after the stage and after the builders:
+OI-0108). A second run, after the stage:
 
-    python3 .github/scripts/pages_stage.py --add-derived <out_dir> <derived_dir>
+    python3 .github/scripts/pages_stage.py --derive <out_dir> <as_of> <work_dir> <tools_dir>
 
-Each builder (`.github/tools/bt-feed-<digest>.cjs`, the app's own core compiled per
-derivation digest) has written its legislatures' search files under
-`<derived_dir>/search/`, proven them, and named each file's bytes and sha256 in
-`<derived_dir>/<digest>.json`. This checks every file against that manifest, copies it into
-the staged site beside the record (never over a file that differs), and adds to the
-legislature's fingerprint the digest's entry:
+It copies the staged site to `<work_dir>/in`, so no builder is handed the folder that is
+served (the guard read of 2026-10-29: a builder with write access could change a served
+month's bytes on a green run); runs each builder (`<tools_dir>/bt-feed-<digest>.cjs`, the
+app's own core compiled per derivation digest) on the copy, which writes its legislatures'
+search files under `<work_dir>/out/search/`, proves them, and names each file's bytes and
+sha256 in `<work_dir>/out/<digest>.json`; then, as `--add-derived <out_dir> <derived_dir>`
+does alone, checks every file against that manifest, copies it into the staged site beside
+the record (never over a file that differs), and adds to the legislature's fingerprint the
+digest's entry:
 
     "derived": {"<digest>": {"list": "search/l/<h64>.json", "bytes": 511, "h64": "…", "corrections": 1}}
 
 An entry it cannot check is left out with an error annotation (Class 1: the run stays green,
-the record and the fingerprint's record rows deploy as staged); a fingerprint is rewritten
-whole or not at all. No app or website reads these files yet: today's readers pass over the
-`derived` block (the app's check:searchfiles runs its client over it). Always exit 0.
+the record and the fingerprint's record rows deploy as staged); every entry is checked before
+any file is placed, and a fingerprint is rewritten whole or not at all. No app or website reads
+these files yet: today's readers pass over the `derived` block (the app's check:searchfiles
+runs its client over it). Always exit 0, whatever a manifest holds. `pages_replay.py` replays
+`--derive` itself, so the replay is the workflow's run.
 """
 
 import hashlib
@@ -266,7 +271,7 @@ def check_entry(derived, out, entry):
                     return None, f"{path} would overwrite a different file"
         plan.append((data, dest))
         sizes[path] = len(data)
-    if entry.get("list") not in sizes or sizes[entry["list"]] != entry.get("bytes"):
+    if not isinstance(entry.get("list"), str) or entry["list"] not in sizes or sizes[entry["list"]] != entry.get("bytes"):
         return None, f"{polity}'s list is not among its files, or not of the size named"
     if not isinstance(entry.get("h64"), str) or not entry["list"].endswith(f"/{entry['h64']}.json"):
         return None, f"{polity}'s list is not named by its hash"
@@ -280,6 +285,7 @@ def add_derived(out, derived):
     record_total = tree_bytes(out)
     blocks = {}
     added = 0
+    accepted = []
     names = sorted(os.listdir(derived)) if os.path.isdir(derived) else []
     for name in names:
         m = DIGEST_MANIFEST.match(name)
@@ -289,7 +295,8 @@ def add_derived(out, derived):
         try:
             with open(os.path.join(derived, name), encoding="utf-8") as fh:
                 doc = json.load(fh)
-            if doc.get("v") != 1 or doc.get("dd") != digest or not isinstance(doc.get("entries"), list):
+            if not isinstance(doc, dict) or doc.get("v") != 1 or doc.get("dd") != digest \
+                    or not isinstance(doc.get("entries"), list):
                 raise ValueError("not a builder's manifest")
         except (OSError, ValueError) as e:
             print(f"::error::search files under digest {digest} are left out: {name} could not be read ({e}).")
@@ -297,19 +304,34 @@ def add_derived(out, derived):
         for entry in doc["entries"]:
             try:
                 checked, why = check_entry(derived, out, entry if isinstance(entry, dict) else {})
-            except OSError as e:
-                checked, why = None, f"a file could not be read ({e})"
+            except Exception as e:   # a manifest is a builder's bytes: nothing in one may stop the deploy
+                checked, why = None, f"its entry could not be read ({type(e).__name__}: {e})"
             if not checked:
                 print(f"::error::search files under digest {digest} are left out of one fingerprint: {why}. "
                       "The record deploys as staged.")
                 continue
-            polity, block, plan = checked
-            for data, dest in plan:
-                os.makedirs(os.path.dirname(dest), exist_ok=True)
-                if not os.path.exists(dest):
-                    place(derived, dest, data)
-                    added += len(data)
-            blocks.setdefault(polity, {})[digest] = block
+            accepted.append((digest, checked))
+
+    # Every entry is checked before any file is placed, so a manifest that fails part-way leaves no
+    # file of it in the site unlisted. Placing is checked again, entry by entry: an entry placed
+    # before may have written a file this one names with other bytes.
+    def differs(dest, data):
+        if not os.path.exists(dest):
+            return False
+        with open(dest, "rb") as fh:
+            return fh.read() != data
+
+    for digest, (polity, block, plan) in accepted:
+        if any(differs(dest, data) for data, dest in plan):
+            print(f"::error::search files under digest {digest} are left out of one fingerprint: {polity}'s entry "
+                  "names a file another entry placed with other bytes. The record deploys as staged.")
+            continue
+        for data, dest in plan:
+            os.makedirs(os.path.dirname(dest), exist_ok=True)
+            if not os.path.exists(dest):
+                place(derived, dest, data)
+                added += len(data)
+        blocks.setdefault(polity, {})[digest] = block
 
     for polity in sorted(blocks):
         path = os.path.join(out, f"{polity}-fingerprint.json")
@@ -329,10 +351,42 @@ def add_derived(out, derived):
     return 0
 
 
+BUILDER = re.compile(r"^bt-feed-[0-9a-f]{16}\.cjs$")
+
+
+def derive(out, asof, work, tools):
+    """The search files' run, as the workflow makes it and `pages_replay.py` replays it: the staged
+    site copied to `<work>/in`, each builder in `tools` deriving from the copy into `<work>/out`,
+    then `add_derived` over what they wrote. A builder that fails leaves its files out."""
+    src, dst = os.path.join(work, "in"), os.path.join(work, "out")
+    shutil.rmtree(work, ignore_errors=True)
+    shutil.copytree(out, src)
+    os.makedirs(dst)
+    for name in sorted(n for n in os.listdir(tools) if BUILDER.match(n)) if os.path.isdir(tools) else []:
+        sys.stdout.flush()
+        if subprocess.run(["node", os.path.join(tools, name), "derive", src, asof, dst]).returncode != 0:
+            print(f"::error::{name} did not finish; its search files are left out of this deploy, "
+                  "and the record deploys as staged.")
+    return add_derived(out, dst)
+
+
+def never_fatal(run):
+    """The search files never stop a deploy: anything that escapes is named, and the exit is 0."""
+    try:
+        return run()
+    except Exception as e:
+        print(f"::error::the search files are left out of this deploy ({type(e).__name__}: {e}); "
+              "the record deploys as staged.")
+        return 0
+
+
 if __name__ == "__main__":
     if len(sys.argv) == 4 and sys.argv[1] == "--add-derived":
-        sys.exit(add_derived(sys.argv[2], sys.argv[3]))
+        sys.exit(never_fatal(lambda: add_derived(sys.argv[2], sys.argv[3])))
+    if len(sys.argv) == 6 and sys.argv[1] == "--derive":
+        sys.exit(never_fatal(lambda: derive(*sys.argv[2:6])))
     if len(sys.argv) != 2:
-        print("usage: pages_stage.py <out_dir> | --add-derived <out_dir> <derived_dir>", file=sys.stderr)
+        print("usage: pages_stage.py <out_dir> | --add-derived <out_dir> <derived_dir>"
+              " | --derive <out_dir> <as_of> <work_dir> <tools_dir>", file=sys.stderr)
         sys.exit(64)
     sys.exit(main(sys.argv[1]))
