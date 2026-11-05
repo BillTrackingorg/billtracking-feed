@@ -160,7 +160,7 @@ jobs:
           rc=0
           timeout -k 5 105 python3 .github/scripts/pages_stage.py --derive _site "$asof" _derived .github/tools || rc=$?
           if [ "$rc" -ne 0 ]; then
-            echo "::error::The search files' step was cut by its clock, or could not give back the record as the stage wrote it (exit ${rc}), so nothing is deployed this run: the live site still serves the last deploy, and the next push deploys again. The app's docs/FEED-HOST-RUNBOOK.md, \"The search files\"."
+            echo "::error::The search files' step was cut by its clock, crashed, or could not give back the site as the stage wrote it (exit ${rc}), so nothing is deployed this run: the live site still serves the last deploy, and the next push deploys again. The app's docs/FEED-HOST-RUNBOOK.md, \"The search files\"."
           fi
           exit "$rc"
 
@@ -229,10 +229,11 @@ jobs:
 
   # Red AFTER the deploy (or after the inert build on a branch build, after a rollback), so
   # one file the app cannot check never holds back every legislature. The build job's error
-  # names the file and its source in the bot's repository.
+  # names the file and its source in the bot's repository. Not after a build that failed later
+  # (the search files' step, failing closed): then nothing went out.
   unchecked:
     needs: [build, deploy]
-    if: ${{ !cancelled() && needs.build.outputs.unchecked == 'true' }}
+    if: ${{ !cancelled() && needs.build.result == 'success' && needs.build.outputs.unchecked == 'true' }}
     runs-on: ubuntu-24.04
     timeout-minutes: 2
     permissions: {}
