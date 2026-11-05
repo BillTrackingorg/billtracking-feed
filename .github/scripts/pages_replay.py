@@ -13,7 +13,8 @@ builders of THIS checkout (an old commit has none). Then it checks what a deploy
     size, whose every file is served under `search/`;
   - the run reported no error (a builder, or a file the stage could not take);
   - the staged record is byte for byte what it was before the search files' run;
-  - every K-th commit (and the last), a second derive over a copy of the same site gives the same bytes.
+  - every K-th commit (and the last), a second `--derive` over a copy of the staged site gives the
+    same site, byte for byte, and the same exit.
 Prints one line per failure and a summary; exit 0 only when nothing failed. The proof of a
 change to the stage or a builder is this run's summary, quoted in that change's commit message.
 """
@@ -46,20 +47,10 @@ def tree(root):
     return out
 
 
-def derive_all(clone, site, asof, derived, builders):
-    logs = []
-    for b in builders:
-        r = run(["node", b, "derive", site, asof, derived], cwd=clone)
-        logs.append(r.stdout + r.stderr)
-        if r.returncode != 0:
-            logs.append(f"::error::{os.path.basename(b)} exited {r.returncode}")
-    return "\n".join(logs)
-
-
 def replay_one(clone, sha, builders, twice):
     site = os.path.join(clone, "_site")
     derived = os.path.join(clone, "_derived")
-    for d in (site, derived, derived + "2"):
+    for d in (site, site + "2", derived, derived + "2"):
         shutil.rmtree(d, ignore_errors=True)
     r = run(["git", "checkout", "-q", "-f", sha], cwd=clone)
     if r.returncode:
@@ -77,6 +68,8 @@ def replay_one(clone, sha, builders, twice):
     res["prints"] = len(prints)
     asof = run(["git", "show", "-s", "--date=format-local:%Y-%m", "--format=%cd", "HEAD"], cwd=clone,
                env={**os.environ, "TZ": "UTC"}).stdout.strip()
+    if twice:
+        shutil.copytree(site, site + "2")
     dv = run([sys.executable, STAGE, "--derive", site, asof, derived, TOOLS], cwd=clone)
     for line in (dv.stdout + dv.stderr).splitlines():
         m = PROVEN.match(line)
@@ -119,16 +112,10 @@ def replay_one(clone, sha, builders, twice):
                         if not os.path.exists(os.path.join(site, "search", d, f"{m[kind]}.{ext}")):
                             res["fail"].append(f"{n}: {m['m']}'s {kind} is not served")
     if twice:
-        own = [os.path.join(derived, os.path.basename(b)[:-4]) for b in builders]
-        first = {}
-        for o in own:
-            if os.path.isdir(os.path.join(o, "out", "search")):
-                first.update(tree(os.path.join(o, "out", "search")))
-        derive_all(clone, os.path.join(own[0], "in"), asof, derived + "2", builders)
-        second = tree(os.path.join(derived + "2", "search")) if os.path.isdir(os.path.join(derived + "2", "search")) else {}
+        again = run([sys.executable, STAGE, "--derive", site + "2", asof, derived + "2", TOOLS], cwd=clone)
         res["twice"] = True
-        if first != second:
-            res["fail"].append("a second derive gave different bytes")
+        if again.returncode != dv.returncode or tree(site + "2") != tree(site):
+            res["fail"].append("a second --derive gave a different site or exit")
     return res
 
 

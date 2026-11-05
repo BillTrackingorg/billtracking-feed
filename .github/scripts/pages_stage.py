@@ -58,15 +58,15 @@ OI-0108). A second run, after the stage:
     python3 .github/scripts/pages_stage.py --derive <out_dir> <as_of> <work_dir> <tools_dir>
 
 Each builder (`<tools_dir>/bt-feed-<digest>.cjs`, the app's own core compiled per derivation
-digest) gets a copy of the staged site of its own, `<work_dir>/<builder>/in`, and runs there,
-with no path to the folder that is served (the guard read of 2026-10-29: a builder with write
-access could change a served month's bytes on a green run), writing its legislatures' search
+digest) is handed a copy of the staged site of its own, `<work_dir>/<builder>/in`, and runs
+there, never handed the folder that is served (the guard read of 2026-10-29: a builder with
+write access could change a served month's bytes on a green run), writing its legislatures' search
 files under `<work_dir>/<builder>/out/search/`, proving them, and naming each file's bytes and
 sha256 in `<work_dir>/<builder>/out/<digest>.json`. The builders together get BUILD_SECONDS,
 each killed at the deadline. Then, for the builders that finished, as `--add-derived <out_dir>
 <derived_dir>` does for one folder, it checks every file against its manifest, copies it into
-the staged site beside the record (never over a file that differs), and adds to the
-legislature's fingerprint the digest's entry:
+the staged site beside the record (never over a file that differs, each readable by everyone),
+and adds to the legislature's fingerprint, as the stage wrote it, the digest's entry:
 
     "derived": {"<digest>": {"list": "search/l/<h64>.json", "bytes": 511, "h64": "…", "corrections": 1}}
 
@@ -74,11 +74,19 @@ An entry it cannot check is left out with an error annotation (Class 1: the run 
 the record and the fingerprint's record rows deploy as staged); every entry is checked before
 any file is placed, and a fingerprint is rewritten whole or not at all. A builder that does not
 finish, writes no manifest, or gives a fingerprinted legislature no set is named; so is a step
-with no builder. Last, the site outside `search/` is checked against what the stage wrote, and
-if anything differs it is staged again from the commit, with no search files. No app or website
-reads these files yet: today's readers pass over the `derived` block (the app's
-check:searchfiles runs its client over it). Always exit 0, whatever a builder or a manifest
-does. `pages_replay.py` replays `--derive` itself, so the replay is the workflow's run.
+with no builder, and a manifest with two entries for one legislature (it takes neither). No
+app or website reads these files yet: today's readers pass over the `derived` block (the app's
+check:searchfiles runs its client over it). Exit 0, whatever a builder or a manifest does to
+the search files.
+
+THE SITE, VOUCHED FOR (`keep_record`; fail closed). Last, the site must be exactly what the
+stage wrote with the files this run placed over it, byte for byte, nothing added (under
+`search/` too), no symbolic link, and every file readable by everyone. If not, it is staged
+again from the commit, with no search files, still exit 0. If even that does not give back what
+the stage wrote, exit 2, and the workflow stops before the upload: nothing is deployed and the
+live site keeps the last deploy. A cut of the step by its clock fails it the same way
+(pages.yml), so no upload ever reads a site this step could not vouch for. `pages_replay.py`
+replays `--derive` itself, so the replay is the workflow's run.
 """
 
 import hashlib
@@ -86,6 +94,7 @@ import json
 import os
 import re
 import shutil
+import stat
 import subprocess
 import sys
 import tempfile
@@ -234,21 +243,27 @@ FINGERPRINT = re.compile(r"[a-z]+-fingerprint\.json")
 BUILDER = re.compile(r"bt-feed-([0-9a-f]{16})\.cjs")
 
 # THE SEARCH FILES' CLOCK: the builders together get BUILD_SECONDS, each killed at the deadline,
-# and the step's own command is cut at 105 s by `timeout` (pages.yml) before its two-minute
-# limit, because Actions' limit stops only the step's shell and would leave python and node
-# writing into the site while the upload reads it. INVENTED: today both legislatures build in
-# about 1 s.
+# so a slow builder costs only its search files. The step's own command is cut at 105 s by
+# `timeout` (pages.yml), inside its two-minute limit, which stops only the step's shell; a cut
+# fails the step, and the run stops before the upload. INVENTED: today both legislatures build
+# in about 1 s.
 BUILD_SECONDS = 90
+
+# Every file this run placed in a site, by its absolute path: the sha256 of its bytes. The final
+# check (`keep_record`) takes these and nothing else beside what the stage wrote.
+PLACED = {}
 
 
 def place(scratch, dest, data):
-    """Write `data` at `dest` whole or not at all: written to a new file in `scratch` (created
-    here, never one a builder could have left), then moved into place, so a step stopped part-way
-    leaves no half-written file in the site."""
+    """Write `data` at `dest` whole or not at all, readable by everyone as the stage's files are:
+    written to a new file in `scratch` (created here, never one a builder could have left), then
+    moved into place, so a step stopped part-way leaves no half-written file in the site."""
     fd, tmp = tempfile.mkstemp(dir=scratch, prefix=".placing-")
     with os.fdopen(fd, "wb") as fh:
         fh.write(data)
+    os.chmod(tmp, 0o644)   # mkstemp makes 0600, and Pages fails or refuses a file others cannot read
     os.replace(tmp, dest)
+    PLACED[os.path.abspath(dest)] = hashlib.sha256(data).hexdigest()
 
 
 def tree_bytes(root):
@@ -323,27 +338,32 @@ def read_manifests(derived, out, only=None):
             print(f"::error::search files under digest {digest} are left out: {name} could not be read "
                   f"({type(e).__name__}: {e}).")
             continue
-        seen = set()
+        named = [e.get("polity") for e in doc["entries"] if isinstance(e, dict)]
+        twice = {p for p in named if isinstance(p, str) and named.count(p) > 1}
+        for polity in sorted(twice):
+            print(f"::error::search files under digest {digest} are left out of {polity}'s fingerprint: its manifest "
+                  f"holds more than one entry for {polity}, so it takes none. The record deploys as staged.")
         for entry in doc["entries"]:
+            if isinstance(entry, dict) and entry.get("polity") in twice:
+                continue
             try:
                 checked, why = check_entry(derived, out, entry if isinstance(entry, dict) else {})
             except Exception as e:
                 checked, why = None, f"its entry could not be read ({type(e).__name__}: {e})"
-            if checked and checked[0] in seen:
-                checked, why = None, f"a second entry for {checked[0]} in one manifest"
             if not checked:
                 print(f"::error::search files under digest {digest} are left out of one fingerprint: {why}. "
                       "The record deploys as staged.")
                 continue
-            seen.add(checked[0])
             accepted.append((digest, derived, *checked))
     return accepted
 
 
-def add_derived(out, derived_dirs, expected=None):
+def add_derived(out, derived_dirs, expected=None, staged=None):
     """Place the checked files of every entry under `derived_dirs` and add each fingerprint's
     `derived` block. `expected`, the digest of each folder's builder: a builder that gave a
-    fingerprinted legislature no set is named."""
+    fingerprinted legislature no set is named. `staged`, each fingerprint's bytes as the stage
+    wrote them, read before any builder ran: a block is added to those bytes, never to a
+    fingerprint a builder could have rewritten since."""
     record_total = tree_bytes(out)
     accepted = []
     for d in derived_dirs:
@@ -365,10 +385,6 @@ def add_derived(out, derived_dirs, expected=None):
     blocks = {}
     added = 0
     for digest, derived, polity, block, plan in accepted:
-        if digest in blocks.get(polity, {}):
-            print(f"::error::search files under digest {digest} are left out of one fingerprint: a second set for "
-                  f"{polity}. The record deploys as staged.")
-            continue
         if any(differs(dest, data) for data, dest in plan):
             print(f"::error::search files under digest {digest} are left out of one fingerprint: {polity}'s entry "
                   "names a file another entry placed with other bytes. The record deploys as staged.")
@@ -380,7 +396,7 @@ def add_derived(out, derived_dirs, expected=None):
                 added += len(data)
         blocks.setdefault(polity, {})[digest] = block
 
-    prints = sorted(n for n in os.listdir(out) if FINGERPRINT.fullmatch(n))
+    prints = sorted(staged) if staged is not None else sorted(n for n in os.listdir(out) if FINGERPRINT.fullmatch(n))
     for name in prints:
         polity = name[: -len("-fingerprint.json")]
         for digest in sorted(set((expected or {}).values())):
@@ -390,8 +406,12 @@ def add_derived(out, derived_dirs, expected=None):
         if polity not in blocks:
             continue
         path = os.path.join(out, name)
-        with open(path, "rb") as fh:
-            doc = json.loads(fh.read().decode("utf-8"))
+        if staged is not None:
+            data = staged[name]
+        else:
+            with open(path, "rb") as fh:
+                data = fh.read()
+        doc = json.loads(data.decode("utf-8"))
         doc["derived"] = {d: blocks[polity][d] for d in sorted(blocks[polity])}
         place(derived_dirs[0], path, (json.dumps(doc, separators=(",", ":"), ensure_ascii=False) + "\n").encode("utf-8"))
         print(f"{name}: derived {', '.join(sorted(blocks[polity]))}")
@@ -406,74 +426,67 @@ def add_derived(out, derived_dirs, expected=None):
     return 0
 
 
-def record_state(out):
-    """What the stage put in the site, to know it is unchanged: every file outside `search/` by
-    its sha256, and each fingerprint by its content less the `derived` block."""
+def site_state(out):
+    """Every file in the site, by its absolute path: the sha256 of its bytes, and whether everyone
+    may read it. A symbolic link, to a file or a folder, is never a file the stage wrote."""
     state = {}
-    for base, _dirs, files in os.walk(out):
-        for n in files:
-            p = os.path.join(base, n)
-            rel = os.path.relpath(p, out).replace(os.sep, "/")
-            if rel.startswith("search/"):
-                continue
-            with open(p, "rb") as fh:
-                data = fh.read()
-            if FINGERPRINT.fullmatch(rel):
-                doc = json.loads(data.decode("utf-8"))
-                doc.pop("derived", None)
-                state[rel] = json.dumps(doc, sort_keys=True)
-            else:
-                state[rel] = hashlib.sha256(data).hexdigest()
+    for base, dirs, files in os.walk(out):
+        for n in dirs + files:
+            p = os.path.abspath(os.path.join(base, n))
+            if os.path.islink(p):
+                state[p] = ("a symbolic link", False)
+            elif n in files:
+                with open(p, "rb") as fh:
+                    digest = hashlib.sha256(fh.read()).hexdigest()
+                state[p] = (digest, bool(os.stat(p).st_mode & stat.S_IROTH))
     return state
 
 
 def derive(out, asof, work, tools):
     """The search files' run, as the workflow makes it and `pages_replay.py` replays it. Each
-    builder in `tools` gets a copy of the staged site of its own, `<work>/<builder>/in`, and runs
-    there, with no path to the folder that is served, writing into `<work>/<builder>/out`; it is
-    killed at the deadline (BUILD_SECONDS). Only the folders of builders that finished are placed
-    (`add_derived`). Then the site outside `search/` is checked against what the stage wrote; if
-    anything differs, the site is staged again from the commit, with no search files."""
+    builder in `tools` is handed a copy of the staged site of its own, `<work>/<builder>/in`, made
+    before any builder runs, never the folder that is served (one that reaches it by a path of its
+    own is caught by `keep_record`), and writes into `<work>/<builder>/out`; it is killed at the
+    deadline (BUILD_SECONDS, which the copies count against). Only the folders of builders that
+    finished are placed (`add_derived`), onto the fingerprints as the stage wrote them."""
     started = time.monotonic()
-    before = record_state(out)
     shutil.rmtree(work, ignore_errors=True)
     os.makedirs(work)
     builders = sorted(n for n in os.listdir(tools) if BUILDER.fullmatch(n)) if os.path.isdir(tools) else []
     if not builders:
         print(f"::error::no search-file builder in {tools}; no search files this deploy, and the record deploys as staged.")
         return 0
+    staged = {}
+    for name in sorted(n for n in os.listdir(out) if FINGERPRINT.fullmatch(n)):
+        with open(os.path.join(out, name), "rb") as fh:
+            staged[name] = fh.read()
     node = subprocess.run(["node", "--version"], capture_output=True, text=True)
-    print(f"search files: {len(builders)} builder(s), node {node.stdout.strip() or '(not found)'}")
+    print(f"search files: {len(builders)} builder(s), node {node.stdout.strip()}")
+    for name in builders:
+        shutil.copytree(out, os.path.join(work, name[:-4], "in"))
+        os.makedirs(os.path.join(work, name[:-4], "out"))
     done, expected = [], {}
     for name in builders:
-        digest = BUILDER.fullmatch(name).group(1)
         own = os.path.join(work, name[:-4])
-        src, dst = os.path.join(own, "in"), os.path.join(own, "out")
         left = BUILD_SECONDS - (time.monotonic() - started)
         if left <= 0:
-            print(f"::error::{name} was not run: the builders before it used the {BUILD_SECONDS} s. Its search files "
-                  "are left out of this deploy, and the record deploys as staged.")
+            print(f"::error::{name} was not run: the {BUILD_SECONDS} s were spent before it. Its search files are left "
+                  "out of this deploy, and the record deploys as staged.")
             continue
-        shutil.copytree(out, src)
-        os.makedirs(dst)
         sys.stdout.flush()
         try:
             code = subprocess.run(["node", os.path.abspath(os.path.join(tools, name)), "derive", "in", asof, "out"],
                                   cwd=own, timeout=left).returncode
         except subprocess.TimeoutExpired:
-            code = f"stopped at {BUILD_SECONDS} s"
+            code = f"stopped at the deadline, {BUILD_SECONDS} s after the step's start"
         if code != 0:
             print(f"::error::{name} did not finish ({code}); its search files are left out of this deploy, "
                   "and the record deploys as staged.")
             continue
-        done.append(dst)
-        expected[dst] = digest
+        done.append(os.path.join(own, "out"))
+        expected[done[-1]] = BUILDER.fullmatch(name).group(1)
     if done:
-        add_derived(out, done, expected)
-    if record_state(out) != before:
-        print("::error::the staged record changed during the search files' run, so the site is staged again from the "
-              "commit, with no search files this deploy.")
-        main(out)
+        add_derived(out, done, expected, staged)
     return 0
 
 
@@ -487,11 +500,53 @@ def never_fatal(run):
         return 0
 
 
+def site_is(out, before, placed):
+    """The site is exactly what the stage wrote with `placed` over it, byte for byte, and everyone
+    may read every file."""
+    try:
+        now = site_state(out)
+    except Exception:
+        return False
+    expected = {p: (digest, True) for p, (digest, _readable) in before.items()}
+    expected.update((p, (digest, True)) for p, digest in placed.items())
+    return now == expected
+
+
+def keep_record(out, run):
+    """Run the search files' `run`, then vouch for the site in `out`: exactly what the stage wrote
+    and what this run placed (PLACED), byte for byte, every file readable by everyone. If not, it
+    is staged again from the commit, with no search files (exit 0). If even that does not give back
+    what the stage wrote, exit 2: the workflow stops before the upload, and the live site keeps the
+    last deploy. Fail closed, as a cut of the step by its clock does (pages.yml)."""
+    PLACED.clear()
+    try:
+        before = site_state(out)
+    except Exception as e:
+        print(f"::error::the staged site could not be read ({type(e).__name__}: {e}), so nothing is deployed this "
+              "run; the live site still serves the last deploy.")
+        return 2
+    never_fatal(run)
+    if site_is(out, before, PLACED):
+        return 0
+    print("::error::the site is not what the stage wrote and this run placed (a file changed, added or left "
+          "unreadable during the search files' run), so it is staged again from the commit, with no search files "
+          "this deploy.")
+    try:
+        main(out)
+    except Exception as e:
+        print(f"::error::staging again failed ({type(e).__name__}: {e}).")
+    if site_is(out, before, {}):
+        return 0
+    print("::error::the site could not be staged again as the stage wrote it, so nothing is deployed this run; the "
+          "live site still serves the last deploy.")
+    return 2
+
+
 if __name__ == "__main__":
     if len(sys.argv) == 4 and sys.argv[1] == "--add-derived":
-        sys.exit(never_fatal(lambda: add_derived(sys.argv[2], [sys.argv[3]])))
+        sys.exit(keep_record(sys.argv[2], lambda: add_derived(sys.argv[2], [sys.argv[3]])))
     if len(sys.argv) == 6 and sys.argv[1] == "--derive":
-        sys.exit(never_fatal(lambda: derive(*sys.argv[2:6])))
+        sys.exit(keep_record(sys.argv[2], lambda: derive(*sys.argv[2:6])))
     if len(sys.argv) != 2:
         print("usage: pages_stage.py <out_dir> | --add-derived <out_dir> <derived_dir>"
               " | --derive <out_dir> <as_of> <work_dir> <tools_dir>", file=sys.stderr)

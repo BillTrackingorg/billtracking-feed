@@ -60,7 +60,9 @@
 #
 # FAILURE POSTURE (the app's loudness doctrine). Stopped red, nothing deployed, the live
 # site keeping the last good deploy: a file that differs from what the commit records, a
-# symbolic link, or a committed `<polity>-fingerprint.json` (`pages_stage.py` names each).
+# symbolic link, or a committed `<polity>-fingerprint.json` (`pages_stage.py` names each);
+# and the search files' step cut by its clock, or unable to give back a record a builder
+# changed (the step's comment).
 # Deployed, then red: a month file or corrections sheet that is not UTF-8 or starts with a
 # byte-order mark. Its legislature goes out without a fingerprint (the app reads its files
 # the old way) and every other legislature deploys as usual; the error names the file's
@@ -68,7 +70,8 @@
 # reaches the owner by GitHub's failure mail. The site's size against GitHub's 1 GB limit is
 # an annotation at 70% and 90%, never a stopped deploy. Deployed, green, with an error
 # annotation: a legislature whose search files could not be built, proven or checked (they
-# are left out of its fingerprint; nothing else changes).
+# are left out of its fingerprint; nothing else changes), or a record a builder changed,
+# staged again from the commit with no search files.
 #
 # QUEUE. One deploy at a time (the `pages` group). A push that arrives while one runs waits;
 # a third replaces the waiting second, which loses nothing because each run checks out `main`
@@ -132,24 +135,34 @@ jobs:
       # own, never the folder that is served, and the site is checked afterwards against what
       # the stage wrote (`pages_stage.py --derive`). "As of" is the month of the commit, in
       # UTC, so a rebuild of one commit gives the same bytes; every month before it gets its base.
+      # FAIL CLOSED. The upload must never read a site this step could not vouch for, so the
+      # step has no continue-on-error: a cut by its clock, or a site a builder changed that
+      # cannot be staged again as the stage wrote it (exit 2), fails the step, and the run stops
+      # red before the upload. Nothing is deployed, the live site keeps the last deploy, and
+      # the next push deploys again.
       # THE CLOCK. This step sits in front of every deploy, and render-site goes red when no
       # deploy of a push has landed within its five-minute wait (a pages run takes about half a
       # minute; render-site has seen a deploy land 6 to 68 s into its wait). So the builders get
-      # 90 s and are killed at it (BUILD_SECONDS); `timeout` cuts the whole command at 105 s,
-      # since Actions' step limit stops only the shell and would leave python and node writing
-      # into the site while the upload reads it; the two-minute limit is the backstop. The worst
-      # case lands a deploy about two and a quarter minutes later, inside render-site's wait.
-      # Both legislatures took 1.0 s on 2026-11-05; the builder warns past 60 s that the build
-      # cache the design left out is due.
+      # 90 s and are killed at it (BUILD_SECONDS), which costs only their search files; `timeout`
+      # cuts the whole command at 105 s, inside the two-minute limit (the backstop, which stops
+      # only the step's shell). The worst case that deploys lands about two and a quarter
+      # minutes later, inside render-site's wait; a cut deploys nothing, so render-site goes red
+      # after it too. Both legislatures took 1.0 s on 2026-11-05; the builder warns past 60 s
+      # that the build cache the design left out is due.
       - name: Search files (shadow)
         if: steps.stage.outcome == 'success'
-        continue-on-error: true
         timeout-minutes: 2
         env:
           NODE_OPTIONS: --max-old-space-size=4096
+          PYTHONUNBUFFERED: "1"   # a cut keeps every line printed before it
         run: |
           asof=$(TZ=UTC git show -s --date=format-local:%Y-%m --format=%cd HEAD)
-          timeout -k 5 105 python3 .github/scripts/pages_stage.py --derive _site "$asof" _derived .github/tools
+          rc=0
+          timeout -k 5 105 python3 .github/scripts/pages_stage.py --derive _site "$asof" _derived .github/tools || rc=$?
+          if [ "$rc" -ne 0 ]; then
+            echo "::error::The search files' step was cut by its clock, or could not give back the record as the stage wrote it (exit ${rc}), so nothing is deployed this run: the live site still serves the last deploy, and the next push deploys again. The app's docs/FEED-HOST-RUNBOOK.md, \"The search files\"."
+          fi
+          exit "$rc"
 
       - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9  # v5.0.0
         with:

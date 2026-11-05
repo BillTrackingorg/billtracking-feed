@@ -81,7 +81,9 @@ proven by the app's own core compiled per derivation digest
 (`.github/tools/bt-feed-<digest>.cjs`, from the app's `npm run build:feed-core`)
 and listed in each fingerprint's `"derived"` block. No app reads them yet. They
 are generated at every deploy and never committed; a failure to build them
-leaves them out and changes nothing else. Under a rollback to the branch build
+leaves them out and changes nothing else. The one exception fails closed: if the
+step is cut by its clock, or cannot vouch for the record it leaves, nothing is
+deployed and the live site keeps the last deploy. Under a rollback to the branch build
 they are simply not served, which no reader notices while no app reads them.
 `.github/scripts/pages_replay.py` replays the whole build, search files
 included, over the repository's history.
