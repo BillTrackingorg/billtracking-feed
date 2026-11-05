@@ -8,6 +8,8 @@
 # serves them and this workflow only builds and checks (it deploys nothing). A reader's app
 # reads a legislature's fingerprint first and asks only for the month files whose sha256
 # changed (the app's OPEN-ITEMS OI-0329).
+# In shadow beside them, each legislature's search files under `search/`, listed in its
+# fingerprint's "derived" block, which no app reads yet (the step "Search files (shadow)").
 #
 # THE SWITCH: THE OWNER'S SITTING, IN THIS ORDER (done 2026-10-29; the same steps switch the
 # source back after a rollback). Not rehearsed: how long the feed goes without a fresh deploy
@@ -64,7 +66,9 @@
 # the old way) and every other legislature deploys as usual; the error names the file's
 # source in its bot's repository, where the fix belongs. A failed deploy is red too. Each
 # reaches the owner by GitHub's failure mail. The site's size against GitHub's 1 GB limit is
-# an annotation at 70% and 90%, never a stopped deploy.
+# an annotation at 70% and 90%, never a stopped deploy. Deployed, green, with an error
+# annotation: a legislature whose search files could not be built, proven or checked (they
+# are left out of its fingerprint; nothing else changes).
 #
 # QUEUE. One deploy at a time (the `pages` group). A push that arrives while one runs waits;
 # a third replaces the waiting second, which loses nothing because each run checks out `main`
@@ -116,6 +120,30 @@ jobs:
           python3 .github/scripts/pages_stage.py _site || rc=$?
           if [ "$rc" -eq 3 ]; then echo "unchecked=true" >> "$GITHUB_OUTPUT"; exit 0; fi
           exit "$rc"
+
+      # THE SEARCH FILES, IN SHADOW (the app's search design of 2026-10-29, §5; app OI-0108).
+      # Each builder in .github/tools/ (the app's own core, compiled per derivation digest by
+      # the app's `npm run build:feed-core`) builds every fingerprinted legislature's search
+      # files from the staged record, proves them, and writes them; the stage then checks
+      # them, places them under search/ and lists them in each fingerprint's "derived" block.
+      # No app or website reads them yet. A failure here only leaves them out: an error
+      # annotation on a green run (Class 1 of the app's loudness doctrine), never a held-back
+      # month file, sheet or fingerprint. "As of" is the month of the commit, in UTC, so a
+      # rebuild of one commit gives the same bytes; every month before it gets its base.
+      - name: Search files (shadow)
+        if: steps.stage.outcome == 'success'
+        continue-on-error: true
+        timeout-minutes: 6
+        env:
+          NODE_OPTIONS: --max-old-space-size=4096
+        run: |
+          asof=$(TZ=UTC git show -s --date=format-local:%Y-%m --format=%cd HEAD)
+          mkdir -p _derived
+          for b in .github/tools/bt-feed-*.cjs; do
+            [ -e "$b" ] || continue
+            node "$b" derive _site "$asof" _derived || echo "::error::$b did not finish; its search files are left out of this deploy, and the record deploys as staged."
+          done
+          python3 .github/scripts/pages_stage.py --add-derived _site _derived
 
       - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9  # v5.0.0
         with:

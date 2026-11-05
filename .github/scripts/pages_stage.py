@@ -51,6 +51,25 @@ undone by the next one.
 HEADROOM. GitHub Pages sites are limited to 1 GB. At 70% of it the run carries a warning,
 at 90% an error annotation; neither stops the deploy, because a stopped deploy is worse
 than a full one (the hosting-splits row in the app's OPEN-ITEMS is the plan).
+
+THE SEARCH FILES, IN SHADOW (the app's search design of 2026-10-29, §5; app OPEN-ITEMS
+OI-0108). A second run, after the stage and after the builders:
+
+    python3 .github/scripts/pages_stage.py --add-derived <out_dir> <derived_dir>
+
+Each builder (`.github/tools/bt-feed-<digest>.cjs`, the app's own core compiled per
+derivation digest) has written its legislatures' search files under
+`<derived_dir>/search/`, proven them, and named each file's bytes and sha256 in
+`<derived_dir>/<digest>.json`. This checks every file against that manifest, copies it into
+the staged site beside the record (never over a file that differs), and adds to the
+legislature's fingerprint the digest's entry:
+
+    "derived": {"<digest>": {"list": "search/l/<h64>.json", "bytes": 511, "h64": "…", "corrections": 1}}
+
+An entry it cannot check is left out with an error annotation (Class 1: the run stays green,
+the record and the fingerprint's record rows deploy as staged); a fingerprint is rewritten
+whole or not at all. No app or website reads these files yet: today's readers pass over the
+`derived` block (the app's check:searchfiles runs its client over it). Always exit 0.
 """
 
 import hashlib
@@ -197,8 +216,123 @@ def main(out):
     return 3 if unchecked else 0
 
 
+DERIVED_PATH = re.compile(r"^search/[lbrpc]/[0-9a-f]{16}\.jsonl?$")
+DIGEST_MANIFEST = re.compile(r"^([0-9a-f]{16})\.json$")
+
+
+def place(scratch, dest, data):
+    """Write `data` at `dest` whole or not at all: written in `scratch` (beside the builders'
+    files, never served), then moved into place, so a step stopped by its time limit leaves no
+    half-written file in the site."""
+    tmp = os.path.join(scratch, ".placing")
+    with open(tmp, "wb") as fh:
+        fh.write(data)
+    os.replace(tmp, dest)
+
+
+def tree_bytes(root):
+    total = 0
+    for base, _dirs, files in os.walk(root):
+        for name in files:
+            total += os.path.getsize(os.path.join(base, name))
+    return total
+
+
+def check_entry(derived, out, entry):
+    """The files of one manifest entry, checked: (polity, block, [(src, dest, size)]), or the
+    reason it cannot be used."""
+    polity = entry.get("polity")
+    if not isinstance(polity, str) or not re.match(r"^[a-z]+$", polity):
+        return None, "an entry names no legislature"
+    if not os.path.exists(os.path.join(out, f"{polity}-fingerprint.json")):
+        return None, f"{polity} has no fingerprint in this deploy (the stage wrote none)"
+    files = entry.get("files")
+    if not isinstance(files, list) or not files:
+        return None, f"{polity}'s entry lists no files"
+    plan = []
+    sizes = {}
+    for f in files:
+        path = f.get("path") if isinstance(f, dict) else None
+        if not isinstance(path, str) or not DERIVED_PATH.match(path):
+            return None, f"{polity}'s entry names a file outside search/: {path!r}"
+        with open(os.path.join(derived, path), "rb") as fh:
+            data = fh.read()
+        if len(data) != f.get("bytes") or hashlib.sha256(data).hexdigest() != f.get("sha256"):
+            return None, f"{path} is not the file its builder proved"
+        dest = os.path.join(out, path)
+        if os.path.exists(dest):
+            with open(dest, "rb") as fh:
+                if fh.read() != data:
+                    return None, f"{path} would overwrite a different file"
+        plan.append((data, dest))
+        sizes[path] = len(data)
+    if entry.get("list") not in sizes or sizes[entry["list"]] != entry.get("bytes"):
+        return None, f"{polity}'s list is not among its files, or not of the size named"
+    if not isinstance(entry.get("h64"), str) or not entry["list"].endswith(f"/{entry['h64']}.json"):
+        return None, f"{polity}'s list is not named by its hash"
+    if not isinstance(entry.get("corrections"), int) or entry["corrections"] < 0:
+        return None, f"{polity}'s corrections count is not a count"
+    block = {"list": entry["list"], "bytes": entry["bytes"], "h64": entry["h64"], "corrections": entry["corrections"]}
+    return (polity, block, plan), None
+
+
+def add_derived(out, derived):
+    record_total = tree_bytes(out)
+    blocks = {}
+    added = 0
+    names = sorted(os.listdir(derived)) if os.path.isdir(derived) else []
+    for name in names:
+        m = DIGEST_MANIFEST.match(name)
+        if not m:
+            continue
+        digest = m.group(1)
+        try:
+            with open(os.path.join(derived, name), encoding="utf-8") as fh:
+                doc = json.load(fh)
+            if doc.get("v") != 1 or doc.get("dd") != digest or not isinstance(doc.get("entries"), list):
+                raise ValueError("not a builder's manifest")
+        except (OSError, ValueError) as e:
+            print(f"::error::search files under digest {digest} are left out: {name} could not be read ({e}).")
+            continue
+        for entry in doc["entries"]:
+            try:
+                checked, why = check_entry(derived, out, entry if isinstance(entry, dict) else {})
+            except OSError as e:
+                checked, why = None, f"a file could not be read ({e})"
+            if not checked:
+                print(f"::error::search files under digest {digest} are left out of one fingerprint: {why}. "
+                      "The record deploys as staged.")
+                continue
+            polity, block, plan = checked
+            for data, dest in plan:
+                os.makedirs(os.path.dirname(dest), exist_ok=True)
+                if not os.path.exists(dest):
+                    place(derived, dest, data)
+                    added += len(data)
+            blocks.setdefault(polity, {})[digest] = block
+
+    for polity in sorted(blocks):
+        path = os.path.join(out, f"{polity}-fingerprint.json")
+        with open(path, "rb") as fh:
+            doc = json.loads(fh.read().decode("utf-8"))
+        doc["derived"] = {d: blocks[polity][d] for d in sorted(blocks[polity])}
+        place(derived, path, (json.dumps(doc, separators=(",", ":"), ensure_ascii=False) + "\n").encode("utf-8"))
+        print(f"{polity}-fingerprint.json: derived {', '.join(sorted(blocks[polity]))}")
+
+    total = record_total + added
+    print(f"search files: {added:,} bytes added; the site is {total / SITE_LIMIT:.1%} of the 1 GB a Pages site may hold")
+    for limit, kind in ((0.9, "error"), (0.7, "warning")):
+        if total / SITE_LIMIT >= limit > record_total / SITE_LIMIT:
+            print(f"::{kind}::With its search files the feed site is {total / SITE_LIMIT:.0%} of GitHub's 1 GB Pages "
+                  "limit (the hosting splits in the app's OPEN-ITEMS).")
+            break
+    return 0
+
+
 if __name__ == "__main__":
+    if len(sys.argv) == 4 and sys.argv[1] == "--add-derived":
+        sys.exit(add_derived(sys.argv[2], sys.argv[3]))
     if len(sys.argv) != 2:
-        print("usage: pages_stage.py <out_dir>", file=sys.stderr)
+        print("usage: pages_stage.py <out_dir> | --add-derived <out_dir> <derived_dir>", file=sys.stderr)
         sys.exit(64)
     sys.exit(main(sys.argv[1]))

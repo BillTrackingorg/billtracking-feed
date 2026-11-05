@@ -74,6 +74,17 @@ files whose sha256 changed (app OPEN-ITEMS OI-0329). The owner's switch of the
 Pages source (its steps, in order), the rollback, and everything else are in the
 file's header.
 
+Beside the record, in shadow, the same workflow publishes each legislature's
+search files under `search/` (the app's search design of 2026-10-29), built and
+proven by the app's own core compiled per derivation digest
+(`.github/tools/bt-feed-<digest>.cjs`, from the app's `npm run build:feed-core`)
+and listed in each fingerprint's `"derived"` block. No app reads them yet. They
+are generated at every deploy and never committed; a failure to build them
+leaves them out and changes nothing else. Under a rollback to the branch build
+they are simply not served, which no reader notices while no app reads them.
+`.github/scripts/pages_replay.py` replays the whole build, search files
+included, over the repository's history.
+
 When something looks wrong with the feed host (a GitHub email, old posts, a slow
 feed), the app's `docs/FEED-HOST-RUNBOOK.md` starts from the symptom.
 
