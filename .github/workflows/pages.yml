@@ -128,15 +128,19 @@ jobs:
       # them, places them under search/ and lists them in each fingerprint's "derived" block.
       # No app or website reads them yet. A failure here only leaves them out: an error
       # annotation on a green run (Class 1 of the app's loudness doctrine), never a held-back
-      # month file, sheet or fingerprint. The builders read a copy of the staged site, never the
-      # folder that is served (`pages_stage.py --derive`). "As of" is the month of the commit,
-      # in UTC, so a rebuild of one commit gives the same bytes; every month before it gets its
-      # base.
-      # THE LIMIT, two minutes: render-site waits five minutes for a push to be served, and this
-      # step sits in front of every deploy, so a hung builder must end well inside that wait
-      # (300 s, less about 30 s for the rest of this run and the edge's lag), or every bot push
-      # would turn render-site red. Both legislatures took 1.0 s on 2026-11-05; the builder warns
-      # past 60 s that the build cache the design left out is due.
+      # month file, sheet or fingerprint. Each builder reads a copy of the staged site of its
+      # own, never the folder that is served, and the site is checked afterwards against what
+      # the stage wrote (`pages_stage.py --derive`). "As of" is the month of the commit, in
+      # UTC, so a rebuild of one commit gives the same bytes; every month before it gets its base.
+      # THE CLOCK. This step sits in front of every deploy, and render-site goes red when no
+      # deploy of a push has landed within its five-minute wait (a pages run takes about half a
+      # minute; render-site has seen a deploy land 6 to 68 s into its wait). So the builders get
+      # 90 s and are killed at it (BUILD_SECONDS); `timeout` cuts the whole command at 105 s,
+      # since Actions' step limit stops only the shell and would leave python and node writing
+      # into the site while the upload reads it; the two-minute limit is the backstop. The worst
+      # case lands a deploy about two and a quarter minutes later, inside render-site's wait.
+      # Both legislatures took 1.0 s on 2026-11-05; the builder warns past 60 s that the build
+      # cache the design left out is due.
       - name: Search files (shadow)
         if: steps.stage.outcome == 'success'
         continue-on-error: true
@@ -145,7 +149,7 @@ jobs:
           NODE_OPTIONS: --max-old-space-size=4096
         run: |
           asof=$(TZ=UTC git show -s --date=format-local:%Y-%m --format=%cd HEAD)
-          python3 .github/scripts/pages_stage.py --derive _site "$asof" _derived .github/tools
+          timeout -k 5 105 python3 .github/scripts/pages_stage.py --derive _site "$asof" _derived .github/tools
 
       - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9  # v5.0.0
         with:

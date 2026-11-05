@@ -7,7 +7,8 @@ to the mobile app.
 ## Why this repo exists separately
 
 The bots need write access to publish here. Scoping their token to a repo that
-holds nothing but data means a leaked or misused credential corrupts feed data —
+holds the data and only what deploys it (`.github/`: the workflows, their scripts,
+and the app's compiled search-file builder) means a leaked or misused credential corrupts feed data —
 recoverable from the bots' own state — instead of defacing billtracking.org.
 That is the entire reason this is not part of the website repo.
 

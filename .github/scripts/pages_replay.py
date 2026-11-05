@@ -13,7 +13,7 @@ builders of THIS checkout (an old commit has none). Then it checks what a deploy
     size, whose every file is served under `search/`;
   - the run reported no error (a builder, or a file the stage could not take);
   - the staged record is byte for byte what it was before the search files' run;
-  - every K-th commit (and the last), a second derive over the same copy gives the same bytes.
+  - every K-th commit (and the last), a second derive over a copy of the same site gives the same bytes.
 Prints one line per failure and a summary; exit 0 only when nothing failed. The proof of a
 change to the stage or a builder is this run's summary, quoted in that change's commit message.
 """
@@ -119,9 +119,12 @@ def replay_one(clone, sha, builders, twice):
                         if not os.path.exists(os.path.join(site, "search", d, f"{m[kind]}.{ext}")):
                             res["fail"].append(f"{n}: {m['m']}'s {kind} is not served")
     if twice:
-        out = os.path.join(derived, "out", "search")
-        first = tree(out) if os.path.isdir(out) else {}
-        derive_all(clone, os.path.join(derived, "in"), asof, derived + "2", builders)
+        own = [os.path.join(derived, os.path.basename(b)[:-4]) for b in builders]
+        first = {}
+        for o in own:
+            if os.path.isdir(os.path.join(o, "out", "search")):
+                first.update(tree(os.path.join(o, "out", "search")))
+        derive_all(clone, os.path.join(own[0], "in"), asof, derived + "2", builders)
         second = tree(os.path.join(derived + "2", "search")) if os.path.isdir(os.path.join(derived + "2", "search")) else {}
         res["twice"] = True
         if first != second:
