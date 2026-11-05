@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "8205",
- "built_at": "2026-11-04T21:16:17+00:00",
- "source_count": 27,
+ "built_at": "2026-11-05T18:41:44+00:00",
+ "source_count": 29,
  "holds_full_record": true,
  "entries": [
   {
@@ -465,6 +465,26 @@
    "qualified": null,
    "lead": true,
    "emoji": "📜✍️",
+   "vote": null
+  },
+  {
+   "order": 23,
+   "date": "2026-11-03",
+   "text": "Became Public Law No: 119-138.",
+   "core": "Became Public Law No: 119-138",
+   "code": "36000",
+   "source": "Library of Congress",
+   "chamber": null,
+   "family": "became_law",
+   "label": "Became Public Law",
+   "tally": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-80060bcb996e98d8",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
    "vote": null
   }
  ]
