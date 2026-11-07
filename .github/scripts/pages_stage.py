@@ -110,6 +110,12 @@ SUMMARY_LINE_TYPES = {"summary_fill", "summary_match"}
 MONTH = re.compile(r"^([a-z]+)-(\d{4})-(\d{2})\.jsonl$")
 SHEET = re.compile(r"^([a-z]+)-overrides\.jsonl$")
 SITE_LIMIT = 1024 ** 3
+# What a new reader downloads before a first search, every legislature on (a guest's start): past it,
+# the time to revisit server search (the owner, 2026-11-07; the app's OPEN-ITEMS OI-0167). It counts the
+# legislatures this feed carries: once the feed host splits (OI-0339), the hosts' lines add up.
+FIRST_DOWNLOAD_LINE = 50 * 1024 ** 2
+# A month's own search files; a yearly bundle carries them verbatim.
+MONTH_FILES = ("base", "rows", "patch", "new")
 
 
 def git(*args):
@@ -322,6 +328,20 @@ def check_entry(derived, out, entry):
     return (polity, block, plan), None
 
 
+def first_download(block, plan):
+    """The bytes a device holding none of this legislature's search files asks for under one set: its
+    list, each yearly bundle, and the files of every month no bundle carries."""
+    sizes = {os.path.splitext(os.path.basename(dest))[0]: len(data) for data, dest in plan}
+    listed = next(data for data, dest in plan if dest.replace(os.sep, "/").endswith(block["list"]))
+    doc = json.loads(listed.decode("utf-8"))
+    bundles = doc.get("bundles") or []
+    total = len(listed) + sum(sizes[b["h"]] for b in bundles)
+    for month in doc.get("months") or []:
+        if not any(b["from"] <= month["m"] <= b["to"] for b in bundles):
+            total += sum(sizes[month[k]] for k in MONTH_FILES if k in month)
+    return total
+
+
 def read_manifests(derived, out, only=None):
     """Every entry the builders' manifests in `derived` hold, checked: [(digest, polity, block,
     plan)], each failure named. `only`, a digest, is the one manifest a builder of that digest
@@ -390,6 +410,7 @@ def add_derived(out, derived_dirs, expected=None, staged=None):
             return fh.read() != data
 
     blocks = {}
+    downloads = {}
     added = 0
     for digest, derived, polity, block, plan in accepted:
         if any(differs(dest, data) for data, dest in plan):
@@ -402,6 +423,11 @@ def add_derived(out, derived_dirs, expected=None, staged=None):
                 place(derived, dest, data)
                 added += len(data)
         blocks.setdefault(polity, {})[digest] = block
+        try:
+            downloads[digest] = downloads.get(digest, 0) + first_download(block, plan)
+        except Exception as e:   # a measure only: it never stops the deploy
+            print(f"::warning::{polity}'s first download under digest {digest} could not be measured "
+                  f"({type(e).__name__}: {e}).")
 
     prints = sorted(staged) if staged is not None else sorted(n for n in os.listdir(out) if FINGERPRINT.fullmatch(n))
     for name in prints:
@@ -430,6 +456,13 @@ def add_derived(out, derived_dirs, expected=None, staged=None):
             print(f"::{kind}::With its search files the feed site is {total / SITE_LIMIT:.0%} of GitHub's 1 GB Pages "
                   "limit (the hosting splits in the app's OPEN-ITEMS).")
             break
+    if downloads:
+        heaviest = max(downloads.values())
+        print(f"search files: a new reader's first download, every legislature on, is {heaviest / 1024 ** 2:.1f} MB")
+        if heaviest >= FIRST_DOWNLOAD_LINE:
+            print(f"::warning::A new reader's first download of search files, every legislature on, is "
+                  f"{heaviest / 1024 ** 2:.0f} MB, past the 50 MB line: the time to revisit server search "
+                  "(the app's OPEN-ITEMS OI-0167).")
     return 0
 
 
