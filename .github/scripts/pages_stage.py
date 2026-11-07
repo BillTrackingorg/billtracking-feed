@@ -241,7 +241,7 @@ def main(out):
     return 3 if unchecked else 0
 
 
-DERIVED_PATH = re.compile(r"search/[lbrpc]/[0-9a-f]{16}\.jsonl?")
+DERIVED_PATH = re.compile(r"search/[lbrpcu]/[0-9a-f]{16}\.jsonl?")
 DIGEST_MANIFEST = re.compile(r"([0-9a-f]{16})\.json")
 H64 = re.compile(r"[0-9a-f]{16}")
 FINGERPRINT = re.compile(r"[a-z]+-fingerprint\.json")
