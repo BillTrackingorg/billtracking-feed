@@ -1,0 +1,49 @@
+{
+ "v": 1,
+ "polity": "eu",
+ "reference": "2026/0292(CNS)",
+ "year": "2026",
+ "number": "0292",
+ "ptype": "CNS",
+ "built_at": "2026-11-07T01:02:01+00:00",
+ "source": "oeil-key-events",
+ "source_count": 2,
+ "holds_full_record": true,
+ "overrides_applied": null,
+ "texture_count": null,
+ "texture_source": null,
+ "entries": [
+  {
+   "order": 0,
+   "date": "2026-10-01",
+   "text": "Legislative proposal published",
+   "doc": "COM(2026)0515",
+   "family": "proposed",
+   "label": "New legislative proposal",
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-444b3fc6ca5e07c7",
+   "emoji": "📋"
+  },
+  {
+   "order": 1,
+   "date": "2026-11-03",
+   "text": "Vote in committee",
+   "doc": null,
+   "family": "committee_vote",
+   "label": "Lead committee adopted its report",
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-a3db974e55edca87",
+   "emoji": "🗳️"
+  }
+ ]
+}
