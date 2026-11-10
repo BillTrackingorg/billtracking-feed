@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "2347",
- "built_at": "2026-11-10T02:12:40+00:00",
- "source_count": 19,
+ "built_at": "2026-11-10T17:56:05+00:00",
+ "source_count": 21,
  "holds_full_record": true,
  "entries": [
   {
@@ -346,6 +346,46 @@
    "lead": true,
    "emoji": "⏱️",
    "vote": null
+  },
+  {
+   "order": 17,
+   "date": "2026-11-09",
+   "text": "Motion to proceed to measure considered in Senate.",
+   "core": "Motion to proceed to measure considered in Senate",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": "mtp_pending",
+   "label": "Motion to proceed filed",
+   "tally": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-9020abb0f91e569b",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "🗳️",
+   "vote": null
+  },
+  {
+   "order": 18,
+   "date": "2026-11-09",
+   "text": "Cloture on the motion to proceed to the measure invoked in Senate by Yea-Nay Vote. 73 - 25. Record Vote Number: 257.",
+   "core": "Cloture on the motion to proceed to the measure invoked in Senate by Yea-Nay Vote. 73 - 25",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": "cloture_invoked_mtp",
+   "label": "Cloture invoked (on taking up the bill)",
+   "tally": "73 - 25",
+   "spine": true,
+   "subordinate": null,
+   "key": "1-8d607eeca6583935",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "⏱️",
+   "vote": "(73-25)"
   }
  ]
 }
