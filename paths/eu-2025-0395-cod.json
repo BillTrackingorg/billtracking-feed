@@ -5,12 +5,12 @@
  "year": "2025",
  "number": "0395",
  "ptype": "COD",
- "built_at": "2026-10-22T10:22:47+00:00",
+ "built_at": "2026-11-10T23:27:52+00:00",
  "source": "oeil-key-events",
  "source_count": 8,
  "holds_full_record": true,
  "overrides_applied": null,
- "texture_count": 14,
+ "texture_count": 16,
  "texture_source": "cellar-authority-events",
  "entries": [
   {
@@ -392,6 +392,42 @@
    "subordinate": null,
    "key": "1-2da0543602407c33",
    "emoji": "↩️"
+  },
+  {
+   "order": 22,
+   "date": "2026-10-21",
+   "text": "Adoption of negotiating mandate by Coreper",
+   "doc": null,
+   "code": "ADP_MAND_NGT_INST_COREPER_byCONSIL",
+   "src": "cellar",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": false,
+   "subordinate": null,
+   "key": "1-477f8e5393ea33d7",
+   "emoji": null
+  },
+  {
+   "order": 23,
+   "date": "2026-10-23",
+   "text": "Deliberations in Council working party",
+   "doc": null,
+   "code": "DELIB_WP_byCONSIL",
+   "src": "cellar",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": false,
+   "subordinate": null,
+   "key": "1-99d83a7b5913beaa",
+   "emoji": null
   }
  ]
 }
