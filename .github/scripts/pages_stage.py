@@ -30,10 +30,11 @@ THE FINGERPRINTS. For each legislature with a month file, `<polity>-fingerprint.
                {"name": "us-overrides.jsonl", "bytes": 586, "sha256": "…"}]}
 
 `files` lists every month file of the legislature and its corrections sheet, sorted by name.
-`posts` is the month file's non-blank lines that are not summary lines (the app's
-`SUMMARY_LINE_TYPES`, `src/data/feed-schema.ts`); the app may still drop a line it cannot
-adapt, so it is a count for planning a load, never a claim about the record. Readers ignore
-fields they do not know, so a field can be added without a new `v`.
+`posts` counts the month file's non-blank lines, less the lines that name a post (the app's
+`LINE_TYPES`, `src/data/feed-schema.ts`: the summary lines and the AI summary lines); the app
+may still drop a line it cannot adapt, so it is a count for planning a load, never a claim
+about the record. Readers ignore fields they do not know, so a field can be added without a
+new `v`.
 
 A FILE THE APP COULD NOT CHECK (exit 3: deployed, then red). A month file or corrections
 sheet that is not UTF-8, or starts with a byte-order mark, leaves its legislature without a
@@ -105,8 +106,9 @@ import sys
 import tempfile
 import time
 
-# The app's `SUMMARY_LINE_TYPES` (src/data/feed-schema.ts). A new type there is added here.
-SUMMARY_LINE_TYPES = {"summary_fill", "summary_match"}
+# The app's `LINE_TYPES` (src/data/feed-schema.ts): every line that names a post rather than being one.
+# A new type there is added here.
+LINE_TYPES = {"summary_fill", "summary_match", "summary_ai"}
 MONTH = re.compile(r"^([a-z]+)-(\d{4})-(\d{2})\.jsonl$")
 SHEET = re.compile(r"^([a-z]+)-overrides\.jsonl$")
 SITE_LIMIT = 1024 ** 3
@@ -137,7 +139,7 @@ def count_posts(data):
         except ValueError:
             n += 1          # an unreadable line is still a line the app will try, and drop
             continue
-        if not (isinstance(rec, dict) and rec.get("type") in SUMMARY_LINE_TYPES):
+        if not (isinstance(rec, dict) and rec.get("type") in LINE_TYPES):
             n += 1
     return n
 
