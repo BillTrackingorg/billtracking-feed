@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "9084",
- "built_at": "2026-11-10T18:17:20+00:00",
+ "built_at": "2026-11-11T20:13:27+00:00",
  "source_count": 13,
  "holds_full_record": true,
  "entries": [
@@ -170,7 +170,7 @@
   {
    "order": 8,
    "date": "2026-11-09",
-   "text": "Considered under suspension of the rules.",
+   "text": "Considered under suspension of the rules. (consideration: CR H6099-6100; text: CR H6099)",
    "core": "Considered under suspension of the rules",
    "code": "H30000",
    "source": "House floor actions",
