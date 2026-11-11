@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "9612",
- "built_at": "2026-11-10T17:56:05+00:00",
- "source_count": 17,
+ "built_at": "2026-11-11T14:08:30+00:00",
+ "source_count": 18,
  "holds_full_record": true,
  "entries": [
   {
@@ -170,7 +170,7 @@
   {
    "order": 8,
    "date": "2026-11-09",
-   "text": "Considered under suspension of the rules.",
+   "text": "Considered under suspension of the rules. (consideration: CR H6100-6102)",
    "core": "Considered under suspension of the rules",
    "code": "H30000",
    "source": "House floor actions",
@@ -230,7 +230,7 @@
   {
    "order": 11,
    "date": "2026-11-09",
-   "text": "Considered as unfinished business.",
+   "text": "Considered as unfinished business. (consideration: CR H6108)",
    "core": "Considered as unfinished business",
    "code": "H30000",
    "source": "House floor actions",
@@ -250,7 +250,7 @@
   {
    "order": 12,
    "date": "2026-11-09",
-   "text": "Passed/agreed to in House: On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 394 - 3 (Roll no. 316).",
+   "text": "Passed/agreed to in House: On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 394 - 3 (Roll no. 316). (text: CR H6100-6101)",
    "core": "Passed/agreed to in House: On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 394 - 3",
    "code": "8000",
    "source": "Library of Congress",
@@ -270,7 +270,7 @@
   {
    "order": 13,
    "date": "2026-11-09",
-   "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 394 - 3 (Roll no. 316).",
+   "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 394 - 3 (Roll no. 316). (text: CR H6100-6101)",
    "core": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 394 - 3",
    "code": "H37300",
    "source": "House floor actions",
@@ -301,6 +301,26 @@
    "spine": false,
    "subordinate": null,
    "key": "1-eca73369586d5d59",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
+  },
+  {
+   "order": 15,
+   "date": "2026-11-10",
+   "text": "Received in the Senate and Read twice and referred to the Committee on Environment and Public Works.",
+   "core": "Received in the Senate and Read twice and referred to the Committee on Environment and Public Works",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null,
+   "key": "1-2e024e4e8d2daabb",
    "stands_in": null,
    "qualified": null,
    "lead": false,
