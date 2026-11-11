@@ -5,9 +5,9 @@
  "year": "2025",
  "number": "0362",
  "ptype": "COD",
- "built_at": "2026-11-10T18:07:19+00:00",
+ "built_at": "2026-11-11T06:26:06+00:00",
  "source": "oeil-key-events",
- "source_count": 2,
+ "source_count": 4,
  "holds_full_record": true,
  "overrides_applied": null,
  "texture_count": 7,
@@ -170,6 +170,38 @@
    "subordinate": null,
    "key": "1-9ac67e8a23ebfcdc",
    "emoji": null
+  },
+  {
+   "order": 9,
+   "date": "2026-11-10",
+   "text": "Vote in committee, 1st reading",
+   "doc": null,
+   "family": "committee_vote",
+   "label": "Lead committee adopted its report",
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-531ae771bd899e67",
+   "emoji": "🗳️"
+  },
+  {
+   "order": 10,
+   "date": "2026-11-10",
+   "text": "Committee decision to open interinstitutional negotiations with report adopted in committee",
+   "doc": null,
+   "family": "mandate",
+   "label": "Negotiating mandate for trilogue talks",
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-d631b63f1754865c",
+   "emoji": "🧭"
   }
  ]
 }
