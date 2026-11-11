@@ -5,12 +5,12 @@
  "year": "2026",
  "number": "0203",
  "ptype": "COD",
- "built_at": "2026-10-22T23:29:14+00:00",
+ "built_at": "2026-11-11T12:25:37+00:00",
  "source": "oeil-key-events",
  "source_count": 2,
  "holds_full_record": true,
  "overrides_applied": null,
- "texture_count": 6,
+ "texture_count": 7,
  "texture_source": "cellar-authority-events",
  "entries": [
   {
@@ -151,6 +151,24 @@
    "spine": false,
    "subordinate": null,
    "key": "1-cd716a25882c676f",
+   "emoji": null
+  },
+  {
+   "order": 8,
+   "date": "2026-10-21",
+   "text": "Deliberations in Coreper",
+   "doc": null,
+   "code": "DELIB_COREPER_byCONSIL",
+   "src": "cellar",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": false,
+   "subordinate": null,
+   "key": "1-752f91368b4b1321",
    "emoji": null
   }
  ]
