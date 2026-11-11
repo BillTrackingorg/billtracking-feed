@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "5254",
- "built_at": "2026-11-11T05:58:55+00:00",
- "source_count": 23,
+ "built_at": "2026-11-11T21:18:40+00:00",
+ "source_count": 24,
  "holds_full_record": true,
  "entries": [
   {
@@ -403,6 +403,26 @@
    "key": "1-fe6041d62caa29a6",
    "stands_in": null,
    "qualified": "Senate",
+   "lead": false,
+   "emoji": null,
+   "vote": null
+  },
+  {
+   "order": 20,
+   "date": "2026-11-10",
+   "text": "Star Print ordered on the reported bill, by unanimous consent.",
+   "core": "Star Print ordered on the reported bill, by unanimous consent",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null,
+   "key": "1-62c42d88187ea181",
+   "stands_in": null,
+   "qualified": null,
    "lead": false,
    "emoji": null,
    "vote": null
