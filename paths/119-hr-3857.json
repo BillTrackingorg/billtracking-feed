@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "3857",
- "built_at": "2026-11-10T02:13:12+00:00",
+ "built_at": "2026-11-11T05:58:53+00:00",
  "source_count": 25,
  "holds_full_record": true,
  "entries": [
@@ -410,8 +410,8 @@
   {
    "order": 20,
    "date": "2026-09-17",
-   "text": "Committee on Energy and Natural Resources. Reported by Senator Lee with an amendment in the nature of a substitute. Without written report.",
-   "core": "Committee on Energy and Natural Resources. Reported by Senator Lee with an amendment in the nature of a substitute. Without written report",
+   "text": "Committee on Energy and Natural Resources. Reported by Senator Lee without amendment. Without written report.",
+   "core": "Committee on Energy and Natural Resources. Reported by Senator Lee without amendment. Without written report",
    "code": "14000",
    "source": "Library of Congress",
    "chamber": null,
@@ -420,7 +420,7 @@
    "tally": null,
    "spine": true,
    "subordinate": null,
-   "key": "1-5254a7d794af6967",
+   "key": "1-718dde244e69339f",
    "stands_in": null,
    "qualified": null,
    "lead": true,
