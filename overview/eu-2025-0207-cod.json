@@ -1,0 +1,18 @@
+{
+ "checked": "2026-11-12",
+ "committees": [
+  {
+   "code": "ENVI",
+   "name": "Environment, Climate and Food Safety"
+  }
+ ],
+ "lead": "Christophe Clergeau (S&D)",
+ "start": {
+  "kind": "proposed",
+  "on": "2025-07-08"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}

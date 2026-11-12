@@ -1,0 +1,18 @@
+{
+ "checked": "2026-11-09",
+ "committees": [
+  {
+   "code": "ECON",
+   "name": "Economic and Monetary Affairs"
+  }
+ ],
+ "lead": "Markus Ferber (EPP) and Carla Tavares (S&D)",
+ "start": {
+  "kind": "proposed",
+  "on": "2025-10-02"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}

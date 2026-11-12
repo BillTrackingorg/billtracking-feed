@@ -1,0 +1,21 @@
+{
+ "checked": "2026-09-26",
+ "committees": [
+  {
+   "code": "IMCO",
+   "name": "Internal Market and Consumer Protection"
+  }
+ ],
+ "law": "Regulation 2026/2108",
+ "lead": "Dirk Gotink (EPP)",
+ "start": {
+  "kind": "proposed",
+  "on": "2023-05-17"
+ },
+ "status": {
+  "closed": true,
+  "how": "law",
+  "on": "2026-09-19"
+ },
+ "v": 1
+}

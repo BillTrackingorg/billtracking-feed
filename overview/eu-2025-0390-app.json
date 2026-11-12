@@ -1,0 +1,14 @@
+{
+ "checked": "2026-11-09",
+ "committees": [
+  {
+   "code": "BUDG",
+   "name": "Budgets"
+  }
+ ],
+ "lead": "Johan Van Overtveldt (ECR)",
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}

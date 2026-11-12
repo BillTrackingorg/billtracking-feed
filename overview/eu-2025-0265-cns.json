@@ -1,0 +1,18 @@
+{
+ "checked": "2026-11-09",
+ "committees": [
+  {
+   "code": "ITRE",
+   "name": "Industry, Research and Energy"
+  }
+ ],
+ "lead": "Sophie Wilmès (Renew)",
+ "start": {
+  "kind": "proposed",
+  "on": "2025-09-03"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}

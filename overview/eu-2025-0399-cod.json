@@ -1,0 +1,18 @@
+{
+ "checked": "2026-11-11",
+ "committees": [
+  {
+   "code": "ITRE",
+   "name": "Industry, Research and Energy"
+  }
+ ],
+ "lead": "Tsvetelina Penkova (S&D)",
+ "start": {
+  "kind": "proposed",
+  "on": "2025-12-10"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}

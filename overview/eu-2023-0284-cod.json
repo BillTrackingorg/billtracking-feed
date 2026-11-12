@@ -1,0 +1,25 @@
+{
+ "checked": "2026-07-29",
+ "committees": [
+  {
+   "code": "ENVI",
+   "name": "Environment, Public Health and Food Safety"
+  },
+  {
+   "code": "IMCO",
+   "name": "Internal Market and Consumer Protection"
+  }
+ ],
+ "law": "Regulation 2026/1738",
+ "lead": "Jens Gieseke (EPP) and Paulius Saudargas (EPP)",
+ "start": {
+  "kind": "proposed",
+  "on": "2023-07-13"
+ },
+ "status": {
+  "closed": true,
+  "how": "law",
+  "on": "2026-07-24"
+ },
+ "v": 1
+}
