@@ -5,7 +5,7 @@
  "year": "2025",
  "number": "0177",
  "ptype": "COD",
- "built_at": "2026-11-10T23:28:36+00:00",
+ "built_at": "2026-11-12T11:45:11+00:00",
  "source": "oeil-key-events",
  "source_count": 14,
  "holds_full_record": true,
@@ -775,7 +775,10 @@
    "spine": true,
    "subordinate": null,
    "key": "1-e41ab82bc8e817fa",
-   "emoji": "📜"
+   "emoji": "📜",
+   "linked_posts": [
+    "2026-10-28T05:45"
+   ]
   }
  ]
 }
