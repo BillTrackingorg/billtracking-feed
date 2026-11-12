@@ -1,0 +1,20 @@
+{
+ "committees": [
+  {
+   "code": "EMPL",
+   "name": "Employment and Social Affairs"
+  }
+ ],
+ "law": "Directive 2026/2450",
+ "lead": "Liesbet Sommen (EPP)",
+ "start": {
+  "kind": "proposed",
+  "on": "2025-07-18"
+ },
+ "status": {
+  "closed": true,
+  "how": "law",
+  "on": "2026-10-30"
+ },
+ "v": 1
+}

@@ -1,0 +1,20 @@
+{
+ "committees": [
+  {
+   "code": "AGRI",
+   "name": "Agriculture and Rural Development"
+  }
+ ],
+ "law": "Regulation 2026/1739",
+ "lead": "Céline Imart (EPP)",
+ "start": {
+  "kind": "proposed",
+  "on": "2024-12-10"
+ },
+ "status": {
+  "closed": true,
+  "how": "law",
+  "on": "2026-07-29"
+ },
+ "v": 1
+}

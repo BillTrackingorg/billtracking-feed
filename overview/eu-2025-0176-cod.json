@@ -1,0 +1,24 @@
+{
+ "committees": [
+  {
+   "code": "SEDE",
+   "name": "Security and Defence"
+  },
+  {
+   "code": "ENVI",
+   "name": "Environment, Climate and Food Safety"
+  },
+  {
+   "code": "ITRE",
+   "name": "Industry, Research and Energy"
+  }
+ ],
+ "law": "Regulation 2026/2382",
+ "lead": "Sven Mikser (S&D), Pierfrancesco Maran (S&D) and Aura Salla (EPP)",
+ "status": {
+  "closed": true,
+  "how": "law",
+  "on": "2026-11-03"
+ },
+ "v": 1
+}

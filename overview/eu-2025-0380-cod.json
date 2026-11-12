@@ -1,0 +1,20 @@
+{
+ "committees": [
+  {
+   "code": "ENVI",
+   "name": "Environment, Climate and Food Safety"
+  }
+ ],
+ "law": "Decision 2026/2402",
+ "lead": "Danuše Nerudová (EPP)",
+ "start": {
+  "kind": "proposed",
+  "on": "2025-11-27"
+ },
+ "status": {
+  "closed": true,
+  "how": "law",
+  "on": "2026-10-28"
+ },
+ "v": 1
+}

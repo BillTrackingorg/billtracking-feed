@@ -1,0 +1,19 @@
+{
+ "committees": [
+  {
+   "code": "LIBE",
+   "name": "Civil Liberties, Justice and Home Affairs"
+  }
+ ],
+ "law": "Regulation 2026/1881",
+ "start": {
+  "kind": "proposed",
+  "on": "2025-12-19"
+ },
+ "status": {
+  "closed": true,
+  "how": "law",
+  "on": "2026-07-28"
+ },
+ "v": 1
+}

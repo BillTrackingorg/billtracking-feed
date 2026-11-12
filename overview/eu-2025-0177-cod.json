@@ -1,0 +1,24 @@
+{
+ "committees": [
+  {
+   "code": "SEDE",
+   "name": "Security and Defence"
+  },
+  {
+   "code": "IMCO",
+   "name": "Internal Market and Consumer Protection"
+  }
+ ],
+ "law": "Directive 2026/2383",
+ "lead": "Pekka Toveri (EPP) and Anna-Maja Henriksson (Renew)",
+ "start": {
+  "kind": "proposed",
+  "on": "2025-06-17"
+ },
+ "status": {
+  "closed": true,
+  "how": "law",
+  "on": "2026-11-03"
+ },
+ "v": 1
+}

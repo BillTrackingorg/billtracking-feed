@@ -1,0 +1,20 @@
+{
+ "committees": [
+  {
+   "code": "INTA",
+   "name": "International Trade"
+  }
+ ],
+ "law": "Regulation 2026/2269",
+ "lead": "Bogdan Andrzej Zdrojewski (EPP)",
+ "start": {
+  "kind": "proposed",
+  "on": "2026-07-02"
+ },
+ "status": {
+  "closed": true,
+  "how": "law",
+  "on": "2026-10-09"
+ },
+ "v": 1
+}

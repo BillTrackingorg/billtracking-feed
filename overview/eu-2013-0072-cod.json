@@ -1,0 +1,20 @@
+{
+ "committees": [
+  {
+   "code": "LEGI",
+   "name": "EP Delegation to the Conciliation Committee"
+  }
+ ],
+ "law": "Regulation 2026/2202",
+ "lead": "Andrey Novakov (EPP)",
+ "start": {
+  "kind": "proposed",
+  "on": "2013-03-13"
+ },
+ "status": {
+  "closed": true,
+  "how": "law",
+  "on": "2026-10-02"
+ },
+ "v": 1
+}
