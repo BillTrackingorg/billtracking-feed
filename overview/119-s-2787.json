@@ -1,0 +1,20 @@
+{
+  "checked": "2026-11-08",
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "sseg00",
+      "name": "Energy and Natural Resources"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. John Barrasso (R-WY)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-09-11"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

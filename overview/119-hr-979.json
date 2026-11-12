@@ -1,0 +1,30 @@
+{
+  "checked": "2026-11-08",
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsif00",
+      "name": "Energy and Commerce"
+    },
+    {
+      "chamber": "House",
+      "code": "hshm00",
+      "name": "Homeland Security"
+    },
+    {
+      "chamber": "House",
+      "code": "hspw00",
+      "name": "Transportation and Infrastructure"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Gus Bilirakis (R-FL)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-02-05"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

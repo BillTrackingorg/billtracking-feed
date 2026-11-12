@@ -1,0 +1,20 @@
+{
+  "checked": "2026-11-09",
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hshm00",
+      "name": "Homeland Security"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. David Joyce (R-OH)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-06-18"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

@@ -1,0 +1,25 @@
+{
+  "checked": "2026-11-08",
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsif00",
+      "name": "Energy and Commerce"
+    },
+    {
+      "chamber": "House",
+      "code": "hsju00",
+      "name": "Judiciary"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Jimmy Panetta (D-CA)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-02-12"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

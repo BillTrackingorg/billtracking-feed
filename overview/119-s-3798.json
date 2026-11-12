@@ -1,0 +1,20 @@
+{
+  "checked": "2026-11-09",
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "ssju00",
+      "name": "Judiciary"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Ted Cruz (R-TX)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-02-05"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

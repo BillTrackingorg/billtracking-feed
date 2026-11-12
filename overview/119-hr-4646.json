@@ -1,0 +1,30 @@
+{
+  "checked": "2026-10-23",
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsba00",
+      "name": "Financial Services"
+    },
+    {
+      "chamber": "House",
+      "code": "hsgo00",
+      "name": "Oversight and Government Reform"
+    },
+    {
+      "chamber": "Senate",
+      "code": "ssbk00",
+      "name": "Banking, Housing, and Urban Affairs"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Monica De La Cruz (R-TX)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-07-23"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

@@ -1,0 +1,20 @@
+{
+  "checked": "2026-11-12",
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsii00",
+      "name": "Natural Resources"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Teresa Leger Fernandez (D-NM)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-07-22"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

@@ -1,0 +1,20 @@
+{
+  "checked": "2026-11-12",
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsii00",
+      "name": "Natural Resources"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Mark Amodei (R-NV)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-09-08"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

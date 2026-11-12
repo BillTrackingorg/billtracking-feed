@@ -1,0 +1,16 @@
+{
+  "checked": "2026-11-08",
+  "committees": [],
+  "congress": 119,
+  "lead": "Sen. Roger Wicker (R-MS)",
+  "start": {
+    "kind": "submitted",
+    "on": "2026-08-05"
+  },
+  "status": {
+    "closed": true,
+    "how": "agreed",
+    "on": "2026-08-05"
+  },
+  "v": 1
+}

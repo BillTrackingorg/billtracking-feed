@@ -1,0 +1,25 @@
+{
+  "checked": "2026-11-09",
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hswm00",
+      "name": "Ways and Means"
+    },
+    {
+      "chamber": "Senate",
+      "code": "ssfi00",
+      "name": "Finance"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Nathaniel Moran (R-TX)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-09-15"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

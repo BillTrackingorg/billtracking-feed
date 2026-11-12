@@ -1,0 +1,25 @@
+{
+  "checked": "2026-11-08",
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsif00",
+      "name": "Energy and Commerce"
+    },
+    {
+      "chamber": "Senate",
+      "code": "ssev00",
+      "name": "Environment and Public Works"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Mariannette Miller-Meeks (R-IA)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-07-09"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

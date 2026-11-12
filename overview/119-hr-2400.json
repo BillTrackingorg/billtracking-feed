@@ -1,0 +1,25 @@
+{
+  "checked": "2026-11-09",
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsii00",
+      "name": "Natural Resources"
+    },
+    {
+      "chamber": "Senate",
+      "code": "slia00",
+      "name": "Indian Affairs"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Doug LaMalfa (R-CA)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-03-27"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

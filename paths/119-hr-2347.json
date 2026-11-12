@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "2347",
- "built_at": "2026-11-12T10:58:10+00:00",
- "source_count": 24,
+ "built_at": "2026-11-12T18:51:03+00:00",
+ "source_count": 26,
  "holds_full_record": true,
  "entries": [
   {
@@ -390,7 +390,7 @@
   {
    "order": 19,
    "date": "2026-11-10",
-   "text": "Motion to proceed to consideration of measure agreed to in Senate by Yea-Nay Vote. 62 - 21. Record Vote Number: 258.",
+   "text": "Motion to proceed to consideration of measure agreed to in Senate by Yea-Nay Vote. 62 - 21. Record Vote Number: 258. (CR S5383-5393)",
    "core": "Motion to proceed to consideration of measure agreed to in Senate by Yea-Nay Vote. 62 - 21",
    "code": null,
    "source": "Senate",
@@ -410,7 +410,7 @@
   {
    "order": 20,
    "date": "2026-11-10",
-   "text": "Measure laid before Senate by motion.",
+   "text": "Measure laid before Senate by motion. (CR S5383-5393)",
    "core": "Measure laid before Senate by motion",
    "code": null,
    "source": "Senate",
@@ -445,6 +445,46 @@
    "qualified": null,
    "lead": false,
    "emoji": null,
+   "vote": null
+  },
+  {
+   "order": 22,
+   "date": "2026-11-11",
+   "text": "Considered by Senate. (consideration: CR S5567-5568)",
+   "core": "Considered by Senate",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null,
+   "key": "1-1c1e74692dd16ed0",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
+  },
+  {
+   "order": 23,
+   "date": "2026-11-11",
+   "text": "Cloture motion on the measure presented in Senate. (CR S5568)",
+   "core": "Cloture motion on the measure presented in Senate",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": "cloture_filed",
+   "label": "Cloture motion filed",
+   "tally": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-444988a315bda322",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "⏱️",
    "vote": null
   }
  ]

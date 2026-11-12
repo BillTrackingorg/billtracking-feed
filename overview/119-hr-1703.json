@@ -1,0 +1,32 @@
+{
+  "checked": "2026-11-12",
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsif00",
+      "name": "Energy and Commerce"
+    },
+    {
+      "chamber": "House",
+      "code": "hswm00",
+      "name": "Ways and Means"
+    },
+    {
+      "chamber": "Senate",
+      "code": "ssfi00",
+      "name": "Finance"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. John Joyce (R-PA)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-02-27"
+  },
+  "status": {
+    "closed": true,
+    "how": "law",
+    "on": "2026-11-10"
+  },
+  "v": 1
+}

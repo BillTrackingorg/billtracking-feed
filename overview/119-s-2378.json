@@ -1,0 +1,20 @@
+{
+  "checked": "2026-11-10",
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "sscm00",
+      "name": "Commerce, Science, and Transportation"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Jerry Moran (R-KS)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-07-22"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

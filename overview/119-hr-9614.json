@@ -1,0 +1,25 @@
+{
+  "checked": "2026-11-10",
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsif00",
+      "name": "Energy and Commerce"
+    },
+    {
+      "chamber": "Senate",
+      "code": "ssga00",
+      "name": "Homeland Security and Governmental Affairs"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Robert Menendez (D-NJ)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-07-09"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

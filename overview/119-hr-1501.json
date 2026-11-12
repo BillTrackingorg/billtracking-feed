@@ -1,0 +1,25 @@
+{
+  "checked": "2026-11-08",
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsii00",
+      "name": "Natural Resources"
+    },
+    {
+      "chamber": "Senate",
+      "code": "ssga00",
+      "name": "Homeland Security and Governmental Affairs"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Jefferson Shreve (R-IN)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-02-21"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

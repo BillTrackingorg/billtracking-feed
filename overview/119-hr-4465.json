@@ -1,0 +1,25 @@
+{
+  "checked": "2026-11-08",
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsju00",
+      "name": "Judiciary"
+    },
+    {
+      "chamber": "Senate",
+      "code": "ssju00",
+      "name": "Judiciary"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Derek Schmidt (R-KS)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-07-16"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

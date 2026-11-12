@@ -1,0 +1,20 @@
+{
+  "checked": "2026-11-09",
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "sscm00",
+      "name": "Commerce, Science, and Transportation"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Maria Cantwell (D-WA)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-01-27"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

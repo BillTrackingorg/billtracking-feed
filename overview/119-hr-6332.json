@@ -1,0 +1,25 @@
+{
+  "checked": "2026-10-23",
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsgo00",
+      "name": "Oversight and Government Reform"
+    },
+    {
+      "chamber": "Senate",
+      "code": "ssga00",
+      "name": "Homeland Security and Governmental Affairs"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. James Walkinshaw (D-VA)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-12-01"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

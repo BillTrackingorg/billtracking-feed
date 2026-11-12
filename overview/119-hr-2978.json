@@ -1,0 +1,25 @@
+{
+  "checked": "2026-11-08",
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsju00",
+      "name": "Judiciary"
+    },
+    {
+      "chamber": "House",
+      "code": "hsba00",
+      "name": "Financial Services"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Zachary Nunn (R-IA)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-04-21"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

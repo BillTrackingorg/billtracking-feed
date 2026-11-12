@@ -1,0 +1,16 @@
+{
+  "checked": "2026-11-09",
+  "committees": [],
+  "congress": 119,
+  "lead": "Sen. Ashley Moody (R-FL)",
+  "start": {
+    "kind": "submitted",
+    "on": "2026-09-22"
+  },
+  "status": {
+    "closed": true,
+    "how": "agreed",
+    "on": "2026-09-22"
+  },
+  "v": 1
+}

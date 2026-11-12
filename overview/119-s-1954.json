@@ -1,0 +1,20 @@
+{
+  "checked": "2026-11-08",
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "sshr00",
+      "name": "Health, Education, Labor, and Pensions"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Mike Lee (R-UT)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-06-04"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

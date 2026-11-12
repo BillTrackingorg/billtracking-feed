@@ -1,0 +1,20 @@
+{
+  "checked": "2026-11-12",
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hswm00",
+      "name": "Ways and Means"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Lloyd Smucker (R-PA)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-03-25"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

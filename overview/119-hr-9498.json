@@ -1,0 +1,25 @@
+{
+  "checked": "2026-11-08",
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hswm00",
+      "name": "Ways and Means"
+    },
+    {
+      "chamber": "Senate",
+      "code": "ssfi00",
+      "name": "Finance"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. W. Steube (R-FL)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-06-29"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

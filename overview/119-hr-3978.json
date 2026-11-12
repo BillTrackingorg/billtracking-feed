@@ -1,0 +1,20 @@
+{
+  "checked": "2026-11-12",
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsif00",
+      "name": "Energy and Commerce"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Robert Latta (R-OH)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-06-12"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

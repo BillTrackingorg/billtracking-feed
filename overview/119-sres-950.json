@@ -1,0 +1,22 @@
+{
+  "checked": "2026-11-11",
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "ssju00",
+      "name": "Judiciary"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Susan Collins (R-ME)",
+  "start": {
+    "kind": "submitted",
+    "on": "2026-10-15"
+  },
+  "status": {
+    "closed": true,
+    "how": "agreed",
+    "on": "2026-11-10"
+  },
+  "v": 1
+}

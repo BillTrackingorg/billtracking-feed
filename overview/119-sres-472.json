@@ -1,0 +1,22 @@
+{
+  "checked": "2026-11-12",
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "ssfr00",
+      "name": "Foreign Relations"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Roger Wicker (R-MS)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-10-29"
+  },
+  "status": {
+    "closed": true,
+    "how": "agreed",
+    "on": "2026-11-10"
+  },
+  "v": 1
+}

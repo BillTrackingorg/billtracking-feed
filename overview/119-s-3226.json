@@ -1,0 +1,20 @@
+{
+  "checked": "2026-11-12",
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "ssga00",
+      "name": "Homeland Security and Governmental Affairs"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Mike Crapo (R-ID)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-11-19"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

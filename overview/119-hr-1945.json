@@ -1,0 +1,22 @@
+{
+  "checked": "2026-11-12",
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsii00",
+      "name": "Natural Resources"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Robert Onder (R-MO)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-03-06"
+  },
+  "status": {
+    "closed": true,
+    "how": "law",
+    "on": "2026-11-10"
+  },
+  "v": 1
+}

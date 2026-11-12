@@ -1,0 +1,15 @@
+{
+  "committees": [],
+  "congress": 119,
+  "lead": "Sen. Joni Ernst (R-IA)",
+  "start": {
+    "kind": "submitted",
+    "on": "2026-11-11"
+  },
+  "status": {
+    "closed": true,
+    "how": "agreed",
+    "on": "2026-11-11"
+  },
+  "v": 1
+}

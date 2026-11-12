@@ -1,0 +1,20 @@
+{
+  "checked": "2026-11-08",
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "ssfr00",
+      "name": "Foreign Relations"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Ted Cruz (R-TX)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-10-20"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

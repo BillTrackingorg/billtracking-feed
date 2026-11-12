@@ -1,0 +1,28 @@
+{
+  "checked": "2026-11-08",
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsii00",
+      "name": "Natural Resources"
+    },
+    {
+      "chamber": "Senate",
+      "code": "sseg00",
+      "name": "Energy and Natural Resources"
+    }
+  ],
+  "congress": 119,
+  "law": "Public Law 119-105",
+  "lead": "Rep. James Comer (R-KY)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-02-13"
+  },
+  "status": {
+    "closed": true,
+    "how": "law",
+    "on": "2026-09-11"
+  },
+  "v": 1
+}

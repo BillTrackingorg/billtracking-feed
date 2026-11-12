@@ -1,0 +1,25 @@
+{
+  "checked": "2026-11-08",
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsha00",
+      "name": "House Administration"
+    },
+    {
+      "chamber": "House",
+      "code": "hsgo00",
+      "name": "Oversight and Government Reform"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Stephanie Bice (R-OK)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-06-18"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

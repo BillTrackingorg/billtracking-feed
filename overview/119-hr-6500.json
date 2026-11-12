@@ -1,0 +1,23 @@
+{
+  "checked": "2026-10-23",
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hswm00",
+      "name": "Ways and Means"
+    }
+  ],
+  "congress": 119,
+  "law": "Public Law 119-103",
+  "lead": "Rep. Jason Smith (R-MO)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-12-09"
+  },
+  "status": {
+    "closed": true,
+    "how": "law",
+    "on": "2026-09-02"
+  },
+  "v": 1
+}
