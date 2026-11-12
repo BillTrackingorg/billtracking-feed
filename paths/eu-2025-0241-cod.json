@@ -5,12 +5,12 @@
  "year": "2025",
  "number": "0241",
  "ptype": "COD",
- "built_at": "2026-10-28T18:57:35+00:00",
+ "built_at": "2026-11-12T01:03:52+00:00",
  "source": "oeil-key-events",
  "source_count": 2,
  "holds_full_record": true,
  "overrides_applied": null,
- "texture_count": 23,
+ "texture_count": 24,
  "texture_source": "cellar-authority-events",
  "entries": [
   {
@@ -458,6 +458,24 @@
    "subordinate": null,
    "key": "1-9653ee8dc6e401ea",
    "emoji": null
+  },
+  {
+   "order": 25,
+   "date": "2026-10-26",
+   "text": "Partial general approach by the Council",
+   "doc": null,
+   "code": "PART_APPRGEN_byCONSIL",
+   "src": "cellar",
+   "family": "council_general_approach_partial",
+   "label": "Partial general approach by the Council",
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-f8410f48de873614",
+   "emoji": "🧭"
   }
  ]
 }
