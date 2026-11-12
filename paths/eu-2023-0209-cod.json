@@ -5,9 +5,9 @@
  "year": "2023",
  "number": "0209",
  "ptype": "COD",
- "built_at": "2026-11-03T09:38:16+00:00",
+ "built_at": "2026-11-12T01:22:18+00:00",
  "source": "oeil-key-events",
- "source_count": 10,
+ "source_count": 11,
  "holds_full_record": true,
  "overrides_applied": null,
  "texture_count": 14,
@@ -424,6 +424,22 @@
    "subordinate": null,
    "key": "1-911e51f78a45166b",
    "emoji": "🤝"
+  },
+  {
+   "order": 24,
+   "date": "2026-11-05",
+   "text": "Council position published",
+   "doc": "08535/1/2026",
+   "family": "council_position_r1",
+   "label": "Council adopted its 1st-reading position",
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-6e66bba5fa84e3cc",
+   "emoji": "🧭"
   }
  ]
 }

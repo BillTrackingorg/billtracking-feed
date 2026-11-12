@@ -5,9 +5,9 @@
  "year": "2025",
  "number": "0417",
  "ptype": "COD",
- "built_at": "2026-11-04T15:39:24+00:00",
+ "built_at": "2026-11-12T01:22:39+00:00",
  "source": "oeil-key-events",
- "source_count": 7,
+ "source_count": 8,
  "holds_full_record": true,
  "overrides_applied": null,
  "texture_count": 4,
@@ -195,6 +195,22 @@
    "spine": true,
    "subordinate": null,
    "key": "1-f51c86dd542c39c8",
+   "emoji": "🤝"
+  },
+  {
+   "order": 11,
+   "date": "2026-11-04",
+   "text": "Approval in committee of the text agreed at 1st reading interinstitutional negotiations",
+   "doc": "GEDA/A/(2026)006427 PE797.562",
+   "family": "committee_confirms_deal",
+   "label": "Lead committee approved the trilogue deal",
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-1bbd2b82a40fd7c6",
    "emoji": "🤝"
   }
  ]
