@@ -20,6 +20,7 @@ eu-YYYY-MM.jsonl     (prefixed by bot since July 2026, so neither bot can overwr
 us-overrides.jsonl   each bot's public corrections sheet (app docs/CORRECTIONS.md)
 eu-overrides.jsonl
 paths/<ref>.json     per-bill path artifacts, both bots (US since 19 July 2026, EU since 23 July 2026)
+overview/<ref>.json  per-bill facts a bill page opens with, both bots (since 12 November 2026)
 2026-07.jsonl        the first July file from before the prefix, and overrides.jsonl, empty: both
 overrides.jsonl      legacy, read by nothing, kept because nothing published ever leaves
 ```
