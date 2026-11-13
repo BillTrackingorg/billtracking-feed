@@ -1,0 +1,21 @@
+{
+ "committees": [
+  {
+   "code": "AFET",
+   "name": "Foreign Affairs"
+  },
+  {
+   "code": "DEVE",
+   "name": "Development"
+  }
+ ],
+ "lead": "Michael Gahler (EPP) and Robert Biedroń (S&D)",
+ "start": {
+  "kind": "proposed",
+  "on": "2025-07-16"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}

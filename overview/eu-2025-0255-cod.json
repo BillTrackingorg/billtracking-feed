@@ -1,0 +1,21 @@
+{
+ "committees": [
+  {
+   "code": "JURI",
+   "name": "Legal Affairs"
+  },
+  {
+   "code": "LIBE",
+   "name": "Civil Liberties, Justice and Home Affairs"
+  }
+ ],
+ "lead": "Tineke Strik (Greens/EFA) and Jaroslav Bžoch (PfE)",
+ "start": {
+  "kind": "proposed",
+  "on": "2025-09-03"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}

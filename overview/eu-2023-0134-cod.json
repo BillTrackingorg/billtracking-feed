@@ -1,0 +1,17 @@
+{
+ "committees": [
+  {
+   "code": "TRAN",
+   "name": "Transport and Tourism"
+  }
+ ],
+ "lead": "Matteo Ricci (S&D)",
+ "start": {
+  "kind": "proposed",
+  "on": "2023-05-04"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}

@@ -1,0 +1,17 @@
+{
+ "committees": [
+  {
+   "code": "ENVI",
+   "name": "Environment, Climate and Food Safety"
+  }
+ ],
+ "lead": "Ingeborg Ter Laak (EPP)",
+ "start": {
+  "kind": "proposed",
+  "on": "2025-12-10"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}

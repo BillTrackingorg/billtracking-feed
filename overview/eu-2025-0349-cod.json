@@ -1,0 +1,21 @@
+{
+ "committees": [
+  {
+   "code": "ENVI",
+   "name": "Environment, Climate and Food Safety"
+  },
+  {
+   "code": "PECH",
+   "name": "Fisheries"
+  }
+ ],
+ "lead": "Pierfrancesco Maran (S&D) and Mélissa Camara (Greens/EFA)",
+ "start": {
+  "kind": "proposed",
+  "on": "2025-11-17"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}
