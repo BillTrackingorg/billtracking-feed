@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "4930",
- "built_at": "2026-11-12T10:58:10+00:00",
+ "built_at": "2026-11-13T06:36:30+00:00",
  "source_count": 19,
  "holds_full_record": true,
  "entries": [
@@ -310,7 +310,7 @@
   {
    "order": 15,
    "date": "2026-11-10",
-   "text": "Passed Senate without amendment by Unanimous Consent.",
+   "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S5525)",
    "core": "Passed Senate without amendment by Unanimous Consent",
    "code": null,
    "source": "Senate",

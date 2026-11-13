@@ -1,0 +1,29 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsba00",
+      "name": "Financial Services"
+    },
+    {
+      "chamber": "House",
+      "code": "hsag00",
+      "name": "Agriculture"
+    },
+    {
+      "chamber": "Senate",
+      "code": "ssbk00",
+      "name": "Banking, Housing, and Urban Affairs"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. J. Hill (R-AR)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-05-29"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

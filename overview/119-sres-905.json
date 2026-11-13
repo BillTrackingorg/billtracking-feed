@@ -1,0 +1,15 @@
+{
+  "committees": [],
+  "congress": 119,
+  "lead": "Sen. Angus King (I-ME)",
+  "start": {
+    "kind": "submitted",
+    "on": "2026-09-24"
+  },
+  "status": {
+    "closed": true,
+    "how": "agreed",
+    "on": "2026-09-24"
+  },
+  "v": 1
+}

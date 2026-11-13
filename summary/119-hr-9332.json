@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T06:34:36Z",
+  "summary": {
+    "ai": {
+      "fp": "9471f362fc278fd57d16bd7f3fd08d654fc83c0869e78ff194e2e0ce874a2fc5",
+      "model": "claude-haiku-5-5",
+      "text": "The Load Forecasting Enhancement Act would have the Federal Energy Regulatory Commission (FERC) set up regional boards to study how electric utilities predict how much electricity customers will need at a given time, and to recommend the best ways to do that prediction. The goal is to make electric service more reliable and affordable for customers.\n\nFERC would create these boards and chair them, running each one jointly with the state utility commissions in its region. The boards would study the issues involved in good forecasting, identify best practices, and then FERC would recommend to Congress how those practices could be used consistently across states by electric utilities.\n\nThe bill would also change the Public Utility Regulatory Policies Act so that state utility commissions must consider adopting those recommendations.\n\nIn addition, the bill would change the Energy Policy and Conservation Act so that federal help for state energy conservation plans depends on those plans including steps to make electric load forecasting by utilities more accurate, more closely overseen, and more transparent to stakeholders."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Load Forecasting Enhancement Act\nThis bill requires the Federal Energy Regulatory Commission (FERC) to establish regional boards to study and recommend best practices for electric load forecasting, which is the process of predicting the demand for electricity at a particular time. It also requires states to consider adopting the recommendations.\nSpecifically, the bill directs FERC to establish regional boards to study electric load forecasting, chair the boards, and run them jointly with each state public utility commission in the regions. The boards must (1) study issues relevant to identifying best practices for electric load forecasting that enhance the reliability and affordability of electric service to customers, and (2) identify such best practices. FERC must make recommendations to Congress for the consistent use across states of such best practices by electric utilities.\nThe bill also modifies provisions under the Public Utility Regulatory Policies Act to require state public utility commissions to consider adopting those recommendations.\nIt also modifies the Energy Policy and Conservation Act to make federal assistance for state energy conservation plans contingent upon the plan including procedures and programs to improve the accuracy, oversight, and transparency to stakeholders of the forecasting of electric loads by electric utilities.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

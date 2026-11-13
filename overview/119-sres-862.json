@@ -1,0 +1,15 @@
+{
+  "committees": [],
+  "congress": 119,
+  "lead": "Sen. Marsha Blackburn (R-TN)",
+  "start": {
+    "kind": "submitted",
+    "on": "2026-09-17"
+  },
+  "status": {
+    "closed": true,
+    "how": "agreed",
+    "on": "2026-09-17"
+  },
+  "v": 1
+}

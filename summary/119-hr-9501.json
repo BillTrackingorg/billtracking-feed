@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T06:34:45Z",
+  "summary": {
+    "ai": {
+      "fp": "fe92f06b3382ab0e3808f1fe18f30ab701e5919c9736d83b7d6cc1beb99c19f8",
+      "model": "claude-haiku-5-5",
+      "text": "The AI Tax Integrity Act of 2026 would require the Internal Revenue Service to run a pilot program that uses artificial intelligence to find federal tax returns that are wrong.\n\nWhen the pilot program ends, the Government Accountability Office must send a report to Congress. The report must cover three things: the total amount of improper tax refunds or reduced tax bills that resulted from fraud the program caught, the total amount recovered because of the program, and how accurate the artificial intelligence tools were at spotting fraudulent tax returns."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "AI Tax Integrity Act of 2026\nThis bill requires the Internal Revenue Service to establish a pilot program to use artificial intelligence to identify inaccurate federal tax returns. Upon completion of the pilot program, the Government Accountability Office must submit a report to Congress describing the\naggregate amount of improper tax refunds or reduced tax liability attributable to fraud detected by the pilot program,\naggregate amount recovered as a result of the pilot program, and\naccuracy of the artificial intelligence tools used in the pilot program in identifying fraudulent federal tax returns.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

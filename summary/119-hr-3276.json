@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T06:33:43Z",
+  "summary": {
+    "ai": {
+      "fp": "dcb9ace584ac8823732d84d1f6bd03d5910e83fa493a42fdd7de7dc6d6b1463f",
+      "model": "claude-haiku-5-5",
+      "text": "The Local Communities & Bird Habitat Stewardship Act of 2026 would officially establish in law the Urban Bird Treaty Program, which is run by the U.S. Fish and Wildlife Service. The program works with communities to help protect and manage birds that live in cities and towns or pass through them during migration.\n\nUnder the program, grants are handed out by the National Fish and Wildlife Foundation. Recipients can include government agencies, community groups, and universities, and the money is meant to pay for activities that support the program's goals."
+    },
+    "label": "Congressional Research Service, Reported to House",
+    "text": "Local Communities & Bird Habitat Stewardship Act of 2026\nThis bill provides statutory authority for the Urban Bird Treaty Program, which is administered by the U.S. Fish and Wildlife Service. This program works with communities to support conserving and managing birds that live in and migrate through urban areas. This support includes grants administered by the National Fish and Wildlife Foundation and provided to entities including government agencies, community groups, and academic institutions for conducting activities related to the program.",
+    "version": "Reported to House"
+  },
+  "v": 1
+}

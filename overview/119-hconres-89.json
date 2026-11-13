@@ -1,0 +1,24 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsfa00",
+      "name": "Foreign Affairs"
+    },
+    {
+      "chamber": "Senate",
+      "code": "ssfr00",
+      "name": "Foreign Relations"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Pramila Jayapal (D-WA)",
+  "start": {
+    "kind": "submitted",
+    "on": "2026-04-23"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

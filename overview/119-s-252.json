@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "ssga00",
+      "name": "Homeland Security and Governmental Affairs"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Ron Johnson (R-WI)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-01-24"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

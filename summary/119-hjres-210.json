@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T06:34:27Z",
+  "summary": {
+    "ai": {
+      "fp": "e89ef33e738b9b92421a24f57378ceddc2c439f56990342793ebecf193c29097",
+      "model": "claude-haiku-5-5",
+      "text": "This measure cancels the permission that the federal Environmental Protection Agency (EPA) gave to California's Air Resources Board (CARB) to change its rules for ocean-going ships docked at port. Those rules require the ships' auxiliary engines, which run power and other systems while the ship is in port, to produce fewer emissions. The change CARB proposed, and the EPA approved, widened these requirements to cover more types of ocean-going vessels.\n\nUnder the federal Clean Air Act, the EPA can allow California to set and enforce its own standards for emissions from nonroad vehicles and engines, as long as those standards meet certain conditions. The measure specifically cancels the EPA decision titled \"California State Nonroad Engine Pollution Control Standards; Ocean-Going Vessels At-Berth; Notice of Decision.\""
+    },
+    "label": "Congressional Research Service, Passed House",
+    "text": "This joint resolution revokes the authorization granted to the California Air Resources Board (CARB) to amend its Ocean-Going Vessels At-Berth Regulation. Among other elements, the amendment proposed by CARB and authorized by the Environmental Protection Agency (EPA) expanded auxiliary engine emissions reductions requirements to include additional categories of ocean-going vessels. (Under the Clean Air Act, the EPA may authorize California to adopt and enforce standards relating to the control of emissions from nonroad vehicles or engines if those standards meet certain requirements.)\nSpecifically, the joint resolution nullifies the EPA authorization decision titled California State Nonroad Engine Pollution Control Standards; Ocean-Going Vessels At-Berth; Notice of Decision.",
+    "version": "Passed House"
+  },
+  "v": 1
+}

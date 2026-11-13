@@ -1,0 +1,27 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsif00",
+      "name": "Energy and Commerce"
+    },
+    {
+      "chamber": "Senate",
+      "code": "sseg00",
+      "name": "Energy and Natural Resources"
+    }
+  ],
+  "congress": 119,
+  "law": "Public Law 119-112",
+  "lead": "Rep. Kim Schrier (D-WA)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-05-29"
+  },
+  "status": {
+    "closed": true,
+    "how": "law",
+    "on": "2026-09-25"
+  },
+  "v": 1
+}

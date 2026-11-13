@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "sscm00",
+      "name": "Commerce, Science, and Transportation"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Ted Cruz (R-TX)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-02-25"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

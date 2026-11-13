@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T06:34:29Z",
+  "summary": {
+    "ai": {
+      "fp": "4a1ac7c20d7eb3a5fef457d2c24ffe071b74bc793bbef8bd351e3db13c6f01bd",
+      "model": "claude-haiku-5-5",
+      "text": "This bill extends a federal program run by the Environmental Protection Agency through fiscal year 2029. The program helps pay for cleaner diesel engines. It offers grants, rebates, or loans that can go toward replacing old diesel engines or adding pollution-control equipment to existing ones."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Diesel Emissions Reduction Act of 2025\nThis bill reauthorizes through FY2029 a diesel emissions reduction program under which the Environmental Protection Agency provides grants, rebates, or loans for replacing diesel engines or retrofitting the engines with pollution control technologies.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

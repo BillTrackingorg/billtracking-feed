@@ -1,0 +1,21 @@
+{
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "ssju00",
+      "name": "Judiciary"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Jacky Rosen (D-NV)",
+  "start": {
+    "kind": "submitted",
+    "on": "2026-02-12"
+  },
+  "status": {
+    "closed": true,
+    "how": "agreed",
+    "on": "2026-07-29"
+  },
+  "v": 1
+}

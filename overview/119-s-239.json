@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "slia00",
+      "name": "Indian Affairs"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Steve Daines (R-MT)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-01-24"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

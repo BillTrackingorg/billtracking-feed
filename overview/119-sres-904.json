@@ -1,0 +1,15 @@
+{
+  "committees": [],
+  "congress": 119,
+  "lead": "Sen. Cindy Hyde-Smith (R-MS)",
+  "start": {
+    "kind": "submitted",
+    "on": "2026-09-24"
+  },
+  "status": {
+    "closed": true,
+    "how": "agreed",
+    "on": "2026-09-24"
+  },
+  "v": 1
+}

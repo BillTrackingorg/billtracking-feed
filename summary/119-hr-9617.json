@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T06:34:48Z",
+  "summary": {
+    "ai": {
+      "fp": "242db2f71e91ee5d2b16aab26e5e69d9ccfa2b6faeb362df4ed19ab0cb57c72a",
+      "model": "claude-haiku-5-5",
+      "text": "This bill, the Coordinating and Harnessing America's Recovery of Minerals Act (the CHARM Act), would require the Environmental Protection Agency (EPA) to create and carry out a national plan for recovering critical minerals from discarded materials. Critical minerals are those the U.S. Geological Survey has labeled as critical because they are essential to the nation's economy or security, their supply chains are vulnerable, and they play an essential role in making a product.\n\nThe EPA would also have to report to Congress every two years on what it has done, what it plans to do, and what it recommends regarding this national strategy."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Coordinating and Harnessing America’s Recovery of Minerals Act or the CHARM Act\nThis bill requires the Environmental Protection Agency (EPA) to establish and carry out a national strategy for recovering critical minerals from discarded materials. Critical minerals are defined as any mineral, element, substance, or material designated as critical by the U.S. Geological Survey because it is essential to U.S. economic or national security, has a vulnerable supply chain, and serves an essential function in manufacturing a product.\nThe EPA must report to Congress every two years on its actions, plans, and recommendations relating to the national strategy.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

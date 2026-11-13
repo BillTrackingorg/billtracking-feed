@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T06:33:36Z",
+  "summary": {
+    "ai": {
+      "fp": "b03428abfb3403382d63a7920c22de2655e690dd777dfa2dcf11fbb266f7a71f",
+      "model": "claude-haiku-5-5",
+      "text": "This bill renews the authority of the National Emergency Medical Services Memorial Foundation to build a monument in Washington, DC, honoring the dedication and service of emergency medical workers. That permission ends seven years after the bill becomes law."
+    },
+    "label": "Congressional Research Service, Reported to House",
+    "text": "National Emergency Medical Services Memorial Extension Act\nThis bill reauthorizes the National Emergency Medical Services Memorial Foundation to establish in Washington, DC, a monument to commemorate the commitment and service represented by emergency medical services. This authorization expires seven years after enactment of the bill.",
+    "version": "Reported to House"
+  },
+  "v": 1
+}

@@ -1,0 +1,24 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsii00",
+      "name": "Natural Resources"
+    },
+    {
+      "chamber": "Senate",
+      "code": "ssev00",
+      "name": "Environment and Public Works"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Debbie Dingell (D-MI)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-05-08"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T06:35:21Z",
+  "summary": {
+    "ai": {
+      "fp": "171f15bf6f896c1423aba76a394309c4113d4c06322adb4119d79de13e3c855b",
+      "model": "claude-haiku-5-5",
+      "text": "This bill would let Congress reject several regulations at once with a single joint resolution, as long as those regulations were sent for review during part of a President's final year in office. Right now, under the Congressional Review Act, regulations submitted during the last 60 legislative days of a Congress can get an extra review period in the next Congress, but each joint resolution can only reject one regulation."
+    },
+    "label": "Congressional Research Service, Introduced in Senate",
+    "text": "Midnight Rules Relief Act of 2025\nThis bill allows Congress to disapprove multiple regulations under one joint resolution of disapproval if the regulations were submitted for review during a portion of the final year of a President's term.\nUnder current law, the Congressional Review Act generally provides for a period of additional review during the succeeding Congress for regulations that were submitted during the last 60 legislative days of the prior Congress. However, each joint resolution may disapprove of only one regulation.",
+    "version": "Introduced in Senate"
+  },
+  "v": 1
+}

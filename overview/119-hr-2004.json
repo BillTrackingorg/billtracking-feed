@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsif00",
+      "name": "Energy and Commerce"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Ted Lieu (D-CA)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-03-10"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

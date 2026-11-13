@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "sscm00",
+      "name": "Commerce, Science, and Transportation"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Gary Peters (D-MI)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-12-09"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsvr00",
+      "name": "Veterans' Affairs"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Jack Bergman (R-MI)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-02-25"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

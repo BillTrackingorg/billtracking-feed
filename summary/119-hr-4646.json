@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T06:34:32Z",
+  "summary": {
+    "ai": {
+      "fp": "74db0db0894f1a091e6d80a58e87fcd89b348e913a5249933bfeb3f799a73f2f",
+      "model": "claude-haiku-5-5",
+      "text": "This bill would extend whistleblower protections to more workers who are employed under contracts and grants funded by the Department of Housing and Urban Development (HUD). Under current law, employees of federal contractors and grant recipients are protected from being fired, demoted, or otherwise discriminated against for reporting certain misconduct involving federal contracts, grants, or funds to Congress or another appropriate official. However, these protections only cover contracts and grants that were signed or changed after the law took effect in 2013.\n\nThe bill would remove that date limit for HUD-funded work. Its protections would apply to HUD contracts and grants signed before the law was enacted, as well as those signed afterward."
+    },
+    "label": "Congressional Research Service, Reported to House",
+    "text": "Whistleblower Protection Act of 2025\nThis bill expands existing whistleblower protections for employees of federal contractors or grant recipients to apply to all contracts and grants funded by the Department of Housing and Urban Development (HUD) regardless of the date of execution.\nCurrent law protects employees of federal contractors or grant recipients from a reprisal (i.e., discharge, demotion, or discrimination) for disclosing evidence to Congress or another appropriate official of certain misconduct involving federal contracts, grants, or funds. This provision currently applies only to contracts and grants signed or modified after the law took effect in 2013. The bill expands these protections to apply to HUD contracts and grants signed before the law was enacted.",
+    "version": "Reported to House"
+  },
+  "v": 1
+}

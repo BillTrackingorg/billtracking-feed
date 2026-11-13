@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T06:34:40Z",
+  "summary": {
+    "ai": {
+      "fp": "99c52e0ce61eac62a26501a5a8c9c6bce63f5a3cc363426008c56133cd6083fc",
+      "model": "claude-haiku-5-5",
+      "text": "The Protecting Taxpayers from Ghost Preparers Act would limit how long the Internal Revenue Service (IRS) can go back to collect taxes from a fraudulent or false federal tax return when the taxpayer did not intend to evade taxes.\n\nNormally, the IRS has three years from the date a tax return is filed to assess the taxes owed for that tax year. But if a false or fraudulent return is filed with the intent to evade taxes, the IRS can assess taxes at any time. Courts have disagreed about what counts as this exception. In Murrin v. Commissioner, the U.S. Tax Court, with the U.S. Court of Appeals for the Third Circuit agreeing, ruled that the exception applies when a tax return preparer puts false or fraudulent entries on a return without the taxpayer knowing. In BASR Partnership v. Commissioner, the U.S. Court of Federal Claims ruled that the exception applies only if the taxpayer intended to evade taxes.\n\nThe bill would settle this disagreement by limiting the fraud exception to cases where the taxpayer intends to evade taxes."
+    },
+    "label": "Congressional Research Service, Passed House",
+    "text": "Protecting Taxpayers from Ghost Preparers Act\nThis bill limits the amount of time the Internal Revenue Service (IRS) has to assess taxes related to fraudulent or false federal tax returns where there is no intent by the taxpayer to evade taxes.\nAs background, the IRS generally has three years from the date that a tax return is filed (statute of limitations) to assess taxes owed by the taxpayer for the tax year. However, if a false or fraudulent tax return is filed with the intent to evade tax (fraud exception), then the IRS may assess taxes at any time. In Murrin v. Commissioner the U.S. Tax Court held (and the U.S. Court of Appeals for the Third Circuit affirmed) that the fraud exception applies when a tax return preparer places false or fraudulent entries on a tax return without the taxpayer’s knowledge. In contrast, the U.S. Court of Federal Claims held in BASR Partnership v. Commissioner that the fraud exception only applies if the taxpayer intends to evade taxes.\nThe bill limits the fraud exception to cases in which the taxpayer intends to evade taxes.",
+    "version": "Passed House"
+  },
+  "v": 1
+}

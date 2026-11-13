@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T06:33:45Z",
+  "summary": {
+    "ai": {
+      "fp": "c36d0a994a84c671327f9a6f15075772a0ee78e0c9b9419fb95650189e4cba09",
+      "model": "claude-haiku-5-5",
+      "text": "The Safe Beaches, Safe Swimmers Act would require the government to keep enough lifeguards on duty at federally managed swimming areas and beaches that are normally watched by federal lifeguards during their regular seasonal hours. These areas are managed by the National Park Service, the U.S. Fish and Wildlife Service, the Bureau of Land Management, or the Bureau of Reclamation.\n\nIf the Department of the Interior finds that a shortage of federal lifeguards would leave one of these swimming areas or beaches without a lifeguard during its normal season, the department may make an agreement with local government agencies to provide lifeguards instead. The department must pay the local agency back for all reasonable costs it incurs under that agreement.\n\nThe bill does not cover short-term shortages caused by temporary absences, such as an employee taking annual or sick leave."
+    },
+    "label": "Congressional Research Service, Reported to House",
+    "text": "Safe Beaches, Safe Swimmers Act\nThis bill establishes requirements to ensure an adequate staff of lifeguards at swimming areas and swimming beaches managed by the National Park Service, the U.S. Fish and Wildlife Service, the Bureau of Land Management, or the Bureau of Reclamation that are typically monitored by federally employed lifeguards during normal seasonal operating hours.\nIf the Department of the Interior determines there is a staffing shortage of lifeguards that will leave a swimming area or beach unmonitored by federally employed lifeguards during normal seasonal operating hours, Interior may enter into an agreement with local government agencies to provide lifeguards. Interior must ensure that a local government agency providing lifeguard services is reimbursed for all reasonable costs it incurred in carrying out the agreement.\nThe bill does not apply to short-term staffing shortages caused by temporary absences, such as an employee taking annual or sick leave.",
+    "version": "Reported to House"
+  },
+  "v": 1
+}

@@ -1,0 +1,24 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsju00",
+      "name": "Judiciary"
+    },
+    {
+      "chamber": "Senate",
+      "code": "ssju00",
+      "name": "Judiciary"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Erin Houchin (R-IN)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-06-08"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

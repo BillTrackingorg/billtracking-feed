@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T06:33:33Z",
+  "summary": {
+    "ai": {
+      "fp": "9ba918191221dfb77b4c560c8c30c3a7696a88edd5fc7a2243a824e3dacc3039",
+      "model": "claude-haiku-5-5",
+      "text": "This bill would name the outdoor amphitheater at the Blue Ridge Music Center, at 700 Foothills Road in Galax, Virginia, the Rick Boucher Amphitheater."
+    },
+    "label": "Congressional Research Service, Reported to Senate",
+    "text": "This bill designates the outdoor amphitheater at the Blue Ridge Music Center, located at 700 Foothills Road in Galax, Virginia, as the Rick Boucher Amphitheater.",
+    "version": "Reported to Senate"
+  },
+  "v": 1
+}

@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T06:33:51Z",
+  "summary": {
+    "ai": {
+      "fp": "ff5cb8089dedde5c8a978c7bc4df6faa50f4fdedba92a1ed8a70fb59204911eb",
+      "model": "claude-haiku-5-5",
+      "text": "This bill would abolish the Advisory Committee on the Records of Congress 60 days after it becomes law.\n\nIt also requires the Center for Legislative Archives, part of the National Archives and Records Administration, to prepare a yearly report on how Congress's records were managed and preserved over the previous year. That report would go to the National Archives, the Senate, and the House of Representatives.\n\nIn addition, the Archivist, the Secretary of the Senate, and the Clerk of the House of Representatives would meet regularly to review how Congress's records are managed and preserved."
+    },
+    "label": "Congressional Research Service, Reported to House",
+    "text": "Advisory Committee on the Records of Congress Sunset Act\nThis bill eliminates the Advisory Committee on the Records of Congress 60 days after the bill's enactment.\nUnder the bill, the Center for Legislative Archives of the National Archives and Records Administration (NARA) must provide an annual report on the management and preservation of the records of Congress during the previous year to NARA, the Senate, and the House of Representatives.\nThe Archivist, the Secretary of the Senate, and the Clerk of the House of Representatives must regularly meet to review the management and preservation of the records of Congress.",
+    "version": "Reported to House"
+  },
+  "v": 1
+}

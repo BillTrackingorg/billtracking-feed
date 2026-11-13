@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hres",
  "billNumber": "1650",
- "built_at": "2026-11-12T10:58:11+00:00",
+ "built_at": "2026-11-13T06:36:31+00:00",
  "source_count": 12,
  "holds_full_record": true,
  "entries": [
@@ -70,7 +70,7 @@
   {
    "order": 3,
    "date": "2026-11-10",
-   "text": "Considered as privileged matter.",
+   "text": "Considered as privileged matter. (consideration: CR H6122-6126)",
    "core": "Considered as privileged matter",
    "code": "H30000",
    "source": "House floor actions",
@@ -130,7 +130,7 @@
   {
    "order": 6,
    "date": "2026-11-10",
-   "text": "Considered as unfinished business.",
+   "text": "Considered as unfinished business. (consideration: CR H6133-6134)",
    "core": "Considered as unfinished business",
    "code": "H30000",
    "source": "House floor actions",
@@ -150,7 +150,7 @@
   {
    "order": 7,
    "date": "2026-11-10",
-   "text": "On ordering the previous question Agreed to by the Yeas and Nays: 213 - 207 (Roll no. 318).",
+   "text": "On ordering the previous question Agreed to by the Yeas and Nays: 213 - 207 (Roll no. 318). (consideration: CR H6133)",
    "core": "On ordering the previous question Agreed to by the Yeas and Nays: 213 - 207",
    "code": "H35000",
    "source": "House floor actions",
@@ -190,7 +190,7 @@
   {
    "order": 9,
    "date": "2026-11-10",
-   "text": "On agreeing to the resolution Agreed to by recorded vote: 215 - 209 (Roll no. 319).",
+   "text": "On agreeing to the resolution Agreed to by recorded vote: 215 - 209 (Roll no. 319). (text: CR H6122-6123)",
    "core": "On agreeing to the resolution Agreed to by recorded vote: 215 - 209",
    "code": "H37100",
    "source": "House floor actions",

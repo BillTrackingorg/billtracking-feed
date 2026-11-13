@@ -1,0 +1,21 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsru00",
+      "name": "Rules"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. H. Griffith (R-VA)",
+  "start": {
+    "kind": "reported",
+    "on": "2026-11-09"
+  },
+  "status": {
+    "closed": true,
+    "how": "agreed",
+    "on": "2026-11-10"
+  },
+  "v": 1
+}

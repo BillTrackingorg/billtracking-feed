@@ -1,0 +1,24 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hswm00",
+      "name": "Ways and Means"
+    },
+    {
+      "chamber": "Senate",
+      "code": "ssfi00",
+      "name": "Finance"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Blake Moore (R-UT)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-08-08"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

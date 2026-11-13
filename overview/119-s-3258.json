@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "sscm00",
+      "name": "Commerce, Science, and Transportation"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Tammy Duckworth (D-IL)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-11-20"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

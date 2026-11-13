@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hssm00",
+      "name": "Small Business"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Pete Stauber (R-MN)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-07-22"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

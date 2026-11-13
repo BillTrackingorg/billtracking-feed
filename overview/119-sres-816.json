@@ -1,0 +1,21 @@
+{
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "ssfr00",
+      "name": "Foreign Relations"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Steve Daines (R-MT)",
+  "start": {
+    "kind": "submitted",
+    "on": "2026-07-23"
+  },
+  "status": {
+    "closed": true,
+    "how": "agreed",
+    "on": "2026-09-17"
+  },
+  "v": 1
+}

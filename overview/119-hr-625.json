@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsju00",
+      "name": "Judiciary"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Michael McCaul (R-TX)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-01-22"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

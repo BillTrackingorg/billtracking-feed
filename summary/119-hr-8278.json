@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T06:34:35Z",
+  "summary": {
+    "ai": {
+      "fp": "e8a46603cd92f65deecce6502505b817d244cda1829873208b6b22dea8cacbbd",
+      "model": "claude-haiku-5-5",
+      "text": "The Fostering the Use of Technology to Uphold Regulatory Effectiveness in Supervision Act would require several federal financial agencies to examine their technology and how they buy it. The agencies covered are the Federal Reserve Board, the Consumer Financial Protection Bureau, the Federal Deposit Insurance Corporation, the Department of the Treasury, the Office of the Comptroller of the Currency, the Financial Crimes Enforcement Network, the Federal Housing Finance Agency, and the National Credit Union Administration.\n\nEach agency would have to review the technology it uses now and whether that technology lets it carry out real-time supervisory checks on the entities it oversees.\n\nThe agencies would also have to review the rules and procedures they follow when they acquire or build new technology systems, and identify any ways to make those procedures more efficient.\n\nEvery five years, each agency would report to the specified congressional committees. The reports would cover, among other things, the technology used in supervisory checks and any planned upgrades, how the agency buys technology, the make-up of its workforce that develops technology, and how it shares data."
+    },
+    "label": "Congressional Research Service, Reported to House",
+    "text": "Fostering the Use of Technology to Uphold Regulatory Effectiveness in Supervision Act\nThis bill requires specified federal financial agencies to assess their technological capabilities and procurement practices.\nSpecifically, agencies (the Federal Reserve Board, the Consumer Financial Protection Bureau, the Federal Deposit Insurance Corporation, the Department of the Treasury, the Office of the Comptroller of the Currency, the Financial Crimes Enforcement Network, the Federal Housing Finance Agency, and the National Credit Union Administration) must assess the technology used by the agency and its capabilities to conduct real-time supervisory assessments of entities over which the agency has supervisory authority.\nAdditionally, the agencies must assess the applicable procurement rules and protocols when acquiring or developing new technological systems and identify any opportunities to streamline these procedures.\nEvery five years, these agencies must report to specified congressional committees. Among other topics, the report must contain an overview of the technology used in supervisory assessments and any anticipated upgrades, a description of procurement practices, an overview of the agency’s technology development workforce, and details regarding data sharing procedures.",
+    "version": "Reported to House"
+  },
+  "v": 1
+}

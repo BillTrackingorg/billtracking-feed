@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T06:34:46Z",
+  "summary": {
+    "ai": {
+      "fp": "9211b307018341800a53ac27867b69f87282620bfba3a67412ed338f094b61ff",
+      "model": "claude-haiku-5-5",
+      "text": "The EMRTAI Authorization Act of 2026 creates a program within the Environmental Protection Agency to recover critical materials from contaminated sites. It applies to two kinds of materials: any non-fuel mineral, element, substance, or material that the Department of Energy determines has a high risk of supply chain disruption and serves an essential function in energy technologies, and any mineral designated as critical by the U.S. Geological Survey.\n\nUnder the program, the EPA must investigate, evaluate, and support methods and systems that can find where these critical materials are at contaminated sites and recover them. The EPA may provide assistance, such as awards, to individuals, nonprofit organizations, and state, local, and tribal governments to carry out this work.\n\nThe law sets spending limits. The EPA may not provide more than $10 million in assistance in any fiscal year in total, and it may not give any single person, nonprofit organization, or government entity more than $3 million.\n\nThe program ends after 10 years."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Environmental Monitoring and Remediation Technology Assessment Initiative Authorization Act of 2026 or the EMRTAI Authorization Act of 2026\nThis provides statutory authority for an initiative within the Environmental Protection Agency (EPA) that recovers critical materials from contaminated sites.\nA critical material means (1) any non-fuel mineral, element, substance, or material that the Department of Energy determines has a high risk of a supply chain disruption and serves an essential function in energy technologies; and (2) any critical mineral. A critical mineral means any mineral, element, substance, or material designated as critical by the U.S. Geological Survey.\nUnder the program, the EPA must investigate, evaluate, and support processes, methods, and systems which may be used to identify sources of critical materials at contaminated sites and recover such critical materials from those sites. In carrying out the program, the EPA may provide assistance (e.g., awards) to persons, nonprofit organizations, and state, local, and tribal government entities.\nThe bill prohibits the EPA from providing assistance (1) in an amount that exceeds $10 million in any fiscal year in the aggregate; or (2) to any person, nonprofit organization, or government entity, in an amount that exceeds $3 million.\nThe bill terminates the program after 10 years.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "slia00",
+      "name": "Indian Affairs"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Mike Rounds (R-SD)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-03-13"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

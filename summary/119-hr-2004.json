@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T06:34:28Z",
+  "summary": {
+    "ai": {
+      "fp": "26c75d2e8427a0c797f496ce3af353c9ab5f1503a1c86396360667026468dd68",
+      "model": "claude-haiku-5-5",
+      "text": "The Tyler's Law bill would require the Department of Health and Human Services to carry out a study, to be finished within one year of the bill becoming law. The study would look at how often hospital emergency departments that take Medicare patients test people for fentanyl when they come in with an overdose, what that testing costs, and how it might affect patients.\n\nWithin six months after the study is finished, and based on what it finds, HHS would have to issue guidance on three things. The first is whether emergency departments should make fentanyl testing a standard part of care for overdose patients. The second is how to make sure doctors and other clinicians know which substances a routine drug test is looking for. The third is how fentanyl testing might affect a patient's future risk of overdose and other health outcomes."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Tyler’s Law\nThis bill requires the Department of Health and Human Services (HHS) to complete, within one year after the bill’s enactment, a study on how frequently Medicare-participating hospital emergency departments test for fentanyl in patients experiencing an overdose, the costs associated with such testing, and how such testing may impact patients.\nWithin six months after the study’s completion and based on its results, HHS must issue guidance regarding (1) whether hospital emergency departments should implement fentanyl testing as a routine procedure for patients experiencing an overdose, (2) how to ensure clinicians know which substances they are testing for in routine drug tests, and (3) how fentanyl testing may affect the future risk of overdose and other health outcomes.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}
