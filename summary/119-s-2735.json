@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T12:09:04Z",
+  "summary": {
+    "ai": {
+      "fp": "5a164b258b09b62f065d89ca34632c123f23712d29776f2e11f68ffa3cc26d0d",
+      "model": "claude-haiku-5-5",
+      "text": "This bill would place about 265 acres of land in El Dorado County, California, into trust for the Shingle Springs Band of Miwok Indians. Under the bill, the land would become part of the tribe's reservation.\n\nThe bill first cancels a specific public land order that had set aside the land for use by the Forest Service as an experiment station. It then moves that land from the Forest Service to the Department of the Interior.\n\nThe land being placed in trust comes from two sources. About 80 acres are federal land managed by the Interior Department's Bureau of Land Management, which includes the land transferred from the Forest Service. The other 185 acres are land the tribe already owns outright.\n\nThe bill also prohibits gaming on the land taken into trust."
+    },
+    "label": "Congressional Research Service, Introduced in Senate",
+    "text": "Shingle Springs Band of Miwok Indians Land Transfer Act of 2025\nThis bill takes approximately 265 acres of specified lands in El Dorado County, California, into trust for the benefit of the Shingle Springs Band of Miwok Indians.\nThe bill revokes a specified public land order and administratively transfers the land from the Forest Service to the Department of the Interior. (In the public land order, the land was designated for use by the Forest Service as an experiment station.)\nThe bill directs Interior to take the following lands into trust for the benefit of the tribe: (1) approximately 80 acres of federal land managed by Interior's Bureau of Land Management (which includes the land transferred from the Forest Service), and (2) approximately 185 acres of fee land held by the tribe. These combined lands, approximately 265 acres, shall be part of the tribe's reservation. Further, the bill prohibits gaming on the land taken into trust.",
+    "version": "Introduced in Senate"
+  },
+  "v": 1
+}

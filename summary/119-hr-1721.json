@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T12:09:54Z",
+  "summary": {
+    "ai": {
+      "fp": "e527befc3cfc0f89d42ea326a316494abc672d56ee3e28f2c03ca1ccd70b988d",
+      "model": "claude-haiku-5-5",
+      "text": "This bill asks the Department of Commerce to study products that are in high demand across the sectors the country depends on most, such as national security, the economy, public health, and public safety. These are called critical infrastructure sectors.\n\nThe study has two parts. First, it must identify which in-demand products in those sectors are being brought in from other countries because of problems with manufacturing, materials, or supply chains. Second, it must look at what it would cost and gain, and how practical it would be, to make those products in the United States."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Critical Infrastructure Manufacturing Feasibility Act\nThis bill requires the Department of Commerce to study and report on products that are in high demand across the critical infrastructure sectors. Critical infrastructure sectors are those whose assets, systems, and networks are vital to national security, the economy, public health or safety, or any combination of those matters.\nThe study must (1) identify the products in high demand across those sectors that are being imported due to manufacturing, material, or supply chain constraints; and (2) analyze the costs, benefits, and feasibility of manufacturing those products in the United States.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

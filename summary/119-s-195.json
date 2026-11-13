@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T12:09:49Z",
+  "summary": {
+    "ai": {
+      "fp": "7d7a8ef95b4489d3c49662a1480711c216eaab42c7dcf2d2c4a96c972bc96b74",
+      "model": "claude-haiku-5-5",
+      "text": "The American Music Tourism Act of 2025 would direct the National Travel and Tourism Office, part of the Department of Commerce, to promote tourism to music and sports attractions. The office would be required to encourage both domestic and international travel to U.S. music festivals, concert venues, and other music-related places. It would also expand its existing work on sports and recreation so that it promotes international travel to those events and activities in the United States. The office must report its activities and findings to Congress within one year of the bill becoming law, and then every two years after that."
+    },
+    "label": "Congressional Research Service, Introduced in Senate",
+    "text": "American Music Tourism Act of 2025\nThis bill directs the National Travel and Tourism Office (NTTO) of the Department of Commerce to promote tourism to music-related and sports attractions.\nThe bill requires NTTO to promote domestic and international travel and tourism to U.S. music festivals, concert venues, and other music-related attractions and locations. The bill also expands NTTO's current mandate to facilitate sports and recreation events and activities to include the promotion of international travel and tourism to such activities in the United States.\nNTTO must report its activities and findings to Congress within one year after the bill's enactment and, thereafter, every two years.",
+    "version": "Introduced in Senate"
+  },
+  "v": 1
+}

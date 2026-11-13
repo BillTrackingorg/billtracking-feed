@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T12:10:01Z",
+  "summary": {
+    "ai": {
+      "fp": "923eced1c9b95cdd1761ba0d21498f9014eb74e973f4babf243f0349f149e08e",
+      "model": "claude-haiku-5-5",
+      "text": "The Enhancing Detection of Human Trafficking Act requires the Department of Labor to train and educate its employees on how to help law enforcement spot human trafficking.\n\nThe Department of Labor decides which employees need this training based on their job duties.\n\nThe training must fit the setting where employees work, reflect current trends and good practices for that setting, and cover how to detect human trafficking, recognize people who may be victims, and pass possible cases on to the Department of Justice and other appropriate authorities."
+    },
+    "label": "Congressional Research Service, Public Law",
+    "text": "Enhancing Detection of Human Trafficking Act\nThis act requires the Department of Labor to provide training and education to its employees on how to effectively assist law enforcement in detecting human trafficking.\nThe act directs Labor to determine which employees should receive the training and education based on their official duties. Further, it requires the training and education to include information that is appropriate for the employees' location or environment; that reflects current trends and best practices for the location or environment; and that is relevant to detecting human trafficking, identifying suspected victims, and referring potential cases to the Department of Justice and other appropriate authorities.",
+    "version": "Public Law"
+  },
+  "v": 1
+}

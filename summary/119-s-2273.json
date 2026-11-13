@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T12:09:33Z",
+  "summary": {
+    "ai": {
+      "fp": "ddee084a4362bdbaffd9d8a2122a7f2ffbca6063c93a4e8d6d416fff92f3e73f",
+      "model": "claude-haiku-5-5",
+      "text": "This bill gives Wyoming more freedom in how it invests the main money in its permanent school fund. Under the change, the state could use the earnings from investing the fund, not just the interest it has been limited to.\n\nThe fund dates back to statehood, when Congress gave certain federal lands to Wyoming to be held in trust for the state. Money raised when those school trust lands are sold, exchanged, or otherwise disposed of goes into the fund to support public schools."
+    },
+    "label": "Congressional Research Service, Introduced in Senate",
+    "text": "Wyoming Education Trust Modernization Act\nThis bill provides Wyoming with more flexibility to invest the principal of its permanent school fund by allowing the state to use earnings generated from investment of the fund rather than only interest.\nBy way of background, Congress created the fund when Wyoming became a state by granting certain federal lands to be held in a trust for the state. Proceeds from school trust land sales, exchanges, or disposals are deposited into the fund to support public schools.",
+    "version": "Introduced in Senate"
+  },
+  "v": 1
+}

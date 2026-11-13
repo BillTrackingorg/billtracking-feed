@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T12:09:23Z",
+  "summary": {
+    "ai": {
+      "fp": "75434223a1b85367cd55e31d817e4c7b1b9cb3cf7846d2090e94a8bd52288b61",
+      "model": "claude-haiku-5-5",
+      "text": "This bill extends the Terrorism Risk Insurance Program through 2034. The program helps cover part of the losses that private insurance companies face when they pay out on property and casualty insurance claims related to terrorism."
+    },
+    "label": "Congressional Research Service, Passed Senate",
+    "text": "Terrorism Risk Insurance Program Reauthorization Act of 2026\nThis bill reauthorizes the Terrorism Risk Insurance Program through 2034. The program covers a portion of the losses incurred by private insurers for property and casualty insurance coverage for terrorism risk.",
+    "version": "Passed Senate"
+  },
+  "v": 1
+}

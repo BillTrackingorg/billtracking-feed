@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T12:09:50Z",
+  "summary": {
+    "ai": {
+      "fp": "abe94d6c0f822a4ba50891fa1168a744dccc5c46c668df579ff35e7994fa0139",
+      "model": "claude-haiku-5-5",
+      "text": "This act asks two federal agencies, NOAA (the National Oceanic and Atmospheric Administration) and NIST (the National Institute of Standards and Technology), to work together on a standard way to figure out which country a seafood product came from. The goal is to help catch illegal, unreported, and unregulated fishing and seafood fraud.\n\nThe agencies must consult with U.S. Customs and Border Protection and the Coast Guard while building this method. It must use chemical analysis to determine where seafood comes from, and it must fit the needs of federal and state law enforcement. The method must include a portable field kit and, as far as practical, work on prepared foods, including raw seafood dishes such as sushi. The agencies must also run pilot studies of the method on red snapper and tuna.\n\nWithin two years of the act becoming law, NIST must report to Congress on the method and on a plan for putting it into use. That report must explain any parts of the method that cannot practically be carried out, whether more research would make them workable, and whether a different approach might work instead."
+    },
+    "label": "Congressional Research Service, Public Law",
+    "text": "Illegal Red Snapper and Tuna Enforcement Act\nThis act directs the National Oceanic and Atmospheric Administration (NOAA) and the National Institute of Standards and Technology (NIST) to jointly develop a standard methodology for identifying the country of origin of seafood to support enforcement against illegal, unreported, and unregulated fishing (IUU fishing) and seafood fraud.\nNOAA and NIST must consult with U.S. Customs and Border Protection and the Coast Guard in developing the methodology, which must use chemical analysis to identify the country of origin of seafood. The methodology must be consistent with the needs of federal and state law enforcement agencies in combating IUU fishing and seafood fraud. The methodology must also include a portable field kit and, to the extent practicable, be appropriate for testing prepared food (including raw preparations of seafood such as sushi). The agencies must conduct pilot studies of the methodology on red snapper and tuna.\nWithin two years after the act's enactment, NIST must report to Congress regarding the methodology and a plan for operationalizing it. The report must explain any aspects of its methodology that are impracticable, whether additional research would make the methodology practicable, and whether an alternate approach might be practicable.",
+    "version": "Public Law"
+  },
+  "v": 1
+}

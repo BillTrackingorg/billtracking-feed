@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T12:09:28Z",
+  "summary": {
+    "ai": {
+      "fp": "2882839de01423fb8d9e6a269b4b99864cf7e40eb62db70cfeeab96c1c49c66e",
+      "model": "claude-haiku-5-5",
+      "text": "This bill gives tax relief to U.S. citizens who are wrongfully detained or held hostage in another country, along with their spouses. While someone is held, that time is not counted when deadlines for federal tax matters are figured. These deadlines include those for filing and paying income, estate, gift, employment, and excise taxes, for claiming a tax credit or refund, and for the IRS to determine, assess, and collect additional taxes, interest, or penalties.\n\nThe State Department and the Justice Department would each year send the IRS lists of people who qualify for these extensions.\n\nThe bill also requires the IRS to cancel and refund any extra taxes, interest, and penalties charged for a tax year that ended while a person was detained, as long as the deadline extension applies. In addition, the IRS would set up a program that lets detained or hostage-held Americans, or their spouses or dependents, ask for refunds of such extra charges for tax years ending during a detention from 2021 until the bill becomes law."
+    },
+    "label": "Congressional Research Service, Reported to House",
+    "text": "End Tax Penalties on American Hostages Act\nThis bill extends certain federal tax deadlines for U.S. nationals who are unlawfully or wrongfully detained abroad or held hostage abroad and their spouses. The bill also allows for an abatement and refund of additional taxes, interest, and penalties assessed to such individuals for failing to meet a federal tax deadline during a period of detention.\nSpecifically, under the bill, the time period during which a U.S. national is unlawfully or wrongfully detained abroad or held hostage abroad is disregarded in determining certain federal tax deadlines, including deadlines for\nfiling a return for and paying federal income, estate, gift, employment, or excise taxes;\na tax credit or refund claim; and\nthe determination, assessment, and collection of additional taxes, interest, or penalties.\nThe bill requires the Department of State and the Department of Justice to annually provide the Internal Revenue Service (IRS) with lists to identify U.S. nationals who qualify for an extension.\nThe bill also requires the IRS to (1) abate and refund additional taxes, interest, and penalties assessed for any tax year ending during a period of detention for which an extension of a federal tax deadline is permitted; and (2) establish a program allowing U.S. nationals unlawfully or wrongfully detained abroad or taken hostage abroad (or their spouse or dependent) to claim a refund of additional taxes, interest, and penalties assessed for any tax year ending during a period of detention from 2021 to the bill’s enactment date.",
+    "version": "Reported to House"
+  },
+  "v": 1
+}

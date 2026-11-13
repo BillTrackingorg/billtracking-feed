@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T12:08:40Z",
+  "summary": {
+    "ai": {
+      "fp": "d6d0db60cfadea367cfd2f341a68871b8664cda0eaf145fb8e09fb6f7d5bc13c",
+      "model": "claude-haiku-5-5",
+      "text": "The PROOF Act would require states to give the Department of Justice whatever information it asks for when investigating or prosecuting suspected fraud in certain federally funded programs. These programs include Medicaid, the Supplemental Nutrition Assistance Program (SNAP), Temporary Assistance for Needy Families (TANF), certain federal payments and grants to states related to the coronavirus response, and any other program that receives funds for states and that the Justice Department identifies as vulnerable to fraud.\n\nFederal agencies could use this information only for law enforcement purposes connected to fraud. They could not share it for unrelated administrative or commercial purposes.\n\nEach year, the Justice Department would have to report to Congress on how many requests it sent to state agencies under the bill, which programs those requests involved, and how many fraud investigations were started and how many convictions were obtained using the information."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Preventing Rip-offs and Obtaining Oversight of Funds Act or the PROOF Act\nThis bill requires states to provide such information as the Department of Justice (DOJ) may require for the purpose of investigating or prosecuting alleged fraud committed with regard to certain federally funded programs.\nPrograms covered by this requirement include:\nMedicaid,\nSupplemental Nutrition Assistance Program (SNAP),\nTemporary Assistance for Needy Families (TANF),\ncertain federal payments and grants to state governments related to the coronavirus response, and\nany other program to which funds are made available to states and identified by DOJ as vulnerable to fraud.\nA federal agency may only use such information for law enforcement purposes related to fraud and may not disclose it for any unrelated administrative or commercial purpose.\nDOJ must annually report to Congress on the number of requests for information issued to state agencies under this bill, the programs with respect to which such requests were made, and the number of fraud investigations initiated and convictions secured using the information obtained.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T12:10:13Z",
+  "summary": {
+    "ai": {
+      "fp": "4142e8d35773dfa6c49364e521535a176d34a51b29355ad3d6debb9082981465",
+      "model": "claude-haiku-5-5",
+      "text": "The Reversionary Interest Conveyance Act would require the Bureau of Land Management (BLM) to offer to sell the United States' reversionary interest in about 8.43 acres of land in Sacramento, California. The land is shown on a map dated November 7, 2022. A reversionary interest is the government's right to get the land back under certain conditions.\n\nIf the owner of the land asks, the BLM must make the offer within two years of receiving the request. Once the buyer pays, the BLM must transfer the reversionary interest to them. The price must be at least the fair market value of that interest. The buyer also has to cover all costs of the transfer, including surveys, appraisals, and other administrative expenses.\n\nThe sale is subject to valid existing rights, meaning any rights that already legally apply to the land still hold. The money from the sale must be deposited into the Federal Land Disposal Account."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Reversionary Interest Conveyance Act\nThis bill directs the Bureau of Land Management (BLM) to offer to sell the reversionary interest of the United States in approximately 8.43 acres of land in Sacramento, California, as generally depicted on a specified map dated November 7, 2022. Within two years of receiving a request from the owner of the land, the BLM must offer the reversionary interest and convey the reversionary interest to the buyer upon payment. The payment must be in an amount that is at least the fair market value of the reversionary interest. The buyer must also pay all costs related to the applicable conveyance of the reversionary interest, including all surveys, appraisals, and other administrative costs.\nThe bill subjects the conveyance to valid existing rights.\nThe proceeds from the sale must be deposited into Federal Land Disposal Account.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

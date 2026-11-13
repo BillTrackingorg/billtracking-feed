@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T12:09:45Z",
+  "summary": {
+    "ai": {
+      "fp": "0d7d58bf785fb1789b4fefa615aff2cc7b8fcfa7afa367c3e93b46339cb656e2",
+      "model": "claude-haiku-5-5",
+      "text": "The Billion Dollar Boondoggle Act requires the Office of Management and Budget (OMB) to gather information from federal agencies and report to Congress on federally funded projects that are running late or costing much more than originally expected.\n\nUnder the act, OMB must issue guidance telling federal agencies to send it information each year about two kinds of projects: those that are more than five years behind schedule, and those whose spending is at least $1 billion more than the original cost estimate.\n\nFor each of these projects, agencies must report several things. These include a description of the project, an explanation of any change to its original scope, and the original and current expected completion dates. They must also give the original and current cost estimates, both adjusted for inflation, along with an explanation of any delays or cost increases. Finally, they must report any award, incentive fee, or other bonus given for the project, along with the amount and the reason for it.\n\nOMB must then compile this information into an annual report for Congress and post the report on its website."
+    },
+    "label": "Congressional Research Service, Public Law",
+    "text": "Billion Dollar Boondoggle Act\nThis act requires the Office of Management and Budget (OMB) to collect information from federal agencies and report to Congress regarding projects that are behind schedule or have expenditures that have exceeded the original cost estimate.\nSpecifically, the act requires OMB to issue guidance directing federal agencies to annually submit specified information to OMB regarding certain federally funded projects that (1) are more than five years behind schedule, or (2) have expenditures that are at least $1 billion more than the original cost estimate for the project.\nAmong other information, the agencies must submit to OMB\na description of each project;\nan explanation of any change to the original scope of the project;\nthe original and current expected dates for the completion of the project;\nthe original and current cost estimates adjusted for inflation;\nan explanation for any delays in completing the project or increases in the cost; and\nthe amount of and rationale for any award, incentive fee, or other type of bonus awarded for the project.\nThe act also requires OMB to submit an annual report to Congress containing the information submitted by the agencies and post the report on the OMB website.",
+    "version": "Public Law"
+  },
+  "v": 1
+}

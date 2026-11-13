@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T12:10:22Z",
+  "summary": {
+    "ai": {
+      "fp": "ad9afe2f4e8004bfdc4d187da070632e8ae62bd8e4c54f8e8d578511d90746fb",
+      "model": "claude-haiku-5-5",
+      "text": "This bill would let the Nuclear Regulatory Commission (NRC) raise the yearly pay of one of its career employees. The NRC could set that pay up to 10% above the highest standard yearly base pay for a Senior Executive Service job at the agency. This applies no matter when the career employee was hired."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "The following analysis is based on draft bill text that was made available by the House of Representatives and may differ from the bill text as introduced.\nNRC Staff Pay Alignment Act\nThis bill allows the Nuclear Regulatory Commission (NRC) to increase the annual compensation of a career appointee. Specifically, NRC may set such compensation at a rate that is up to 10% over the maximum annual rate of basic pay for a Senior Executive Service position within the NRC. This authority applies regardless of when the career appointee was appointed.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

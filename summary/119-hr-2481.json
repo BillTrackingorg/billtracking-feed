@@ -1,0 +1,9 @@
+{
+  "confirmed": "2026-11-13T12:09:58Z",
+  "summary": {
+    "label": "Congressional Research Service, Public Law",
+    "text": "Romance Scam Prevention Act\nThis act requires online dating service providers (i.e., mobile applications or websites) to provide users with a fraud ban notification if the user has established an account with the service and received a message through the service from a banned user of the service.\nThe fraud ban notification must include (1) the username or other profile identifier of the banned user and the most recent time when the user who is receiving the notification sent or received a message through the service to or from the banned user, (2) a statement that the banned user may have been using a false identity or attempting to defraud other users, (3) a statement that the user should not send cash (or another form of currency) or personal financial information to another user, (4) information about avoiding online fraud (e.g., a link to another website or a disclosure), and (5) contact information for the provider's customer service department.\nThe act provides for enforcement of these requirements by the Federal Trade Commission and state attorneys general.",
+    "version": "Public Law"
+  },
+  "v": 1
+}

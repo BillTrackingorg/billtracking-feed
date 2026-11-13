@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T12:10:34Z",
+  "summary": {
+    "ai": {
+      "fp": "0dc17047c22d9a0b3c8842427baebf0ba1775e6e5d466139e4372019d4bcd873",
+      "model": "claude-haiku-5-5",
+      "text": "The Combating Foreign Threats to Main Street Act of 2026 would require the Small Business Administration to publish educational materials to help small businesses understand how they could be harmed by actions taken by foreign adversaries. The bill names several examples of such harm, including cyber intrusions, fraud, theft of intellectual property, and the use of forced labor.\n\nThese materials would need to do three things. First, they would describe the kinds of conduct that pose these risks. Second, they would suggest best practices that small businesses can use to protect sensitive information and their supply chains. Third, they would offer guidance on cybersecurity and data protection."
+    },
+    "label": "Congressional Research Service, Reported to House",
+    "text": "Combating Foreign Threats to Main Street Act of 2026\nThis bill requires the Small Business Administration to publish materials to educate small businesses about how they could be harmed by foreign adversary conduct such as cyber intrusions, fraud, intellectual property theft, or the use of forced labor.\nThe educational materials must (1) describe the conduct that poses such harm, (2) identify best practices for small businesses to protect sensitive information and supply chains, and (3) provide guidance for cybersecurity and data protection.",
+    "version": "Reported to House"
+  },
+  "v": 1
+}

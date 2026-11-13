@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T12:08:52Z",
+  "summary": {
+    "ai": {
+      "fp": "d7f005fba626b537d1fbd74f0faa543e72a39772479170e56dcb816d83764d15",
+      "model": "claude-haiku-5-5",
+      "text": "This bill names two national symbols from the fossil record. It makes the American mastodon fossil the national fossil mammal, and it makes the Tyrannosaurus rex fossil the national fossil dinosaur."
+    },
+    "label": "Congressional Research Service, Reported to House",
+    "text": "National Fossil Act of 2026\nThis bill designates the Mammut americanum (the American Mastodon) fossil as the national fossil mammal and the Tyrannosaurus rex fossil as the national fossil dinosaur.",
+    "version": "Reported to House"
+  },
+  "v": 1
+}

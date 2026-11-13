@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T12:09:47Z",
+  "summary": {
+    "ai": {
+      "fp": "cf68b4f395253d446b9d040c663d0a910cb0e5b540a117f60923a85e9d6019f5",
+      "model": "claude-haiku-5-5",
+      "text": "The 504 Program Level Flexibility Act would let the Small Business Administration guarantee loans above its usual yearly limit under the 504 Loan Program, up to 115% of that limit. The SBA can use this extra room only if it determines that its loan commitments could otherwise go over the annual cap.\n\nThe 504 Loan Program helps small businesses pay for expansion or modernization. The financing comes from the SBA and is delivered through a certified development company, which acts as an intermediary between the business and the agency.\n\nUnder the bill, the SBA must notify Congress before it uses this authority. The agency may use it only once in each fiscal year."
+    },
+    "label": "Congressional Research Service, Reported to House",
+    "text": "504 Program Level Flexibility Act\nThis bill authorizes the Small Business Administration (SBA), upon a determination that the amount of its commitments to guarantee loans under the 504 Loan Program could exceed the authorized annual limit, to guarantee up to 115% of that limit.\nThe 504 Loan Program provides a small business with SBA financing—through a certified development company intermediary—for expansion or modernization.\nThe bill requires the SBA to notify Congress if it intends to use this authority. The SBA may exercise the authority only once each fiscal year.",
+    "version": "Reported to House"
+  },
+  "v": 1
+}

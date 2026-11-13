@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T12:09:44Z",
+  "summary": {
+    "ai": {
+      "fp": "90f2dae2f840721d2af084ab73c7a77e3d1ab59eccbe5abbdf5df85e69edb44f",
+      "model": "claude-haiku-5-5",
+      "text": "This act requires the Social Security Administration to set up a single point of contact for anyone whose Social Security number has been misused or whose Social Security card was lost in transit. That contact must follow each case through to the end and work with other offices to fix problems as quickly as possible.\n\nThe point of contact must be a team or a group of specially trained employees. Staff can change over time, but only if the agency has procedures in place to keep records continuous and to notify affected people when appropriate."
+    },
+    "label": "Congressional Research Service, Public Law",
+    "text": "Improving Social Security's Service to Victims of Identity Theft Act\nThis act requires the Social Security Administration to provide a single point of contact for any individual whose Social Security number has been misused or whose Social Security card has been lost in transport. The point of contact must track cases to completion and coordinate with other units to resolve issues as quickly as possible.\nThe point of contact must consist of a team or subset of specially trained employees. Staffing may change provided there are procedures in place to ensure continuity of records and notify affected individuals when appropriate.",
+    "version": "Public Law"
+  },
+  "v": 1
+}

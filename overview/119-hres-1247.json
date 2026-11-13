@@ -1,0 +1,21 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsru00",
+      "name": "Rules"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Mark Takano (D-CA)",
+  "start": {
+    "kind": "submitted",
+    "on": "2026-04-30"
+  },
+  "status": {
+    "closed": true,
+    "how": "agreed",
+    "on": "2026-11-12"
+  },
+  "v": 1
+}

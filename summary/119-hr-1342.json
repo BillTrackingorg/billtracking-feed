@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T12:08:42Z",
+  "summary": {
+    "ai": {
+      "fp": "05e9dc76be46a44ab07929a1e1b7f78f72298ce36ab14b1659171b4617c8f4e7",
+      "model": "claude-haiku-5-5",
+      "text": "This bill would stop the Federal Emergency Management Agency (FEMA) and other groups involved in disaster aid from treating people differently based on their political party or political views. It covers any public or private group that gives or receives help during federal major disaster or emergency relief efforts.\n\nThe bill adds political affiliation to a list of characteristics that already cannot be used to deny disaster help. Under current law, aid must be provided without discrimination based on race, color, religion, nationality, sex, age, disability, English proficiency, or economic status. With this bill, political affiliation would be added to that list."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Stopping Political Discrimination in Disaster Assistance Act\nThis bill prohibits discrimination on the basis of political affiliation by the Federal Emergency Management Agency (FEMA) and other participating entities (i.e., public or private entities providing or receiving assistance) in carrying out federal major disaster or emergency relief and assistance activities.\nCurrent law requires FEMA and other participating entities to provide federal major disaster or emergency relief and assistance without discrimination on the basis of race, color, religion, nationality, sex, age, disability, English proficiency, or economic status. The bill adds political affiliation to the classes protected under this requirement.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

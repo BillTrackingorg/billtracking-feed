@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T12:09:03Z",
+  "summary": {
+    "ai": {
+      "fp": "3c46906858afb0a6ef59acae63b8f97e484f5a009275118b7bf3951f885bf609",
+      "model": "claude-haiku-5-5",
+      "text": "The License to Drill Act extends the Bureau of Land Management's power to charge oil and gas permit processing fees through fiscal year 2037. Under current law, that power lasts only through fiscal year 2026. The bureau collects a fee for each new permit application, and the money goes into a fund called the BLM Permit Processing Improvement Fund."
+    },
+    "label": "Congressional Research Service, Introduced in Senate",
+    "text": "License to Drill Act\nThis bill extends through FY2037 the Bureau of Land Management’s (BLM’s) authority to collect oil and gas permit processing fees. For each new permit application, BLM collects a fee that is transferred to the BLM Permit Processing Improvement Fund. (Under current law, the fees are authorized through FY2026.)",
+    "version": "Introduced in Senate"
+  },
+  "v": 1
+}

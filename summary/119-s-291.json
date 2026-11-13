@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T12:09:01Z",
+  "summary": {
+    "ai": {
+      "fp": "faaa6d57143c1979e220dc25413147c516ab34e8b602da77e8aafb224402b6af",
+      "model": "claude-haiku-5-5",
+      "text": "This bill sets up an interest-earning account to hold the money that non-federal partners contribute to the Lower Colorado River Multi-Species Conservation Program. The program is a joint effort between federal agencies and state and local groups in Arizona, California, and Nevada. Its goal is to help recover several plant and animal species that are protected under the Endangered Species Act."
+    },
+    "label": "Congressional Research Service, Introduced in Senate",
+    "text": "Lower Colorado River Multi-Species Conservation Program Amendment Act of 2025\nThis bill establishes an interest-bearing account for the nonfederal contributions for the Lower Colorado River Multi-Species Conservation Program, a cooperative effort between federal and nonfederal entities in Arizona, California, and Nevada. The program works to recover multiple species listed under the Endangered Species Act.",
+    "version": "Introduced in Senate"
+  },
+  "v": 1
+}

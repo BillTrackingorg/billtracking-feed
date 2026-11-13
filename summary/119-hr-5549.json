@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T12:10:39Z",
+  "summary": {
+    "ai": {
+      "fp": "d08f0f6f46a7c59e49395b109c0aaa2213c81c9ac8b003621a367645c18a00a2",
+      "model": "claude-haiku-5-5",
+      "text": "This bill speeds up how the Nuclear Regulatory Commission (NRC) approves certain nuclear power plant permits and licenses, such as those for building a plant or running one. Normally the NRC holds a public hearing at the end of the review. Under this bill, that final hearing is no longer required for permits and licenses that no one has asked to contest, meaning no person whose interests could be affected has requested a hearing. When a hearing is held, the NRC must use informal procedures rather than formal ones.\n\nThe bill also changes the rules for uranium enrichment facilities, which are plants that process uranium. For these, the NRC holds an adjudicatory hearing on the building and operation of the facility only if a person whose interests may be affected by it has asked for one."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Efficient Nuclear Licensing Hearings Act\nThis bill expedites the process of reviewing certain uncontested permits and licenses for nuclear power plants (e.g., construction permits and operating licenses) by removing a requirement for the Nuclear Regulatory Commission (NRC) to hold a public hearing at the end of the process. The bill applies to the licenses and permits if a hearing has not been requested by a person whose interest may be affected. The bill also directs the NRC to use informal adjudicatory procedures if such a hearing is held.\nAdditionally, the bill directs the NRC to hold an adjudicatory hearing regarding the licensing of the construction and operation of a uranium enrichment facility only if the person whose interest may be affected by such construction and operation has requested the hearing.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

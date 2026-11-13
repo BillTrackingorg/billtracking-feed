@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T12:09:21Z",
+  "summary": {
+    "ai": {
+      "fp": "e5914c8eb65168235285e1ffdc3fd6b2e7dc7f7439c9ddd6ca1f628c85b8302a",
+      "model": "claude-haiku-5-5",
+      "text": "This bill extends, through fiscal year 2031, several federal programs that help young women learn about breast health and breast cancer. The Centers for Disease Control and Prevention runs these programs.\n\nThe programs cover three main areas. First, they fund campaigns that teach young women and health care professionals about breast cancer. Second, they support research into ways to prevent breast cancer in younger women. Third, they provide grants for resources and services for young women who have been diagnosed with breast cancer or with conditions that could lead to it."
+    },
+    "label": "Congressional Research Service, Reported to Senate",
+    "text": "EARLY Act Reauthorization of 2025\nThis bill reauthorizes through FY2031 programs relating to young women’s awareness of breast health and breast cancer, which are administered by the Centers for Disease Control and Prevention. These programs include campaigns to educate young women and health care professionals, research on preventing breast cancer in younger women, and grants for resources and services to young women diagnosed with breast cancer and precancerous conditions.",
+    "version": "Reported to Senate"
+  },
+  "v": 1
+}

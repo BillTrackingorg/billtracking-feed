@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T12:10:36Z",
+  "summary": {
+    "ai": {
+      "fp": "c678c9e27daa92bd08053e2ff8be0e65b49dc218d5482e9dc58ca8522af674a9",
+      "model": "claude-haiku-5-5",
+      "text": "The Disaster Loan Outreach Consistency Act would require the Small Business Administration (SBA) to make sure its public materials about its disaster loan program, such as press releases and fact sheets, are accurate, up to date, and the same across all of its disaster field offices. The SBA's disaster loan program offers low-interest loans to homeowners, renters, businesses, and nonprofits to help them recover after a declared disaster.\n\nUnder the bill, the SBA would have to include current information about how to qualify for the loans and what the loan terms are. It would also have to check that materials are current before releasing them to the public. Once a year, it would have to review those materials to confirm they are consistent across all disaster field offices."
+    },
+    "label": "Congressional Research Service, Reported to House",
+    "text": "Disaster Loan Outreach Consistency Act\nThis bill requires the Small Business Administration (SBA) to ensure that outreach materials for its disaster loan program (e.g., press releases, fact sheets) are accurate, current, and consistent across all disaster field operations centers. (The SBA Disaster Loan Program provides low-interest loans to homeowners, renters, businesses, and nonprofits to assist with recovering from declared disasters.)\nSpecifically, the SBA must (1) include in outreach materials updated information on the eligibility processes for and terms of the disaster loan program; (2) verify, prior to public release, that outreach materials are current; and (3) annually review outreach materials to ensure consistency across disaster field operations centers.",
+    "version": "Reported to House"
+  },
+  "v": 1
+}

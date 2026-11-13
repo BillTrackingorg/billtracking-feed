@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T12:08:55Z",
+  "summary": {
+    "ai": {
+      "fp": "407c9bff1ae919eb9af5d69669e1bdaf38227cae7858e356d668035f247eead4",
+      "model": "claude-haiku-5-5",
+      "text": "This bill would require the Department of Homeland Security to run a practice exercise within four years of the bill becoming law. The exercise would prepare the country to prevent, respond to, and recover from agroterrorism, meaning attacks aimed at farming and food systems that are vital to national security, public health, or safety.\n\nThe practice scenario must involve people who carry out such attacks bringing a biological agent, such as a microorganism or infectious substance, into the United States and using it to harm important farm and food operations. The exercise must also look at how public agencies and private businesses can work together to get ready and limit widespread disruption.\n\nWithin 180 days after the exercise is finished, the Department of Homeland Security must send Congress a report. That report must include what the exercise found, plans for using those lessons in future work, and suggested laws to pass."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Civil Preparedness for Agroterrorism Exercise Act of 2026\nThis bill requires the Department of Homeland Security (DHS), within four years after the bill’s enactment, to conduct an exercise to enhance collective domestic prevention, response, and recovery regarding acts of agroterrorism (i.e., terrorism targeting or threatening agriculture and food systems of vital importance to national security, public health, or safety). The scenario in the exercise must involve agroterrorists transporting and deploying in the United States a biological agent (e.g., microorganism or infectious substance) capable of harming critical agriculture and food operations and must address how relevant public and private entities can coordinate to develop preparedness and mitigate widespread disruption.\nWithin 180 days after completion of the exercise, DHS must submit to Congress an after-action report including the findings of the exercise, plans for incorporating lessons learned into future operations, and recommended legislative actions.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

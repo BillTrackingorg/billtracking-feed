@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T12:09:32Z",
+  "summary": {
+    "ai": {
+      "fp": "6e5e98fe21ef0d6e19f720eba9f7c4f3e3b2807a47f2d7451e91b7c4831b7be1",
+      "model": "claude-haiku-5-5",
+      "text": "The Floodplain Enhancement and Recovery Act makes it easier to carry out ecosystem restoration projects in designated floodways that meet certain risk conditions. Right now, federal flood insurance rules generally ban such projects in a designated floodway if they would raise the area's base flood elevation, meaning the expected height of floodwaters during a major flood.\n\nUnder the bill, a community may allow a restoration project in a designated floodway even if it raises base flood elevations, but only if three conditions are met. First, a professional engineer must determine that the combined increase will be no more than 1 foot. Second, no insurable structure or critical infrastructure can be located in an affected area. Third, the community must submit an analysis to the Federal Emergency Management Agency on the project's effects after it is complete.\n\nThe bill defines an ecosystem restoration project as one that changes the physical, chemical, or biological features of a site in order to recover, reclaim, or improve the functions of a water-related resource or floodplain."
+    },
+    "label": "Congressional Research Service, Passed Senate",
+    "text": "Floodplain Enhancement and Recovery Act\nThis bill eases restrictions for ecosystem restoration projects in designated floodways that meet certain risk criteria.\nUnder current National Flood Insurance Program requirements, such projects are generally prohibited in a designated floodway if the project would increase the area’s base flood elevation.\nThe bill establishes conditions under which a community may permit an ecosystem restoration project within a designated floodway that would result in an increase in base flood elevations. Specifically, the project may be permitted if (1) a professional engineer determines that the cumulative effect of the increase will be not more than 1 foot; (2) no insurable structure or critical infrastructure is located in an impacted area; and (3) the community submits an analysis to the Federal Emergency Management Agency on the project’s effects after the project is complete.\nAn ecosystem restoration project is defined by the bill as a project that manipulates the physical, chemical, or biological characteristics of a site with a goal of recovering, reclaiming, or improving the functions of an aquatic resource or floodplain.",
+    "version": "Passed Senate"
+  },
+  "v": 1
+}

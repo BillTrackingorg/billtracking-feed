@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T12:09:56Z",
+  "summary": {
+    "ai": {
+      "fp": "b0dea02b035672f2d86d070715ac5516186b05d5b06542a65afaa07c413f6b7c",
+      "model": "claude-haiku-5-5",
+      "text": "This bill places about 1,082.63 acres of specified land in Washington State into trust for the Lower Elwha Klallam Tribe. Once the land is in trust, it becomes part of the tribe's reservation. The bill also bans gambling on that land."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Lower Elwha Klallam Tribe Project Lands Restoration Act\nThis bill takes approximately 1,082.63 acres of specified lands in Washington into trust for the benefit of the Lower Elwha Klallam Tribe. Land taken into trust shall be part of the tribe's reservation.\nFurther, the bill prohibits gaming on the land taken into trust.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

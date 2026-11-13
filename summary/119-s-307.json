@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T12:08:47Z",
+  "summary": {
+    "ai": {
+      "fp": "b35c7a00402d6818ec5826acb258d3e3ab22703846ca1b24f4abc5ab8c27cbd3",
+      "model": "claude-haiku-5-5",
+      "text": "The Prison Staff Safety Enhancement Act requires the Department of Justice and its agencies to look closely at incidents where people in federal prison sexually harass or sexually assault Bureau of Prisons staff, and to respond to them. The Department of Justice must also set national standards aimed at preventing these incidents, reducing them, and punishing them when they happen. These standards cover harassment and assault by incarcerated people against correctional officers and other Bureau of Prisons employees.\n\nThe act also requires the Bureau of Prisons to fully carry out the recommendations made by the Justice Department's Inspector General. Those recommendations come from a report evaluating how well the Bureau of Prisons has been handling sexual harassment and sexual assault committed by inmates against staff."
+    },
+    "label": "Congressional Research Service, Public Law",
+    "text": "Prison Staff Safety Enhancement Act\nThis act establishes requirements for the Department of Justice (DOJ) and component agencies to assess and respond to incidents of sexual harassment and sexual assault by incarcerated individuals against Bureau of Prisons (BOP) staff.\nSpecifically, the act requires DOJ to adopt national standards for the prevention, reduction, and punishment of sexual harassment and sexual assault by incarcerated individuals against correctional officers or other employees of the BOP.\nAdditionally, the act requires the BOP to fully implement the recommendations of the DOJ Inspector General contained in the report titled Evaluation of the Federal Bureau of Prisons’ Efforts to Address Sexual Harassment and Sexual Assault Committed by Inmates Toward Staff.",
+    "version": "Public Law"
+  },
+  "v": 1
+}

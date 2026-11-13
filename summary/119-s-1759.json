@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T12:10:33Z",
+  "summary": {
+    "ai": {
+      "fp": "f0c50e8b10c440dcea76e8158e092410752d89606d26cf506185b50c8705803c",
+      "model": "claude-haiku-5-5",
+      "text": "This bill would require the Federal Aviation Administration (FAA) to allow civil aircraft to fly faster than the speed of sound, known as Mach 1, over land in the United States. Right now, flying that fast over land requires a special permission from the FAA.\n\nUnder the bill, the FAA must issue or change its rules so that civil aircraft can fly supersonic in the nation's airspace without that special permission. This applies only if no sonic boom reaches the ground in the United States."
+    },
+    "label": "Congressional Research Service, Introduced in Senate",
+    "text": "Supersonic Aviation Modernization Act\nThis bill directs the Federal Aviation Administration (FAA) to allow civil aircraft to operate at speeds above Mach 1 (i.e., supersonic) over land in the United States under certain conditions.\nSpecifically, the FAA must issue or revise regulations to allow for the operation of civil aircraft at speeds greater than Mach 1 in the national airspace system without a special authorization, so long as no sonic boom reaches the ground in the United States.\nCurrent regulations prohibit civil aircraft from operating above Mach 1 speeds over land in the United States without a special flight authorization issued by the FAA.",
+    "version": "Introduced in Senate"
+  },
+  "v": 1
+}

@@ -1,0 +1,29 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsas00",
+      "name": "Armed Services"
+    },
+    {
+      "chamber": "House",
+      "code": "hsvr00",
+      "name": "Veterans' Affairs"
+    },
+    {
+      "chamber": "Senate",
+      "code": "ssas00",
+      "name": "Armed Services"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Gus Bilirakis (R-FL)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-03-14"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

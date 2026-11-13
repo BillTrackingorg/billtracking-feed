@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T12:09:59Z",
+  "summary": {
+    "ai": {
+      "fp": "c6a7d69128fccb77281d4bae9ec0e121ec9224e720e486afa38c15d23b17e26b",
+      "model": "claude-haiku-5-5",
+      "text": "The Southcentral Foundation Land Transfer Act of 2025 would require the Department of Health and Human Services (HHS) to transfer about 3.4 acres of land in Anchorage, Alaska, to the Southcentral Foundation (SCF). The land would be used for the foundation's health and social service programs.\n\nThe land must be transferred through a warranty deed, which is a document that gives the buyer a guarantee of clear ownership. The transfer cannot require the SCF to pay anything for the property. It also cannot place any duty, term, or condition on the SCF about the land, and it cannot give the federal government a right to take the property back later.\n\nHHS would keep whatever easement or access rights to the property it reasonably needs to meet any obligation or liability it still has.\n\nThe SCF would not be held responsible for environmental contamination that happened on or before the date the land is transferred to it. In the same way, HHS would not be responsible for contamination that happened after the SCF began controlling, occupying, and using the property."
+    },
+    "label": "Congressional Research Service, Reported to House",
+    "text": "Southcentral Foundation Land Transfer Act of 2025\nThis bill directs the Department of Health and Human Services (HHS) to convey approximately 3.4 acres in Anchorage, Alaska, to the Southcentral Foundation (SCF) for use in connection with health and social services programs.\nThe conveyance must be made by warranty deed. The conveyance may not (1) require any consideration (such as payment) from the SCF for the property; (2) impose any obligation, term, or condition on the SCF relating to that property; or (3) allow for any U.S. reversionary interest in the property.\nHHS must be accorded any easement or access to the property as may be reasonably necessary to satisfy any retained obligation or liability of HHS.\nThe bill prohibits the SCF from being liable for certain environmental contamination that occurred on or before the date on which the property is conveyed to the SCF. In turn, HHS may not be liable for any contamination that occurred after the date that the SCF controlled, occupied, and used the property.",
+    "version": "Reported to House"
+  },
+  "v": 1
+}

@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T12:10:35Z",
+  "summary": {
+    "ai": {
+      "fp": "9d48cdbca2622037e339e40e3b65509c27f73a51dd44c3b8d1d7b98a15a41eed",
+      "model": "claude-haiku-5-5",
+      "text": "This bill requires the Small Business Administration (SBA) to post a report on its website every quarter with specific information about Small Business Investment Companies (SBICs). These are privately owned companies that the SBA licenses and regulates, and they invest in small businesses through loans and equity.\n\nThe quarterly report must include several things. First, it must include parts of the SBA's annual report, such as how many SBICs are licensed and how much government financing each one has received. Second, it must give the number of SBIC applicants that were approved. Third, it must give the number of jobs created or kept in place because of SBIC investments.\n\nIn general, an SBIC can receive $2 in SBA-guaranteed financing for every $1 of private money it raises, but this is capped at $150 million."
+    },
+    "label": "Congressional Research Service, Reported to House",
+    "text": "SBIC Reporting Modernization Act of 2026\nThis bill requires the Small Business Administration (SBA) to report quarterly on its website specified information about Small Business Investment Companies (SBICs), such as the amount of SBA-guaranteed financing SBICs receive. SBICs are privately owned companies, licensed and regulated by the SBA, which invest in small businesses through debt and equity.\nThe quarterly report must include (1) elements of the SBA's annual report, such as the number of licensed SBICs and the amount of government leverage each has received; (2) the number of SBIC applicants approved; and (3) the number of jobs created or sustained as a result of SBIC investments. (In general, an SBIC may receive $2 of SBA-guaranteed financing for every $1 in private capital the SBIC raises, subject to a $150 million limit).",
+    "version": "Reported to House"
+  },
+  "v": 1
+}

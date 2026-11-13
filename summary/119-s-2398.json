@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T12:09:41Z",
+  "summary": {
+    "ai": {
+      "fp": "8291e918890e8949ee6b3095cadcef0baa4d5d04d0ccd096a421c62b100e570c",
+      "model": "claude-haiku-5-5",
+      "text": "This act extends through fiscal year 2030 the work of the Centers for Disease Control and Prevention on vector-borne diseases, which are illnesses spread by bites from ticks or mosquitoes.\n\nThe work covers three main areas. The first is a national strategy for dealing with these diseases. The second is grants to support regional centers of excellence. The third is cooperative agreements with state, local, and tribal health departments, meant to help them better prevent and respond to these diseases."
+    },
+    "label": "Congressional Research Service, Public Law",
+    "text": "Kay Hagan Tick Reauthorization Act\nThis act reauthorizes through FY2030 activities of the Centers for Disease Control and Prevention to address vector-borne diseases (e.g., diseases spread by bites from ticks or mosquitoes). These activities include (1) a national strategy, (2) grants for regional centers of excellence, and (3) cooperative agreements with state, local, and tribal health departments to increase capacity for preventing and responding to vector-borne diseases.",
+    "version": "Public Law"
+  },
+  "v": 1
+}

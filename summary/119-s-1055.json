@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T12:09:30Z",
+  "summary": {
+    "ai": {
+      "fp": "dcaf09b2d3bc03e7eba967c16d08e2298f4f76f2664bd6e2213e63ca1e38d8ab",
+      "model": "claude-haiku-5-5",
+      "text": "This bill gives more time to notify the Indian Health Service's Purchased/Referred Care (PRC) program about emergency medical care that an American Indian or Alaska Native patient receives from a provider or facility outside the IHS system. Right now, that notice must be given within 72 hours after treatment begins or after the patient is admitted. Under the bill, the patient, someone acting for the patient, or the care provider would have 15 days instead.\n\nThe bill does not change the rule for people who are elderly or disabled. They would still need to give notice within 30 days for emergency services.\n\nThe IHS provides medical and dental care directly to American Indian and Alaska Native patients whenever it can. The PRC program pays for care delivered away from an IHS or tribal health facility, and it must be notified when payment is requested for care from a non-IHS provider."
+    },
+    "label": "Congressional Research Service, Introduced in Senate",
+    "text": "Indian Health Service Emergency Claims Parity Act\nThis bill extends from 72 hours to 15 days the time period to notify the Purchased/Referred Care (PRC) program of emergency medical care received from a non-Indian Health Service (IHS) medical provider or at a non-IHS medical facility. This bill does not apply to individuals who are elderly or disabled, who continue to have a 30-day notification requirement for emergency services.\nThe IHS provides medical and dental services directly to American Indian and Alaska Native patients whenever possible. The PRC program pays for medical or dental care that is provided away from an IHS or tribal health care facility. The PRC program must be notified of requests for authorization of payment for health care services from a non-IHS provider.\nCurrently in emergency cases, the patient, an individual on behalf of the patient, or the medical care provider must, within 72 hours after the beginning of treatment for the condition or after admission to a health care facility, notify a PRC authorizing official of the need for the emergency medical care. This bill instead allows the patient, other individual, or provider to notify PRC within 15 days of the treatment or admission.",
+    "version": "Introduced in Senate"
+  },
+  "v": 1
+}
