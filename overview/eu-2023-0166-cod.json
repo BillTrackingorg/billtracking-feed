@@ -1,0 +1,17 @@
+{
+ "committees": [
+  {
+   "code": "ECON",
+   "name": "Economic and Monetary Affairs"
+  }
+ ],
+ "lead": "Stéphanie Yon-Courtin (Renew)",
+ "start": {
+  "kind": "proposed",
+  "on": "2023-05-24"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}

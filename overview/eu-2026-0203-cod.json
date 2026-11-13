@@ -1,0 +1,17 @@
+{
+ "committees": [
+  {
+   "code": "ITRE",
+   "name": "Industry, Research and Energy"
+  }
+ ],
+ "lead": "Bruno Tobback (S&D)",
+ "start": {
+  "kind": "proposed",
+  "on": "2026-07-17"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}

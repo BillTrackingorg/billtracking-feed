@@ -1,0 +1,21 @@
+{
+ "committees": [
+  {
+   "code": "ENVI",
+   "name": "Environment, Climate and Food Safety"
+  },
+  {
+   "code": "SANT",
+   "name": "Public Health"
+  }
+ ],
+ "lead": "Leire Pajín (S&D) and Aurelijus Veryga (ECR)",
+ "start": {
+  "kind": "proposed",
+  "on": "2025-07-16"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}

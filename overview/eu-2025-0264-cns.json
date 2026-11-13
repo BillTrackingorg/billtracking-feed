@@ -1,0 +1,17 @@
+{
+ "committees": [
+  {
+   "code": "DEVE",
+   "name": "Development"
+  }
+ ],
+ "lead": "Barry Andrews (Renew)",
+ "start": {
+  "kind": "proposed",
+  "on": "2025-09-03"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}
