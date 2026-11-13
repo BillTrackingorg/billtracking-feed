@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "ssga00",
+      "name": "Homeland Security and Governmental Affairs"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Gary Peters (D-MI)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-07-30"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

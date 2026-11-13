@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "ssfi00",
+      "name": "Finance"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Chuck Grassley (R-IA)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-08-01"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

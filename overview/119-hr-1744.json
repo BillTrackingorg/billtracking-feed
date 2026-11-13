@@ -1,0 +1,28 @@
+{
+  "checked": "2026-11-04",
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsfa00",
+      "name": "Foreign Affairs"
+    },
+    {
+      "chamber": "Senate",
+      "code": "ssfr00",
+      "name": "Foreign Relations"
+    }
+  ],
+  "congress": 119,
+  "law": "Public Law 119-137",
+  "lead": "Rep. Christopher Smith (R-NJ)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-02-27"
+  },
+  "status": {
+    "closed": true,
+    "how": "law",
+    "on": "2026-11-03"
+  },
+  "v": 1
+}

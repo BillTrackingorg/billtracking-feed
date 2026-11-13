@@ -1,0 +1,13 @@
+{
+  "committees": [],
+  "congress": 119,
+  "lead": "Sen. Tim Sheehy (R-MT)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-07-23"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

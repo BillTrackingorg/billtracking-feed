@@ -1,0 +1,20 @@
+{
+  "checked": "2026-10-23",
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "ssga00",
+      "name": "Homeland Security and Governmental Affairs"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Tammy Duckworth (D-IL)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-12-04"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

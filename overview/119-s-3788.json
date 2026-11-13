@@ -1,0 +1,25 @@
+{
+  "checked": "2026-10-23",
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "ssbk00",
+      "name": "Banking, Housing, and Urban Affairs"
+    },
+    {
+      "chamber": "Senate",
+      "code": "sshr00",
+      "name": "Health, Education, Labor, and Pensions"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Rick Scott (R-FL)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-02-05"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

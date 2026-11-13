@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsba00",
+      "name": "Financial Services"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Nikema Williams (D-GA)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-02-26"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

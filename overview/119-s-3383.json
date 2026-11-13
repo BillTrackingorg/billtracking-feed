@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "slia00",
+      "name": "Indian Affairs"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Brian Schatz (D-HI)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-12-08"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

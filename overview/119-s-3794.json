@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "sshr00",
+      "name": "Health, Education, Labor, and Pensions"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Jim Banks (R-IN)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-02-05"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

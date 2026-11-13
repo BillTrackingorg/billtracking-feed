@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "ssju00",
+      "name": "Judiciary"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Catherine Cortez Masto (D-NV)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-05-01"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

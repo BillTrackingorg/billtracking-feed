@@ -1,0 +1,24 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsed00",
+      "name": "Education and Workforce"
+    },
+    {
+      "chamber": "House",
+      "code": "hsju00",
+      "name": "Judiciary"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Tracey Mann (R-KS)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-03-25"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

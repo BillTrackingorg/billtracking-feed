@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "slia00",
+      "name": "Indian Affairs"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Martin Heinrich (D-NM)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-11-19"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

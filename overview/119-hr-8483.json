@@ -1,0 +1,20 @@
+{
+  "checked": "2026-11-13",
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsii00",
+      "name": "Natural Resources"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Darrell Issa (R-CA)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-04-23"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

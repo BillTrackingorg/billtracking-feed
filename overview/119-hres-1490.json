@@ -1,0 +1,27 @@
+{
+  "checked": "2026-10-23",
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsha00",
+      "name": "House Administration"
+    },
+    {
+      "chamber": "House",
+      "code": "hsba00",
+      "name": "Financial Services"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Jeff Crank (R-CO)",
+  "start": {
+    "kind": "submitted",
+    "on": "2026-08-27"
+  },
+  "status": {
+    "closed": true,
+    "how": "agreed",
+    "on": "2026-09-01"
+  },
+  "v": 1
+}

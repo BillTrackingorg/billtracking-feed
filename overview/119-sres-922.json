@@ -1,0 +1,15 @@
+{
+  "committees": [],
+  "congress": 119,
+  "lead": "Sen. John Hoeven (R-ND)",
+  "start": {
+    "kind": "submitted",
+    "on": "2026-09-29"
+  },
+  "status": {
+    "closed": true,
+    "how": "agreed",
+    "on": "2026-09-29"
+  },
+  "v": 1
+}

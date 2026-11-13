@@ -1,0 +1,24 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsii00",
+      "name": "Natural Resources"
+    },
+    {
+      "chamber": "Senate",
+      "code": "slia00",
+      "name": "Indian Affairs"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. William Keating (D-MA)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-01-23"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

@@ -1,0 +1,20 @@
+{
+  "checked": "2026-11-13",
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsvr00",
+      "name": "Veterans' Affairs"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Mark Takano (D-CA)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-10-08"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

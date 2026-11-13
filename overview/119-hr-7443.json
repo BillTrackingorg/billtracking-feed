@@ -1,0 +1,24 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hshm00",
+      "name": "Homeland Security"
+    },
+    {
+      "chamber": "Senate",
+      "code": "ssga00",
+      "name": "Homeland Security and Governmental Affairs"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. August Pfluger (R-TX)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-02-09"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

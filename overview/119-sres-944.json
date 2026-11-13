@@ -1,0 +1,15 @@
+{
+  "committees": [],
+  "congress": 119,
+  "lead": "Sen. Deb Fischer (R-NE)",
+  "start": {
+    "kind": "submitted",
+    "on": "2026-09-30"
+  },
+  "status": {
+    "closed": true,
+    "how": "agreed",
+    "on": "2026-09-30"
+  },
+  "v": 1
+}

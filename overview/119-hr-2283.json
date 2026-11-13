@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsvr00",
+      "name": "Veterans' Affairs"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Mike Bost (R-IL)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-03-24"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

@@ -1,0 +1,28 @@
+{
+  "checked": "2026-10-23",
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "ssga00",
+      "name": "Homeland Security and Governmental Affairs"
+    },
+    {
+      "chamber": "Senate",
+      "code": "sssb00",
+      "name": "Small Business and Entrepreneurship"
+    }
+  ],
+  "congress": 119,
+  "law": "Public Law 119-120",
+  "lead": "Sen. Joni Ernst (R-IA)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-02-27"
+  },
+  "status": {
+    "closed": true,
+    "how": "law",
+    "on": "2026-10-07"
+  },
+  "v": 1
+}

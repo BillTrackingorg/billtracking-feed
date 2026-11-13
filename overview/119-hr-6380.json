@@ -1,0 +1,27 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsii00",
+      "name": "Natural Resources"
+    },
+    {
+      "chamber": "Senate",
+      "code": "sseg00",
+      "name": "Energy and Natural Resources"
+    }
+  ],
+  "congress": 119,
+  "law": "Public Law 119-133",
+  "lead": "Rep. Juan Ciscomani (R-AZ)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-12-03"
+  },
+  "status": {
+    "closed": true,
+    "how": "law",
+    "on": "2026-10-20"
+  },
+  "v": 1
+}

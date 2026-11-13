@@ -1,0 +1,25 @@
+{
+  "checked": "2026-11-13",
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "sseg00",
+      "name": "Energy and Natural Resources"
+    },
+    {
+      "chamber": "House",
+      "code": "hsii00",
+      "name": "Natural Resources"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. John Hoeven (R-ND)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-02-20"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

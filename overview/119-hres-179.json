@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsfa00",
+      "name": "Foreign Affairs"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Sheila Cherfilus-McCormick (D-FL)",
+  "start": {
+    "kind": "submitted",
+    "on": "2025-03-03"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

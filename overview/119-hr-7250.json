@@ -1,0 +1,28 @@
+{
+  "checked": "2026-10-23",
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsii00",
+      "name": "Natural Resources"
+    },
+    {
+      "chamber": "Senate",
+      "code": "sseg00",
+      "name": "Energy and Natural Resources"
+    }
+  ],
+  "congress": 119,
+  "law": "Public Law 119-113",
+  "lead": "Rep. Troy Downing (R-MT)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-01-27"
+  },
+  "status": {
+    "closed": true,
+    "how": "law",
+    "on": "2026-09-25"
+  },
+  "v": 1
+}

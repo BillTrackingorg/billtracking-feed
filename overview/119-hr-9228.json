@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsed00",
+      "name": "Education and Workforce"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Robert Onder (R-MO)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-06-09"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "sshr00",
+      "name": "Health, Education, Labor, and Pensions"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Maggie Hassan (D-NH)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-02-04"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

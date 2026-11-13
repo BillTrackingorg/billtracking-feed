@@ -1,0 +1,20 @@
+{
+  "checked": "2026-10-23",
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "sshr00",
+      "name": "Health, Education, Labor, and Pensions"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Bill Cassidy (R-LA)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-10-15"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

@@ -1,0 +1,28 @@
+{
+  "checked": "2026-10-23",
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsii00",
+      "name": "Natural Resources"
+    },
+    {
+      "chamber": "Senate",
+      "code": "sseg00",
+      "name": "Energy and Natural Resources"
+    }
+  ],
+  "congress": 119,
+  "law": "Public Law 119-126",
+  "lead": "Rep. Elijah Crane (R-AZ)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-01-31"
+  },
+  "status": {
+    "closed": true,
+    "how": "law",
+    "on": "2026-10-20"
+  },
+  "v": 1
+}

@@ -1,0 +1,22 @@
+{
+  "checked": "2026-10-23",
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsru00",
+      "name": "Rules"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Virginia Foxx (R-NC)",
+  "start": {
+    "kind": "reported",
+    "on": "2026-08-31"
+  },
+  "status": {
+    "closed": true,
+    "how": "agreed",
+    "on": "2026-09-01"
+  },
+  "v": 1
+}

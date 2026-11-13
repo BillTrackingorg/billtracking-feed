@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "ssga00",
+      "name": "Homeland Security and Governmental Affairs"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Joni Ernst (R-IA)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-05-12"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "ssfr00",
+      "name": "Foreign Relations"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Pete Ricketts (R-NE)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-06-08"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

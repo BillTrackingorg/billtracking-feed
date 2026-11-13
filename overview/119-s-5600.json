@@ -1,0 +1,13 @@
+{
+  "committees": [],
+  "congress": 119,
+  "lead": "Sen. Alan Armstrong (R-OK)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-09-29"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}
