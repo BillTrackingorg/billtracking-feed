@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T13:16:09Z",
+  "summary": {
+    "ai": {
+      "fp": "f8a898a0504c2f2470e22e132f88683aaad195791fe691db019dc640cb485eae",
+      "model": "claude-haiku-5-5",
+      "text": "This measure would let a veteran who has a combat-related disability receive their retirement pay in full, at the same time as their disability compensation. The rule also covers veterans who have a combat-related disability and fewer than 20 years of creditable service. Under current rules, veterans who receive combat-related special compensation along with retirement pay have their retirement pay reduced because they are getting both benefits."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Major Richard Star Act\nThis bill allows a veteran with a combat-related disability to receive retirement pay, without reduction, concurrently with their disability compensation. This includes veterans with a combat-related disability and fewer than 20 years of creditable service. (Currently, veterans who receive combat-related special compensation and retirement pay are subject to an offset in retirement pay for concurrent receipt of such benefits.)",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

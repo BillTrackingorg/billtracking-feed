@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T13:16:19Z",
+  "summary": {
+    "ai": {
+      "fp": "1f94d29ec0c8d9db1479b510b293a4b490a5aaa1983682fb6e16ba6a720d12be",
+      "model": "claude-haiku-5-5",
+      "text": "This bill extends three National Park Service grant programs that help preserve U.S. battlefields through fiscal year 2036. Right now these grants are authorized only through fiscal year 2028. The programs cover buying land at battlefields, updating how their history is explained to visitors, and restoring the sites.\n\nThe bill also asks the National Park Service to study certain places connected to important events in two earlier conflicts: the French and Indian War, which ran from 1754 to 1763, and the Mexican-American War, which ran from 1846 to 1848. The agency must prepare or certify these studies to see whether those locations should be preserved."
+    },
+    "label": "Congressional Research Service, Reported to House",
+    "text": "American Battlefield Protection Program Amendments Act of 2026\nThis bill extends through FY2036 three National Park Service (NPS) grant programs that preserve U.S. battlefields and requires the NPS to study additional sites for potential preservation.\nSpecifically, the bill extends through FY2036 grant programs for the acquisition, interpretation modernization, and restoration of certain U.S. battlefields. (Under current law, the grants are authorized through FY2028.)\nThe bill also requires the NPS to prepare or certify studies of locations tied to significant events during the French and Indian War (1754-1763) and the Mexican-American War (1846-1848) for potential preservation.",
+    "version": "Reported to House"
+  },
+  "v": 1
+}

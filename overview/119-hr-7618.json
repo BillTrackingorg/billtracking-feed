@@ -1,0 +1,24 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsii00",
+      "name": "Natural Resources"
+    },
+    {
+      "chamber": "Senate",
+      "code": "sseg00",
+      "name": "Energy and Natural Resources"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Jennifer Kiggans (R-VA)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-02-20"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

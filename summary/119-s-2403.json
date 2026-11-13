@@ -1,6 +1,11 @@
 {
   "confirmed": "2026-11-13T12:09:52Z",
   "summary": {
+    "ai": {
+      "fp": "fe3a663c942a6254715ebc78b083ce9b02605d3b2f38f74e47e4eba800a9d77d",
+      "model": "claude-haiku-5-5",
+      "text": "The Retire through Ownership Act lets the people who manage an Employee Stock Ownership Plan (ESOP) rely on a valuation from an independent valuation expert or business appraiser when they need to determine the fair market value of the plan's assets. This applies when the assets are not securities that trade on a generally recognized market, and only if the expert or appraiser follows the specified methods.\n\nAn ESOP is a type of retirement plan in which employees earn shares of their employer's stock in individual accounts as part of their pay. When an employee leaves the company or retires, they receive the cash value of those shares.\n\nUnder the act, the independent expert or appraiser must follow the approach set out in Internal Revenue Service Ruling 59-60. That ruling lists the factors a professional business appraiser should consider when estimating the value of stock in a closely held business."
+    },
     "label": "Congressional Research Service, Public Law",
     "text": "Retire through Ownership Act\nThis act allows the fiduciary of an Employee Stock Ownership Plan (ESOP) to rely on a valuation provided by an independent valuation expert or business appraiser in determining the fair market value of the plan's assets if the assets are not securities for which there is a generally recognized market and the expert or appraiser follows specified methodologies.\nIn general, ESOPs are defined contribution pension plans where employees accrue shares of their employers' stock in individual accounts as part of their compensation. After separating from employment or retiring, employees receive the cash value of their shares.\nUnder the act, an independent expert or appraiser must adhere to the methodology established under the Internal Revenue Service Ruling 59-60, which prescribes the factors a professional business appraiser should consider in forming a valuation of the stock for a closely held business.",
     "version": "Public Law"

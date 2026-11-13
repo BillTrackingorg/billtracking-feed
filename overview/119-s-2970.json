@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "sseg00",
+      "name": "Energy and Natural Resources"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Mike Lee (R-UT)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-10-03"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

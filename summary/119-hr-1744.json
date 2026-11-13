@@ -1,6 +1,11 @@
 {
   "confirmed": "2026-11-13T12:10:16Z",
   "summary": {
+    "ai": {
+      "fp": "36610b902fbf09c2bde6b73dc4ff348866b0e70199bea41f018db473245badb2",
+      "model": "claude-haiku-5-5",
+      "text": "This act extends the life of the U.S. Commission on International Religious Freedom through 2028. The commission is an independent federal body that keeps track of how religious freedom is faring around the world, reviews U.S. government policy on the issue, and suggests policy changes. Under current law, the commission's authority would run out on December 11, 2026, so this act keeps it going for two more years."
+    },
     "label": "Congressional Research Service, Public Law",
     "text": "United States Commission on International Religious Freedom Reauthorization Act of 2026\nThis act reauthorizes the U.S. Commission on International Religious Freedom through 2028. The commission is an independent federal commission tasked with monitoring international religious freedom conditions, reviewing U.S. government policy, and making policy recommendations. (Under current law, the commission is authorized through December 11, 2026.)",
     "version": "Public Law"

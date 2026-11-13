@@ -1,0 +1,21 @@
+{
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "ssju00",
+      "name": "Judiciary"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Jerry Moran (R-KS)",
+  "start": {
+    "kind": "submitted",
+    "on": "2026-08-06"
+  },
+  "status": {
+    "closed": true,
+    "how": "agreed",
+    "on": "2026-11-12"
+  },
+  "v": 1
+}

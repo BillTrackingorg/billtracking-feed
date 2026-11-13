@@ -1,6 +1,11 @@
 {
   "confirmed": "2026-11-13T12:09:58Z",
   "summary": {
+    "ai": {
+      "fp": "788c9c10142edf3992496c9469bf3f38630dd84468bda227994f058bedfda0a7",
+      "model": "claude-haiku-5-5",
+      "text": "This law requires online dating apps and websites to warn users when they have received a message from someone who has been banned from the service. The warning goes to any user who has an account and received a message from the banned person through the service.\n\nThe notice must include the banned user's username or other profile identifier, and the most recent time the notified user sent or received a message to or from that person. It must also say that the banned user may have been using a fake identity or trying to scam people, and that the user should not send cash or any other currency, or personal financial information, to another user. It must also give information about avoiding online fraud, such as a link to another website or a disclosure, and provide contact information for the provider's customer service department.\n\nThe Federal Trade Commission and state attorneys general are responsible for enforcing these requirements."
+    },
     "label": "Congressional Research Service, Public Law",
     "text": "Romance Scam Prevention Act\nThis act requires online dating service providers (i.e., mobile applications or websites) to provide users with a fraud ban notification if the user has established an account with the service and received a message through the service from a banned user of the service.\nThe fraud ban notification must include (1) the username or other profile identifier of the banned user and the most recent time when the user who is receiving the notification sent or received a message through the service to or from the banned user, (2) a statement that the banned user may have been using a false identity or attempting to defraud other users, (3) a statement that the user should not send cash (or another form of currency) or personal financial information to another user, (4) information about avoiding online fraud (e.g., a link to another website or a disclosure), and (5) contact information for the provider's customer service department.\nThe act provides for enforcement of these requirements by the Federal Trade Commission and state attorneys general.",
     "version": "Public Law"

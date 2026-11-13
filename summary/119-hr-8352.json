@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T13:16:16Z",
+  "summary": {
+    "ai": {
+      "fp": "026da28cf40cbb495a7b8cb7ed6c906c8d990b9132a78e5d3b5951a58096dbae",
+      "model": "claude-haiku-5-5",
+      "text": "This bill lets a new type of organization, called a peace officer standards and training agency, access criminal history records kept by the Federal Bureau of Investigation. These are agencies from a state, the District of Columbia, or a U.S. territory that have the power to set rules for how police officers are hired, trained, expected to behave ethically, and kept on the job. They do this through certification, licensing, or similar approval processes."
+    },
+    "label": "Congressional Research Service, Reported to House",
+    "text": "Criminal History Access Act of 2026\nThis bill authorizes a new type of entity—peace officer standards and training agencies—to access criminal history record information maintained by the Federal Bureau of Investigation. The term peace officer standards and training agency means an agency of a state, the District of Columbia, or a U.S. territory that is authorized to set standards for the hiring, training, ethical conduct, and retention of its law enforcement officers through certification, licensing, or other similar qualification processes.",
+    "version": "Reported to House"
+  },
+  "v": 1
+}

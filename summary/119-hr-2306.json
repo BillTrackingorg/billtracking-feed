@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T13:16:18Z",
+  "summary": {
+    "ai": {
+      "fp": "4a4344c3e46e29efa245e4e42066576ff63f867314884d1d38d458074e841f82",
+      "model": "claude-haiku-5-5",
+      "text": "The Adams Memorial-Great American Heroes Act extends the Adams Memorial Commission through 2032. The commission's job is to set up a permanent memorial in Washington, DC, honoring John Adams and his legacy.\n\nThe bill says the memorial should be built in a specific area that the commission marked on a map dated February 25, 2025. That spot is south of the White House, next to Ellipse Road and near Pennsylvania Avenue and 15th Street, Northwest.\n\nIf the commission decides that this spot is not suitable or practical because of physical or security problems, the memorial must instead be placed in an area called the Reserve. The Reserve generally stretches from the U.S. Capitol to the Lincoln Memorial, and from the White House to the Jefferson Memorial."
+    },
+    "label": "Congressional Research Service, Reported to House",
+    "text": "The Adams Memorial-Great American Heroes Act\nThis bill extends through 2032 the Adams Memorial Commission, whose purpose is to establish a permanent memorial in Washington, DC, to honor John Adams and his legacy.\nThe bill specifies that the Adams Memorial shall be located within the area specified by the Adams Memorial Commission in a February 25, 2025 map (i.e., south of the White House, adjacent to Ellipse Road and near Pennsylvania Avenue and 15th Street, Northwest).\nIf the Commission determines that this location is not suitable or feasible due to physical or security constraints, the bill requires that the memorial be located in the Reserve, an area which generally extends from the United States Capitol to the Lincoln Memorial, and from the White House to the Jefferson Memorial.",
+    "version": "Reported to House"
+  },
+  "v": 1
+}

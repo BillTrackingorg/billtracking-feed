@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T13:16:20Z",
+  "summary": {
+    "ai": {
+      "fp": "b7ae128aca9f4c828d697dea0ebe26f5891e97bc1fc037995e5ba8ae8b0b429b",
+      "model": "claude-haiku-5-5",
+      "text": "This bill tells the Bureau of Land Management to change how it collects public comments in two ways. First, it would only consider comments from U.S. citizens. Second, it would try to stop automated AI tools, such as bots, from taking part in public comment by setting up and using a CAPTCHA test, a kind of online check designed to tell computers apart from humans."
+    },
+    "label": "Congressional Research Service, Introduced in Senate",
+    "text": "American Voices in Federal Lands Act\nThis bill directs the Bureau of Land Management to modify its public comment system by (1) only considering public comments from U.S. citizens; and (2) deterring attempts at public involvement via artificial intelligence (AI), such as AI bots, by establishing and implementing a Completely Automated Public Turing Test to tell Computers and Humans Apart (CAPTCHA test).",
+    "version": "Introduced in Senate"
+  },
+  "v": 1
+}
