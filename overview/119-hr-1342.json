@@ -1,0 +1,24 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hspw00",
+      "name": "Transportation and Infrastructure"
+    },
+    {
+      "chamber": "Senate",
+      "code": "ssga00",
+      "name": "Homeland Security and Governmental Affairs"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Scott Perry (R-PA)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-02-13"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

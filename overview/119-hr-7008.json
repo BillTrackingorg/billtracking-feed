@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsha00",
+      "name": "House Administration"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Bryan Steil (R-WI)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-01-12"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

@@ -1,0 +1,29 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsii00",
+      "name": "Natural Resources"
+    },
+    {
+      "chamber": "House",
+      "code": "hsag00",
+      "name": "Agriculture"
+    },
+    {
+      "chamber": "Senate",
+      "code": "sseg00",
+      "name": "Energy and Natural Resources"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Mark Amodei (R-NV)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-03-25"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

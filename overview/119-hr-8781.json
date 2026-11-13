@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsed00",
+      "name": "Education and Workforce"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Jodey Arrington (R-TX)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-05-13"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

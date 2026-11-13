@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "1013",
- "built_at": "2026-11-12T10:56:56+00:00",
+ "built_at": "2026-11-13T05:22:28+00:00",
  "source_count": 16,
  "holds_full_record": true,
  "entries": [
@@ -170,7 +170,7 @@
   {
    "order": 8,
    "date": "2026-11-11",
-   "text": "Considered under the provisions of rule H. Res. 1650.",
+   "text": "Considered under the provisions of rule H. Res. 1650. (consideration: CR H6166-6171)",
    "core": "Considered under the provisions of rule H. Res. 1650",
    "code": "H30000",
    "source": "House floor actions",
@@ -250,7 +250,7 @@
   {
    "order": 12,
    "date": "2026-11-11",
-   "text": "On passage Passed by the Yeas and Nays: 295 - 128 (Roll no. 321).",
+   "text": "On passage Passed by the Yeas and Nays: 295 - 128 (Roll no. 321). (text of amendment in the nature of a substitute: CR H6166)",
    "core": "On passage Passed by the Yeas and Nays: 295 - 128",
    "code": "H37100",
    "source": "House floor actions",

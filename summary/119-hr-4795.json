@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T05:19:06Z",
+  "summary": {
+    "ai": {
+      "fp": "d2c821ba47a8edc227541775eb045bc89a439127d82e96afe546b90cc30ff1a5",
+      "model": "claude-haiku-5-5",
+      "text": "This bill would bar colleges and universities that take part in federal student aid programs from boycotting Israel. Under the bill, a school could not take a business action meant to limit its dealings with Israel, or with Israeli-licensed, Israeli-regulated, or Israeli-organized entities, unless there is a valid business reason for it.\n\nThe bill also adds a condition for schools that receive, or apply for, Title VI funding, which supports foreign language and international education programs. Each year, these schools would have to certify two things. First, that their students and faculty can join academic programs located in Israel in the same way, and on the same terms, as programs in other foreign countries. Second, that students and faculty from schools in Israel can join the school's own academic programs in the same way, and on the same terms, as students and faculty from other foreign countries."
+    },
+    "label": "Congressional Research Service, Reported to House",
+    "text": "Protect Economic and Academic Freedom Act of 2026\nThis bill prohibits institutions of higher education (IHEs) that participate in federal student aid programs from engaging in boycotts against Israel. Specifically, IHEs may not engage in a commercial action intended to limit commercial relations with Israel, or with an entity licensed by, regulated by, or organized under the laws of Israel, that is not based on a valid business reason.\nFurther, IHEs receiving, or applying to receive, Title VI funds (federal funding for foreign language and international education programs) must annually certify that (1) students and faculty are allowed to participate in academic programs located in Israel in the same manner and under the same terms and conditions as programs in other foreign countries, and (2) students and faculty at postsecondary institutions located in Israel may participate in such IHE’s academic programs in the same manner and under the same terms and conditions as students and faculty from other foreign countries.",
+    "version": "Reported to House"
+  },
+  "v": 1
+}

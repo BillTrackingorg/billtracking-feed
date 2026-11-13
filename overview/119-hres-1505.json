@@ -1,0 +1,17 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsso00",
+      "name": "Ethics"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Michael Guest (R-MS)",
+  "status": {
+    "closed": true,
+    "how": "agreed",
+    "on": "2026-09-01"
+  },
+  "v": 1
+}

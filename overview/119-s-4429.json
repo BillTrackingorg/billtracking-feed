@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "sscm00",
+      "name": "Commerce, Science, and Transportation"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Bernie Moreno (R-OH)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-04-29"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T05:20:48Z",
+  "summary": {
+    "ai": {
+      "fp": "665c8eb4c25591d4e0533608462c96b0d519e32c72a6b7a5942eb4d1053c91ba",
+      "model": "claude-haiku-5-5",
+      "text": "The 21st Century Dyslexia Act changes how federal special education law, the Individuals with Disabilities Education Act (IDEA), treats dyslexia. Right now, dyslexia is listed as one example of a specific learning disability. This bill takes dyslexia out of that category and gives it its own separate definition in the law.\n\nUnder the bill, dyslexia means an unexpected difficulty with reading in a person who has the intelligence to read much better. It is most often caused by trouble with phonological processing, which is the ability to recognize the individual sounds in spoken language. That difficulty can affect a person's ability to speak, read, and spell.\n\nThe bill also requires local educational agencies, and other agencies involved, to give equal access to children from low-income families, children from families with low socioeconomic status, and children who are limited English proficient. This applies when they decide whether a child qualifies for an accommodation or service under the IDEA, and when they provide one."
+    },
+    "label": "Congressional Research Service, Introduced in Senate",
+    "text": "21st Century Dyslexia Act\nThis bill addresses the education of children with disabilities, with a particular focus on children with dyslexia.\nCurrently, dyslexia is listed as one of the disabilities under the definition of specific learning disability in the Individuals with Disabilities Education Act (IDEA). This bill instead removes dyslexia from the definition of specific learning disability and establishes a stand-alone definition for dyslexia within the IDEA.\nSpecifically, the bill defines dyslexia for purposes of the IDEA as an unexpected difficulty in reading for an individual who has the intelligence to be a much better reader, most commonly caused by a difficulty in the phonological processing (the appreciation of the individual sounds of spoken language), which affects the ability of an individual to speak, read, and spell.\nAdditionally, the bill requires a local educational agency or other agency, in determining eligibility for or providing an accommodation or service under the IDEA, to provide equal access to (1) children from low-income families, (2) children from families with low socioeconomic status, and (3) children who are limited English proficient.",
+    "version": "Introduced in Senate"
+  },
+  "v": 1
+}

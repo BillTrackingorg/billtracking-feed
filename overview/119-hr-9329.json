@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsba00",
+      "name": "Financial Services"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Ann Wagner (R-MO)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-06-18"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

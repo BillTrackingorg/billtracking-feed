@@ -1,0 +1,24 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsed00",
+      "name": "Education and Workforce"
+    },
+    {
+      "chamber": "House",
+      "code": "hsju00",
+      "name": "Judiciary"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Randy Fine (R-FL)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-04-23"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

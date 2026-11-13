@@ -1,0 +1,24 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsed00",
+      "name": "Education and Workforce"
+    },
+    {
+      "chamber": "Senate",
+      "code": "sshr00",
+      "name": "Health, Education, Labor, and Pensions"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Erin Houchin (R-IN)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-03-12"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsii00",
+      "name": "Natural Resources"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Gregory Murphy (R-NC)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-08-08"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

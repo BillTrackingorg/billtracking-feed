@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "sseg00",
+      "name": "Energy and Natural Resources"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. James Risch (R-ID)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-04-02"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

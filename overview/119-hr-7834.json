@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsju00",
+      "name": "Judiciary"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Laurel Lee (R-FL)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-03-05"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

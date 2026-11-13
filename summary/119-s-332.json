@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T05:20:50Z",
+  "summary": {
+    "ai": {
+      "fp": "3fa4b19b43984a7adc388b95972527fffa4277afa2fc7bb7cc41d6796fa24f8f",
+      "model": "claude-haiku-5-5",
+      "text": "This bill asks the U.S. Holocaust Memorial Museum to study and report on how Holocaust education is handled in states, local school districts, and public elementary and secondary schools.\n\nThe study would look at several things. It would find out whether states and local school districts require Holocaust education as part of what public schools teach. It would also identify the standards and requirements that apply to this kind of teaching. In addition, it would identify the kinds of teaching materials schools use to educate students about the Holocaust."
+    },
+    "label": "Congressional Research Service, Introduced in Senate",
+    "text": "Holocaust Education and Antisemitism Lessons Act\nThis bill directs the U.S. Holocaust Memorial Museum to study and report on Holocaust education efforts in states, local educational agencies (LEAs), and public elementary and secondary schools. Among other elements, the study must (1) determine whether states and LEAs require Holocaust education as part of the curriculum taught in public elementary and secondary schools, (2) identify the standards and requirements relating to Holocaust education, and (3) identify the types of instructional material used to teach students about the Holocaust.",
+    "version": "Introduced in Senate"
+  },
+  "v": 1
+}

@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T05:20:21Z",
+  "summary": {
+    "ai": {
+      "fp": "c9d4ff4570354733de30152e8d7e0871a0d676a577f3bf5b0d70cffe12f04659",
+      "model": "claude-haiku-5-5",
+      "text": "This bill renames the Saratoga National Historical Park, located in Stillwater, New York, as the Saratoga National Battlefield Park."
+    },
+    "label": "Congressional Research Service, Introduced in Senate",
+    "text": "Strengthening America’s Turning Point Act\nThis bill renames the Saratoga National Historical Park, located in Stillwater, New York, as Saratoga National Battlefield Park.",
+    "version": "Introduced in Senate"
+  },
+  "v": 1
+}

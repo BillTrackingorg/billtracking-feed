@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T05:18:48Z",
+  "summary": {
+    "ai": {
+      "fp": "18b527e2823072548a6bd703e9ed6787d161831815a7772b51ce859e4b9f7957",
+      "model": "claude-haiku-5-5",
+      "text": "This bill raises the amount of money a lawsuit must be worth before it can be heard in federal court based on the parties coming from different states. Right now, a case can go to federal court this way if the amount in dispute is more than $75,000. Under the bill, that threshold would rise to $150,000. Starting in 2030, the amount would also be adjusted for inflation every 10 years."
+    },
+    "label": "Congressional Research Service, Passed Senate",
+    "text": "Diversity Jurisdiction Inflation Adjustment Act\nThis bill raises the minimum amount in controversy for federal diversity jurisdiction.\nUnder current law, federal courts have jurisdiction over civil cases in which the monetary amount in controversy exceeds $75,000 and there is diversity of citizenship among the parties (e.g., the parties are citizens of different states).\nThis bill raises the minimum amount in controversy from $75,000 to $150,000 and adjusts the amount for inflation every 10 years beginning in 2030.",
+    "version": "Passed Senate"
+  },
+  "v": 1
+}

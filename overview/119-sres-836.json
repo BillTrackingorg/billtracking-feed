@@ -1,0 +1,15 @@
+{
+  "committees": [],
+  "congress": 119,
+  "lead": "Sen. Dan Sullivan (R-AK)",
+  "start": {
+    "kind": "submitted",
+    "on": "2026-08-06"
+  },
+  "status": {
+    "closed": true,
+    "how": "agreed",
+    "on": "2026-08-06"
+  },
+  "v": 1
+}

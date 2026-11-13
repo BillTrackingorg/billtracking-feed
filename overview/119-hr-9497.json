@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hspw00",
+      "name": "Transportation and Infrastructure"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Sam Graves (R-MO)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-06-29"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

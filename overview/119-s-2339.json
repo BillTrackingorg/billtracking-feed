@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "sshr00",
+      "name": "Health, Education, Labor, and Pensions"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Amy Klobuchar (D-MN)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-07-17"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

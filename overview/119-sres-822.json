@@ -1,0 +1,15 @@
+{
+  "committees": [],
+  "congress": 119,
+  "lead": "Sen. Alex Padilla (D-CA)",
+  "start": {
+    "kind": "submitted",
+    "on": "2026-07-30"
+  },
+  "status": {
+    "closed": true,
+    "how": "agreed",
+    "on": "2026-07-30"
+  },
+  "v": 1
+}

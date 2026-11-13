@@ -1,0 +1,29 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsju00",
+      "name": "Judiciary"
+    },
+    {
+      "chamber": "House",
+      "code": "hsif00",
+      "name": "Energy and Commerce"
+    },
+    {
+      "chamber": "Senate",
+      "code": "ssju00",
+      "name": "Judiciary"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Gabe Evans (R-CO)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-03-19"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

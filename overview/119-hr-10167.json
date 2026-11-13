@@ -1,0 +1,24 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsba00",
+      "name": "Financial Services"
+    },
+    {
+      "chamber": "Senate",
+      "code": "ssbk00",
+      "name": "Banking, Housing, and Urban Affairs"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Lisa McClain (R-MI)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-08-27"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

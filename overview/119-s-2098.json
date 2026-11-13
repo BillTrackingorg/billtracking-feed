@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "slia00",
+      "name": "Indian Affairs"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Lisa Murkowski (R-AK)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-06-17"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

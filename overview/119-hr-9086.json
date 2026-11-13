@@ -1,0 +1,29 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsfa00",
+      "name": "Foreign Affairs"
+    },
+    {
+      "chamber": "House",
+      "code": "hswm00",
+      "name": "Ways and Means"
+    },
+    {
+      "chamber": "Senate",
+      "code": "ssfr00",
+      "name": "Foreign Relations"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Michael Lawler (R-NY)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-06-02"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

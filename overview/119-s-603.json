@@ -1,0 +1,22 @@
+{
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "sseg00",
+      "name": "Energy and Natural Resources"
+    }
+  ],
+  "congress": 119,
+  "law": "Public Law 119-115",
+  "lead": "Sen. Timothy Kaine (D-VA)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-02-13"
+  },
+  "status": {
+    "closed": true,
+    "how": "law",
+    "on": "2026-09-25"
+  },
+  "v": 1
+}

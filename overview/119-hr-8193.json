@@ -1,0 +1,24 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsgo00",
+      "name": "Oversight and Government Reform"
+    },
+    {
+      "chamber": "Senate",
+      "code": "ssga00",
+      "name": "Homeland Security and Governmental Affairs"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Michael Turner (R-OH)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-04-02"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

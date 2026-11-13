@@ -1,0 +1,24 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsii00",
+      "name": "Natural Resources"
+    },
+    {
+      "chamber": "House",
+      "code": "hsif00",
+      "name": "Energy and Commerce"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Mike Kennedy (R-UT)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-05-04"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

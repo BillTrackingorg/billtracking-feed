@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsii00",
+      "name": "Natural Resources"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Tom McClintock (R-CA)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-04-22"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

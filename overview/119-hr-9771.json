@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hswm00",
+      "name": "Ways and Means"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Nicole Malliotakis (R-NY)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-07-18"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

@@ -1,0 +1,22 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hswm00",
+      "name": "Ways and Means"
+    }
+  ],
+  "congress": 119,
+  "law": "Public Law 119-111",
+  "lead": "Rep. Jimmy Panetta (D-CA)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-09-11"
+  },
+  "status": {
+    "closed": true,
+    "how": "law",
+    "on": "2026-09-18"
+  },
+  "v": 1
+}

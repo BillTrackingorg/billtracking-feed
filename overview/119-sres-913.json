@@ -1,0 +1,15 @@
+{
+  "committees": [],
+  "congress": 119,
+  "lead": "Sen. Jerry Moran (R-KS)",
+  "start": {
+    "kind": "submitted",
+    "on": "2026-09-28"
+  },
+  "status": {
+    "closed": true,
+    "how": "agreed",
+    "on": "2026-09-28"
+  },
+  "v": 1
+}

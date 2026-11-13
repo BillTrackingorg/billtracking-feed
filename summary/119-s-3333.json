@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T05:20:52Z",
+  "summary": {
+    "ai": {
+      "fp": "ad3da3bfb6b5c184a1d07146a1d5299885776996d2e2b672ee0a0035d691aba9",
+      "model": "claude-haiku-5-5",
+      "text": "The Emergency Savings Enhancement Act of 2025 makes it easier to join and raises how much can be saved in certain emergency savings accounts. These accounts, called pension-linked emergency savings accounts (PLESAs), are linked to workplace retirement plans such as 401(k)s. Contributions to them are taxed as regular income, but money can be taken out for any reason.\n\nUnder the bill, highly compensated employees are no longer excluded from these accounts. Anyone who meets the plan's age, length-of-service, and other requirements can take part, no matter how much they earn.\n\nThe bill also raises the limit on the amount of a PLESA balance that can come from the worker's own contributions. The limit would rise to $5,000, up from $2,600 in 2026. The limit will continue to be adjusted for inflation over time.\n\nFinally, the bill extends a Department of Labor program that gives grants to states to encourage employee ownership and participation in businesses, and it provides additional funding for that program."
+    },
+    "label": "Congressional Research Service, Reported to Senate",
+    "text": "Emergency Savings Enhancement Act of 2025\nThis bill expands eligibility and increases the maximum contribution limit for pension-linked emergency savings accounts (PLESAs).\nAs background, PLESAs are savings accounts that are established and maintained in connection with a defined contribution retirement plan, such as a 401(k). Contributions to such accounts are subject to federal income tax, and withdrawals are allowed for any reason.\nThe bill expands eligibility for PLESAs by eliminating the exclusion of highly compensated employees. Thus, under the bill, individuals who meet the age, service, and other eligibility requirements of the plan, regardless of compensation, are eligible to participate in such a plan.\nThe bill also increases the maximum limit on the portion of a PLESA balance attributable to participant contributions to $5,000 (from $2,600 in 2026). This limit continues to be adjusted for inflation.\nThe bill also extends and provides additional funding for a Department of Labor program that awards grants to states to promote employee ownership and participation in businesses.",
+    "version": "Reported to Senate"
+  },
+  "v": 1
+}

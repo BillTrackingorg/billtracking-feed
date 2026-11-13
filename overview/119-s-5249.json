@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "ssev00",
+      "name": "Environment and Public Works"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Mark Kelly (D-AZ)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-08-05"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

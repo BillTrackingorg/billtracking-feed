@@ -1,0 +1,15 @@
+{
+  "committees": [],
+  "congress": 119,
+  "lead": "Sen. John Thune (R-SD)",
+  "start": {
+    "kind": "submitted",
+    "on": "2026-07-21"
+  },
+  "status": {
+    "closed": true,
+    "how": "agreed",
+    "on": "2026-07-21"
+  },
+  "v": 1
+}

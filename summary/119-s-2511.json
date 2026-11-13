@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T05:20:35Z",
+  "summary": {
+    "ai": {
+      "fp": "972b9654092b2355bfdf4cc19ca2358787b9a6dd8387fdc51fa04c9b5c252c78",
+      "model": "claude-haiku-5-5",
+      "text": "The College Transparency Act would require the National Center for Education Statistics (NCES) to set up a secure data system with privacy protections that holds information about college students. The system is meant to track how students enroll, move through school, finish, and do afterward in their careers, as well as what colleges cost and how financial aid is used. It would be designed to give students and families complete, adjustable information when they are deciding about college. The bill also aims to cut back the amount of reporting that colleges must do, and it would regularly match this data with other federal data systems.\n\nThe bill creates an advisory committee to guide the data system. It also requires the Department of Education and NCES to provide enough dedicated staff to carry out the law. Finally, they must report to Congress every quarter on how the work is progressing."
+    },
+    "label": "Congressional Research Service, Reported to Senate",
+    "text": "College Transparency Act\nThis bill requires the National Center for Education Statistics (NCES) to establish a secure and privacy-protected data system that contains information about postsecondary students.\nSpecifically, the data system must\nevaluate student enrollment patterns, progression, completion, and postcollegiate outcomes, and higher education costs and financial aid;\nprovide complete and customizable information for students and families making decisions about postsecondary education;\nreduce the requirements for reporting by institutions of higher education; and\nperiodically match with other federal systems of data.\nThe bill also establishes a postsecondary student data system advisory committee.\nThe Department of Education (ED) and NCES must (1) provide dedicated and adequate staffing at ED to implement the bill's requirements, and (2) report to Congress on a quarterly basis regarding the progress of implementing the bill's requirements.",
+    "version": "Reported to Senate"
+  },
+  "v": 1
+}

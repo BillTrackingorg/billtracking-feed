@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T05:18:45Z",
+  "summary": {
+    "ai": {
+      "fp": "29492bbadf55dd7aa0acfe5218bff1afce265cf90891e8ca7ccc4cbe95a6b84c",
+      "model": "claude-haiku-5-5",
+      "text": "This bill brings back higher debt limits for two types of bankruptcy that expired in 2024. It raises the debt limit for small business reorganization cases under Subchapter V from about $3.4 million to $7.5 million. It also raises the total debt limit for wage earner's plans under Chapter 13 from about $2.1 million to $2.75 million.\n\nThe bill changes how Chapter 13 debt is counted. Right now, separate limits apply to secured debt (debt backed by property, such as a mortgage) and unsecured debt (debt not backed by property). Under the bill, both kinds of debt count toward one combined Chapter 13 limit."
+    },
+    "label": "Congressional Research Service, Passed Senate",
+    "text": "Bankruptcy Threshold Adjustment Act of 2026\nThis bill restores changes that expired in 2024 applicable to debt limits for Subchapter V (small business reorganization) and Chapter 13 (the wage earner's plan) bankruptcies.\nSpecifically, the bill increases the debt limit under Subchapter V from approximately $3.4 million to $7.5 million and increases the cumulative debt limit under Chapter 13 from approximately $2.1 million to $2.75 million.\nThe bill also applies both secured and unsecured debt towards the Chapter 13 limit. (Currently, separate limits apply to secured and unsecured debt under Chapter 13 bankruptcy.)",
+    "version": "Passed Senate"
+  },
+  "v": 1
+}

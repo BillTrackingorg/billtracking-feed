@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsvr00",
+      "name": "Veterans' Affairs"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. John Mannion (D-NY)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-09-17"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

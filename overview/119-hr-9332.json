@@ -1,0 +1,24 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsif00",
+      "name": "Energy and Commerce"
+    },
+    {
+      "chamber": "Senate",
+      "code": "sseg00",
+      "name": "Energy and Natural Resources"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Troy Balderson (R-OH)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-06-18"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

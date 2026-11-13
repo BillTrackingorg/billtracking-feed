@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T05:20:11Z",
+  "summary": {
+    "ai": {
+      "fp": "77111a756b7a177012a4d8e4e28b5d10a48fa4471aa84819a8cc52281d25d630",
+      "model": "claude-haiku-5-5",
+      "text": "This bill changes the rules for getting approval for a biosimilar, which is a biological product, such as a drug or vaccine, that is meant to work like a brand-name version of that product. Right now, companies seeking approval must usually run a clinical efficacy study, which is a study in patients showing the copy is safe, pure, and effective for the uses it is intended for. The Food and Drug Administration (FDA) can already skip studies it considers unnecessary, and in October 2025 it issued draft guidance saying such studies may not be needed for some protein-based products in certain situations.\n\nUnder the bill, companies would generally no longer have to submit a clinical efficacy study. The FDA would still be able to require one if it decides the study is necessary. If it does, it must give the applicant a written explanation of why, within a set time period.\n\nThe bill also removes a rule that required a biosimilar application to be reviewed by the same FDA division that reviews the brand-name product's application."
+    },
+    "label": "Congressional Research Service, Reported to Senate",
+    "text": "Expedited Access to Biosimilars Act\nThis bill modifies statutory requirements for demonstrating that a proposed biological product (e.g., a drug or vaccine) is biosimilar to a reference (brand-name) product. Specifically, the bill eliminates the need for a clinical efficacy study unless the Food and Drug Administration (FDA) determines such a study is necessary.\nUnder current law, applicants seeking FDA approval of a proposed biosimilar must submit certain studies and assessments, including a clinical efficacy study demonstrating the safety, purity, and potency of the proposed biosimilar in relevant conditions of use. However, the FDA has discretion not to require studies and assessments it deems unnecessary. (For example, the FDA released draft guidance in October 2025 indicating that clinical efficacy studies may be unnecessary for a class of proposed biosimilars, known as therapeutic protein products, in some circumstances.)\nThe bill generally eliminates the requirement that a biosimilar applicant submit a clinical efficacy study but authorizes the FDA to require such a study if necessary. If requiring a clinical efficacy study, the FDA must provide a written determination of necessity to the applicant within a specified period.\nSeparately, the bill eliminates a requirement that a biosimilar application be reviewed by the same FDA division responsible for review of the reference application.",
+    "version": "Reported to Senate"
+  },
+  "v": 1
+}

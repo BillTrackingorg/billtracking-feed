@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T05:20:45Z",
+  "summary": {
+    "ai": {
+      "fp": "e45ac2d9fd24a62915f4368302400336cb72e793bedae22acb826c993c677a99",
+      "model": "claude-haiku-5-5",
+      "text": "This bill tells the National Park Service (NPS) to make a plan for upgrading the 911 emergency call systems used in national parks to a newer, digital, internet-based system called Next Generation 911 (NG911).\n\nTo do this, the NPS must first look at each emergency communications center in its park units that already exists. It has to find out how far along each center is in setting up NG911 and estimate what the upgrades would cost. Then, based on that review, the NPS must develop a plan for installing NG911 systems at those centers."
+    },
+    "label": "Congressional Research Service, Introduced in Senate",
+    "text": "Making National Parks Safer Act\nThis bill directs the National Park Service (NPS) to develop a plan to install Next Generation 911 (NG911) systems, which are certain interoperable, digital, and secure Internet Protocol-based systems for receiving 9-1-1 calls.\nSpecifically, the NPS must assess the implementation status and estimated costs of such NG911 systems at existing emergency communications centers in NPS units. The NPS must also develop a plan, based on the assessment, to install NG911 systems at centers.",
+    "version": "Introduced in Senate"
+  },
+  "v": 1
+}

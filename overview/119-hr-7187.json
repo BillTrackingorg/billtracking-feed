@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsba00",
+      "name": "Financial Services"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Zachary Nunn (R-IA)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-01-21"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

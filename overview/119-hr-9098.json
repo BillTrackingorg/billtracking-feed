@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsju00",
+      "name": "Judiciary"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Mike Kelly (R-PA)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-06-02"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

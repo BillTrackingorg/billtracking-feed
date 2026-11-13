@@ -1,0 +1,24 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsgo00",
+      "name": "Oversight and Government Reform"
+    },
+    {
+      "chamber": "Senate",
+      "code": "ssga00",
+      "name": "Homeland Security and Governmental Affairs"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Shomari Figures (D-AL)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-11-10"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

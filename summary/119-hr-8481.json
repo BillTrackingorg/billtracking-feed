@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T05:19:17Z",
+  "summary": {
+    "ai": {
+      "fp": "0385f67eb8355df1ae7896608cbd229d39d61e1f0a46977764132b202f2d1709",
+      "model": "claude-haiku-5-5",
+      "text": "This bill sets up a federal rule requiring federal courts to issue a \"no-contact order,\" which bars the defendant from contacting the victim. The order applies when a defendant is convicted of a felony that is a crime of violence or that involves a sexual act or sexual conduct. The victim or the federal government can ask the court for the order, and the court must issue it when that request is made.\n\nThe order must be imposed at sentencing and stays in effect for the defendant's lifetime, unless it is ended or paused under specific procedures set out in the law. Victims cannot be charged any fee for getting a no-contact order."
+    },
+    "label": "Congressional Research Service, Reported to House",
+    "text": "Kayleigh’s Law Act of 2026\nThis bill establishes a federal statutory framework to require federal courts to issue an order prohibiting contact with a victim (i.e., a no-contact order) in the case of a defendant who is convicted of certain violent crimes or sex crimes.\nSpecifically, in the case of a defendant convicted of a felony offense that is a crime of violence or that involves a sexual act or sexual conduct, on a motion by the victim or federal government, the court must issue a no-contact order.\nUnder the framework, the no-contact order must be imposed at sentencing and be in effect for the lifetime of the defendant unless it is terminated or suspended in accordance with specified procedures. Additionally, no fee may be assessed or collected from a victim in connection with the issuance of a no-contact order.",
+    "version": "Reported to House"
+  },
+  "v": 1
+}

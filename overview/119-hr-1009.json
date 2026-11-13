@@ -1,0 +1,24 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsgo00",
+      "name": "Oversight and Government Reform"
+    },
+    {
+      "chamber": "Senate",
+      "code": "ssga00",
+      "name": "Homeland Security and Governmental Affairs"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Michael Lawler (R-NY)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-02-05"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

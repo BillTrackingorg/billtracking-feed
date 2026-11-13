@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T05:18:53Z",
+  "summary": {
+    "ai": {
+      "fp": "7c96dc5a5ecad2b4b3d59fa80d545e1c76a69b5cfc50ca3f2b34dcda1c28129b",
+      "model": "claude-haiku-5-5",
+      "text": "The Common Cents Act would stop the U.S. Treasury from making new pennies for everyday circulation, though the Treasury could still make them to meet the needs of coin collectors. Pennies would remain legal money.\n\nUnder the bill, anyone who sells goods or services for cash, makes other cash transfers, or pays employees in cash would have to round the amount up or down so it can be divided evenly by five. This rounding rule would apply to those cash payments and transfers.\n\nThe bill also lets the Treasury stop making any coin for circulation, but only if it follows the steps set out in the bill. Those steps include giving notice to Congress and providing it a briefing.\n\nThe Federal Reserve Board would have to report regularly on a strategic plan for accepting penny orders and deposits at commercial coin terminals that offer services under agreements with Federal Reserve banks.\n\nFinally, the bill would allow the nickel to be made from a different material. Besides the current copper and nickel alloy, a nickel could be made with an inner core of zinc and an outer layer of nickel."
+    },
+    "label": "Congressional Research Service, Passed Senate",
+    "text": "Common Cents Act\nThis bill ends the production of the penny for general circulation, requires rounding to an amount divisible by five for the payment or transfer of cash, and allows the nickel to be composed of different material.\nThe Department of the Treasury must stop producing the penny, except to meet collector needs. The penny shall continue to be legal tender.\nAny person selling goods or services in a cash transaction, entering into other transfers of cash, or paying cash wages to an employee must round the payment up or down in accordance with the bill.\nThe bill also allows Treasury to discontinue the minting for circulation of any coin if Treasury follows procedures as outlined by the bill, including providing notice and a briefing to Congress.\nThe Federal Reserve Board must periodically report on a strategic plan for the acceptance of penny orders and deposits at commercial coin terminals that provide services under agreements with Federal Reserve banks.\nFinally, the bill allows for a different material composition of the nickel. In addition to being made from an alloy of copper and nickel, the nickel may also be clad with an inner core of zinc and an outer layer of nickel.",
+    "version": "Passed Senate"
+  },
+  "v": 1
+}

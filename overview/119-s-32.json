@@ -1,0 +1,22 @@
+{
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "ssju00",
+      "name": "Judiciary"
+    }
+  ],
+  "congress": 119,
+  "law": "Public Law 119-109",
+  "lead": "Sen. Ted Cruz (R-TX)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-01-08"
+  },
+  "status": {
+    "closed": true,
+    "how": "law",
+    "on": "2026-09-16"
+  },
+  "v": 1
+}

@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "sseg00",
+      "name": "Energy and Natural Resources"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. John Thune (R-SD)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-01-29"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

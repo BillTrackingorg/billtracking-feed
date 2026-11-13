@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T05:19:20Z",
+  "summary": {
+    "ai": {
+      "fp": "ed099be9dc550b1638232aa72afa99f049352acfbedc6e82b3e527c17b75ad5b",
+      "model": "claude-haiku-5-5",
+      "text": "This bill pushes back the deadline for the National Marine Fisheries Service to issue new rules protecting the endangered Atlantic large whale from lobster and crab fishing gear. The deadline moves from 2028 to 2035.\n\nUnder current law, those rules must require the American lobster and Jonah crab fisheries to use existing and new fishing gear technologies, as appropriate, to lower the chance that whales get tangled in their gear."
+    },
+    "label": "Congressional Research Service, Reported to House",
+    "text": "Northeast Lobsterman Protection Act of 2026\nThis bill extends the deadline from 2028 to 2035 for the National Marine Fisheries Service to issue new regulations that protect the endangered Atlantic large whale from certain lobster and crab fishing gear. Under current law, the new regulations must include requirements for the American lobster and Jonah crab fisheries to utilize existing and innovative fishing gear technologies as appropriate to reduce the risk of whales becoming entangled in their gear.",
+    "version": "Reported to House"
+  },
+  "v": 1
+}

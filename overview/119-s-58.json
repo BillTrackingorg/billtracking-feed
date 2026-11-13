@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "ssga00",
+      "name": "Homeland Security and Governmental Affairs"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Ted Cruz (R-TX)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-01-09"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

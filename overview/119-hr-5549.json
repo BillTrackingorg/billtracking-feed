@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsif00",
+      "name": "Energy and Commerce"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. H. Griffith (R-VA)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-09-23"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

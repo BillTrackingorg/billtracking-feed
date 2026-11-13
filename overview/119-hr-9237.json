@@ -1,0 +1,24 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsvr00",
+      "name": "Veterans' Affairs"
+    },
+    {
+      "chamber": "House",
+      "code": "hsas00",
+      "name": "Armed Services"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Mike Bost (R-IL)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-06-10"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

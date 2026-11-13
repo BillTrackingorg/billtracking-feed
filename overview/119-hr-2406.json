@@ -1,0 +1,24 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsii00",
+      "name": "Natural Resources"
+    },
+    {
+      "chamber": "Senate",
+      "code": "sscm00",
+      "name": "Commerce, Science, and Transportation"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Suzanne Bonamici (D-OR)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-03-27"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

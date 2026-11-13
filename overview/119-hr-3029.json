@@ -1,0 +1,24 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hssy00",
+      "name": "Science, Space, and Technology"
+    },
+    {
+      "chamber": "Senate",
+      "code": "sscm00",
+      "name": "Commerce, Science, and Transportation"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Andrea Salinas (D-OR)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-04-28"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

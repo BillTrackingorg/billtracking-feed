@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T05:18:43Z",
+  "summary": {
+    "ai": {
+      "fp": "32ea2d3b8c2cdb0da3509ac68143885b83f588f66390c3c4247c16ca06f080d1",
+      "model": "claude-haiku-5-5",
+      "text": "The Youth Poisoning Protection Act would ban consumer products that contain sodium nitrite at a concentration of 10% or higher, treating them as banned hazardous products. The ban does not cover certain drugs, medical devices, cosmetics, or food products."
+    },
+    "label": "Congressional Research Service, Introduced in Senate",
+    "text": "Youth Poisoning Protection Act\nThis bill makes a consumer product with a concentration of sodium nitrite of 10% or greater a banned hazardous product.\nThe restriction does not apply to specified drugs, medical devices, cosmetics, or food products.",
+    "version": "Introduced in Senate"
+  },
+  "v": 1
+}

@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hswm00",
+      "name": "Ways and Means"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. David Schweikert (R-AZ)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-03-18"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

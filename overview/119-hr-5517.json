@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hshm00",
+      "name": "Homeland Security"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Nicholas Langworthy (R-NY)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-09-19"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

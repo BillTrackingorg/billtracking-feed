@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsii00",
+      "name": "Natural Resources"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Troy Nehls (R-TX)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-01-09"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

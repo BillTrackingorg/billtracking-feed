@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "ssev00",
+      "name": "Environment and Public Works"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Dan Sullivan (R-AK)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-11-06"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

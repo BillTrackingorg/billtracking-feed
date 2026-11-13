@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsvr00",
+      "name": "Veterans' Affairs"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Ryan Mackenzie (R-PA)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-01-27"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

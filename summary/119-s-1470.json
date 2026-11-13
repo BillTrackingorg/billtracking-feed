@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T05:20:16Z",
+  "summary": {
+    "ai": {
+      "fp": "038c934420dd0b7cc06919324e25c95d5fa429af7106ccf2b492962eb60c1ce5",
+      "model": "claude-haiku-5-5",
+      "text": "This bill asks the Department of Agriculture and the Department of the Interior to work toward finishing the Continental Divide National Scenic Trail within 10 years of the bill becoming law. To help with this, the two departments would set up a joint trail completion team made up of Forest Service and Bureau of Land Management staff. The team would work with the trail's administrator to help finish the trail and make it better.\n\nThe Department of Agriculture would also have three years to finish a complete development plan for the trail. In addition, the two departments would try to reach agreements with volunteer and nonprofit groups to help complete and run the trail."
+    },
+    "label": "Congressional Research Service, Introduced in Senate",
+    "text": "Continental Divide National Scenic Trail Completion Act\nThis bill directs the Department of Agriculture (USDA) and the Department of the Interior to seek to complete the Continental Divide National Scenic Trail no later than 10 years after the enactment of this bill.\nUSDA and Interior must establish a joint Forest Service and Bureau of Land Management trail completion team to work in coordination with the administrator of the trail to facilitate its completion and optimization.\nUSDA must complete a comprehensive development plan for the trail within three years.\nUSDA and Interior must also seek to enter into agreements with volunteer and nonprofit organizations to facilitate the completion and administration of the trail.",
+    "version": "Introduced in Senate"
+  },
+  "v": 1
+}

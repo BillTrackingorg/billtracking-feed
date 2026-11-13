@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-13T05:21:00Z",
+  "summary": {
+    "ai": {
+      "fp": "5e1e782d05d7db53bfb9eea968770edcfc786dcbe17574eb81abfe68198a0957",
+      "model": "claude-haiku-5-5",
+      "text": "The EMPOWER for Health Act reauthorizes, through fiscal year 2031, and updates a range of federal programs that fund and support recruiting, training, and keeping people in health care jobs and teaching roles. The Health Resources and Services Administration (HRSA) runs these programs.\n\nOne change affects a loan repayment program for certain pediatric health specialists who agree to work in areas short on those specialists. Under the bill, direct clinical care must make up at least half of the required service hours. The eligible specialties are widened to include any pediatric mental or behavioral health discipline that HRSA considers appropriate. The bill also specifically allows the program to focus on children enrolled in Medicaid.\n\nThe bill also explicitly authorizes grants to states, health professions schools, and similar groups to strengthen the nursing workforce. These grants would pay for analysis, technical help, and best practices aimed at easing nursing shortages.\n\nFinally, the bill extends grants that recruit young people into public health careers so they can reach middle school students, not just high school students as current law allows."
+    },
+    "label": "Congressional Research Service, Reported to Senate",
+    "text": "Educating Medical Professionals and Optimizing Workforce Efficiency and Readiness for Health Act or the EMPOWER for Health Act\nThis bill reauthorizes through FY2031 and revises a range of programs that provide funding and other resources to support recruiting, training, and retaining individuals to work or teach in the health professions. These programs are administered by the Health Resources and Services Administration (HRSA).\nFor instance, the bill revises an educational loan repayment program for certain pediatric health specialists that agree to practice in areas with shortages of such specialists. The bill (1) requires direct clinical care to comprise at least half of the required service hours, (2) broadens the eligible specialties to include any pediatric mental or behavioral health discipline HRSA determines appropriate, and (3) specifically authorizes focusing care on children enrolled in Medicaid.\nAlso, the bill specifically authorizes grants to entities such as states and health professions schools for supporting the nursing workforce by providing analysis, technical assistance, and best practices for alleviating nursing workforce shortages.\nFinally, the bill expands grants for recruiting youth into public health careers to include outreach to middle school students (current law only includes outreach to high school students).",
+    "version": "Reported to Senate"
+  },
+  "v": 1
+}

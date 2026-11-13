@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsed00",
+      "name": "Education and Workforce"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Kevin Hern (R-OK)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-09-10"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}
