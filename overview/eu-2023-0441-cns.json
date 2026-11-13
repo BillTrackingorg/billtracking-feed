@@ -1,0 +1,17 @@
+{
+ "committees": [
+  {
+   "code": "LIBE",
+   "name": "Civil Liberties, Justice and Home Affairs"
+  }
+ ],
+ "lead": "Lena Düpont (EPP)",
+ "start": {
+  "kind": "proposed",
+  "on": "2023-12-06"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}

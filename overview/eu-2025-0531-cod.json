@@ -1,0 +1,21 @@
+{
+ "committees": [
+  {
+   "code": "ENVI",
+   "name": "Environment, Climate and Food Safety"
+  },
+  {
+   "code": "IMCO",
+   "name": "Internal Market and Consumer Protection"
+  }
+ ],
+ "lead": "Dimitris Tsiodras (EPP) and Piotr Müller (ECR)",
+ "start": {
+  "kind": "proposed",
+  "on": "2025-07-08"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}

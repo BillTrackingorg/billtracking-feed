@@ -1,0 +1,17 @@
+{
+ "committees": [
+  {
+   "code": "JURI",
+   "name": "Legal Affairs"
+  }
+ ],
+ "lead": "Jana Toom (Renew)",
+ "start": {
+  "kind": "proposed",
+  "on": "2023-05-31"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}

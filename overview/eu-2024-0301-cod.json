@@ -1,0 +1,21 @@
+{
+ "committees": [
+  {
+   "code": "EMPL",
+   "name": "Employment and Social Affairs"
+  },
+  {
+   "code": "IMCO",
+   "name": "Internal Market and Consumer Protection"
+  }
+ ],
+ "lead": "Johan Danielsson (S&D) and Andreas Schwab (EPP)",
+ "start": {
+  "kind": "proposed",
+  "on": "2024-11-13"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}

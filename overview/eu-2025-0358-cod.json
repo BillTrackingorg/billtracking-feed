@@ -1,0 +1,18 @@
+{
+ "checked": "2026-11-13",
+ "committees": [
+  {
+   "code": "ITRE",
+   "name": "Industry, Research and Energy"
+  }
+ ],
+ "lead": "Eero Heinäluoma (S&D)",
+ "start": {
+  "kind": "proposed",
+  "on": "2025-11-19"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}
