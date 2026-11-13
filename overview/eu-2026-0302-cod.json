@@ -1,0 +1,17 @@
+{
+ "committees": [
+  {
+   "code": "PECH",
+   "name": "Fisheries"
+  }
+ ],
+ "lead": "Jessica Polfjärd (EPP)",
+ "start": {
+  "kind": "proposed",
+  "on": "2026-10-02"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}

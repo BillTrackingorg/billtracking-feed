@@ -1,0 +1,16 @@
+{
+ "committees": [
+  {
+   "code": "IMCO",
+   "name": "Internal Market and Consumer Protection"
+  }
+ ],
+ "start": {
+  "kind": "proposed",
+  "on": "2026-11-11"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}

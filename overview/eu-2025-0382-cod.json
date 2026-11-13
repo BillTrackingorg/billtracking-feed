@@ -1,0 +1,17 @@
+{
+ "committees": [
+  {
+   "code": "ECON",
+   "name": "Economic and Monetary Affairs"
+  }
+ ],
+ "lead": "Eero Heinäluoma (S&D)",
+ "start": {
+  "kind": "proposed",
+  "on": "2025-12-04"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}

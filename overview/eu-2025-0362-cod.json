@@ -1,0 +1,17 @@
+{
+ "committees": [
+  {
+   "code": "ECON",
+   "name": "Economic and Monetary Affairs"
+  }
+ ],
+ "lead": "Damian Boeselager (Greens/EFA)",
+ "start": {
+  "kind": "proposed",
+  "on": "2025-11-20"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}
