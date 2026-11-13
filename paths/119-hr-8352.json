@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "8352",
- "built_at": "2026-11-13T05:22:13+00:00",
- "source_count": 20,
+ "built_at": "2026-11-13T15:18:59+00:00",
+ "source_count": 22,
  "holds_full_record": true,
  "entries": [
   {
@@ -345,6 +345,26 @@
    "qualified": null,
    "lead": false,
    "emoji": null,
+   "vote": null
+  },
+  {
+   "order": 17,
+   "date": "2026-10-14",
+   "text": "Presented to President.",
+   "core": "Presented to President",
+   "code": "28000",
+   "source": "Library of Congress",
+   "chamber": null,
+   "family": "presented",
+   "label": "Presented to President",
+   "tally": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-4ee7dd307d05b0d1",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "📌",
    "vote": null
   }
  ]

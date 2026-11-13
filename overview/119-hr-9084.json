@@ -4,6 +4,11 @@
       "chamber": "House",
       "code": "hsif00",
       "name": "Energy and Commerce"
+    },
+    {
+      "chamber": "Senate",
+      "code": "sseg00",
+      "name": "Energy and Natural Resources"
     }
   ],
   "congress": 119,

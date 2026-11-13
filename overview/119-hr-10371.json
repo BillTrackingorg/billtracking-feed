@@ -4,6 +4,11 @@
       "chamber": "House",
       "code": "hssm00",
       "name": "Small Business"
+    },
+    {
+      "chamber": "Senate",
+      "code": "sssb00",
+      "name": "Small Business and Entrepreneurship"
     }
   ],
   "congress": 119,

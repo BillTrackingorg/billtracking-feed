@@ -4,6 +4,11 @@
       "chamber": "House",
       "code": "hsba00",
       "name": "Financial Services"
+    },
+    {
+      "chamber": "Senate",
+      "code": "ssbk00",
+      "name": "Banking, Housing, and Urban Affairs"
     }
   ],
   "congress": 119,
