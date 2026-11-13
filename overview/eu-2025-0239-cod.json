@@ -1,0 +1,17 @@
+{
+ "committees": [
+  {
+   "code": "EMPL",
+   "name": "Employment and Social Affairs"
+  }
+ ],
+ "lead": "David Casa (EPP) and Marit Maij (S&D)",
+ "start": {
+  "kind": "proposed",
+  "on": "2025-07-16"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}

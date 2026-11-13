@@ -1,0 +1,17 @@
+{
+ "committees": [
+  {
+   "code": "ITRE",
+   "name": "Industry, Research and Energy"
+  }
+ ],
+ "lead": "Christian Ehler (EPP) and Dan Nica (S&D)",
+ "start": {
+  "kind": "proposed",
+  "on": "2025-07-16"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}

@@ -1,0 +1,17 @@
+{
+ "committees": [
+  {
+   "code": "SANT",
+   "name": "Public Health"
+  }
+ ],
+ "lead": "Dolors Montserrat (EPP)",
+ "start": {
+  "kind": "proposed",
+  "on": "2023-04-26"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}

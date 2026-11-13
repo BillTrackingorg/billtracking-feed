@@ -1,0 +1,21 @@
+{
+ "committees": [
+  {
+   "code": "ITRE",
+   "name": "Industry, Research and Energy"
+  },
+  {
+   "code": "TRAN",
+   "name": "Transport and Tourism"
+  }
+ ],
+ "lead": "Kamila Gasiuk-Pihowicz (EPP) and Oihane Agirregoitia Martínez (Renew)",
+ "start": {
+  "kind": "proposed",
+  "on": "2025-07-16"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}
