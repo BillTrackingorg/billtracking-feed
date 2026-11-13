@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hres",
  "billNumber": "1247",
- "built_at": "2026-11-13T12:10:50+00:00",
+ "built_at": "2026-11-13T21:56:50+00:00",
  "source_count": 19,
  "holds_full_record": true,
  "entries": [
@@ -290,7 +290,7 @@
   {
    "order": 14,
    "date": "2026-11-12",
-   "text": "Considered as unfinished business.",
+   "text": "Considered as unfinished business. (consideration: CR H6194-6195)",
    "core": "Considered as unfinished business",
    "code": "H30000",
    "source": "House floor actions",

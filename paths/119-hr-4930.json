@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "4930",
- "built_at": "2026-11-13T06:36:30+00:00",
- "source_count": 19,
+ "built_at": "2026-11-13T21:56:03+00:00",
+ "source_count": 20,
  "holds_full_record": true,
  "entries": [
   {
@@ -326,6 +326,26 @@
    "lead": true,
    "emoji": "✅🏛️",
    "vote": "(unanimous consent)"
+  },
+  {
+   "order": 16,
+   "date": "2026-11-12",
+   "text": "Message on Senate action sent to the House.",
+   "core": "Message on Senate action sent to the House",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null,
+   "key": "1-810bd7936f3cb211",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   }
  ]
 }

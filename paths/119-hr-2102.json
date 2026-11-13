@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "2102",
- "built_at": "2026-11-13T12:10:50+00:00",
+ "built_at": "2026-11-13T21:56:49+00:00",
  "source_count": 12,
  "holds_full_record": true,
  "entries": [
@@ -70,7 +70,7 @@
   {
    "order": 3,
    "date": "2026-11-12",
-   "text": "Considered under the provisions of rule H. Res. 1247.",
+   "text": "Considered under the provisions of rule H. Res. 1247. (consideration: CR H6195-6201)",
    "core": "Considered under the provisions of rule H. Res. 1247",
    "code": "H30000",
    "source": "House floor actions",
@@ -150,7 +150,7 @@
   {
    "order": 7,
    "date": "2026-11-12",
-   "text": "On passage Passed by the Yeas and Nays: 392 - 18 (Roll no. 323).",
+   "text": "On passage Passed by the Yeas and Nays: 392 - 18 (Roll no. 323). (text: CR H6195)",
    "core": "On passage Passed by the Yeas and Nays: 392 - 18",
    "code": "H37100",
    "source": "House floor actions",

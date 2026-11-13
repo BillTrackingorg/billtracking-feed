@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "8352",
- "built_at": "2026-11-13T15:18:59+00:00",
+ "built_at": "2026-11-13T21:55:54+00:00",
  "source_count": 22,
  "holds_full_record": true,
  "entries": [
@@ -349,7 +349,7 @@
   },
   {
    "order": 17,
-   "date": "2026-10-14",
+   "date": "2026-11-12",
    "text": "Presented to President.",
    "core": "Presented to President",
    "code": "28000",
@@ -360,7 +360,7 @@
    "tally": null,
    "spine": true,
    "subordinate": null,
-   "key": "1-4ee7dd307d05b0d1",
+   "key": "1-895838c2c92df549",
    "stands_in": null,
    "qualified": null,
    "lead": true,
