@@ -1,0 +1,17 @@
+{
+ "committees": [
+  {
+   "code": "ITRE",
+   "name": "Industry, Research and Energy"
+  }
+ ],
+ "lead": "Mohammed Chahim (S&D)",
+ "start": {
+  "kind": "proposed",
+  "on": "2025-12-03"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}

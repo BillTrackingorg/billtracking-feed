@@ -1,0 +1,24 @@
+{
+ "committees": [
+  {
+   "code": "ITRE",
+   "name": "Industry, Research and Energy"
+  },
+  {
+   "code": "IMCO",
+   "name": "Internal Market and Consumer Protection"
+  },
+  {
+   "code": "JURI",
+   "name": "Legal Affairs"
+  }
+ ],
+ "start": {
+  "kind": "proposed",
+  "on": "2026-09-09"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}

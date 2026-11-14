@@ -1,0 +1,17 @@
+{
+ "committees": [
+  {
+   "code": "REGI",
+   "name": "Regional Development"
+  }
+ ],
+ "lead": "Paulo Do Nascimento Cabral (EPP)",
+ "start": {
+  "kind": "proposed",
+  "on": "2026-09-10"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}

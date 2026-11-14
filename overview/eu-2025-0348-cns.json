@@ -1,0 +1,17 @@
+{
+ "committees": [
+  {
+   "code": "ECON",
+   "name": "Economic and Monetary Affairs"
+  }
+ ],
+ "lead": "Michalis Hadjipantela (EPP)",
+ "start": {
+  "kind": "proposed",
+  "on": "2025-11-14"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}

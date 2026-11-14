@@ -1,0 +1,17 @@
+{
+ "committees": [
+  {
+   "code": "CULT",
+   "name": "Culture and Education"
+  }
+ ],
+ "lead": "Hannes Heide (S&D)",
+ "start": {
+  "kind": "proposed",
+  "on": "2026-09-10"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}

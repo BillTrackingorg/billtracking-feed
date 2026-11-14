@@ -1,0 +1,16 @@
+{
+ "committees": [
+  {
+   "code": "JURI",
+   "name": "Legal Affairs"
+  }
+ ],
+ "start": {
+  "kind": "proposed",
+  "on": "2026-07-29"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}
