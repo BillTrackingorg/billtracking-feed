@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-14T02:17:03Z",
+  "summary": {
+    "ai": {
+      "fp": "f716745a9333804bbb2aaf7e5c1c13917fc70aa914734493c7c5d22bd9b044aa",
+      "model": "claude-haiku-5-5",
+      "text": "This bill would let 403(b) retirement plans, the plans set up for certain workers at public schools, charities, and churches, invest in two additional kinds of investment vehicles. The first is collective investment trusts, which pool money from many investors and are held by a bank or trust company. The second is insurance company separate accounts."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Retirement Fairness for Charities and Educational Institutions Act of 2025\nThis bill allows 403(b) retirement plans (i.e., retirement plans designed for certain employees of public schools, charities, and churches) to invest in collective investment trusts, which are a group of pooled investment assets held by a bank or trust company, and in insurance company separate accounts.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

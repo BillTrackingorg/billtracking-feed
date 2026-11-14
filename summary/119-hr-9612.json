@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-14T02:16:50Z",
+  "summary": {
+    "ai": {
+      "fp": "f32b1bd63da5ac824c15fd0ecca28d9b3908e749c856d0c6d8c8bedf1f902f81",
+      "model": "claude-haiku-5-5",
+      "text": "The American Enrichment Deployment Act would let a uranium enrichment facility be built before the Nuclear Regulatory Commission (NRC) issues it a license. Right now, a company needs an NRC license before it can begin construction on this kind of facility. Under the bill, enrichment facilities would be treated the same way as other nuclear fuel cycle facilities, such as those that convert uranium or fabricate fuel. They would still need an NRC license to handle special nuclear material and source material.\n\nThe bill also requires the NRC to issue or revise its regulations to carry out the law within 180 days of enactment."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "The following analysis is based on draft bill text that was made available by the House of Representatives and may differ from the bill text as introduced.\nAmerican Enrichment Deployment Act\nThis bill allows for the construction of a uranium enrichment facility before a license is issued by the Nuclear Regulatory Commission (NRC).\nUnder current law, a license is required from the NRC prior to the construction of a uranium enrichment facility. Under the bill, uranium enrichment facilities are allowed to be constructed under the same terms and conditions applicable to other fuel cycle facilities (i.e., uranium conversion and fuel fabrication facilities). Such facilities must be licensed by the NRC to process and handle special nuclear material and source material.\nNRC must issue or revise regulations to carry out this bill not later than 180 days after enactment.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

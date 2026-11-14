@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-14T02:17:05Z",
+  "summary": {
+    "ai": {
+      "fp": "a3fdad10713e59e7727d2b38dc503af0b44d0cd782a60cfbf64ec8beb126a22b",
+      "model": "claude-haiku-5-5",
+      "text": "The Cybersecurity for Small Businesses Act of 2026 directs the Small Business Administration (SBA) to give small businesses information and tools for protecting themselves against cyber threats. The SBA must create and share resources that help small businesses strengthen their cybersecurity systems and follow recommended good practices.\n\nThe bill also focuses on small businesses that want to sell goods or services to the federal government. The SBA must work with the Department of Defense (DOD) and other relevant federal agencies to share information about the Cybersecurity Maturity Model Certification (CMMC) program. CMMC is a cybersecurity framework for companies that work with the DOD, and certification is required for contractors that have access to certain controlled information. The materials given to small businesses must include some existing DOD resources.\n\nFinally, each year the SBA must report to Congress on the small businesses that have contacted it about cybersecurity."
+    },
+    "label": "Congressional Research Service, Reported to House",
+    "text": "Cybersecurity for Small Businesses Act of 2026\nThis bill requires the Small Business Administration (SBA) to provide cybersecurity information and resources to small businesses, including resources for businesses seeking to contract with the federal government.\nSpecifically, the SBA must develop and distribute resources to assist small businesses in strengthening their cybersecurity infrastructure and implementing best practices.\nFurther, in coordination with the Department of Defense (DOD) and other appropriate federal agencies, the SBA must provide information and resources on the Cybersecurity Maturity Model Certification (CMMC) program to small businesses seeking to contract with the federal government. (CMMC is a cybersecurity framework for DOD contractors; certification is mandatory for contractors with access to certain controlled information.) The information and resources provided to small businesses must include certain existing DOD resources.\nFinally, the SBA must report annually to Congress with information on small businesses that have contacted the SBA about cybersecurity.",
+    "version": "Reported to House"
+  },
+  "v": 1
+}

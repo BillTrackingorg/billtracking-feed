@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-14T02:17:12Z",
+  "summary": {
+    "ai": {
+      "fp": "5bbe0ad9e76cd74c457f23b66c0e77fd4f0c2461c1fd171c740b47f91c65b36a",
+      "model": "claude-haiku-5-5",
+      "text": "This bill would let the National Taxpayer Advocate hire its own lawyers inside the Taxpayer Advocate Service (TAS), the office that helps taxpayers with problems involving the Internal Revenue Service (IRS). These lawyers would report directly to the National Taxpayer Advocate. The bill would also widen the National Taxpayer Advocate's power to take personnel actions. Currently that power covers the local taxpayer advocates, one located in each state. Under the bill, it would cover any employee of TAS.\n\nRight now, a Treasury Department order puts nearly all lawyers who give legal advice to Treasury officials into the Treasury Legal Division, under the General Counsel's supervision. There are only limited exceptions. The bill would change that for TAS's lawyers. TAS is part of the IRS, which is itself part of the Treasury Department."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "National Taxpayer Advocate Enhancement Act of 2025\nThis bill authorizes the National Taxpayer Advocate to appoint legal counsel within the Taxpayer Advocate Service (TAS) to report directly to the National Taxpayer Advocate. The bill also expands the authority of the National Taxpayer Advocate to take personnel actions with respect to local taxpayer advocates (located in each state) to include actions with respect to any employee of TAS.\nCurrently, pursuant to a Department of the Treasury order, all legal counsel whose duties include providing legal advice to any official in any office or bureau of Treasury are part of the Legal Division within Treasury and under the supervision of the General Counsel, with limited exceptions. TAS assists taxpayers in matters involving the Internal Revenue Service (IRS) and is part of the IRS, within Treasury.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-14T02:16:49Z",
+  "summary": {
+    "ai": {
+      "fp": "2b806893d0fd6286d15ad8455339696106a198778be0b91372ee1248b47a7e33",
+      "model": "claude-haiku-5-5",
+      "text": "This bill tells the Nuclear Regulatory Commission (NRC) to license future U.S. facilities that recycle spent nuclear fuel, which is radioactive waste, under the rules for special nuclear material instead of the rules for production and utilization facilities. It covers domestic facilities that reprocess spent nuclear fuel in a way that does not isolate plutonium. These recycling facilities would turn spent fuel into materials that can be reused as nuclear fuel to generate electricity.\n\nNo commercial reprocessing facilities currently operate in the United States. The bill sets which regulatory framework the NRC must use for future facilities by leaving them out of the legal definition of a production facility.\n\nThe licensing process under the special nuclear material rules has fewer steps than the process under the production and utilization facility rules."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "The following analysis is based on draft bill text that was made available by the House of Representatives and may differ from the bill text as introduced.\nNuclear REFUEL (Recycling Efficient Fuels Utilizing Expedited Licensing) Act\nThis bill directs the Nuclear Regulatory Commission (NRC) to license future recycling facilities that reprocess certain spent nuclear fuel (i.e., radioactive waste) under regulations for special nuclear material rather than regulations for production and utilization facilities. The bill applies to domestic facilities that reprocess spent nuclear fuel in a manner that does not isolate plutonium. Generally, such recycling facilities reprocess spent nuclear fuel into materials that may be reused as nuclear fuel for electricity.\nWhile there are no commercial reprocessing facilities currently operating in the United States, the bill specifies which regulatory framework the NRC must use when issuing licenses to future facilities by excluding such facilities from the statutory definition of production facility. The licensing process under regulations for special nuclear material has fewer steps than the licensing process under regulations for production and utilization facilities.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

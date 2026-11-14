@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-14T02:17:10Z",
+  "summary": {
+    "ai": {
+      "fp": "f2ab9aaf0303b01ad1317c54d0fecb719aa3576e7d787ba4e6307da627ff7daf",
+      "model": "claude-haiku-5-5",
+      "text": "This bill directs Medicare's administrator, the Centers for Medicare & Medicaid Services (CMS), to create specific billing codes for the parts of ultralightweight manual wheelchairs. At least two codes must be set up for the wheelchair's base: one for bases made with titanium or carbon fiber, and one for bases made without those materials.\n\nUnder the bill, suppliers would still receive the same Medicare payment for these wheelchairs that would otherwise apply. If the wheelchair actually costs more than that payment, suppliers may charge the person receiving the wheelchair the difference. CMS may also require suppliers to tell beneficiaries that they could be responsible for paying that extra amount."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Choices for Increased Mobility Act of 2025\nThis bill requires the Centers for Medicare & Medicaid Services (CMS) to establish specific billing codes under Medicare for certain materials used in ultralightweight manual wheelchairs.\nSpecifically, the CMS must establish at least two billing codes for the base of the wheelchair, with at least one code for a base with titanium or carbon fiber construction material and at least one code for a base without these materials. Suppliers receive the same payment under Medicare for these wheelchairs as would otherwise apply, but may bill beneficiaries for any difference between the payment and the actual charge for the wheelchair. The CMS may require suppliers to inform beneficiaries of their potential financial liability in these cases.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

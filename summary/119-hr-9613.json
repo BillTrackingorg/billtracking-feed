@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-14T02:16:51Z",
+  "summary": {
+    "ai": {
+      "fp": "1f31fcccb8dee93b380f807478d5b9725d54e0b8075c44ff1f05ecdcb192c746",
+      "model": "claude-haiku-5-5",
+      "text": "The Nuclear Advisory Committee Reform Act changes how the Advisory Committee on Reactor Safeguards, which advises the Nuclear Regulatory Commission, works. Under the bill, the committee could decline to review certain license applications issued by the NRC, such as applications for commercial nuclear power plants.\n\nThe committee could turn down reviews of license applications for commercial, industrial, medical, or research and development purposes if it decides the applications do not contain issues that are unique, novel, or noteworthy, or do not raise issues that warrant its review.\n\nThe bill also tells the committee to focus on issues that directly relate to reactor design, are important for safety, are new, and have not already been acted on by the committee.\n\nThe NRC would be directed to keep or change its policies so the committee can act efficiently and on time.\n\nFinally, the bill requires that the committee's members have a range of technical expertise relevant to the NRC's mission."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "The following analysis is based on draft bill text that was made available by the House of Representatives and may differ from the bill text as introduced.\nNuclear Advisory Committee Reform Act\nThis bill modifies requirements governing the Advisory Committee on Reactor Safeguards of the Nuclear Regulatory Commission (NRC), including by allowing the committee to decline to review certain license applications (e.g., applications for commercial nuclear power plants) issued by the NRC.\nSpecifically, the committee may decline to review license applications regarding certain commercial, industrial (e.g., utilization and production facilities), medical (e.g., therapy, such as radiation treatment), or research and development purposes if it determines that such applications do not (1) contain issues that are unique, novel, or noteworthy; or (2) raise issues that warrant review by the committee.\nThe bill also directs the committee to focus on issues that (1) directly relate to reactor design, (2) are safety significant, (3) are novel, and (4) have not been previously acted on by the committee.\nIn addition, it directs the NRC to maintain or modify policies to ensure efficient and timely action by the committee.\nFinally, the bill requires the membership of the committee to reflect a diverse background of technical expertise relevant to the NRC's mission.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

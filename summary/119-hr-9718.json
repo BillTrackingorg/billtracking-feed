@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-14T02:17:09Z",
+  "summary": {
+    "ai": {
+      "fp": "df315d371f86455b3148cb3fa22727556d597455fd368546678610d9684ed7bf",
+      "model": "claude-haiku-5-5",
+      "text": "The Reshoring American Manufacturing Act of 2026 would require the Small Business Administration's Office of Manufacturing and Trade to create and keep up a webpage to help small businesses bring manufacturing back to the United States. Onshoring means moving the making of products that a U.S. company currently produces overseas back to domestic production.\n\nThe webpage must include contact information for the relevant SBA offices and partner organizations. It must also offer a free tool that helps small businesses find organizations that could help them bring their manufacturing home. The office may add any other information it considers appropriate."
+    },
+    "label": "Congressional Research Service, Reported to House",
+    "text": "Reshoring American Manufacturing Act of 2026\nThis bill requires the Office of Manufacturing and Trade of the Small Business Administration (SBA) to establish and maintain a webpage with a list of resources and information related to onshoring to the United States all or part of the manufacturing capacity of small businesses. In general, onshoring involves transitioning the manufacture of goods by U.S. companies from overseas to domestic production.\nThe webpage must include (1) contact information for relevant offices of the SBA and partner organizations, (2) a free tool designed to help small businesses identify entities that could assist with onshoring the business's manufacturing capacity, and (3) other information the office determines is appropriate.",
+    "version": "Reported to House"
+  },
+  "v": 1
+}
