@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "2102",
- "built_at": "2026-11-13T21:56:49+00:00",
+ "built_at": "2026-11-14T16:35:04+00:00",
  "source_count": 12,
  "holds_full_record": true,
  "entries": [
@@ -130,7 +130,7 @@
   {
    "order": 6,
    "date": "2026-11-12",
-   "text": "Passed/agreed to in House: On passage Passed by the Yeas and Nays: 392 - 18 (Roll no. 323).",
+   "text": "Passed/agreed to in House: On passage Passed by the Yeas and Nays: 392 - 18 (Roll no. 323). (text: CR H6195)",
    "core": "Passed/agreed to in House: On passage Passed by the Yeas and Nays: 392 - 18",
    "code": "8000",
    "source": "Library of Congress",
