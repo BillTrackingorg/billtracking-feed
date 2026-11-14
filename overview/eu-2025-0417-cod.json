@@ -1,0 +1,17 @@
+{
+ "committees": [
+  {
+   "code": "AGRI",
+   "name": "Agriculture and Rural Development"
+  }
+ ],
+ "lead": "Camilla Laureti (S&D)",
+ "start": {
+  "kind": "proposed",
+  "on": "2025-12-16"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}

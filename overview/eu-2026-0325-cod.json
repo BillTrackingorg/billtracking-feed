@@ -1,0 +1,20 @@
+{
+ "committees": [
+  {
+   "code": "ENVI",
+   "name": "Environment, Climate and Food Safety"
+  },
+  {
+   "code": "ITRE",
+   "name": "Industry, Research and Energy"
+  }
+ ],
+ "start": {
+  "kind": "proposed",
+  "on": "2026-10-14"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}

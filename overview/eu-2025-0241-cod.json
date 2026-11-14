@@ -1,0 +1,17 @@
+{
+ "committees": [
+  {
+   "code": "AGRI",
+   "name": "Agriculture and Rural Development"
+  }
+ ],
+ "lead": "Norbert Lins (EPP)",
+ "start": {
+  "kind": "proposed",
+  "on": "2025-07-16"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}

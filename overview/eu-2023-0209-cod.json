@@ -1,0 +1,17 @@
+{
+ "committees": [
+  {
+   "code": "ECON",
+   "name": "Economic and Monetary Affairs"
+  }
+ ],
+ "lead": "Morten Løkkegaard (Renew)",
+ "start": {
+  "kind": "proposed",
+  "on": "2023-06-28"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}
