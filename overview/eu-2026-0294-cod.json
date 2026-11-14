@@ -1,0 +1,16 @@
+{
+ "committees": [
+  {
+   "code": "ENVI",
+   "name": "Environment, Climate and Food Safety"
+  }
+ ],
+ "start": {
+  "kind": "proposed",
+  "on": "2026-10-01"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}

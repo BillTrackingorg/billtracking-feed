@@ -1,0 +1,17 @@
+{
+ "committees": [
+  {
+   "code": "ECON",
+   "name": "Economic and Monetary Affairs"
+  }
+ ],
+ "lead": "Ľudovít Ódor (Renew)",
+ "start": {
+  "kind": "proposed",
+  "on": "2025-03-11"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}

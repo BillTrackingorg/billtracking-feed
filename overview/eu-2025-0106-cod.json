@@ -1,0 +1,17 @@
+{
+ "committees": [
+  {
+   "code": "PECH",
+   "name": "Fisheries"
+  }
+ ],
+ "lead": "Thomas Bajada (S&D)",
+ "start": {
+  "kind": "proposed",
+  "on": "2025-05-12"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}
