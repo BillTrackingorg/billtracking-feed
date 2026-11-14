@@ -1,6 +1,11 @@
 {
- "confirmed": "2026-11-13T08:01:08Z",
+ "confirmed": "2026-11-14T03:20:28Z",
  "summary": {
+  "ai": {
+   "fp": "ef23611a412d668881b9e65500fc8b87c24374bdeb9b422311e6a767aa34213b",
+   "model": "claude-haiku-5-5",
+   "text": "The European Parliament has voted on a proposed temporary rule that would let online messaging and communication providers use certain technologies to scan personal and other data in order to detect and fight online child sexual abuse. The rule would temporarily set aside some privacy requirements from an existing EU directive on electronic communications, and it applies to services that are not based on phone numbers.\n\nParliament proposed changes to the Council's version of the rule. Its main change would exclude from the rule any communications that use, have used, or will use end-to-end encryption, meaning messages that only the people communicating can read.\n\nIn the first vote, a simple majority voted against the Council's position, with 314 in favour of rejecting it, 276 against, and 17 abstentions. A second vote on rejecting Parliament's amended position did not get a majority, with 276 in favour, 286 against, and 30 abstentions. Because neither side won a majority in that second vote, the second reading has ended."
+  },
   "label": "Legislative Observatory, Decision by Parliament, 2nd reading",
   "text": "The European Parliament adopted a legislative resolution on the Council position at first reading with a view to the adoption of a regulation of the European Parliament and of the Council on a temporary derogation from certain provisions of Directive 2002/58/EC as regards the use of technologies by providers of number-independent interpersonal communications services for the processing of personal and other data for the purpose of combating online child sexual abuse.\nParliament adopted amendments to the Council's position. It proposed to exclude from the scope of the regulation interpersonal communications to which end-to-end encryption is, has been or will be applied.\nIn the first vote, a simple majority voted to reject the position (314 votes to 276, with 17 abstentions). As no majority emerged in favour of rejecting Parliament's amended position (276 votes to 286, with 30 abstentions), the second reading is closed.",
   "version": "Decision by Parliament, 2nd reading"

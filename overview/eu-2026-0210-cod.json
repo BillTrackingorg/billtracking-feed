@@ -1,0 +1,17 @@
+{
+ "committees": [
+  {
+   "code": "ENVI",
+   "name": "Environment, Climate and Food Safety"
+  }
+ ],
+ "lead": "Peter Liese (EPP)",
+ "start": {
+  "kind": "proposed",
+  "on": "2026-07-17"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}
