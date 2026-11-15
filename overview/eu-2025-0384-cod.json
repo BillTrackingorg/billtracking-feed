@@ -1,0 +1,21 @@
+{
+ "committees": [
+  {
+   "code": "INTA",
+   "name": "International Trade"
+  },
+  {
+   "code": "LIBE",
+   "name": "Civil Liberties, Justice and Home Affairs"
+  }
+ ],
+ "lead": "Nicolas Bay (ECR) and Bartłomiej Sienkiewicz (EPP)",
+ "start": {
+  "kind": "proposed",
+  "on": "2025-12-03"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}

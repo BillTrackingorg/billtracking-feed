@@ -5,9 +5,9 @@
  "year": "2026",
  "number": "0292",
  "ptype": "CNS",
- "built_at": "2026-11-12T11:21:17+00:00",
+ "built_at": "2026-11-15T09:31:22+00:00",
  "source": "oeil-key-events",
- "source_count": 3,
+ "source_count": 4,
  "holds_full_record": true,
  "overrides_applied": null,
  "texture_count": null,
@@ -59,6 +59,22 @@
    "spine": false,
    "subordinate": null,
    "key": "1-41725d487679a1bf",
+   "emoji": null
+  },
+  {
+   "order": 3,
+   "date": "2026-11-11",
+   "text": "Committee referral announced in Parliament",
+   "doc": null,
+   "family": null,
+   "label": null,
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": false,
+   "subordinate": null,
+   "key": "1-7bc1262eae5e3b87",
    "emoji": null
   }
  ]

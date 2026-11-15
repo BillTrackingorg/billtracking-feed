@@ -1,0 +1,17 @@
+{
+ "committees": [
+  {
+   "code": "ENVI",
+   "name": "Environment, Climate and Food Safety"
+  }
+ ],
+ "lead": "Pierfrancesco Maran (S&D)",
+ "start": {
+  "kind": "proposed",
+  "on": "2026-04-01"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}

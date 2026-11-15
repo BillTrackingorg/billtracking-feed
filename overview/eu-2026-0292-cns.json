@@ -1,0 +1,17 @@
+{
+ "committees": [
+  {
+   "code": "ECON",
+   "name": "Economic and Monetary Affairs"
+  }
+ ],
+ "lead": "Aurore Lalucq (S&D)",
+ "start": {
+  "kind": "proposed",
+  "on": "2026-10-01"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}

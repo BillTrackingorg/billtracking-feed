@@ -1,0 +1,17 @@
+{
+ "committees": [
+  {
+   "code": "LIBE",
+   "name": "Civil Liberties, Justice and Home Affairs"
+  }
+ ],
+ "lead": "Jeroen Lenaers (EPP)",
+ "start": {
+  "kind": "proposed",
+  "on": "2024-02-06"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}
