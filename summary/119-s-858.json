@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-15T09:13:14Z",
+  "summary": {
+    "ai": {
+      "fp": "35697515d5da3a0beaee557870d37d84979ee7f2744bbf3bf5283b4048a49a9c",
+      "model": "claude-haiku-5-5",
+      "text": "This bill would require the authorized monument honoring Medal of Honor recipients to be placed within \"the Reserve,\" the central open area of the National Mall. The Reserve is the great cross-shaped axis that generally runs from the Capitol to the Lincoln Memorial and from the White House to the Jefferson Memorial."
+    },
+    "label": "Congressional Research Service, Introduced in Senate",
+    "text": "Hershel \"Woody\" Williams National Medal of Honor Monument Location Act\nThis bill requires the authorized monument honoring Medal of Honor recipients to be located within the Reserve (the great cross-axis of the National Mall, which generally extends from the Capitol to the Lincoln Memorial and from the White House to the Jefferson Memorial).",
+    "version": "Introduced in Senate"
+  },
+  "v": 1
+}

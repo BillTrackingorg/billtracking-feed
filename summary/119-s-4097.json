@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-15T09:12:53Z",
+  "summary": {
+    "ai": {
+      "fp": "d3ca8f8768d4b86125917c7d48a081e08ad7e3c6af4e59def423a4fd58aad2ca",
+      "model": "claude-haiku-5-5",
+      "text": "This bill says that certain education loan arrangements do not count as \"preferred lender arrangements.\" A preferred lender arrangement is a deal between a lender and a college or university that receives federal funding or aid, where the lender offers loans to the school's students and the school recommends, promotes, or endorses that lender's loan products.\n\nUnder the bill, arrangements made under a state-based education loan program are not treated as preferred lender arrangements for purposes of certain required disclosures to student borrowers."
+    },
+    "label": "Congressional Research Service, Introduced in Senate",
+    "text": "State-Based Education Loan Awareness Act\nThis bill excludes certain arrangements or agreements regarding education loans from the definition of a preferred lender arrangement.\nA preferred lender arrangement is an arrangement or agreement between a lender and an institution of higher education (IHE) that receives federal funding or assistance (1) under which a lender issues education loans to students attending the IHE; and (2) that relates to the IHE recommending, promoting, or endorsing the education loan products of the lender.\nThe bill provides that arrangements or agreements made under a state-based education loan program do not meet the definition of a preferred lender agreement for purposes of certain required disclosures to student borrowers.",
+    "version": "Introduced in Senate"
+  },
+  "v": 1
+}

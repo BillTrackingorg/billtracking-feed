@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-15T09:13:27Z",
+  "summary": {
+    "ai": {
+      "fp": "fd77105b7c00207ab4bbb71be56afa96e9ec48feb82bbd9db4cb139469609e6b",
+      "model": "claude-haiku-5-5",
+      "text": "This bill extends the National Oceanic and Atmospheric Administration's Chesapeake Bay Office, which works with the Chesapeake Bay Program to improve the health of the bay. It also changes some of the rules that govern the office and its work, including a new requirement that it consult with others.\n\nThe bill gives the office formal legal authority to run its education and training program for the Chesapeake Bay watershed, which is aimed at elementary and secondary schools.\n\nIn addition, the bill allows the office to set up a program that coordinates the care of priority bay habitats and the living things that depend on them. This work covers managing, protecting, studying, and restoring these areas."
+    },
+    "label": "Congressional Research Service, Reported to House",
+    "text": "Chesapeake Bay Watershed Advancement for Training, Education, Restoration, and Science (WATERS) Act\nThis bill reauthorizes the National Oceanic and Atmospheric Administration's Chesapeake Bay Office and modifies requirements concerning the office and its activities, such as new consultation requirements. (The office partners with the Chesapeake Bay Program to improve the health of the Chesapeake Bay.)\nThe bill also provides statutory authority for the office's Chesapeake Bay watershed education and training program for elementary and secondary schools.\nFurther, the bill authorizes the office to establish a program to support coordinated management, protection, characterization, and restoration of priority Chesapeake Bay habitats and living resources.",
+    "version": "Reported to House"
+  },
+  "v": 1
+}

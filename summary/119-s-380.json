@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-15T09:12:49Z",
+  "summary": {
+    "ai": {
+      "fp": "2dab698bf0ecb1c00f1f1fd837d56ee77e86417dca5d564c9dfbf8f7c61d463d",
+      "model": "claude-haiku-5-5",
+      "text": "This bill is meant to help rural areas, and areas with too few maternity doctors or facilities, handle obstetric emergencies, which are urgent problems that can happen during pregnancy and childbirth. It creates and expands federal grant programs run by the Health Resources and Services Administration (HRSA).\n\nUnder the bill, HRSA must set up a grant program for certain hospitals, or groups that include hospitals, in rural areas or areas with maternal health care shortages. The money can be used for training, building up the workforce, and buying equipment needed for obstetric emergencies.\n\nThe bill also requires HRSA's Alliance for Innovation on Maternal Health Capacity program to give grants for training on emergency obstetric care. These grants are for health care workers in rural facilities that do not have a dedicated obstetric unit.\n\nFinally, HRSA must start a pilot program that gives grants to government entities. The money is for creating or improving telehealth programs, which let patients get care remotely, so that rural facilities without a dedicated obstetric unit can provide urgent maternal health care."
+    },
+    "label": "Congressional Research Service, Introduced in Senate",
+    "text": "Rural Obstetrics Readiness Act\nThis bill creates and expands federal grant programs within the Health Resources and Services Administration (HRSA) to increase capacity to provide emergency obstetric health services in rural areas or areas without practitioners or facilities specializing in obstetric services.\nSpecifically, HRSA must establish a program for providing grants to certain hospitals or consortiums that include hospitals in rural areas or areas with maternal health care professional shortages for training, developing a workforce, and purchasing equipment relating to obstetric emergencies. In addition, the bill requires HRSA’s Alliance for Innovation on Maternal Health Capacity program to provide grants for training on emergency obstetric services for practitioners in rural health care facilities without dedicated obstetric units. HRSA must also establish a pilot program to provide grants to government entities for developing or improving telehealth access programs to support urgent maternal health care in rural facilities without a dedicated obstetric unit.",
+    "version": "Introduced in Senate"
+  },
+  "v": 1
+}

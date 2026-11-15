@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-15T09:13:28Z",
+  "summary": {
+    "ai": {
+      "fp": "b4596ce1bb06415e56f34a05eea333b44b5249f5564a541abaaabd2e85a6edbd",
+      "model": "claude-haiku-5-5",
+      "text": "This bill raises the rank of the head of the Indian Health Service inside the Department of Health and Human Services. The person who now leads the Indian Health Service would instead hold the title of Assistant Secretary for Indian Health within that department."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Stronger Engagement for Indian Health Needs Act of 2025\nThis bill elevates the current position of the Director of the Indian Health Service within the Department of Health and Human Services (HHS) to Assistant Secretary for Indian Health within HHS.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-15T09:13:48Z",
+  "summary": {
+    "ai": {
+      "fp": "da2ea17446954a88ef0f16c35c4c0b4239d41d3022b8a7571d085bbeda5213f7",
+      "model": "claude-haiku-5-5",
+      "text": "This bill, the Battery Recycling for America's Competitive Economy Act (the BRACE Act), changes how lithium-ion batteries are regulated under federal waste law. The goal is to make it easier to recycle these batteries and recover critical minerals from them.\n\nUnder the bill, certain facilities that store lithium-ion batteries before recycling them would follow the rules for large quantity handlers of universal waste. Right now, these facilities must follow the stricter rules for hazardous waste. Under the new approach, they could store the batteries without needing a special permit."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Battery Recycling for America’s Competitive Economy Act or the BRACE Act\nThis bill modifies the regulation of lithium-ion batteries under the Resource Conservation and Recovery Act in order to facilitate the recycling of lithium-ion batteries and the recovery of critical minerals. Specifically, the bill directs certain facilities that store lithium-ion batteries prior to recycling them to follow regulations for large quantity handlers of universal waste instead of following the more stringent hazardous waste regulations that currently apply, thereby allowing these facilities to store lithium-ion batteries without needing a special permit.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

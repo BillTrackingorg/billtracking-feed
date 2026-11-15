@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-15T09:13:10Z",
+  "summary": {
+    "ai": {
+      "fp": "4b7d816272fec1188d352b926b69513c96e0f2ef50ff7ab123a0fac78a77dbb4",
+      "model": "claude-haiku-5-5",
+      "text": "This bill directs the Department of Health and Human Services (HHS) to create a national plan to address epilepsy, with the goal of preventing, diagnosing, treating, and curing the condition. As part of that plan, HHS would coordinate research and services across all federal agencies and seek public comments.\n\nThe bill also requires HHS to set up an Advisory Council on Epilepsy Research, Care, and Services. This council would report to HHS and Congress every two years with an evaluation of the federally funded efforts on epilepsy.\n\nIn addition, HHS must send Congress a yearly report with recommended actions, based on its assessment of how the nation is progressing on epilepsy.\n\nThese requirements end on December 31, 2035."
+    },
+    "label": "Congressional Research Service, Introduced in Senate",
+    "text": "National Plan for Epilepsy Act\nThis bill requires the Department of Health and Human Services (HHS) to establish a national plan, form an advisory council, and take other actions to address epilepsy. The requirements sunset on December 31, 2035.\nSpecifically, the bill requires HHS to carry out a National Plan for Epilepsy to prevent, diagnose, treat, and cure epilepsy. In carrying out the plan, HHS must implement activities such as coordinating research and services across all federal agencies and soliciting public comments.\nAlso, HHS must establish an Advisory Council on Epilepsy Research, Care, and Services. The advisory council must report to HHS and Congress every two years with an evaluation of federally funded efforts.\nAdditionally, HHS must annually report to Congress with recommended actions based on its assessments of the nation’s progress on epilepsy.",
+    "version": "Introduced in Senate"
+  },
+  "v": 1
+}

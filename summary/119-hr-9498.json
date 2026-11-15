@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-15T09:13:39Z",
+  "summary": {
+    "ai": {
+      "fp": "2031b26c997e3f5cbaf587cffe7c35faeafdedebaa47ad2b153412e095c4aa00",
+      "model": "claude-haiku-5-5",
+      "text": "The Taxpayer Advocate Participation Act would allow the National Taxpayer Advocate to take part in U.S. court cases about federal tax law as a \"friend of the court,\" known as an amicus curiae. In this role, the National Taxpayer Advocate can submit a written argument, called an amicus brief, even though the advocate is not a party to the case. The bill also requires federal courts to allow these appearances.\n\nThere is a limit on what the National Taxpayer Advocate may argue. The advocate may present views only on an issue that may broadly affect certain rights of taxpayers.\n\nSome background: the National Taxpayer Advocate heads the Taxpayer Advocate Service, an independent office within the Internal Revenue Service (IRS) that helps taxpayers solve problems they have with the IRS. The advocate also proposes administrative and legislative changes to reduce those problems. Under current law, the National Taxpayer Advocate cannot appear as amicus curiae or file amicus briefs in federal tax cases. This bill would change that."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Taxpayer Advocate Participation Act\nThis bill authorizes the National Taxpayer Advocate to appear as amicus curiae and submit amicus briefs in a U.S. court in cases involving federal tax law.\nFurther, the bill requires federal courts to permit such appearances. (An amicus curiae is a person or group that is not a party in a court case but has an interest in the case and may be permitted to submit a brief, known as an amicus brief, to the court in relation to the case.) Under the bill, the National Taxpayer Advocate may present the views of the National Taxpayer Advocate in such a case only with respect to an issue which may broadly affect certain rights of taxpayers.\nAs background, the National Taxpayer Advocate leads the Taxpayer Advocate Service, which is an independent organization within the Internal Revenue Service (IRS) responsible for helping taxpayers resolve problems with the IRS. The National Taxpayer Advocate is also responsible for proposing administrative and legislative changes to mitigate such problems. Under current law, the National Taxpayer Advocate is not authorized to appear as amicus curiae or submit amicus briefs in cases involving federal tax law.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

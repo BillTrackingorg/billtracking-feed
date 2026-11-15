@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-15T09:12:52Z",
+  "summary": {
+    "ai": {
+      "fp": "fec8a08e6860e62c407f12bce7cce0ae395f4ec5436ee4d8efe61681ea013b24",
+      "model": "claude-haiku-5-5",
+      "text": "This bill extends the life of the U.S. Commission on International Religious Freedom through fiscal year 2028. The commission is an independent federal body that keeps track of how religious freedom is treated in countries around the world. It also reviews U.S. government policy on the issue and offers recommendations on what the government should do."
+    },
+    "label": "Congressional Research Service, Introduced in Senate",
+    "text": "United States Commission on International Religious Freedom Reauthorization Act of 2026\nThis bill reauthorizes the U.S. Commission on International Religious Freedom through FY2028. The commission is an independent federal commission tasked with monitoring international religious freedom conditions, reviewing U.S. government policy, and making policy recommendations.",
+    "version": "Introduced in Senate"
+  },
+  "v": 1
+}

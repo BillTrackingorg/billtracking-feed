@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-15T09:13:21Z",
+  "summary": {
+    "ai": {
+      "fp": "bb8b1e4629a71620502eb4f348af07c8caaca043e0092b1ffbdb8dc6f01a8a47",
+      "model": "claude-haiku-5-5",
+      "text": "This bill would temporarily require the Department of the Interior to give a grant to the National Law Enforcement Officers Memorial Fund. The money would pay for running and expanding the National Law Enforcement Museum's programs in three areas: community outreach, public education, and officer safety and wellness."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "National Law Enforcement Officers Remembrance, Support and Community Outreach Act. [sic]\nThis bill temporarily directs the Department of the Interior to award a grant to the National Law Enforcement Officers Memorial Fund for the expenses associated with operating and enhancing the community outreach, public education, and officer safety and wellness programs of the National Law Enforcement Museum.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

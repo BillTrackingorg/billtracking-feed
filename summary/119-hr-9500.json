@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-15T09:13:40Z",
+  "summary": {
+    "ai": {
+      "fp": "6f899bbb19c0b27e01d542196babe60acdb19548afc13596ba975a813808c497",
+      "model": "claude-haiku-5-5",
+      "text": "This bill makes it easier for people who lose money to theft or fraud to get a federal tax break. It removes the rule that personal property losses count for a deduction only when they come from a federally or state-declared disaster, or when they offset personal casualty gains.\n\nUnder the bill, a taxpayer can choose to claim a deduction for a loss from theft involving fraud, deceit, or misrepresentation in the year the loss happens, rather than the year it is discovered. The deadline for asking for a refund tied to this deduction is extended to at least one year after the loss is discovered, and the limits on how much refund can be claimed are removed.\n\nThe bill also changes retirement plan rules for people who take money out early because of these fraud losses. For those withdrawals, the 10% early withdrawal penalty is waived. The deadline for filing a refund claim is extended, and the limits on the amount of that refund are removed. Finally, the taxpayer has one year, starting the day after the theft is discovered, to pay back the early withdrawal."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Tax Relief for Fraud Victims Act\nThis bill expands the federal tax deduction for personal casualty and theft losses by eliminating certain limits, including the requirement that such losses arise from certain disasters. The bill also extends the tax refund deadline and modifies certain retirement plan rules related to certain fraud losses.\nThe bill repeals the limit on the federal tax deduction for personal casualty losses (not attributable to a trade, business, or transaction entered into for profit) that allows such losses only if arising from a federal or state declared disaster or to the extent that such losses offset personal casualty gains.\nThe bill allows taxpayers to elect to claim a tax deduction for losses arising from a theft involving fraud, deceit, or misrepresentation in the tax year such losses occur (rather than in the tax year discovered). Further, the bill extends the deadline for a refund claim related to a tax deduction for such losses to no less than one year after the date on which the losses are discovered and eliminates certain restrictions on the amount of such refund.\nFor early distributions from a qualified retirement plan arising from a theft loss involving fraud, deceit, or misrepresentation for which a tax deduction is allowed, the bill\nwaives the 10% penalty,\nextends the deadline for filing a refund claim and eliminates certain restrictions on the amount of such refund, and\nallows one year (beginning on the day after the theft loss is discovered) to repay such early distributions.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

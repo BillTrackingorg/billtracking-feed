@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-15T09:13:24Z",
+  "summary": {
+    "ai": {
+      "fp": "d7aec5366f673c325830dc41a90edd5a057d6c28b94c41cae9f32d090f9c0cee",
+      "model": "claude-haiku-5-5",
+      "text": "This bill would officially authorize the Invasive Species Strike Team program run by the U.S. Fish and Wildlife Service's National Wildlife Refuge System. The program has teams in each of the Service's regions that work with public and private groups to deal with invasive species and related conservation problems in and around wildlife refuges.\n\nThe bill also requires the Fish and Wildlife Service to report to Congress on what the program has done and how well it is progressing in addressing invasive species that seriously threaten the environment, human health, or the economy."
+    },
+    "label": "Congressional Research Service, Reported to House",
+    "text": "National Wildlife Refuge System Invasive Species Strike Team Act of 2025\nThis bill provides statutory authority for the Invasive Species Strike Team program carried out by the National Wildlife Refuge System within the U.S. Fish and Wildlife Service (FWS). This program operates teams in each FWS region that coordinate with public and private entities to address invasive species and related conservation issues in and around the National Wildlife Refuge System.\nThe bill requires FWS to report to Congress on the program's work and progress towards addressing invasive species that pose a major concern to the environment, human health, or the economy.",
+    "version": "Reported to House"
+  },
+  "v": 1
+}

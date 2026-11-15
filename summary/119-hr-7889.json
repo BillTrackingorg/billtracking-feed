@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-15T09:13:29Z",
+  "summary": {
+    "ai": {
+      "fp": "c4b4395ae07dcf7f826612699c62f714addae18f082fca0f6b1bdbe4f9fac76b",
+      "model": "claude-haiku-5-5",
+      "text": "The Advancing Water Research and Collaboration Act of 2025 extends a federal water research program through fiscal year 2029 and makes changes to how it works. The program is run by the U.S. Geological Survey, which gives grants to Water Resources Research Institutes. There is an institute in each of the 50 states, plus the District of Columbia, Puerto Rico, the U.S. Virgin Islands, and Guam. These institutes do research aimed at keeping water supplies reliable and solving water problems."
+    },
+    "label": "Congressional Research Service, Reported to House",
+    "text": "Advancing Water Research and Collaboration Act of 2025 or the AWRC Act of 2025\nThis bill reauthorizes through FY2029 and modifies the Water Resources Research Act Program of the U.S. Geological Survey (USGS). Under the program, USGS provides grants for Water Resources Research Institutes that are in each of the 50 states as well as the District of Columbia, Puerto Rico, the U.S. Virgin Islands, and Guam. Among other activities, the institutes plan and conduct research to improve water supply reliability and address water problems.",
+    "version": "Reported to House"
+  },
+  "v": 1
+}

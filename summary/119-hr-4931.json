@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-15T09:13:25Z",
+  "summary": {
+    "ai": {
+      "fp": "8f904c7b5d314fb72c25d2525d5947b707066b7b813b5b06a3d961bed40709bb",
+      "model": "claude-haiku-5-5",
+      "text": "This bill lets the National Park Service extend long-term leases of federal property inside national parks without going through competitive bidding, but only if two conditions are met. First, the lessee must have signed the lease at least five years before the extension takes effect and must be following the lease's terms and conditions. Second, the National Park Service must decide that extending the lease is in the best interests of managing that park unit."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "National Park System Long-Term Lease Investment Act\nThis bill allows the National Park Service (NPS) to extend long-term leases of federal property within the national parks without complying with competitive bidding requirements if\nthe lessee entered into the lease no less than five years before the date on which the extension takes effect and is in compliance with the terms and conditions of the lease, and\nthe NPS determines that extending the lease is in the best interests of the administration of the applicable NPS unit.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

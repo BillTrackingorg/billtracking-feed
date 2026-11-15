@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-15T09:13:38Z",
+  "summary": {
+    "ai": {
+      "fp": "2dc767665634aa7af2a1a7ee7d25b96458d389e0478c9497a06b592f3b7989c5",
+      "model": "claude-haiku-5-5",
+      "text": "The Stop Pills That Kill Act would toughen criminal penalties for making fentanyl or fake drugs. It would also require federal agencies to take action against counterfeit substances.\n\nRight now, people who possess, make, or sell certain equipment or materials used to illegally produce fentanyl, a fentanyl-like drug, or a counterfeit substance can face a harsher penalty only if the offense involves methamphetamine. This bill would extend that higher penalty to cover fentanyl-related offenses as well.\n\nThe Drug Enforcement Administration would have to create and carry out a plan to deal with counterfeit fentanyl or methamphetamine. The plan would include law enforcement efforts as well as education and prevention work. The Department of Justice would also have to report each year on how much counterfeit fentanyl or methamphetamine law enforcement has collected and on related prosecutions."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Stop Pills That Kill Act\nThis bill increases criminal penalties for offenses relating to the manufacture of fentanyl or counterfeit substances. It also establishes requirements for federal agencies to address the use of counterfeit substances.\nSpecifically, the bill applies an increased criminal penalty for possessing, manufacturing, or distributing certain equipment or materials that are used to illegally manufacture fentanyl, an analogue of fentanyl, or a counterfeit substance (the increased penalty is currently limited to offenses involving methamphetamine).\nThe Drug Enforcement Administration must establish and implement a plan to address counterfeit fentanyl or methamphetamine substances through law enforcement action and education and prevention efforts. In addition, the Department of Justice must annually report on the collection of counterfeit fentanyl or methamphetamine substances by law enforcement and on related prosecutions.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}
