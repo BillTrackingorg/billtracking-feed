@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-15T01:48:36Z",
+  "summary": {
+    "ai": {
+      "fp": "9061632f398b6dfcb763a75a2569dbdb0df2edae394457946a50c8a490592a83",
+      "model": "claude-haiku-5-5",
+      "text": "This bill would make certain tax-exempt organizations pay federal taxes and penalties, and in some cases lose their tax-exempt status, if they give money to a political entity within two years of receiving a contribution or gift from a foreign national. Such a payment is called a \"disqualified political committee contribution\" in the bill.\n\nThe bill covers organizations described in Section 501(c) of the Internal Revenue Code, which include charities, social welfare groups, labor organizations, and business or civic leagues. For the first disqualified contribution, the organization would owe a federal tax equal to 100% of the amount contributed. For each later contribution, the tax would be 200% of the amount.\n\nFor a third and each later disqualified contribution, the organization would also lose its tax-exempt status for two years, counting from the date the contribution was made.\n\nCertain 501(c) organizations would also face a penalty equal to twice the amount of any disqualified contribution. This applies to organizations that had gross receipts of $200,000 or more, or assets of $500,000 or more, in the prior tax year."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Stopping Foreign Influence in Elections Act of 2026\nThis bill imposes on certain tax-exempt organizations federal income taxes and penalties, including loss of tax-exempt status, for contributing to a political entity within two years of receiving a contribution or gift from a foreign national (disqualified political committee contribution).\nUnder the bill, tax-exempt organizations described in Section 501(c) of the Internal Revenue Code (e.g., charities, social welfare organizations, labor organizations, and business or civics leagues) that make disqualified political committee contributions are subject to federal taxes in the amounts of 100% of the contribution for the first such contribution and 200% of the contribution for each subsequent contribution.\nFor a third and each subsequent contribution, the bill also revokes the organization’s tax-exempt status for two years (from the date the contribution is made).\nA penalty of twice the amount of any disqualified political committee contribution also is imposed on certain tax-exempt 501(c) organizations that have (1) gross receipts of $200,000 or more for the prior tax year, or (2) assets of $500,000 or more for the prior tax year.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-15T01:47:02Z",
+  "summary": {
+    "ai": {
+      "fp": "b525b15c39a66b3cead9570097b111575551acd8ae430cedc1452e1b480edfd2",
+      "model": "claude-haiku-5-5",
+      "text": "This bill creates a government task force focused on unlawful robocalls, meaning automated phone calls that are illegal, when they come from outside the United States. The task force's job is to advise federal agencies and Congress on how to fight these calls.\n\nThe bill also changes how often the Federal Communications Commission must choose the industry group that traces the source of suspected illegal robocalls. Right now, the commission must ask industry groups to apply for that role every year. Under the bill, it would only need to ask once every three years."
+    },
+    "label": "Congressional Research Service, Introduced in Senate",
+    "text": "Foreign Robocall Elimination Act\nThis bill establishes an interagency task force on unlawful robocalls to advise federal agencies and Congress on combating robocalls made from outside of the United States.\nThe bill also increases the term applicable to the Federal Communications Commission’s designation of an industry-led consortium to trace the origin of suspected unlawful robocalls. Under current law, the commission must annually seek applications from industry groups to serve as the designated consortium; under the bill, the commission must seek applications once every three years.",
+    "version": "Introduced in Senate"
+  },
+  "v": 1
+}

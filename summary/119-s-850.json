@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-15T01:47:07Z",
+  "summary": {
+    "ai": {
+      "fp": "798115d0e900296c7377fb22a43212dbf9ca26b8c40efa596d0afaa88e3f04df",
+      "model": "claude-haiku-5-5",
+      "text": "The Northern Border Security Enhancement and Review Act requires the Department of Homeland Security (DHS) to regularly study threats along the northern U.S. border. The study must be done every three years. It must look at threats from terrorism and crime, recent changes in the number of people apprehended, and what improvements are needed to prevent terrorism and reduce crime.\n\nDHS must also update its northern border strategy by September 2, 2026, and then every five years after that. The updated strategy must use the results of the latest threat study. In addition, DHS must give a classified briefing to the appropriate congressional committees.\n\nFinally, the bill directs U.S. Customs and Border Protection's Air and Marine Operations (AMO) to create performance measures. These measures will judge how well AMO is securing the northern border between official ports of entry, both in the air and on the water."
+    },
+    "label": "Congressional Research Service, Reported to Senate",
+    "text": "Northern Border Security Enhancement and Review Act\nThis bill requires the Department of Homeland Security (DHS) to regularly perform a threat analysis of the northern U.S. border.\nThe analysis must be performed every three years and include terroristic and criminal threats, recent changes in apprehensions, and improvements needed to prevent terrorism and reduce criminal activity.\nDHS must update its northern border strategy not later than September 2, 2026, and every five years thereafter, incorporating the results from the latest threat analysis. DHS must also provide a classified briefing to the appropriate congressional committees.\nU.S. Customs and Border Protection’s Air and Marine Operations (AMO) must develop performance metrics to assess the AMO’s effectiveness at securing the northern border between ports of entry in air and maritime environments.",
+    "version": "Reported to Senate"
+  },
+  "v": 1
+}

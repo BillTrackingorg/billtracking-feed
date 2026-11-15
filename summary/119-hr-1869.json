@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-15T01:48:14Z",
+  "summary": {
+    "ai": {
+      "fp": "6f50c850f002ef9752bd68dc7dedd4484d6ff04e21c083c61288903b3a7d3ebd",
+      "model": "claude-haiku-5-5",
+      "text": "This bill would require the Department of Justice to set up a task force, program, or similar structure within its Criminal Division. Its job would be to investigate and prosecute crimes related to international trade."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Protecting American Industry and Labor from International Trade Crimes Act of 2025\nThis bill requires the Department of Justice to establish a task force, program, or other similar structure within its Criminal Division to investigate and prosecute trade-related crimes.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

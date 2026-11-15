@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-15T01:48:37Z",
+  "summary": {
+    "ai": {
+      "fp": "13a351a87dea1b2c7b29ad85aa228fa0d531e772784768ca40f99773504f5ec7",
+      "model": "claude-haiku-5-5",
+      "text": "The Foreign Funding Transparency Act would require certain tax-exempt organizations to report to the IRS how much money they receive from foreign nationals. It covers organizations recognized under Section 501(c) of the tax code, such as charities, social welfare groups, labor unions, and business or civic leagues, but only if they meet either of two thresholds: gross receipts of $200,000 or more in the previous tax year, or assets of $500,000 or more at the end of the previous tax year.\n\nOrganizations that already file a Form 990 information return with the IRS would have to report two things: the total amount of contributions they received from foreign nationals during the tax year, and the portion of those contributions that came from foreign nationals from China, Iran, Korea, or Russia.\n\nAn organization could generally accept a donor's statement about their nationality. However, it could not rely on that statement if it knows, or should know, that the statement is false."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Foreign Funding Transparency Act\nThis bill requires certain organizations exempt from federal income tax to report to the Internal Revenue Service (IRS) information related to contributions received from foreign nationals.\nThe bill applies to tax-exempt organizations described in Section 501(c) of the Internal Revenue Code (e.g., charities, social welfare organizations, labor organizations, and business or civics leagues) with (1) gross receipts for the preceding tax year of $200,000 or more, or (2) assets (determined at the close of the preceding tax year) of $500,000 or more.\nSuch tax-exempt organizations that are required to file a Form 990 series information return with the IRS must report (1) the aggregate amount of contributions received during the tax year from foreign nationals, and (2) the portion of those contributions received from foreign nationals from China, Iran, Korea, or Russia.\nUnder the bill, a tax-exempt organization may rely on the representation of the donor as to nationality unless the organization knows or should know that such representation is false.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-15T01:48:28Z",
+  "summary": {
+    "ai": {
+      "fp": "ed2f748e06df4a073123321cce1332c70ed4f7c60aa14ce115d108415f15ab67",
+      "model": "claude-haiku-5-5",
+      "text": "The Fair Credit Reporting Reseller Accuracy Act would require a company that resells consumer credit information to take reasonable steps to make sure the credit information it passes along is as accurate as possible. These companies don't keep their own credit databases. Instead, they collect a person's credit information from other credit reporting agencies, combine it, and provide it to someone else.\n\nThe bill also says that a reseller cannot be held liable under the Fair Credit Reporting Act for information it passes along if it accurately reports what it received from another consumer reporting agency."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Fair Credit Reporting Reseller Accuracy Act\nThis bill requires a consumer credit data reseller (a consumer reporting agency that does not maintain a credit database of its own, but assembles and merges a consumer's credit information from other agencies that it provides to a third party) to follow reasonable procedures to ensure the maximum possible accuracy of the credit information it provides.\nA reseller may not be held liable under the Fair Credit Reporting Act for the information it provides if the reseller accurately communicates the information obtained from another consumer reporting agency.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

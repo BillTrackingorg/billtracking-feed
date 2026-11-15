@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-15T01:48:46Z",
+  "summary": {
+    "ai": {
+      "fp": "d52128ffb7e97c6ccc7227c7315aabd2e7ed74d70f3c30112ba2e09b710a8c9e",
+      "model": "claude-haiku-5-5",
+      "text": "This bill requires the U.S. Forest Service to transfer about 24 acres of land in the Dixie National Forest to Brian Head Town in Utah. Any buildings or other improvements on the land would go to the town along with it.\n\nThe town would have to use the land for a public works facility or for any other purpose the town decides is necessary. The land would be handed over for free, with no payment required from the town."
+    },
+    "label": "Congressional Research Service, Introduced in Senate",
+    "text": "Brian Head Town Land Conveyance Act\nThis bill directs the Forest Service to convey approximately 24 acres of land within the Dixie National Forest to Brian Head Town, Utah, along with any improvements made to the land. The town must use the land for a public works facility or any other uses determined to be necessary by the town. The Forest Service must convey the land to the town without consideration (such as payment).",
+    "version": "Introduced in Senate"
+  },
+  "v": 1
+}

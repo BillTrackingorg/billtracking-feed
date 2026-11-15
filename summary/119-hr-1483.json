@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-15T01:48:09Z",
+  "summary": {
+    "ai": {
+      "fp": "1284e535f335aaa9b287c2214a9bb7d261c4a423e10941a4ce230fa9b3a9129b",
+      "model": "claude-haiku-5-5",
+      "text": "This bill limits how personal information about people in the securities market can be collected for tracking market activity. Specifically, it bars the Securities and Exchange Commission (SEC) from requiring a national securities exchange, a national securities association, or a member of either of these to hand over such information to meet the reporting rules of the Consolidated Audit Trail, which is the data regulators use to track market activity."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Protecting Investors' Personally Identifiable Information Act\nThis bill limits certain disclosures of personally identifiable information belonging to a participant in the securities market for purposes of tracking market activity.\nSpecifically, the bill prohibits the Securities and Exchange Commission (SEC) from requiring a national securities exchange, a national securities association, or a member of such an exchange or association to provide such information to satisfy the reporting requirements of the Consolidated Audit Trail (data used by regulators to track market activity).",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-15T01:48:16Z",
+  "summary": {
+    "ai": {
+      "fp": "d45ca4aff149942277c2ca98662fd3ce381e446cedfddfacce270e66b393ffa9",
+      "model": "claude-haiku-5-5",
+      "text": "This bill protects the right of college students to form or join social groups, including groups that admit only one sex. It applies to students at colleges and other higher education institutions.\n\nThe bill also limits what colleges that receive federal student aid can do. A college cannot take action against a single-sex social group, or against students who belong to or want to join one, just because the group admits only one sex. A college also cannot require or pressure students or group members to give up these protections, including as a condition of enrolling.\n\nFinally, a college cannot place recruiting limits on a single-sex social group that it does not place on other student groups. The only exception is when the group and the college have signed a written agreement allowing that limit."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Freedom of Association in Higher Education Act of 2025\nThis bill establishes freedom of association protections for college students in single-sex social organizations.\nSpecifically, the bill gives students (or groups of students) enrolled at institutions of higher education (IHEs) the right to form or join social organizations, including single-sex social organizations.\nAdditionally, the bill prohibits IHEs that participate in federal student aid programs from\ntaking adverse actions against single-sex social organizations or students who are members or prospective members of such organizations based solely on the practice of limiting membership to only individuals of one sex;\ntaking actions that require or coerce members or prospective members of such organizations to waive protections provided under the bill, including as a condition of enrolling in the IHE; or\nimposing a recruitment restriction on a single-sex social organization that is not imposed upon other student organizations, unless the organization and IHE have entered into a written agreement allowing the restriction.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

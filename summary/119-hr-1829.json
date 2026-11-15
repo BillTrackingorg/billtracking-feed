@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-15T01:48:12Z",
+  "summary": {
+    "ai": {
+      "fp": "4a011d4231f8fb86a48be8e3fda632a032abb282d932f8d233e65ef3596e4735",
+      "model": "claude-haiku-5-5",
+      "text": "This bill directs the Forest Service to transfer certain lands within the Apache-Sitgreaves National Forest in Arizona to Navajo County and Apache County. The land must be used as cemeteries.\n\nEach county must cover all costs connected to its transfer, including the cost of surveys and environmental reviews."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Apache County and Navajo County Conveyance Act of 2025\nThis bill requires the Forest Service to convey certain lands within the Apache-Sitgreaves National Forest to Navajo County and Apache County, Arizona. The counties must use the land as cemeteries.\nAs a condition of each conveyance, the counties must pay all associated costs, including the costs of surveys and environmental analyses.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

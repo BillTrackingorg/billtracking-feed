@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-15T01:48:21Z",
+  "summary": {
+    "ai": {
+      "fp": "d443d376bd6b4d366b8bd1e99f8b4dd2c61b33df2b7d90d893d907f46f1ed1bc",
+      "model": "claude-haiku-5-5",
+      "text": "The Local Access to Courts Act, also called LACA, would add two cities to the list of places where federal court must be held. College Station would be added for the Galveston Division of the Southern District of Texas. El Centro would be added for the Southern District of California."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Local Access to Courts Act or LACA\nThis bill adds College Station to the list of places where court must be held in the Galveston Division of the Southern District of Texas.\nAdditionally, the bill adds El Centro to the list of places where court must be held in the Southern District of California.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

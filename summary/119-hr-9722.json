@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-15T01:48:34Z",
+  "summary": {
+    "ai": {
+      "fp": "b64b2dadf0a84d8c08ac68e6c96a1045d2d6cdd12125cde22c7e899b1bd3ba9f",
+      "model": "claude-haiku-5-5",
+      "text": "This bill says that a religious organization's beliefs or practices about marriage, sexuality, or gender identity cannot be treated as inconsistent with public law or policy when deciding whether the organization qualifies as a charity and so is exempt from federal income tax.\n\nUnder current federal rules, a charitable organization generally has to be organized and operated for a tax-exempt purpose, such as religious, charitable, scientific, or educational purposes, to get tax-exempt status and to receive tax-deductible donations. The Internal Revenue Service's position, which the Supreme Court upheld in Bob Jones University v. United States, is that an organization does not meet this requirement if it is against public policy or illegal.\n\nThe bill changes how that test applies to these particular beliefs. It says a religious belief or practice about marriage, sexuality, or gender identity may not be treated as inconsistent with public law or policy when deciding whether an organization is organized and operated for a tax-exempt purpose. The bill also says a belief does not have to be required by, or central to, a religion to count as a religious belief."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Fair Treatment of Religious Organizations Act of 2026\nThis bill provides that an organization’s religious beliefs or practices concerning marriage, sexuality, or gender identity may not be treated as inconsistent with public law or policy for purposes of determining whether the organization has a charitable purpose and, thus, is exempt from federal income tax.\nAs background, charitable organizations generally must be organized and operated for one or more tax-exempt purposes (e.g., religious, charitable, scientific, or educational) to be exempt from federal income tax and receive tax-deductible contributions. The Internal Revenue Service’s position, which was upheld by the Supreme Court in Bob Jones University v. United States, is that an organization is not organized or operated for a tax-exempt purpose if the organization is against public policy or illegal.\nThe bill provides that a religious belief or practice concerning marriage, sexuality or gender identity may not be treated as being inconsistent with public law or policy for purposes of determining if an organization is organized and operated for a tax-exempt purpose. Further, under the bill, a belief need not be compelled by or central to a system of religion to be a religious belief.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

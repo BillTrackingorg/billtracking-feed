@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-15T01:48:19Z",
+  "summary": {
+    "ai": {
+      "fp": "fcc6c96e3072f9872bd5ab9430747b25e60acea72e5d7816d343ea1bcba7d6c0",
+      "model": "claude-haiku-5-5",
+      "text": "The Credit Access and Inclusion Act of 2025 lets people and the Department of Housing and Urban Development report positive credit information, such as paying rent or utility bills on time, to consumer reporting agencies. This covers payment behavior under a home rental lease or under a contract for a utility or telecommunications service.\n\nInformation about how much someone uses a utility or phone service can be reported only if it relates to the consumer's payments for that service or other terms of the service.\n\nAn energy utility company cannot report a customer's unpaid balance as late if the company and the customer have agreed to a payment plan and the customer is keeping up with that plan.\n\nCertain existing rules that make those who provide information to consumer reporting agencies legally liable do not apply to violations of this bill.\n\nThe Government Accountability Office must report on how this kind of reporting affects consumers and on the effects of reporting consumers' cash flow data to consumer credit agencies."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Credit Access and Inclusion Act of 2025\nThis bill allows for the reporting of certain positive consumer-credit information (such as the on-time payment of rent or utilities) to consumer reporting agencies.\nSpecifically, a person or the Department of Housing and Urban Development may report information related to a consumer's performance in making payments either under a lease agreement for a dwelling or pursuant to a contract for a utility or telecommunications service. However, information about a consumer's usage of any utility or telecommunications service may be reported only to the extent that the information relates to payment by the consumer for such service or other terms of the provision of that service. Furthermore, an energy utility firm may not report a consumer's outstanding balance as late if the firm and the consumer have entered into a payment plan and the consumer is meeting the obligations of that plan.\nSpecified provisions that establish civil liability with respect to furnishers of information to consumer reporting agencies shall not apply to any violation of the bill.\nThe Government Accountability Office must report on the consumer impact of such reporting and the effect of reporting consumer cash flow data to consumer credit agencies.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

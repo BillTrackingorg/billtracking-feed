@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-15T01:47:39Z",
+  "summary": {
+    "ai": {
+      "fp": "47b10b9985253cdf5bd1948a95c268f089ab4054737a25cb82d6cb95aede28ce",
+      "model": "claude-haiku-5-5",
+      "text": "This bill directs the Office of Space Commerce to set up a Commercial Space Activity Advisory Committee. The committee's job is to advise on privately run space activities and on ways to help the U.S. commercial space sector grow and stay innovative.\n\nAmong its other duties, the committee must identify challenges facing the U.S. commercial space sector. It must also review good practices that commercial space companies can follow to avoid harmfully contaminating the Moon and other celestial bodies, and to avoid negative effects on Earth's environment from material coming from space.\n\nThe committee must include members from different fields who have significant experience in the commercial space industry. It will end ten years after it is set up."
+    },
+    "label": "Congressional Research Service, Introduced in Senate",
+    "text": "Space Commerce Advisory Committee Act\nThis bill requires the Office of Space Commerce to establish a Commercial Space Activity Advisory Committee to provide information and recommendations on nongovernmental space activities and promoting a robust and innovative commercial space sector.\nAmong other duties, the committee is directed to identify challenges to the U.S. commercial space sector and to review best practices for commercial space entities with respect to avoiding harmful contamination of the Moon and other celestial bodies and adverse impacts to the Earth’s environment from extraterrestrial matter.\nThe committee must be comprised of representatives from varying fields with significant experience in the commercial space industry. The committee must terminate ten years after it is established.",
+    "version": "Introduced in Senate"
+  },
+  "v": 1
+}

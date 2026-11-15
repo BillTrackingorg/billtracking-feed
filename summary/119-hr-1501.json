@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-15T01:48:02Z",
+  "summary": {
+    "ai": {
+      "fp": "6e75dd07c9edcba1c0b7c12eb8a1523317c3e750ac3a9d35767df794b3be0906",
+      "model": "claude-haiku-5-5",
+      "text": "The Protecting Domestic Mining Act of 2025 would let federal agencies speed up the environmental review of certain mining infrastructure projects. It would make these projects eligible for expedited review under the Fixing America's Surface Transportation Act (the FAST Act) on a permanent basis.\n\nThe bill would give lasting legal backing to rules that already allow this. A rule issued by the Federal Permitting Improvement Steering Council (the Permitting Council) on January 8, 2021, added mining as a sector eligible for this expedited process.\n\nThe bill also would stop the Permitting Council from finalizing a separate proposed rule issued on September 22, 2023. That proposal would narrow the types of mining projects eligible for expedited review, and among its changes, it would limit the process to critical minerals mining projects."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Protecting Domestic Mining Act of 2025\nThis bill provides statutory authority for federal agencies to expedite the environmental review of certain mining infrastructure projects.\nSpecifically, the bill permanently makes certain mining infrastructure projects eligible for expedited environmental review under the Fixing America's Surface Transportation Act (FAST Act). This provides statutory authority for similar authorities that were included in the rule titled Adding Mining as a Sector of Projects Eligible for Coverage Under Title 41 of the Fixing America's Surface Transportation Act and issued by the Federal Permitting Improvement Steering Council (Permitting Council) on January 8, 2021.\nThe bill also prohibits the Permitting Council from finalizing its proposed rule titled Revising Scope of the Mining Sector of Projects That Are Eligible for Coverage Under Title 41 of the Fixing America’s Surface Transportation Act and issued on September 22, 2023. Among other modifications, the rule proposes to limit the types of mining projects that are eligible for the expedited environmental review process. Specifically, the proposed rule limits the expedited process to critical minerals mining projects.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}
