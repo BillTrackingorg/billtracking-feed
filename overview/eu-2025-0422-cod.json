@@ -1,0 +1,25 @@
+{
+ "committees": [
+  {
+   "code": "ENVI",
+   "name": "Environment, Climate and Food Safety"
+  },
+  {
+   "code": "IMCO",
+   "name": "Internal Market and Consumer Protection"
+  },
+  {
+   "code": "TRAN",
+   "name": "Transport and Tourism"
+  }
+ ],
+ "lead": "Michael Bloss (Greens/EFA), Andreas Schwab (EPP) and Merja Kyllönen (The Left)",
+ "start": {
+  "kind": "proposed",
+  "on": "2025-12-16"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}
