@@ -1,14 +1,14 @@
 {
-  "confirmed": "2026-11-15T16:59:58Z",
+  "confirmed": "2026-11-16T20:20:46Z",
   "summary": {
     "ai": {
-      "fp": "5bbe0ad9e76cd74c457f23b66c0e77fd4f0c2461c1fd171c740b47f91c65b36a",
+      "fp": "d32abacaf53ed05b6d3d0dc5b98a5a9cf8761fe4a0d3d7f586a786bdefccdc1a",
       "model": "claude-haiku-5-5",
-      "text": "This bill would let the National Taxpayer Advocate hire its own lawyers inside the Taxpayer Advocate Service (TAS), the office that helps taxpayers with problems involving the Internal Revenue Service (IRS). These lawyers would report directly to the National Taxpayer Advocate. The bill would also widen the National Taxpayer Advocate's power to take personnel actions. Currently that power covers the local taxpayer advocates, one located in each state. Under the bill, it would cover any employee of TAS.\n\nRight now, a Treasury Department order puts nearly all lawyers who give legal advice to Treasury officials into the Treasury Legal Division, under the General Counsel's supervision. There are only limited exceptions. The bill would change that for TAS's lawyers. TAS is part of the IRS, which is itself part of the Treasury Department."
+      "text": "The National Taxpayer Advocate Enhancement Act of 2025 lets the National Taxpayer Advocate hire its own legal counsel inside the Taxpayer Advocate Service (TAS), and that lawyer would report directly to the National Taxpayer Advocate. The act also gives the National Taxpayer Advocate more power over personnel decisions. Before, that power covered only the local taxpayer advocates, who work in each state. Now it extends to any employee of TAS.\n\nThe change matters because of how legal staff were organized before. Under a Treasury Department order, lawyers who give legal advice to officials in Treasury offices and bureaus were generally part of a Legal Division under the General Counsel, with only limited exceptions. TAS helps taxpayers with problems involving the Internal Revenue Service (IRS), and it is itself part of the IRS, which sits within Treasury."
     },
-    "label": "Congressional Research Service, Introduced in House",
-    "text": "National Taxpayer Advocate Enhancement Act of 2025\nThis bill authorizes the National Taxpayer Advocate to appoint legal counsel within the Taxpayer Advocate Service (TAS) to report directly to the National Taxpayer Advocate. The bill also expands the authority of the National Taxpayer Advocate to take personnel actions with respect to local taxpayer advocates (located in each state) to include actions with respect to any employee of TAS.\nCurrently, pursuant to a Department of the Treasury order, all legal counsel whose duties include providing legal advice to any official in any office or bureau of Treasury are part of the Legal Division within Treasury and under the supervision of the General Counsel, with limited exceptions. TAS assists taxpayers in matters involving the Internal Revenue Service (IRS) and is part of the IRS, within Treasury.",
-    "version": "Introduced in House"
+    "label": "Congressional Research Service, Public Law",
+    "text": "National Taxpayer Advocate Enhancement Act of 2025\nThis act authorizes the National Taxpayer Advocate to appoint legal counsel within the Taxpayer Advocate Service (TAS) to report directly to the National Taxpayer Advocate. The act also expands the authority of the National Taxpayer Advocate to take personnel actions with respect to local taxpayer advocates (located in each state) to include actions with respect to any employee of TAS.\nPrior to this act, pursuant to a Department of the Treasury order, all legal counsel whose duties include providing legal advice to any official in any office or bureau of Treasury were part of the Legal Division within Treasury and under the supervision of the General Counsel, with limited exceptions. TAS assists taxpayers in matters involving the Internal Revenue Service (IRS) and is part of the IRS, within Treasury.",
+    "version": "Public Law"
   },
   "v": 1
 }
