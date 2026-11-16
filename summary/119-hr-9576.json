@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-16T01:53:29Z",
+  "summary": {
+    "ai": {
+      "fp": "d87dc1c2609155b92c96d84dead6795a7c015771ee1b26941d0a827ec4960c94",
+      "model": "claude-haiku-5-5",
+      "text": "This bill gives the National Fraud Enforcement Division, which is part of the Department of Justice, a legal basis in statute. The division's job is to investigate and bring cases against fraud that targets taxpayer money and government programs funded by taxpayers.\n\nThe division was first set up by the Department of Justice in April 2026."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "National Fraud Enforcement Division Act of 2026\nThis bill provides statutory authority for the National Fraud Enforcement Division within the Department of Justice (DOJ). The division investigates and prosecutes fraud against taxpayer dollars and taxpayer-funded programs.\nThe National Fraud Enforcement Division was established by DOJ in April 2026.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

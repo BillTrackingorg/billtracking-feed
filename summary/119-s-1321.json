@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-16T01:53:46Z",
+  "summary": {
+    "ai": {
+      "fp": "0ccf4ff1777f42b44404ae03ecdaab7746ff5a291fbe53e7390e0dee724688dd",
+      "model": "claude-haiku-5-5",
+      "text": "The Moab UMTRA Project Transition Act of 2025 would let the Department of Energy give the Moab site to Grand County, Utah, at no cost once the department finishes cleaning up the uranium mill tailings, which are radioactive waste, at the site. The Moab site is a former uranium milling location about three miles northwest of Moab, Utah.\n\nThe Department of Energy would keep certain water rights it needs to carry out its responsibilities. For example, it would keep access to wells and the surface area around them if cleaning up the groundwater is still underway when the site is handed over.\n\nThe transfer would have to include a condition that stops Grand County from passing any part of the land it receives to a private company or nonprofit organization."
+    },
+    "label": "Congressional Research Service, Introduced in Senate",
+    "text": "Moab UMTRA Project Transition Act of 2025\nThis bill allows the Department of Energy (DOE) to convey the Moab site to Grand County, Utah, at no cost when it finishes cleaning up uranium mill tailings (i.e., radioactive waste) at the site. (The Moab site is a uranium milling site located approximately three miles northwest of Moab, Utah.)\nDOE must retain certain water rights that are necessary to carry out its responsibilities, such as maintaining access to wells and the associated surface footprint of the wells if the remediation of groundwater is ongoing at the time of the conveyance.\nThe conveyance of the site must include a provision that prohibits Grand County from reconveying to a private entity or nonprofit organization any portion of the land conveyed to the county.",
+    "version": "Introduced in Senate"
+  },
+  "v": 1
+}

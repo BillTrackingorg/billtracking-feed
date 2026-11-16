@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-16T01:53:27Z",
+  "summary": {
+    "ai": {
+      "fp": "fb531b21b67e991b905c5c54661ad21c0096efb558d9504b49574d22d9b194ff",
+      "model": "claude-haiku-5-5",
+      "text": "The Water Resources Development Act of 2026 authorizes and changes certain water infrastructure projects and programs run by the U.S. Army Corps of Engineers, and it sets related requirements. It covers a range of water-related work, including studies and projects to maintain ports and harbors, make some waterways easier to navigate, reduce flood and storm damage, restore aquatic ecosystems and protect fish and wildlife, protect shorelines, address harmful algal blooms, rehabilitate dams, manage recreation sites and facilities, support water supply and storage, and support other water resources infrastructure.\n\nThe bill also directs the Corps of Engineers to create an Office on Alternative Delivery Methods, with the goal of speeding up the delivery of infrastructure projects.\n\nIn addition, the bill requires the Corps of Engineers to issue a rule that sets up categorical permissions for certain harbor or river improvements expected to cause only minimal harm to the environment."
+    },
+    "label": "Congressional Research Service, Reported to House",
+    "text": "Water Resources Development Act of 2026\nThis bill authorizes and modifies certain water resource infrastructure projects and programs of the U.S. Army Corps of Engineers and makes related requirements. For example, the bill authorizes and modifies various water resources feasibility studies and projects of the Corps of Engineers, such as studies or projects to\nmaintain ports and harbors,\nmake certain waterways more navigable,\nreduce flood and storm damage,\nrestore aquatic ecosystems and protect fish and wildlife,\nprotect shorelines,\naddress harmful algal blooms,\nrehabilitate dams,\nmanage recreational sites and facilities,\nsupport water supply and storage projects, and\nsupport other water resources infrastructure.\nThe bill also directs the Corps of Engineers to establish an Office on Alternative Delivery Methods in order to accelerate project delivery of infrastructure.\nIn addition, the bill directs the Corps of Engineers to issue a rule that establishes categorical permissions for certain harbor or river improvements that will cause only minimal adverse environmental effects.",
+    "version": "Reported to House"
+  },
+  "v": 1
+}

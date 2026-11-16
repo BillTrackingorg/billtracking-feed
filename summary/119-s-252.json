@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-16T01:53:06Z",
+  "summary": {
+    "ai": {
+      "fp": "6dc267211d412e4604d9f7d2c6959c9b72f0e1f7002ee94176821463fe1aefb3",
+      "model": "claude-haiku-5-5",
+      "text": "The GOOD Act, short for the Guidance Out Of Darkness Act, sets rules for how government agencies publish their guidance documents. Under the bill, an agency must post each guidance document online on the day it is issued. It must also keep all of its guidance documents that are currently in effect in one place on a designated website, and place a link on its main website that leads to that collection.\n\nIf a guidance document is no longer in force, the agency must make that clear on the website by marking it as rescinded. The documents must be labeled as guidance and sorted into subcategories so they are easier to find."
+    },
+    "label": "Congressional Research Service, Introduced in Senate",
+    "text": "Guidance Out Of Darkness Act or the GOOD Act\nThis bill establishes requirements concerning the posting of agency guidance documents. Specifically, an agency must publish guidance documents online on the dates they are issued, publish all of its guidance documents that are in effect in a single location on a designated website, display a hyperlink on its website that provides access to the guidance documents on such website, and indicate on such website if a guidance document has been rescinded.\nThe documents must be categorized as guidance documents and further divided into subcategories.",
+    "version": "Introduced in Senate"
+  },
+  "v": 1
+}

@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-16T01:53:43Z",
+  "summary": {
+    "ai": {
+      "fp": "f6ce5ce948364f42f5ff41332339106924c71e3a60ef84d2904cffffbd43fd95",
+      "model": "claude-haiku-5-5",
+      "text": "This bill would require the Department of the Interior to grant a right-of-way through the Blue Ridge Parkway, allowing an additional emergency exit from Wintergreen in Nelson County, Virginia. The grant is not automatic. Interior must first report to the specified congressional committees that three things have been completed.\n\nThe first is a review of other ways out of Wintergreen that would not cross federal land. This review must include checking whether existing trails could be converted into roads.\n\nThe second is an analysis of how a fire would likely behave around the proposed exit if an emergency occurred there.\n\nThe third is any reviews required under two federal laws: the National Environmental Policy Act of 1969 and the National Historic Preservation Act.\n\nOnce Interior has reported that all three steps are done, it must grant the right-of-way."
+    },
+    "label": "Congressional Research Service, Reported to House",
+    "text": "Wintergreen Emergency Egress Act\nThis bill directs the Department of the Interior to issue a right-of-way through the Blue Ridge Parkway for an additional emergency exit from Wintergreen in Nelson County, Virginia, once certain requirements have been met. Specifically, Interior must grant the right-of-way if it reports to specified congressional committees that the following have been completed: (1) an evaluation of alternatives to the right-of-way for exiting Wintergreen that do not cross federal land, including an evaluation of whether existing trails can be converted to roads; (2) an analysis of expected fire ecology behavior in the event of a fire emergency with respect to the right-of-way; and (3) any required reviews under the National Environmental Policy Act of 1969 and the National Historic Preservation Act.",
+    "version": "Reported to House"
+  },
+  "v": 1
+}

@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-16T01:54:10Z",
+  "summary": {
+    "ai": {
+      "fp": "71bd4d1d5a628befc44103fb52d85759a75f473a8d0ce56bfe619b3392042bc7",
+      "model": "claude-haiku-5-5",
+      "text": "The Secure Space Act of 2025 would stop the Federal Communications Commission (FCC) from approving satellite licenses, ground station approvals, or permission for foreign-licensed satellites to operate in the U.S. when the applicant is a specified foreign entity of concern or one of its affiliates. Ground stations are earth-based radio sites that communicate with satellites, and market access lets a foreign-licensed satellite talk to one or more U.S.-licensed ground stations.\n\nMore specifically, the FCC could not grant any of these approvals to an entity, or to an affiliate of one, that makes or provides communications equipment or services the government considers an unacceptable risk to U.S. national security. The FCC keeps a list of these equipment and services, called the Covered List. Companies such as Huawei Technologies Company and ZTE Corporation are examples of providers whose equipment and services fall under this category."
+    },
+    "label": "Congressional Research Service, Introduced in Senate",
+    "text": "Secure Space Act of 2025\nThis bill prohibits the Federal Communications Commission (FCC) from granting satellite licenses or earth station authorizations, including U.S. market access for foreign-licensed satellites, to specified foreign entities of concern and their affiliates. (Earth stations, also commonly known as ground stations, are earth-based radio stations that communicate with satellites. A grant of U.S. market access permits one or more foreign-licensed satellites to communicate with one or more U.S.-licensed earth stations.)\nSpecifically, the FCC may not grant a satellite license, an earth station authorization, or market access to any entity, or an affiliate thereof, that produces or provides communications equipment or services deemed to pose an unacceptable risk to the national security of the United States. (The FCC maintains a list of such equipment and services, known as the Covered List. Providers of such equipment and services include, for example, Huawei Technologies Company and ZTE Corporation.)",
+    "version": "Introduced in Senate"
+  },
+  "v": 1
+}

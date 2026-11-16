@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-16T01:53:48Z",
+  "summary": {
+    "ai": {
+      "fp": "c1d5ac98eacc67d715e4a675f8d273de7bd0991565296954645f891b518e27af",
+      "model": "claude-haiku-5-5",
+      "text": "This bill approves a land swap between the Chugach Alaska Corporation, an Alaska Native regional corporation in southcentral Alaska, and the federal government.\n\nIf Chugach offers to transfer to the Department of the Interior all of its rights to the underground (subsurface) estate on about 231,000 acres within one year of the bill becoming law, Interior must accept that offer. In return, the federal government would transfer to Chugach all of its rights to about 65,374 acres of fee simple land in the Chugach region. The Chugach region includes parts of the Kenai Peninsula and the coast of Prince William Sound.\n\nThe bill also says that Chugach must leave out of its transfer to Interior any land, up to a total of 209 acres, where a village corporation has kept development rights (other than timber rights) or where the land has been set aside for a shareholder homesite program."
+    },
+    "label": "Congressional Research Service, Introduced in Senate",
+    "text": "Chugach Alaska Land Exchange Oil Spill Recovery Act of 2025\nThis bill authorizes a land exchange between the Chugach Alaska Corporation (also known as Chugach, an Alaska Native regional corporation in southcentral Alaska) and the federal government.\nSpecifically, if Chugach offers to convey to the Department of the Interior all rights, title, and interest of Chugach in and to approximately 231,000 acres of subsurface estate within one year of the bill's enactment, then Interior must accept the offer and convey in exchange all rights, title, and interest of the federal government in and to approximately 65,374 acres of fee simple land located in the Chugach region. (The Chugach region includes portions of land on the Kenai Peninsula and the coast of Prince William Sound in Alaska.)\nThe bill directs Chugach to exclude from its conveyance to Interior all rights, title, and interest in any land, not to exceed a total of 209 acres, for which a village corporation has retained development rights (other than timber development rights) or that has been designated for a shareholder homesite program.",
+    "version": "Introduced in Senate"
+  },
+  "v": 1
+}

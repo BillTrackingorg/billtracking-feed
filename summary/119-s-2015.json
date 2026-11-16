@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-16T01:53:47Z",
+  "summary": {
+    "ai": {
+      "fp": "c48e163cbeaa3069d5c06da7cd09b1998c0e2aa3ecee6ffc5f2444497b86d67d",
+      "model": "claude-haiku-5-5",
+      "text": "The National Prescribed Fire Act of 2025 would require the Department of Agriculture and the Department of the Interior to conduct more controlled, planned fires on federal lands, with the goal of reducing wildfire risk.\n\nFor 10 years, each agency would need to make sure that the total area where prescribed fires are carried out grows by 10% compared with the year before.\n\nThe departments would also set up a collaborative program that gives money to eligible groups to carry out prescribed fires in priority areas. They could sign cooperative agreements or contracts with states, Indian tribes, counties, cities, fire districts, nonprofit organizations, and private companies to help coordinate these fires on federal land.\n\nTo build up the workforce, the departments would expand job opportunities for people who do prescribed fire work. This includes increasing hazard pay, supporting groups that are underrepresented in the field, and opening more training centers.\n\nBecause more prescribed fire could affect public health and safety, the Environmental Protection Agency would work with state, tribal, and local air quality agencies to support environmental reviews of wildland fires."
+    },
+    "label": "Congressional Research Service, Introduced in Senate",
+    "text": "National Prescribed Fire Act of 2025\nThis bill directs the Department of Agriculture (USDA) and the Department of the Interior to increase the number and size of prescribed fires conducted on federal lands.\nFor 10 years, Interior and USDA must annually conduct prescribed fires on federal land so that the total acreage where prescribed fires are conducted is 10% greater than the previous fiscal year.\nInterior and USDA must establish a collaborative prescribed fire program to provide financial assistance to eligible entities to conduct prescribed fires in priority landscapes.\nInterior and USDA may enter into cooperative agreements or contracts with states, Indian tribes, counties, municipal governments, fire districts, nongovernmental organizations, or private entities to coordinate prescribed fires on federal land.\nInterior and USDA must expand employment opportunities for prescribed fire practitioners, including by expanding hazard pay, supporting underrepresented groups, and establishing additional training centers.\nTo address the public health and safety risk of the expanded use of prescribed fire, the Environmental Protection Agency must coordinate with state, tribal, and local air quality agencies to support the environmental review of wildland fires.",
+    "version": "Introduced in Senate"
+  },
+  "v": 1
+}

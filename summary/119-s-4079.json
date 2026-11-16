@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-16T01:53:12Z",
+  "summary": {
+    "ai": {
+      "fp": "cd6a2ba60d910eb69ec1535a2b2186c0bbbe86b2ea95cb1bf543d25626497903",
+      "model": "claude-haiku-5-5",
+      "text": "The PEARL Act would require U.S. Customs and Border Protection (CBP) to set up a pilot program that adopts dogs from local animal shelters and trains them as support dogs. These dogs would join CBP's Support Canine Program, where they help people deal with grief, trauma, and low morale."
+    },
+    "label": "Congressional Research Service, Introduced in Senate",
+    "text": "Providing Emotional Assistance with Relief and Love Act or the PEARL Act\nThis bill requires U.S. Customs and Border Protection (CBP) to establish a pilot program to adopt dogs from local animal shelters to be trained as support dogs for CBP’s Support Canine Program. Support dogs are used for grief assistance, trauma mitigation, and morale.",
+    "version": "Introduced in Senate"
+  },
+  "v": 1
+}

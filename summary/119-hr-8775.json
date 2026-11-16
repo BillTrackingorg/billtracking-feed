@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-16T01:53:22Z",
+  "summary": {
+    "ai": {
+      "fp": "8e5b65865d3ed68b623fd68a490bed1bb9c9b402eaec2dc14a988a452b2e2b4a",
+      "model": "claude-haiku-5-5",
+      "text": "This bill would bar anyone convicted of a sex offense against a minor from holding a leadership job with a labor union, from working as a consultant or advisor to a union, and from acting as an employer's labor consultant or representative in contract bargaining. The ban would last 13 years after the conviction or after the person is released from prison for that offense, whichever the bill sets as the starting point.\n\nUnder current law, the same 13-year ban already applies to people convicted of certain other crimes, such as robbery, bribery, burglary, murder, or rape. This bill adds sex offenses against minors to that list."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Ending Predator Access to Union Power Act\nThis bill prohibits an individual convicted of a sex offense against a minor from serving in a leadership position for a labor organization, as a consultant or advisor to a labor organization, or as an employer labor consultant or representative in collective bargaining for 13 years after the conviction or imprisonment for the offense.\nCurrent law prohibits an individual from serving in these types of roles for 13 years after a conviction or imprisonment for specific crimes (including robbery, bribery, burglary, murder, or rape). The bill includes a sex offense against a minor as one of the specified crimes.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

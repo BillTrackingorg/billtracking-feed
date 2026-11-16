@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-16T01:53:30Z",
+  "summary": {
+    "ai": {
+      "fp": "587dcf3af2360ed282ce874c0c70141183707e5a05a4a7a21eb26c4c66cbdf18",
+      "model": "claude-haiku-5-5",
+      "text": "The Fit Future Act would give the President's Council on Sports, Fitness, and Nutrition a permanent legal basis in federal law. This council is a federal advisory group that makes recommendations on physical education in schools and on promoting good nutrition and fitness. The President most recently re-established it through an executive order on July 31, 2025.\n\nUnder the bill, the council would have to recommend fitness goals for young people. It would also suggest ways to encourage schools to reward excellence in physical education, and campaigns that highlight American sports, military readiness, and health traditions. In addition, the council would have to recommend how to bring back the Presidential Fitness Test, which sets fitness benchmarks for specific exercises based on a person's age and gender. These duties match what the executive order already requires.\n\nThe bill says the Department of Health and Human Services must provide the council with funding, administrative help, and technical support. The council may also accept money from the National Fitness Foundation."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Fit Future Act\nThis bill provides statutory authority for the President’s Council on Sports, Fitness, and Nutrition, a federal advisory committee that provides recommendations on school-based physical education and promoting good nutrition and fitness. The council was most recently reestablished by Executive Order 14327 on July 31, 2025.\nUnder the bill, the council must recommend fitness goals for youth; strategies for promoting school programs that reward excellence in physical education; and campaigns that elevate U.S. sports, military readiness, and health traditions. The council must also recommend strategies for reestablishing the Presidential Fitness Test, which provides age- and gender-based benchmarks for specified exercises. These requirements are consistent with the executive order.\nThe bill specifies that the Department of Health and Human Services must provide funding and administrative and technical support to the council. The council may also receive funds from the National Fitness Foundation.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

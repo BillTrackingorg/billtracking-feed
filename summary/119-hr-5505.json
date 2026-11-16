@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-16T01:53:35Z",
+  "summary": {
+    "ai": {
+      "fp": "ceb0be6608ca6d61dbc77e636604b0d3ce73ed022d2e4f3b6347748916630df3",
+      "model": "claude-haiku-5-5",
+      "text": "This bill would stop federal money under the Higher Education Act of 1965 from going to any public college or university that treats religious student groups unfairly. A school would lose that funding if it denies a religious student group any right, benefit, or privilege that it gives to other student groups. The rule applies when the denial is based on the group's beliefs, practices, speech, leadership standards, or standards of conduct."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Equal Campus Access Act of 2025\nThis bill prohibits funding made available under the Higher Education Act of 1965 from being provided to any public institution of higher education (IHE) that denies certain campus rights to religious student organizations.\nSpecifically, the bill prohibits a public IHE from receiving these funds if it denies a religious student organization any right, benefit, or privilege that is otherwise afforded to other student organizations at the IHE because of the religious student organization's beliefs, practices, speech, leadership standards, or standards of conduct.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

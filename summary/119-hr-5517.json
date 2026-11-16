@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-16T01:53:15Z",
+  "summary": {
+    "ai": {
+      "fp": "0759205da362f4f05ab6d561b183b690241dcec613fa7ea712760a65e292b1ff",
+      "model": "claude-haiku-5-5",
+      "text": "The Northern Border Security Enhancement and Review Act requires the Department of Homeland Security to review threats along the northern U.S. border every two years. Each review must look at terrorist and criminal threats, identify improvements needed to prevent terrorism and reduce crime, and assess whether preclearance and advance inspection operations at northern ports of entry could help keep terrorists from entering the United States.\n\nAfter each review, the Department must update its northern border strategy and give Congress a classified briefing. If the Department decides no update is needed, it must tell Congress that instead.\n\nThe bill also requires U.S. Customs and Border Protection's Air and Marine Operations to create performance measures. These measures will be used to judge how well the office secures the northern border between official ports of entry, both in the air and at sea."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Northern Border Security Enhancement and Review Act\nThis bill requires the Department of Homeland Security (DHS) to regularly perform a threat analysis of the northern U.S. border.\nThe analysis must be performed every two years and include terroristic and criminal threats, improvements needed to prevent terrorism and reduce criminal activity, and whether preclearance and advance inspection operations at northern ports of entry could prevent terrorists from entering in the United States.\nDHS must (1) update its northern border strategy after performing each threat analysis, and (2) provide a classified briefing to Congress. If DHS determines no update is required, DHS must notify Congress.\nU.S. Customs and Border Protection’s Air and Marine Operations (AMO) must develop performance measures to assess the AMO’s effectiveness at securing the northern border between ports of entry in air and maritime environments.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}
