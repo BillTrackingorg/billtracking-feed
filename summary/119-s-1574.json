@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-16T09:30:06Z",
+  "summary": {
+    "ai": {
+      "fp": "43bb1647b1684309ca1279539321b8ba571135526551b3b0c326da07d6a5a541",
+      "model": "claude-haiku-5-5",
+      "text": "This bill lets tribal courts require tech and communications companies to hand over stored electronic information, such as emails, phone records, and cloud-stored data.\n\nRight now, a federal law called the Stored Communications Act generally bars providers like cell phone companies, email services, social media platforms, and cloud storage companies from knowingly sharing stored messages, records, or information about their customers. The law does allow government bodies to get this information, but only through a court-issued warrant, a court order, or an administrative subpoena.\n\nThe bill gives tribal courts the same power that other governments already have, such as state courts. Tribal courts could use warrants, court orders, or administrative subpoenas to compel providers to disclose stored electronic communication information."
+    },
+    "label": "Congressional Research Service, Introduced in Senate",
+    "text": "Tribal Access to Electronic Evidence Act\nThis bill allows tribal courts to execute warrants for electronic material.\nThe Stored Communications Act (SCA) generally prohibits providers of electronic communication services (e.g., cell phone providers, email providers, or social media platforms) and remote computing services (e.g., cloud computing providers) from knowingly disclosing stored electronic communications or records (e.g., emails) or information pertaining to customers or subscribers. However, the SCA authorizes governmental entities to compel service providers to disclose electronic communication information through a court-issued warrant, a court order, or an administrative subpoena.\nThis bill gives tribal courts the same authority as other governmental entities (e.g., state courts) to compel service providers to disclose stored electronic communication information through court-issued warrants, court orders, or administrative subpoenas.",
+    "version": "Introduced in Senate"
+  },
+  "v": 1
+}

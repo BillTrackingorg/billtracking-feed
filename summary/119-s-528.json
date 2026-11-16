@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-16T09:30:33Z",
+  "summary": {
+    "ai": {
+      "fp": "de76ac3f8d036f48ef55c7257f9f55f23255d33f26506672110c59795161ef4c",
+      "model": "claude-haiku-5-5",
+      "text": "This bill extends the Great Lakes Restoration Initiative through fiscal year 2031. The initiative pays for programs and projects that protect and restore the Great Lakes."
+    },
+    "label": "Congressional Research Service, Introduced in Senate",
+    "text": "Great Lakes Restoration Initiative Act of 2025 or the GLRI Act of 2025\nThis bill reauthorizes through FY2031 the Great Lakes Restoration Initiative, which carries out programs and projects to protect and restore the Great Lakes.",
+    "version": "Introduced in Senate"
+  },
+  "v": 1
+}

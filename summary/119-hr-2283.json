@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-16T09:31:45Z",
+  "summary": {
+    "ai": {
+      "fp": "388a670612085cc79fbac0556728ac683a610c335c5534ca9317e42a0d8c7a8c",
+      "model": "claude-haiku-5-5",
+      "text": "This bill creates a three-year pilot program run by the Department of Veterans Affairs. Under the program, the department would give grants to established non-profit mental health care providers. The grants would pay for mental health care for veterans that is culturally competent and based on evidence."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Recognizing Community Organizations for Veteran Engagement and Recovery Act or the RECOVER Act\nThis bill requires the Department of Veterans Affairs to implement a three-year pilot program to make grants to established non-profit mental health care providers to provide culturally competent, evidence-based mental health care for veterans.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-16T09:31:00Z",
+  "summary": {
+    "ai": {
+      "fp": "1ca8a5f51a7fe540fc858575ca09669040601a829f1679a1bb2dd6f5ae8f0292",
+      "model": "claude-haiku-5-5",
+      "text": "The Skills-Based Federal Contracting Act changes how the federal government writes requests for contractor workers. Under the bill, when the government asks companies to bid on contracts for personnel, those requests cannot include minimum education requirements unless the contracting officer gives a justification for them. This applies whether the education requirement could be met by education alone, by education or experience, or by a mix of both.\n\nThe bill also directs the Office of Management and Budget to issue guidance to federal agencies. That guidance must include instructions for contracting officers, encouraging them to use alternatives to education requirements."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Skills-Based Federal Contracting Act\nThis bill prohibits federal contract bid solicitations for contractor personnel from including minimum educational requirements unless the contracting officer justifies the requirements. The prohibition applies to educational requirements that may be met through education alone, education or experience, or a combination of education and experience.\nThe bill also requires the Office of Management and Budget to issue implementing guidance to federal agencies, including instructions for contracting officers that encourage using alternatives to education requirements.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-16T09:30:57Z",
+  "summary": {
+    "ai": {
+      "fp": "71d35d7a00bf73c5a1f9c4b451aa818122f6ed177065c307961f9d9f385dfb53",
+      "model": "claude-haiku-5-5",
+      "text": "This bill places about 557 acres of federal land in Shasta County, California, into trust for the Pit River Tribe. The land, called the Four Corners Property, is currently managed by the Forest Service. Under the bill, management responsibility must move to the Department of the Interior, which must then hold the land in trust for the Tribe. Once in trust, the land will become part of the Tribe's reservation. The bill also bans gaming on the land."
+    },
+    "label": "Congressional Research Service, Passed Senate",
+    "text": "Pit River Land Transfer Act of 2026\nThis bill takes approximately 557 acres of specified federal land in Shasta County, California, into trust for the benefit of the Pit River Tribe.\nThe land, known as the Four Corners Property, is currently administered and managed by the Forest Service. Administrative jurisdiction over the land must be transferred to the Department of the Interior. Interior must then take the land into trust for the benefit of the Tribe. The land taken into trust shall be part of the Tribe's reservation.\nThe bill also prohibits gaming on the land taken into trust.",
+    "version": "Passed Senate"
+  },
+  "v": 1
+}

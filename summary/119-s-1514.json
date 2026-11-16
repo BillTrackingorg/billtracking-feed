@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-16T09:31:05Z",
+  "summary": {
+    "ai": {
+      "fp": "414a24f726319dd6d2907e451772d64a6cabb3b399307a773c411ceca8065915",
+      "model": "claude-haiku-5-5",
+      "text": "This bill moves about 72 acres of land in Washington State from the U.S. Forest Service to the Department of the Interior. The Interior Department must then take that land into trust for the Quinault Indian Nation, and the land becomes part of the tribe's reservation.\n\nThe bill bars gambling on the land once it is placed in trust.\n\nBefore taking the land into trust, the Interior Department must follow the rules for disclosing any hazardous substances, pollutants, or contaminants on the land. The bill does not require the department to clean up or reduce those substances."
+    },
+    "label": "Congressional Research Service, Introduced in Senate",
+    "text": "Quinault Indian Nation Land Transfer Act\nThis bill administratively transfers approximately 72 acres of specified lands in Washington from the U.S. Forest Service to the Department of the Interior. Interior must take this land into trust for the benefit of the Quinault Indian Nation. Land taken into trust shall be part of the tribe's reservation.\nThe bill prohibits gaming on the land taken into trust.\nThe bill requires Interior, for purposes of taking the land into trust, to meet the disclosure requirements for hazardous substances, pollutants, or contaminants, without otherwise being required to remediate or abate those hazardous substances, pollutants, or contaminants.",
+    "version": "Introduced in Senate"
+  },
+  "v": 1
+}

@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-16T09:30:04Z",
+  "summary": {
+    "ai": {
+      "fp": "767296e63bcc88ef3a559e0134811004f9bd1c97a611a1eb8509b5ea464af305",
+      "model": "claude-haiku-5-5",
+      "text": "This bill requires the Office of the Advocate for Small Business Capital Formation, which is part of the Securities and Exchange Commission, to prepare a report on the problems that small businesses in rural areas run into when trying to raise money."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Expanding Access to Capital for Rural Job Creators Act\nThis bill requires the Office of the Advocate for Small Business Capital Formation within the Securities and Exchange Commission to report on issues encountered by rural-area small businesses.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

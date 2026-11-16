@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-16T09:30:02Z",
+  "summary": {
+    "ai": {
+      "fp": "6cf5eacc4852408234692cbbcd8ffed4afb31007ca8c7f83210fffb5f37263df",
+      "model": "claude-haiku-5-5",
+      "text": "This bill deals with swapping mineral rights in Montana between the federal government, the Crow Tribe, and a private trust. It requires the Department of the Interior to accept the giving up of a federal coal lease tied to the Bull Mountains Mine near Roundup, Montana, where the current operator is Signal Peak Energy.\n\nThe Joe and Barbara Hope Mineral Trust, also called the Hope Family Trust, would transfer about 4,660 acres of underground mineral rights inside the Crow Indian Reservation in Big Horn County to the tribe. In return, the Department of the Interior would transfer about 4,530 acres of underground mineral rights and 940 acres of surface land in Musselshell County to the Hope Family Trust.\n\nBefore these transfers can happen, the tribe must tell the Department of the Interior that it and the Hope Family Trust have agreed on a formula for sharing revenue from developing the Musselshell County mineral and surface land.\n\nIf the tribe asks, the United States would hold the mineral rights transferred from the Hope Family Trust in trust for the tribe's benefit. Those mineral rights would not be subject to state or local taxes."
+    },
+    "label": "Congressional Research Service, Introduced in Senate",
+    "text": "Crow Revenue Act\nThis bill addresses the exchange of mineral interests in Montana involving the federal government, the Crow Tribe of Montana, and a private party.\nSpecifically, the bill requires\nthe Department of the Interior to accept the relinquishment of a specified federal coal lease associated with the Bull Mountains Mine near Roundup, Montana (the current operator of the mine is Signal Peak Energy);\nthe Joe and Barbara Hope Mineral Trust (Hope Family Trust) to convey approximately 4,660 acres of subsurface mineral interests located within the boundaries of the Crow Indian Reservation in Big Horn County, Montana, to the tribe; and\nInterior to convey approximately 4,530 acres of subsurface mineral interests and 940 acres of surface interests located in Musselshell County, Montana, to the Hope Family Trust.\nPrior to these conveyances, the tribe must notify Interior that the tribe and the Hope Family Trust have agreed on a revenue-sharing formula for the development of the mineral and surface interests in Musselshell County, Montana.\nThe mineral interests conveyed by the Hope Family Trust to the tribe shall be held in trust by the United States for the benefit of the tribe, upon the tribe's request. These mineral interests shall not be subject to state or local taxation.",
+    "version": "Introduced in Senate"
+  },
+  "v": 1
+}

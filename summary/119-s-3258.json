@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-16T09:29:31Z",
+  "summary": {
+    "ai": {
+      "fp": "b881e6ea3dfe65ecb92284d17178ac584603b5e9421c8f6280acc80304db0875",
+      "model": "claude-haiku-5-5",
+      "text": "The Aviation Medication Transparency Act of 2025 would require the Federal Aviation Administration (FAA) to create a list of medications that pilots and air traffic controllers may safely take while still receiving a medical certification. The FAA would have to publish this list online, update it every year, and make it available to anyone applying for a license or medical certification.\n\nRight now, the FAA has no such list of approved medications. It does, however, maintain lists for Aviation Medical Examiners that name medications they should not issue certificates for, and medications that prohibit flying."
+    },
+    "label": "Congressional Research Service, Introduced in Senate",
+    "text": "Aviation Medication Transparency Act of 2025\nThis bill directs the Federal Aviation Administration (FAA) to compile, publish, and annually update a list of medications that may be safely prescribed to pilots and air traffic controllers for the purposes of issuing a medical certification. The list must be publicly available on the FAA website and distributed to those seeking a license and medical certification.\nCurrently, the FAA does not have a list of approved medications. However, the FAA does have lists for Aviation Medical Examiners of Do Not Issue medications and Do Not Fly medications.",
+    "version": "Introduced in Senate"
+  },
+  "v": 1
+}
