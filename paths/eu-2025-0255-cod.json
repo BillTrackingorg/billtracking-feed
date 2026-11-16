@@ -5,9 +5,9 @@
  "year": "2025",
  "number": "0255",
  "ptype": "COD",
- "built_at": "2026-11-13T13:20:35+00:00",
+ "built_at": "2026-11-16T09:47:34+00:00",
  "source": "oeil-key-events",
- "source_count": 6,
+ "source_count": 7,
  "holds_full_record": true,
  "overrides_applied": null,
  "texture_count": 12,
@@ -323,6 +323,22 @@
    "spine": true,
    "subordinate": null,
    "key": "1-8a2598f82c576479",
+   "emoji": "🧭"
+  },
+  {
+   "order": 18,
+   "date": "2026-11-13",
+   "text": "Committee decision to enter into interinstitutional negotiations confirmed by plenary (Rule 72)",
+   "doc": null,
+   "family": "mandate",
+   "label": "Committee decision to enter into interinstitutional negotiations confirmed by plenary (Rule 72)",
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-081404f717b20829",
    "emoji": "🧭"
   }
  ]
