@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-17T13:09:51Z",
+  "summary": {
+    "ai": {
+      "fp": "d2963e7366ea679fb0ee0108f63ebeb336265df4f73c9755fa9e8747fbf7c686",
+      "model": "claude-haiku-5-5",
+      "text": "This bill would formally establish in law the Institute for Telecommunication Sciences (ITS), the research and engineering branch of the National Telecommunications and Information Administration. It would also require ITS to start an initiative to help develop emergency communication and tracking technology. The goal is to help locate people trapped in places like underground mines or other enclosed areas where regular radio signals don't work well."
+    },
+    "label": "Congressional Research Service, Introduced in Senate",
+    "text": "Institute for Telecommunication Sciences Codification Act or the ITS Codification Act\nThis bill provides statutory authority for the Institute for Telecommunication Sciences (ITS), which serves as the telecommunications research and engineering arm of the National Telecommunications and Information Administration.\nThe bill also directs ITS to establish an initiative to support the development of emergency communication and tracking technologies for use in locating trapped individuals in confined spaces (e.g., underground mines) and other environments where conventional radio communication is limited.",
+    "version": "Introduced in Senate"
+  },
+  "v": 1
+}

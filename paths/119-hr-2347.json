@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "2347",
- "built_at": "2026-11-16T09:32:27+00:00",
- "source_count": 26,
+ "built_at": "2026-11-17T13:12:49+00:00",
+ "source_count": 28,
  "holds_full_record": true,
  "entries": [
   {
@@ -485,6 +485,46 @@
    "qualified": null,
    "lead": true,
    "emoji": "⏱️",
+   "vote": null
+  },
+  {
+   "order": 24,
+   "date": "2026-11-16",
+   "text": "Motion by Senator Thune to commit to Senate Committee on Finance with instructions to report back forthwith with the following amendment (SA 6888) fell when cloture was invoked on amendment SA 6883 in Senate.",
+   "core": "Motion by Senator Thune to commit to Senate Committee on Finance with instructions to report back forthwith with the following amendment (SA 6888) fell when cloture was invoked on amendment SA 6883 in Senate",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null,
+   "key": "1-d44f3779257c73fe",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
+  },
+  {
+   "order": 25,
+   "date": "2026-11-16",
+   "text": "Considered by Senate.",
+   "core": "Considered by Senate",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null,
+   "key": "1-8d5ca525f08aa8cd",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
    "vote": null
   }
  ]

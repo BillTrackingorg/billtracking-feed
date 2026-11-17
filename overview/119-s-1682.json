@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "sscm00",
+      "name": "Commerce, Science, and Transportation"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. John Curtis (R-UT)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-05-08"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

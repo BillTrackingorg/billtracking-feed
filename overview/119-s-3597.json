@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "sscm00",
+      "name": "Commerce, Science, and Transportation"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Todd Young (R-IN)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-01-08"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

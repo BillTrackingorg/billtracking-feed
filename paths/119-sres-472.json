@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "sres",
  "billNumber": "472",
- "built_at": "2026-11-16T09:32:33+00:00",
+ "built_at": "2026-11-17T13:12:54+00:00",
  "source_count": 6,
  "holds_full_record": true,
  "entries": [
@@ -70,7 +70,7 @@
   {
    "order": 3,
    "date": "2026-11-10",
-   "text": "Passed/agreed to in Senate: Resolution agreed to in Senate without amendment and with a preamble by Unanimous Consent.",
+   "text": "Passed/agreed to in Senate: Resolution agreed to in Senate without amendment and with a preamble by Unanimous Consent. (consideration: CR S5525)",
    "core": "Passed/agreed to in Senate: Resolution agreed to in Senate without amendment and with a preamble by Unanimous Consent",
    "code": "17000",
    "source": "Library of Congress",
