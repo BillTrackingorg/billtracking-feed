@@ -5,9 +5,9 @@
  "year": "2025",
  "number": "0221",
  "ptype": "COD",
- "built_at": "2026-11-14T17:12:58+00:00",
+ "built_at": "2026-11-18T11:29:14+00:00",
  "source": "oeil-key-events",
- "source_count": 4,
+ "source_count": 5,
  "holds_full_record": true,
  "overrides_applied": null,
  "texture_count": 9,
@@ -238,6 +238,22 @@
    "subordinate": null,
    "key": "1-767cdf4d624324df",
    "emoji": "🧭"
+  },
+  {
+   "order": 13,
+   "date": "2026-11-16",
+   "text": "Committee report tabled for plenary, 1st reading",
+   "doc": "A10-0301/2026",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": false,
+   "subordinate": null,
+   "key": "1-63623455fda0b5f1",
+   "emoji": null
   }
  ]
 }
