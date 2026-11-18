@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-18T12:59:25Z",
+  "summary": {
+    "ai": {
+      "fp": "0b783cc1ecd3f2a36afc7b1aa3631406a540edaa363d80e888a8961180e8b9f9",
+      "model": "claude-haiku-5-5",
+      "text": "This bill would require the approved monument honoring Thomas Paine to be placed in Area 1 of the National Mall. That area is set aside for memorials of exceptional historical importance and lasting significance to the country.\n\nThomas Paine was a philosopher and writer. His pamphlet, Common Sense, argued that the American colonies should become independent from Great Britain."
+    },
+    "label": "Congressional Research Service, Reported to House",
+    "text": "Common Sense 250 Act of 2026\nThis bill requires the authorized monument honoring Thomas Paine to be located in Area 1 of the National Mall, which is reserved for commemorative works of preeminent historical and lasting significance to the United States. Thomas Paine was a philosopher and writer whose pamphlet, Common Sense, advocated for American independence from Great Britain.",
+    "version": "Reported to House"
+  },
+  "v": 1
+}

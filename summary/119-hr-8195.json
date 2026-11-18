@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-18T12:59:23Z",
+  "summary": {
+    "ai": {
+      "fp": "1ec9f907cfca48213e512c6da876d543aaa34cef5009e4818a22024343b0f122",
+      "model": "claude-haiku-5-5",
+      "text": "This bill directs the U.S. Fish and Wildlife Service to create plans for managing regional populations of double-crested cormorants, a native North American waterbird. The agency must work with the four Regional Flyway Councils to build these regional management plans.\n\nEach plan has to keep the breeding population at a level that supports conservation. It must also set rules on capturing or hunting the birds and take into account any documented effects the birds have in the region, such as impacts on fisheries.\n\nWhile developing each plan, the agency must also work with state and tribal game and fish agencies and the relevant Flyway Council to recommend how the birds should be managed within the National Wildlife Refuge System.\n\nEvery five years, the agency must work with the Flyway Councils to survey the cormorant population. Each plan must also be reviewed and updated every five years, using the results of the latest survey. In addition, the agency must report to Congress on whether it is feasible to issue hunting licenses to manage the birds under these plans.\n\nThese requirements end on January 1, 2034."
+    },
+    "label": "Congressional Research Service, Reported to House",
+    "text": "Responsible Cormorant Management and Control Act of 2026\nThis bill requires the U.S. Fish and Wildlife Service (FWS) to develop frameworks to manage regional populations of double-crested cormorants (a type of waterbird native to North America).\nSpecifically, FWS must coordinate with the four Regional Flyway Councils to develop regional management frameworks for double-crested cormorants. Among other elements, each framework must (1) ensure the breeding population is managed at a sufficient level to ensure conservation, (2) include parameters regarding the taking (e.g., capturing or hunting) of double-crested cormorants, and (3) consider any documented effects of double-crested cormorants in the region (e.g., impacts on fisheries).\nIn developing each framework, FWS must also work with state and tribal game and fish agencies and the applicable Regional Flyway Council to make recommendations for managing double-crested cormorants within the National Wildlife Refuge System.\nFWS must coordinate with the Regional Flyway Councils every five years to survey the population of double-crested cormorants. Additionally, each framework must be reviewed and updated every five years, incorporating results of the most recent population survey. FWS must also report to Congress on the feasibility of issuing hunting licenses to manage double-crested cormorants in accordance with the frameworks.\nThe requirements of this bill terminate on January 1, 2034.",
+    "version": "Reported to House"
+  },
+  "v": 1
+}

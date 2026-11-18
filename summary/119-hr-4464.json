@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-18T12:59:20Z",
+  "summary": {
+    "ai": {
+      "fp": "55f250229500a45bc42a1fc35161935b094166fdc2c00add9c0255e5a48d9b09",
+      "model": "claude-haiku-5-5",
+      "text": "The Preventive Health Savings Act asks the Congressional Budget Office (CBO) to check, when Congress requests it, whether a proposed law would cut government spending beyond the 10-year budget window by using preventive health care.\n\nUnder the bill, preventive health care generally means actions that protect, promote and maintain people's health and wellness, and prevent illness, disability and early death, whether they focus on the public as a whole, individuals, or defined groups of people.\n\nIf the CBO finds that a proposed law would lead to net reductions in spending from preventive health care, its report on that law must include a description and estimate of those spending cuts, along with an explanation of how it reached that conclusion.\n\nAny estimate the CBO produces under this bill is only a supplementary figure. It cannot be used to decide whether a bill complies with the Congressional Budget Act of 1974 or any other budget enforcement rules."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Preventive Health Savings Act\nThis bill requires the Congressional Budget Office (CBO), upon receiving a request from Congress, to determine if proposed legislation would reduce spending outside of the 10-year budget window through the use of preventive health care.\nUnder the bill, the term preventive health care generally refers to an action that focuses on the health of the public, individuals, and defined populations in order to protect, promote, and maintain health and wellness and prevent disease, disability, and premature death.\nIf CBO determines that the proposed legislation would result in net reductions in budget outlays from the use of preventive health care, any CBO projection regarding the legislation must include (1) a description and estimate of the reductions in outlays, and (2) a description of the basis for these conclusions.\nAny estimate provided by CBO pursuant to this bill must be used as a supplementary estimate and may not be used to determine compliance with the Congressional Budget Act of 1974 or any other budgetary enforcement controls.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

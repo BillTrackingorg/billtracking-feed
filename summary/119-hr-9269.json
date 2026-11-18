@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-18T12:59:25Z",
+  "summary": {
+    "ai": {
+      "fp": "526cdaa3988b84be82a99395e7f998cadfdcfa7bdf2097bb210b913dd19887a5",
+      "model": "claude-haiku-5-5",
+      "text": "This measure extends a federal program called the African American Civil Rights Network for seven more years. The program is run by the National Park Service and recognizes historic places and educational resources tied to the African American civil rights movement. It had expired on January 8, 2025.\n\nSites, facilities, and resources that are part of the network can use the network's logo and receive technical support from the National Park Service."
+    },
+    "label": "Congressional Research Service, Reported to House",
+    "text": "Renewing the African American Civil Rights Network Act\nThis bill reauthorizes for seven years the African American Civil Rights Network. The network is a National Park Service (NPS) program that designates historical sites and educational resources that are connected to the African American civil rights movement. The program expired on January 8, 2025.\nLocations, facilities, and resources included in the network are eligible to use the network logo and receive technical support from the NPS.",
+    "version": "Reported to House"
+  },
+  "v": 1
+}

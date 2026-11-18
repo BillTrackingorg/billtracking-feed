@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-18T12:59:23Z",
+  "summary": {
+    "ai": {
+      "fp": "f399498537157660238756a210228ce92a102ea527936394275f7787c8eb6bce",
+      "model": "claude-haiku-5-5",
+      "text": "This bill asks the Department of the Interior to work with Indian Tribes and tribal organizations to build up tribal ownership and management of buffalo and buffalo habitat on Indian lands.\n\nTo do this, the Department would be able to sign contracts, give grants, and offer technical help to Tribes and tribal organizations for work that restores or manages buffalo. It would also have to consult with them on any efforts that affect buffalo or their habitat, including efforts to contain or get rid of buffalo that have disease. In addition, the Department would need to create a policy covering how buffalo and buffalo habitat are managed on Indian land.\n\nThe bill also lets the Department make agreements with Tribes or tribal organizations to move surplus buffalo from federal land onto Indian land.\n\nThese powers end seven years after the bill becomes law."
+    },
+    "label": "Congressional Research Service, Reported to House",
+    "text": "Don Young Doug LaMalfa Indian Buffalo Management Act\nThis bill directs the Department of the Interior to work with Indian Tribes and tribal organizations to develop and promote tribal ownership and management of buffalo and buffalo habitat on Indian lands.\nSpecifically, the bill requires Interior to (1) enter into contracts, award grants, and provide technical assistance to Tribes and tribal organizations for activities related to buffalo restoration or management; (2) consult with Tribes and tribal organizations on initiatives that affect buffalo or buffalo habitat, including efforts to contain or eradicate diseased buffalo; and (3) develop a policy related to buffalo and buffalo habitat management activities on Indian land.\nAdditionally, Interior may enter into agreements with Tribes or tribal organizations to transport surplus buffalo from federal land onto Indian land.\nThe authority provided by the bill sunsets seven years after enactment.",
+    "version": "Reported to House"
+  },
+  "v": 1
+}

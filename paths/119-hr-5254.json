@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "5254",
- "built_at": "2026-11-17T03:44:46+00:00",
- "source_count": 24,
+ "built_at": "2026-11-18T13:00:06+00:00",
+ "source_count": 26,
  "holds_full_record": true,
  "entries": [
   {
@@ -426,6 +426,46 @@
    "lead": false,
    "emoji": null,
    "vote": null
+  },
+  {
+   "order": 21,
+   "date": "2026-11-17",
+   "text": "Passed/agreed to in Senate: Passed Senate without amendment by Unanimous Consent.",
+   "core": "Passed/agreed to in Senate: Passed Senate without amendment by Unanimous Consent",
+   "code": "17000",
+   "source": "Library of Congress",
+   "chamber": "Senate",
+   "family": "passed_senate",
+   "label": "Passed Senate",
+   "tally": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-6199f840f34c1771",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "✅🏛️",
+   "vote": "(unanimous consent)"
+  },
+  {
+   "order": 22,
+   "date": "2026-11-17",
+   "text": "Passed Senate without amendment by Unanimous Consent.",
+   "core": "Passed Senate without amendment by Unanimous Consent",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": "passed_senate",
+   "label": "Passed Senate",
+   "tally": null,
+   "spine": false,
+   "subordinate": true,
+   "key": "1-23bed87b4e7e2e5b",
+   "stands_in": 21,
+   "qualified": null,
+   "lead": true,
+   "emoji": "✅🏛️",
+   "vote": "(unanimous consent)"
   }
  ]
 }

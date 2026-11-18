@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "5267",
- "built_at": "2026-11-17T03:44:46+00:00",
- "source_count": 8,
+ "built_at": "2026-11-18T13:03:23+00:00",
+ "source_count": 9,
  "holds_full_record": true,
  "entries": [
   {
@@ -123,6 +123,26 @@
    "key": "1-4ee66a705b5432d8",
    "stands_in": null,
    "qualified": "House",
+   "lead": false,
+   "emoji": null,
+   "vote": null
+  },
+  {
+   "order": 6,
+   "date": "2026-11-17",
+   "text": "Rules Committee Resolution H. Res. 1665 Reported to House. Rule provides for consideration of H.R. 3495 and H.R. 5267. The resolution provides for consideration of H.R. 3495 and H.R. 5267 under a closed rule with one hour of debate and one motion to recommit on each bill.",
+   "core": "Rules Committee Resolution H. Res. 1665 Reported to House. Rule provides for consideration of H.R. 3495 and H.R. 5267. The resolution provides for consideration of H.R. 3495 and H.R. 5267 under a closed rule with one hour of debate and one motion to recommit on each bill",
+   "code": "H1L210",
+   "source": "House floor actions",
+   "chamber": "House",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null,
+   "key": "1-b9b6d91667a95d84",
+   "stands_in": null,
+   "qualified": null,
    "lead": false,
    "emoji": null,
    "vote": null

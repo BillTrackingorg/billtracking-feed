@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsbu00",
+      "name": "Budget"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Jay Obernolte (R-CA)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-07-16"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

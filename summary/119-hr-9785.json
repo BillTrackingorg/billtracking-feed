@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-18T12:59:26Z",
+  "summary": {
+    "ai": {
+      "fp": "08f872bd150425ba7d0b2a58cdcbbad6eed23116809736e46104248665cf0ab1",
+      "model": "claude-haiku-5-5",
+      "text": "This bill tells the Department of the Interior to study whether it makes sense to build projects that would supply drinking water, rural water, and water for industry from the Missouri River. The study area covers Iowa, Minnesota, Nebraska, and South Dakota.\n\nThe studies would focus on three specific water systems: the Western Dakota Regional Water System, the Lewis and Clark Regional Water System, Inc., and the Dakota Mainstem Regional Water System."
+    },
+    "label": "Congressional Research Service, Reported to House",
+    "text": "South Dakota Water Feasibility Studies Act\nThis bill directs the Department of the Interior to study the feasibility of constructing projects to supply municipal, rural, and industrial water from the Missouri River in Iowa, Minnesota, Nebraska, and South Dakota. Specifically, the bill requires studies on projects to supply water to the (1) Western Dakota Regional Water System; (2) Lewis and Clark Regional Water System, Inc.; and (3) Dakota Mainstem Regional Water System.",
+    "version": "Reported to House"
+  },
+  "v": 1
+}
