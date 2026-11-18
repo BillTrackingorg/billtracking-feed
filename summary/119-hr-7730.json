@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-18T03:39:10Z",
+  "summary": {
+    "ai": {
+      "fp": "54ab10c5c1dbd940b4a28f19a06ab30305ee62d3cb22b6bab510b9ae2204aa1e",
+      "model": "claude-haiku-5-5",
+      "text": "The Bankruptcy Threshold Adjustment Act brings back changes to debt limits that expired in 2024. These changes apply to two types of bankruptcy: Subchapter V, which is for small business reorganization, and Chapter 13, which is known as the wage earner's plan.\n\nUnder the act, the debt limit for Subchapter V rises from about $3.4 million to $7.5 million. The cumulative debt limit for Chapter 13 rises from about $2.1 million to $2.75 million.\n\nThe act also changes how Chapter 13 debt is counted. Right now, secured debt and unsecured debt have separate limits. Under the act, both kinds of debt count toward the single Chapter 13 limit."
+    },
+    "label": "Congressional Research Service, Public Law",
+    "text": "Bankruptcy Threshold Adjustment Act\nThis act restores changes that expired in 2024 applicable to debt limits for Subchapter V (small business reorganization) and Chapter 13 (the wage earner's plan) bankruptcies.\nSpecifically, the act increases the debt limit under Subchapter V from approximately $3.4 million to $7.5 million and increases the cumulative debt limit under Chapter 13 from approximately $2.1 million to $2.75 million.\nThe act also applies both secured and unsecured debt towards the Chapter 13 limit. (Currently, separate limits apply to secured and unsecured debt under Chapter 13 bankruptcy.)",
+    "version": "Public Law"
+  },
+  "v": 1
+}

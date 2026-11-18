@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "s",
  "billNumber": "1353",
- "built_at": "2026-11-16T20:22:24+00:00",
- "source_count": 9,
+ "built_at": "2026-11-18T03:41:04+00:00",
+ "source_count": 10,
  "holds_full_record": true,
  "entries": [
   {
@@ -166,6 +166,26 @@
    "lead": true,
    "emoji": "✅🏛️",
    "vote": "(unanimous consent)"
+  },
+  {
+   "order": 8,
+   "date": "2026-11-16",
+   "text": "Message on Senate action sent to the House.",
+   "core": "Message on Senate action sent to the House",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null,
+   "key": "1-07f7c74893e0c35d",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   }
  ]
 }

@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-18T03:38:44Z",
+  "summary": {
+    "ai": {
+      "fp": "517f6a025766c4785519a14888a91250355d505e1084e6fb1937ba1dd55b86c3",
+      "model": "claude-haiku-5-5",
+      "text": "This measure renames Chiricahua National Monument in Arizona as Chiricahua National Park. It also asks the National Park Service to protect the park's traditional cultural and religious sites and to make sure members of Indian tribes can reach those sites for traditional cultural and customary uses.\n\nIf an Indian tribe asks, the Park Service may temporarily close specific areas of the park to the general public so that tribal members can carry out traditional cultural and customary activities there. Any closure must cover the smallest area practical and last only as long as needed for those traditional cultural and religious activities."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Chiricahua National Park Act\nThis bill redesignates the Chiricahua National Monument in Arizona as the Chiricahua National Park.\nThe bill directs the National Park Service (NPS) to (1) ensure the protection of traditional cultural and religious sites in the park, and (2) provide access to those sites by members of Indian tribes for traditional cultural and customary uses.\nUpon the request of an Indian tribe, the NPS may temporarily close to general public use one or more specific areas of the park to protect traditional cultural and customary uses in the area by members of the tribe. The closure must be limited to the smallest practicable area for the minimum period necessary for the traditional cultural and religious activities.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

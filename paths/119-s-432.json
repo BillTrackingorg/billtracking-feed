@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "s",
  "billNumber": "432",
- "built_at": "2026-11-16T20:22:25+00:00",
- "source_count": 6,
+ "built_at": "2026-11-18T03:41:07+00:00",
+ "source_count": 7,
  "holds_full_record": true,
  "entries": [
   {
@@ -106,6 +106,26 @@
    "lead": true,
    "emoji": "✅🏛️",
    "vote": "(unanimous consent)"
+  },
+  {
+   "order": 5,
+   "date": "2026-11-16",
+   "text": "Message on Senate action sent to the House.",
+   "core": "Message on Senate action sent to the House",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null,
+   "key": "1-6a1530492d6f5b6c",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   }
  ]
 }
