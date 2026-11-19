@@ -1,0 +1,21 @@
+{
+ "committees": [
+  {
+   "code": "CULT",
+   "name": "Culture and Education"
+  },
+  {
+   "code": "LIBE",
+   "name": "Civil Liberties, Justice and Home Affairs"
+  }
+ ],
+ "lead": "Emma Rafowicz (S&D) and Alice Kuhnke (Greens/EFA)",
+ "start": {
+  "kind": "proposed",
+  "on": "2025-07-16"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}

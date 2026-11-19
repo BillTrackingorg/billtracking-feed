@@ -1,0 +1,17 @@
+{
+ "committees": [
+  {
+   "code": "ITRE",
+   "name": "Industry, Research and Energy"
+  }
+ ],
+ "lead": "Elena Donazzan (ECR)",
+ "start": {
+  "kind": "proposed",
+  "on": "2025-06-25"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}
