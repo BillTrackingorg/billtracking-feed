@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "5549",
- "built_at": "2026-11-18T13:03:28+00:00",
- "source_count": 18,
+ "built_at": "2026-11-19T21:26:16+00:00",
+ "source_count": 20,
  "holds_full_record": true,
  "entries": [
   {
@@ -109,6 +109,46 @@
   },
   {
    "order": 5,
+   "date": "2026-09-02",
+   "text": "Committee Consideration and Mark-up Session Held",
+   "core": "Committee Consideration and Mark-up Session Held",
+   "code": "H15001",
+   "source": "House committee actions",
+   "chamber": "House",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null,
+   "key": "1-e49e2d0f63c3c4f6",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
+  },
+  {
+   "order": 6,
+   "date": "2026-09-02",
+   "text": "Ordered to be Reported by the Yeas and Nays: 44 - 0.",
+   "core": "Ordered to be Reported by the Yeas and Nays: 44 - 0",
+   "code": "H19000",
+   "source": "House committee actions",
+   "chamber": "House",
+   "family": null,
+   "label": null,
+   "tally": "44 - 0",
+   "spine": false,
+   "subordinate": null,
+   "key": "1-d7b268b7ad741853",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
+  },
+  {
+   "order": 7,
    "date": "2026-11-05",
    "text": "Reported by the Committee on Energy and Commerce. H. Rept. 119-872.",
    "core": "Reported by the Committee on Energy and Commerce. H. Rept. 119-872",
@@ -128,7 +168,7 @@
    "vote": null
   },
   {
-   "order": 6,
+   "order": 8,
    "date": "2026-11-05",
    "text": "Placed on the Union Calendar, Calendar No. 769.",
    "core": "Placed on the Union Calendar, Calendar No. 769",
@@ -148,7 +188,7 @@
    "vote": null
   },
   {
-   "order": 7,
+   "order": 9,
    "date": "2026-11-09",
    "text": "Mr. Latta moved to suspend the rules and pass the bill.",
    "core": "Mr. Latta moved to suspend the rules and pass the bill",
@@ -168,7 +208,7 @@
    "vote": null
   },
   {
-   "order": 8,
+   "order": 10,
    "date": "2026-11-09",
    "text": "Considered under suspension of the rules. (consideration: CR H6097-6099; text: CR H6097)",
    "core": "Considered under suspension of the rules",
@@ -188,7 +228,7 @@
    "vote": null
   },
   {
-   "order": 9,
+   "order": 11,
    "date": "2026-11-09",
    "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 5549.",
    "core": "DEBATE - The House proceeded with forty minutes of debate on H.R. 5549",
@@ -208,7 +248,7 @@
    "vote": null
   },
   {
-   "order": 10,
+   "order": 12,
    "date": "2026-11-09",
    "text": "At the conclusion of debate, the chair put the question on the motion to suspend the rules. Mr. Latta objected to the vote on the grounds that a quorum was not present. Further proceedings on the motion were postponed. The point of no quorum was considered as withdrawn.",
    "core": "At the conclusion of debate, the chair put the question on the motion to suspend the rules. Mr. Latta objected to the vote on the grounds that a quorum was not present. Further proceedings on the motion were postponed. The point of no quorum was considered as withdrawn",
@@ -228,7 +268,7 @@
    "vote": null
   },
   {
-   "order": 11,
+   "order": 13,
    "date": "2026-11-11",
    "text": "Considered as unfinished business. (consideration: CR H6171)",
    "core": "Considered as unfinished business",
@@ -248,7 +288,7 @@
    "vote": null
   },
   {
-   "order": 12,
+   "order": 14,
    "date": "2026-11-11",
    "text": "Passed/agreed to in House: On motion to suspend the rules and pass the bill Agreed to by voice vote.",
    "core": "Passed/agreed to in House: On motion to suspend the rules and pass the bill Agreed to by voice vote",
@@ -268,7 +308,7 @@
    "vote": "(voice vote)"
   },
   {
-   "order": 13,
+   "order": 15,
    "date": "2026-11-11",
    "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote.",
    "core": "On motion to suspend the rules and pass the bill Agreed to by voice vote",
@@ -281,14 +321,14 @@
    "spine": false,
    "subordinate": true,
    "key": "1-d07e7b6911aaaa8a",
-   "stands_in": 12,
+   "stands_in": 14,
    "qualified": null,
    "lead": false,
    "emoji": null,
    "vote": null
   },
   {
-   "order": 14,
+   "order": 16,
    "date": "2026-11-11",
    "text": "Motion to reconsider laid on the table Agreed to without objection.",
    "core": "Motion to reconsider laid on the table Agreed to without objection",
@@ -308,7 +348,7 @@
    "vote": null
   },
   {
-   "order": 15,
+   "order": 17,
    "date": "2026-11-12",
    "text": "Received in the Senate and Read twice and referred to the Committee on Environment and Public Works.",
    "core": "Received in the Senate and Read twice and referred to the Committee on Environment and Public Works",
