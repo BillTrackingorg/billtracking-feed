@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-19T12:52:35Z",
+  "summary": {
+    "ai": {
+      "fp": "11066b8e194dd8449fc2b57dd8b033cf7325ece2b98e5a3a3bf0825e300a33a1",
+      "model": "claude-haiku-5-5",
+      "text": "The CHARLIE Act would stop federal money from the American History and Civics Education program from being used to pay for what the bill calls \"discriminatory equity ideology\" or \"gender ideology.\" It would also bar the Department of Education from giving grant applicants priority based on race, sex, sexual orientation, gender identity, or immigration status.\n\nThe bill takes its definition of discriminatory equity ideology from Executive Order 14190, published January 29, 2025. Under that definition, the ideology treats people as belonging to favored or disfavored groups rather than as individuals. Examples include the view that members of one race, color, sex, or national origin are morally or inherently superior to members of another, or that a person is inherently racist, sexist, or oppressive because of their race, color, sex, or national origin.\n\nGender ideology is defined using Executive Order 14168, published January 20, 2025. The bill describes it as an ideology that replaces categories of biological sex with gender identity."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Civics and History Advancement to Restore Learning, Integrity, and Education Act or the CHARLIE Act\nThis bill prohibits the use of federal funding made available for the American History and Civics Education program to fund discriminatory equity ideology or gender ideology, as defined in certain executive orders. Further, in awarding grants under this program, the Department of Education may not give priority to an eligible entity on the basis of race, sex, sexual orientation, gender identity, or immigration status.\nThe bill defines discriminatory equity ideology in accordance with Executive Order 14190, which was published on January 29, 2025. This definition refers to ideology that treats individuals as members of preferred or disfavored groups rather than as individuals, including listed ideologies (e.g., an ideology that members of one race, color, sex, or national origin are morally or inherently superior to members of another race, color, sex, or national origin, or that an individual is inherently racist, sexist, or oppressive by virtue of the individual's race, color, sex, or national origin).\nThe bill defines gender ideology in accordance with Executive Order 14168, which was published on January 20, 2025. This definition refers to an ideology that replaces categories of biological sex with gender identity.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

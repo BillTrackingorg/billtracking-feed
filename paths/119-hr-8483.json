@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "8483",
- "built_at": "2026-11-18T13:00:08+00:00",
- "source_count": 18,
+ "built_at": "2026-11-19T12:54:28+00:00",
+ "source_count": 19,
  "holds_full_record": true,
  "entries": [
   {
@@ -190,7 +190,7 @@
   {
    "order": 9,
    "date": "2026-11-17",
-   "text": "Considered under suspension of the rules.",
+   "text": "Considered under suspension of the rules. (consideration: CR H6240-6242)",
    "core": "Considered under suspension of the rules",
    "code": "H30000",
    "source": "House floor actions",
@@ -250,7 +250,7 @@
   {
    "order": 12,
    "date": "2026-11-17",
-   "text": "Considered as unfinished business.",
+   "text": "Considered as unfinished business. (consideration: CR H6250-6251)",
    "core": "Considered as unfinished business",
    "code": "H30000",
    "source": "House floor actions",
@@ -270,7 +270,7 @@
   {
    "order": 13,
    "date": "2026-11-17",
-   "text": "Passed/agreed to in House: On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 398 - 0 (Roll no. 324).",
+   "text": "Passed/agreed to in House: On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 398 - 0 (Roll no. 324). (text: CR H6240-6241)",
    "core": "Passed/agreed to in House: On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 398 - 0",
    "code": "8000",
    "source": "Library of Congress",
@@ -290,7 +290,7 @@
   {
    "order": 14,
    "date": "2026-11-17",
-   "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 398 - 0 (Roll no. 324).",
+   "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 398 - 0 (Roll no. 324). (text: CR H6240-6241)",
    "core": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 398 - 0",
    "code": "H37300",
    "source": "House floor actions",
@@ -321,6 +321,26 @@
    "spine": false,
    "subordinate": null,
    "key": "1-858278f83933464f",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
+  },
+  {
+   "order": 16,
+   "date": "2026-11-18",
+   "text": "Received in the Senate and Read twice and referred to the Committee on Indian Affairs.",
+   "core": "Received in the Senate and Read twice and referred to the Committee on Indian Affairs",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null,
+   "key": "1-d5f14ddb71a4fd14",
    "stands_in": null,
    "qualified": null,
    "lead": false,

@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hlig00",
+      "name": "Intelligence (Permanent Select)"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Eric Crawford (R-AR)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-07-09"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

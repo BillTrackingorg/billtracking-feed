@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "10136",
- "built_at": "2026-11-18T13:00:06+00:00",
+ "built_at": "2026-11-19T12:54:26+00:00",
  "source_count": 17,
  "holds_full_record": true,
  "entries": [
@@ -210,7 +210,7 @@
   {
    "order": 10,
    "date": "2026-11-17",
-   "text": "Considered under suspension of the rules.",
+   "text": "Considered under suspension of the rules. (consideration: CR H6243-6244)",
    "core": "Considered under suspension of the rules",
    "code": "H30000",
    "source": "House floor actions",
@@ -250,7 +250,7 @@
   {
    "order": 12,
    "date": "2026-11-17",
-   "text": "Passed/agreed to in House: On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote.",
+   "text": "Passed/agreed to in House: On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H6243)",
    "core": "Passed/agreed to in House: On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote",
    "code": "8000",
    "source": "Library of Congress",
@@ -270,7 +270,7 @@
   {
    "order": 13,
    "date": "2026-11-17",
-   "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote.",
+   "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H6243)",
    "core": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote",
    "code": "H37300",
    "source": "House floor actions",

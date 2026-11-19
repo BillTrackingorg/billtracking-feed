@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-19T12:52:36Z",
+  "summary": {
+    "ai": {
+      "fp": "8319a585c5ca1bb73ff8eda18d1d8368ee183f506332f566301e9de1420f5f8e",
+      "model": "claude-haiku-5-5",
+      "text": "The Earth MRI Reauthorization Act of 2026 extends the Earth Mapping Resources Initiative, a U.S. Geological Survey (USGS) program, through fiscal year 2031. The program brings together and modernizes maps of U.S. natural resources, with a focus on critical minerals such as lithium and titanium.\n\nThe bill also widens the program's data work and tells the USGS to favor U.S. companies when it hires contractors for the program. Any company that holds a USGS contract under the program must disclose who owns the main contractor and each subcontractor doing part of the work. Where it is practical to do so, the USGS must prefer contractors owned and controlled in the United States, while still giving proper weight to specialized expertise that the program's goals depend on.\n\nThe program already has to produce certain combined maps, including geologic, geophysical, and topographical maps. Under the bill, it must also include data from the USGS 3D Hydrography Program, which maps U.S. water resources. The bill further makes clear that these combined maps may draw on modern sensing tools, including real-time data collection systems and data-driven analysis methods."
+    },
+    "label": "Congressional Research Service, Reported to House",
+    "text": "Earth MRI Reauthorization Act of 2026\nThis bill reauthorizes through FY2031 the Earth Mapping Resources Initiative, a U.S. Geological Survey (USGS) program charged with integrating and modernizing the mapping of U.S. natural resources, with a focus on critical mineral resources such as lithium and titanium. The bill also expands the initiative’s data integration functions and requires the USGS to give preference to U.S. contractors under the initiative.\nSpecifically, the bill requires entities contracting with the USGS pursuant to the initiative to disclose the ownership of the primary contractor and each subcontractor carrying out a part of the contract. To the extent practicable, the USGS must give preference to entities owned and controlled in the United States when entering contracts under the initiative, while giving appropriate consideration to specialized expertise essential to the objectives of the initiative.\nFurther, under current law, the initiative is required to provide certain types of integrated mapping, including geologic, geophysical, and topographical mapping. Under the bill, the initiative must include data from the USGS 3D Hydrography Program, which maps U.S. water resources. The bill also explicitly allows the initiative’s integrated mapping to include data from modern sensing technologies, including real-time data acquisition systems and data-driven analytical methods.",
+    "version": "Reported to House"
+  },
+  "v": 1
+}

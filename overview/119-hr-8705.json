@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsed00",
+      "name": "Education and Workforce"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Burgess Owens (R-UT)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-05-07"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

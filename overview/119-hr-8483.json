@@ -4,6 +4,11 @@
       "chamber": "House",
       "code": "hsii00",
       "name": "Natural Resources"
+    },
+    {
+      "chamber": "Senate",
+      "code": "slia00",
+      "name": "Indian Affairs"
     }
   ],
   "congress": 119,

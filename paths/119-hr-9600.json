@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "9600",
- "built_at": "2026-11-18T13:00:07+00:00",
- "source_count": 19,
+ "built_at": "2026-11-19T12:54:27+00:00",
+ "source_count": 20,
  "holds_full_record": true,
  "entries": [
   {
@@ -210,7 +210,7 @@
   {
    "order": 10,
    "date": "2026-11-17",
-   "text": "Considered under suspension of the rules.",
+   "text": "Considered under suspension of the rules. (consideration: CR H6242-6243)",
    "core": "Considered under suspension of the rules",
    "code": "H30000",
    "source": "House floor actions",
@@ -270,7 +270,7 @@
   {
    "order": 13,
    "date": "2026-11-17",
-   "text": "Considered as unfinished business.",
+   "text": "Considered as unfinished business. (consideration: CR H6251)",
    "core": "Considered as unfinished business",
    "code": "H30000",
    "source": "House floor actions",
@@ -290,7 +290,7 @@
   {
    "order": 14,
    "date": "2026-11-17",
-   "text": "Passed/agreed to in House: On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 365 - 36 (Roll no. 325).",
+   "text": "Passed/agreed to in House: On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 365 - 36 (Roll no. 325). (text: CR H6242)",
    "core": "Passed/agreed to in House: On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 365 - 36",
    "code": "8000",
    "source": "Library of Congress",
@@ -310,7 +310,7 @@
   {
    "order": 15,
    "date": "2026-11-17",
-   "text": "On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 365 - 36 (Roll no. 325).",
+   "text": "On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 365 - 36 (Roll no. 325). (text: CR H6242)",
    "core": "On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 365 - 36",
    "code": "H37300",
    "source": "House floor actions",
@@ -341,6 +341,26 @@
    "spine": false,
    "subordinate": null,
    "key": "1-6f1fd85c35c90127",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
+  },
+  {
+   "order": 17,
+   "date": "2026-11-18",
+   "text": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+   "core": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null,
+   "key": "1-2550c2b7f31d97dc",
    "stands_in": null,
    "qualified": null,
    "lead": false,

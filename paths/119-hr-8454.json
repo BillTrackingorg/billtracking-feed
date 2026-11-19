@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "8454",
- "built_at": "2026-11-18T13:00:05+00:00",
- "source_count": 20,
+ "built_at": "2026-11-19T12:54:26+00:00",
+ "source_count": 21,
  "holds_full_record": true,
  "entries": [
   {
@@ -350,7 +350,7 @@
   {
    "order": 17,
    "date": "2026-11-17",
-   "text": "Passed Senate without amendment by Unanimous Consent.",
+   "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S5709)",
    "core": "Passed Senate without amendment by Unanimous Consent",
    "code": null,
    "source": "Senate",
@@ -366,6 +366,26 @@
    "lead": true,
    "emoji": "✅🏛️",
    "vote": "(unanimous consent)"
+  },
+  {
+   "order": 18,
+   "date": "2026-11-18",
+   "text": "Message on Senate action sent to the House.",
+   "core": "Message on Senate action sent to the House",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null,
+   "key": "1-c14917e0b06f9f20",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   }
  ]
 }
