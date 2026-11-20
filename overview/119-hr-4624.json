@@ -1,0 +1,29 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsed00",
+      "name": "Education and Workforce"
+    },
+    {
+      "chamber": "House",
+      "code": "hsif00",
+      "name": "Energy and Commerce"
+    },
+    {
+      "chamber": "Senate",
+      "code": "sscm00",
+      "name": "Commerce, Science, and Transportation"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Brian Jack (R-GA)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-07-23"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

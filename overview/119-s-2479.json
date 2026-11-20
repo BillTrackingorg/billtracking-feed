@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "ssju00",
+      "name": "Judiciary"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Marsha Blackburn (R-TN)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-07-28"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

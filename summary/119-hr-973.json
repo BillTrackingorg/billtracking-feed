@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-20T20:02:51Z",
+  "summary": {
+    "ai": {
+      "fp": "660e6c61e7326816eda69c9022edc90c2076fff7d33f18260fd9b12ac6b0bfd5",
+      "model": "claude-haiku-5-5",
+      "text": "This bill directs the Consumer Product Safety Commission to create a final safety rule for rechargeable lithium-ion batteries used in micromobility devices, such as electric bikes and electric scooters.\n\nUnder the rule, manufacturers and distributors of these products must follow the applicable safety standards that the American National Standards Institute, the Standards Council of Canada, and UL Solutions Inc. have jointly established."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Setting Consumer Standards for Lithium-Ion Batteries Act\nThis bill requires the Consumer Product Safety Commission to issue a final consumer product safety rule for rechargeable lithium-ion batteries used in micromobility devices, such as electric bikes and electric scooters.\nSpecifically, the rule must require manufacturers and distributors of such products to comply with the applicable safety standards jointly established by the American National Standards Institute, the Standards Council of Canada, and UL Solutions Inc.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

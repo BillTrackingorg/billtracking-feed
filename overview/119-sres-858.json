@@ -1,0 +1,21 @@
+{
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "ssju00",
+      "name": "Judiciary"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Amy Klobuchar (D-MN)",
+  "start": {
+    "kind": "submitted",
+    "on": "2026-09-16"
+  },
+  "status": {
+    "closed": true,
+    "how": "agreed",
+    "on": "2026-11-19"
+  },
+  "v": 1
+}

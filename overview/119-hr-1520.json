@@ -1,0 +1,24 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsif00",
+      "name": "Energy and Commerce"
+    },
+    {
+      "chamber": "Senate",
+      "code": "sshr00",
+      "name": "Health, Education, Labor, and Pensions"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Kat Cammack (R-FL)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-02-24"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

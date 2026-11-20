@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "ssaf00",
+      "name": "Agriculture, Nutrition, and Forestry"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Adam Schiff (D-CA)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-03-10"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}
