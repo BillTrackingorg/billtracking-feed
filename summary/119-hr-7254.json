@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-20T11:24:29Z",
+  "summary": {
+    "ai": {
+      "fp": "20ca5dc6f04582381c98986a2514d2a3e2d5aafc28074362a126e610af38284e",
+      "model": "claude-haiku-5-5",
+      "text": "This bill asks the Department of the Interior to study whether the Bay Area Ridge Trail could become a national scenic trail. The trail runs about 550 miles through the San Francisco Bay Area in California. The study must be finished within three years of the bill becoming law."
+    },
+    "label": "Congressional Research Service, Reported to House",
+    "text": "This bill requires the Department of the Interior to study the feasibility of designating the Bay Area Ridge Trail as a national scenic trail. The trail extends approximately 550 miles in the San Francisco Bay Area of California. Interior must complete the feasibility study no later than three years after this bill's enactment.",
+    "version": "Reported to House"
+  },
+  "v": 1
+}

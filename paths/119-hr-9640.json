@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "9640",
- "built_at": "2026-11-19T12:53:36+00:00",
+ "built_at": "2026-11-20T11:27:08+00:00",
  "source_count": 19,
  "holds_full_record": true,
  "entries": [
@@ -270,7 +270,7 @@
   {
    "order": 13,
    "date": "2026-11-18",
-   "text": "Considered as unfinished business.",
+   "text": "Considered as unfinished business. (consideration: CR H6261-6262)",
    "core": "Considered as unfinished business",
    "code": "H30000",
    "source": "House floor actions",
