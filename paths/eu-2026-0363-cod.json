@@ -1,0 +1,33 @@
+{
+ "v": 1,
+ "polity": "eu",
+ "reference": "2026/0363(COD)",
+ "year": "2026",
+ "number": "0363",
+ "ptype": "COD",
+ "built_at": "2026-11-20T20:27:48+00:00",
+ "source": "oeil-key-events",
+ "source_count": 1,
+ "holds_full_record": true,
+ "overrides_applied": null,
+ "texture_count": null,
+ "texture_source": null,
+ "entries": [
+  {
+   "order": 0,
+   "date": "2026-11-18",
+   "text": "Legislative proposal published",
+   "doc": "COM(2026)0636",
+   "family": "proposed",
+   "label": "New legislative proposal",
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-0e455dc9b1769b9c",
+   "emoji": "📋"
+  }
+ ]
+}
