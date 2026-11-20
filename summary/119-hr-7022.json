@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-20T03:01:12Z",
+  "summary": {
+    "ai": {
+      "fp": "f598097f3dd43d2f069e372202540a6cd9714579fd533e4e7054ec4a4e03f0f5",
+      "model": "claude-haiku-5-5",
+      "text": "The Mystic Alerts Act would allow emergency alerts to reach phones by satellite, not just through regular cell networks. Today, wireless emergency alerts are sent over ground-based mobile networks to phones in targeted areas, and mobile carriers aren't required to take part. Only phones connected to a carrier that participates get these alerts.\n\nUnder the bill, carriers that take part in the emergency alert system would have to tell the Federal Communications Commission (FCC) whether they will also send alerts by satellite, in addition to sending them over ground networks.\n\nThe FCC would be required to set technical standards and other rules that make satellite alerts possible. Any carrier that chooses to send alerts by satellite would have to follow those rules.\n\nA carrier that decides not to send satellite alerts would have to tell both new and existing customers about that choice. Separately, mobile customers could choose to opt out of receiving satellite alerts."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Mystic Alerts Act\nThis bill provides for wireless emergency alerts to be transmitted to mobile devices via satellite. (Currently, wireless emergency alerts are sent via terrestrial mobile networks to individual devices in geographically targeted areas. Commercial mobile service providers are not required to participate; only devices connected to a participating service provider’s network receive alerts.)\nUnder the bill, commercial mobile service providers that participate in the wireless emergency alerts system must give notice to the Federal Communications Commission (FCC) indicating whether they will transmit such alerts via satellite (in addition to sending alerts via terrestrial networks).\nThe FCC must establish technical standards and other regulations to enable satellite emergency alerts. Providers that opt to transmit emergency alerts via satellite must comply with such regulations.\nIf a provider elects not to transmit satellite alerts, the provider must give notice of that election to new and existing subscribers. Separately, mobile service subscribers may opt out of receiving satellite alerts.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-20T03:01:16Z",
+  "summary": {
+    "ai": {
+      "fp": "de4cfce235bc75b1b23190a9128921cede1a067e9d113880e3979c9e132ed81a",
+      "model": "claude-haiku-5-5",
+      "text": "This bill allows money to be deposited into three water-related funds to cover interest that has not been paid. The three funds are the Navajo Nation Water Resources Development Trust Fund, the Taos Pueblo Water Development Fund, and the Aamodt Settlement Pueblos' Fund. They were set up in 2009 and 2010 as part of certain water rights settlement agreements, and those agreements did not allow interest to build up on the money in them."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Technical Corrections to the Northwestern New Mexico Rural Water Projects Act, Taos Pueblo Indian Water Rights Settlement Act, and Aamodt Litigation Settlement Act\nThis bill authorizes deposits representing unpaid interest into the Navajo Nation Water Resources Development Trust Fund, the Taos Pueblo Water Development Fund, and the Aamodt Settlement Pueblos’ Fund. These funds were established in 2009 and 2010 under certain water rights settlement agreements that did not allow accrual of interest.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}
