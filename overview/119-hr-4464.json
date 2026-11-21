@@ -4,6 +4,11 @@
       "chamber": "House",
       "code": "hsbu00",
       "name": "Budget"
+    },
+    {
+      "chamber": "Senate",
+      "code": "ssbu00",
+      "name": "Budget"
     }
   ],
   "congress": 119,

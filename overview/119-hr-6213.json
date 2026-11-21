@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsed00",
+      "name": "Education and Workforce"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Mark Messmer (R-IN)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-11-20"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}
