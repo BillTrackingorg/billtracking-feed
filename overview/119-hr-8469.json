@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsap00",
+      "name": "Appropriations"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. John Carter (R-TX)",
+  "start": {
+    "kind": "reported",
+    "on": "2026-04-23"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

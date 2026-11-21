@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-21T17:23:50Z",
+  "summary": {
+    "ai": {
+      "fp": "e83dc65231b08381904d1b82c45dce680a437de5b83a293f4004ad4c26a72ea5",
+      "model": "claude-haiku-5-5",
+      "text": "This bill would weaken a legal shield that currently protects online services, such as social media companies, and their users from being held responsible for content posted by others. The shield is often called Section 230.\n\nUnder the bill, that protection would be removed in one situation: when a provider limits access to content containing political speech because the government asked it to. The exception is if the government request serves a legitimate law enforcement or national security purpose.\n\nThe bill also changes how the protection works in court. Right now it acts as broad immunity, which usually lets a judge throw out a lawsuit early. Under the bill, it would instead be an affirmative defense, meaning the provider or user would have to prove the protection applies before the lawsuit could be dismissed."
+    },
+    "label": "Congressional Research Service, Introduced in Senate",
+    "text": "Curtailing Online Limitations that Lead Unconstitutionally to Democracy's Erosion Act or the COLLUDE Act\nThis bill limits federal liability protection, sometimes referred to as Section 230 protection, that generally precludes providers and users of an interactive computer service (e.g., a social media company) from being held legally responsible for content provided by a third party.\nSpecifically, the bill removes the protection if a provider restricts access to or availability of content containing political speech because of a governmental request unless the request serves a legitimate law enforcement or national security purpose.\nIn addition, the bill changes legal procedures for applying the protection. Currently, the protection serves as broad immunity that typically allows the early dismissal of lawsuits, thereby preempting lawsuits and statutes that impose liability for third-party content. This bill makes the protection an affirmative defense, which means the provider or user must prove that the protection applies before the lawsuit may be dismissed.",
+    "version": "Introduced in Senate"
+  },
+  "v": 1
+}

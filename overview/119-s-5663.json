@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "Senate",
+      "code": "sscm00",
+      "name": "Commerce, Science, and Transportation"
+    }
+  ],
+  "congress": 119,
+  "lead": "Sen. Cynthia Lummis (R-WY)",
+  "start": {
+    "kind": "introduced",
+    "on": "2026-09-30"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hconres",
  "billNumber": "93",
- "built_at": "2026-11-20T20:05:59+00:00",
+ "built_at": "2026-11-21T17:25:53+00:00",
  "source_count": 18,
  "holds_full_record": true,
  "entries": [
@@ -290,26 +290,6 @@
   {
    "order": 14,
    "date": "2026-11-19",
-   "text": "Senate Committee on Foreign Relations discharged, under the order of 11/9/26. (consideration: CR S5791)",
-   "core": "Senate Committee on Foreign Relations discharged, under the order of 11/9/26",
-   "code": null,
-   "source": "Senate",
-   "chamber": "Senate",
-   "family": "discharged",
-   "label": "Discharged from committee (Senate)",
-   "tally": null,
-   "spine": false,
-   "subordinate": true,
-   "key": "1-4baa67202e366663",
-   "stands_in": 13,
-   "qualified": "Senate",
-   "lead": false,
-   "emoji": null,
-   "vote": null
-  },
-  {
-   "order": 15,
-   "date": "2026-11-19",
    "text": "Failed of passage/not agreed to in Senate: Failed of passage in Senate by Yea-Nay Vote. 48 - 51. Record Vote Number: 269.",
    "core": "Failed of passage/not agreed to in Senate: Failed of passage in Senate by Yea-Nay Vote. 48 - 51",
    "code": "18000",
@@ -328,7 +308,7 @@
    "vote": "(48-51)"
   },
   {
-   "order": 16,
+   "order": 15,
    "date": "2026-11-19",
    "text": "Failed of passage in Senate by Yea-Nay Vote. 48 - 51. Record Vote Number: 269.",
    "core": "Failed of passage in Senate by Yea-Nay Vote. 48 - 51",
@@ -341,7 +321,7 @@
    "spine": false,
    "subordinate": true,
    "key": "1-ee894a20bc0ecbe3",
-   "stands_in": 15,
+   "stands_in": 14,
    "qualified": null,
    "lead": true,
    "emoji": "❌",

@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-21T17:23:48Z",
+  "summary": {
+    "ai": {
+      "fp": "244bd35feae6f2ae17d136e6a880cfb3fca1bc53939be3c0ac8457f78fcbd445",
+      "model": "claude-haiku-5-5",
+      "text": "This bill would let pilots show a digital copy of certain certificates, such as an airman certificate or a medical certificate, when an FAA inspector asks to see them. Pilots could show either the paper certificate or a digital copy kept on a phone, another electronic device, or cloud storage. Under current rules, pilots must show a paper copy of these documents when asked by the FAA, law enforcement officers, or representatives of the Transportation Security Administration or the National Transportation Safety Board. The bill itself covers only FAA inspectors, and it requires the FAA to update its regulations to put this change into effect."
+    },
+    "label": "Congressional Research Service, Introduced in Senate",
+    "text": "Airmen Certificate Accessibility Act\nThis bill allows a pilot to present a digital copy of certain certificates (e.g., an airman certificate or a medical certificate) when required to present such documentation by a Federal Aviation Administration (FAA) inspector.\nUnder current FAA regulations, a pilot must present for inspection a physical copy of an airman certificate and other paperwork upon a request from the FAA; a federal, state, or local law enforcement officer; or an authorized representative of the Transportation Security Administration or the National Transportation Safety Board. This bill allows a pilot to present a certificate such as an airman certificate or a medical certificate to an FAA inspector as (1) a physical certificate, or (2) a digital copy stored on an electronic device or cloud storage platform.\nThe FAA must update current regulations to implement this change.",
+    "version": "Introduced in Senate"
+  },
+  "v": 1
+}

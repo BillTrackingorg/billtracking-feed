@@ -9,6 +9,11 @@
       "chamber": "House",
       "code": "hsju00",
       "name": "Judiciary"
+    },
+    {
+      "chamber": "Senate",
+      "code": "ssfr00",
+      "name": "Foreign Relations"
     }
   ],
   "congress": 119,
