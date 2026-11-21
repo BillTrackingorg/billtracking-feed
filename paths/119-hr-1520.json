@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "1520",
- "built_at": "2026-11-20T20:06:01+00:00",
- "source_count": 20,
+ "built_at": "2026-11-21T23:05:08+00:00",
+ "source_count": 21,
  "holds_full_record": true,
  "entries": [
   {
@@ -290,7 +290,7 @@
   {
    "order": 14,
    "date": "2026-11-19",
-   "text": "Measure laid before Senate by unanimous consent. (consideration: CR S5788-5789)",
+   "text": "Measure laid before Senate by unanimous consent.",
    "core": "Measure laid before Senate by unanimous consent",
    "code": null,
    "source": "Senate",
@@ -330,7 +330,7 @@
   {
    "order": 16,
    "date": "2026-11-19",
-   "text": "Passed Senate with an amendment by Unanimous Consent. (text of amendment in the nature of a substitute: CR S5788-5789)",
+   "text": "Passed Senate with an amendment by Unanimous Consent.",
    "core": "Passed Senate with an amendment by Unanimous Consent",
    "code": null,
    "source": "Senate",
@@ -346,6 +346,26 @@
    "lead": true,
    "emoji": "✅🏛️",
    "vote": "(unanimous consent)"
+  },
+  {
+   "order": 17,
+   "date": "2026-11-20",
+   "text": "Message on Senate action sent to the House.",
+   "core": "Message on Senate action sent to the House",
+   "code": null,
+   "source": "Senate",
+   "chamber": "Senate",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "spine": false,
+   "subordinate": null,
+   "key": "1-c91e1287c9d02075",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
+   "vote": null
   }
  ]
 }

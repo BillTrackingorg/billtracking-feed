@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "2347",
- "built_at": "2026-11-20T20:06:01+00:00",
+ "built_at": "2026-11-21T23:05:08+00:00",
  "source_count": 35,
  "holds_full_record": true,
  "entries": [
@@ -610,7 +610,7 @@
   {
    "order": 30,
    "date": "2026-11-19",
-   "text": "Considered by Senate. (consideration: CR S5779-5780, S5797-5804)",
+   "text": "Considered by Senate.",
    "core": "Considered by Senate",
    "code": null,
    "source": "Senate",
