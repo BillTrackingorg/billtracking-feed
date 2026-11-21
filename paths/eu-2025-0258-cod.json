@@ -5,7 +5,7 @@
  "year": "2025",
  "number": "0258",
  "ptype": "COD",
- "built_at": "2026-11-18T13:47:10+00:00",
+ "built_at": "2026-11-21T23:21:54+00:00",
  "source": "oeil-key-events",
  "source_count": 7,
  "holds_full_record": true,
@@ -65,7 +65,7 @@
   },
   {
    "order": 3,
-   "date": "2026-06-24",
+   "date": "2026-04-29",
    "text": "Adoption of negotiating mandate by Coreper",
    "doc": null,
    "code": "ADP_MAND_NGT_INST_COREPER_byCONSIL",
@@ -78,7 +78,7 @@
    "source_note": null,
    "spine": false,
    "subordinate": null,
-   "key": "1-301a66be02e19a96",
+   "key": "1-6d7506987bb0ecb5",
    "emoji": null
   },
   {
