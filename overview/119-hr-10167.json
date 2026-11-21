@@ -18,7 +18,9 @@
     "on": "2026-08-27"
   },
   "status": {
-    "closed": false
+    "closed": true,
+    "how": "law",
+    "on": "2026-11-20"
   },
   "v": 1
 }
