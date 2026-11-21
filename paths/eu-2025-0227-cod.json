@@ -5,7 +5,7 @@
  "year": "2025",
  "number": "0227",
  "ptype": "COD",
- "built_at": "2026-11-17T22:26:53+00:00",
+ "built_at": "2026-11-21T09:56:07+00:00",
  "source": "oeil-key-events",
  "source_count": 7,
  "holds_full_record": true,
@@ -204,16 +204,16 @@
    "date": "2026-11-13",
    "text": "Request for a plenary vote on the Committee decision to enter into interinstitutional negotiations (Rule 72)",
    "doc": null,
-   "family": "mandate",
-   "label": "Request for a plenary vote on the Committee decision to enter into interinstitutional negotiations (Rule 72)",
+   "family": null,
+   "label": null,
    "tally": null,
    "method_note": null,
    "review_note": null,
    "source_note": null,
-   "spine": true,
+   "spine": false,
    "subordinate": null,
    "key": "1-b625abc2ed98425f",
-   "emoji": "🧭"
+   "emoji": null
   }
  ]
 }
