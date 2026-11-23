@@ -1,5 +1,14 @@
 {
-  "confirmed": "2026-11-16T01:53:11Z",
-  "summary": null,
+  "confirmed": "2026-11-23T00:13:22Z",
+  "summary": {
+    "ai": {
+      "fp": "32b4c355b3859bc5b5cf42e7f776bbb4d7dc39b3db22997aacd2e92d9508f296",
+      "model": "claude-haiku-5-5",
+      "text": "The Regional Ocean Partnerships Reauthorization Act extends the programs that let governors in different regions work with federal agencies, states, tribes, and other groups on ocean and coastal problems through fiscal year 2031. It also removes Vermont from the Northeast Regional Ocean Council, one of these partnerships.\n\nRegional Ocean Partnerships are groups that governors bring together to tackle shared ocean and coastal concerns. They work with the National Oceanic and Atmospheric Administration (NOAA), state and tribal governments, and others. Their projects include protecting natural resources, collecting data, and doing public outreach. NOAA oversees them at the federal level.\n\nUnder the bill, money for these partnerships cannot be used to develop any regulation, model regulation, or compliance program. The partnerships also cannot carry out enforcement. Current law already bars them from regulatory work.\n\nThe bill also renews a requirement that NOAA report to Congress on how well the partnerships are working and on related topics."
+    },
+    "label": "Congressional Research Service, Reported to Senate",
+    "text": "Regional Ocean Partnerships Reauthorization Act\nThis bill reauthorizes Regional Ocean Partnerships (ROPs) through FY2031 with certain funding restrictions and removes Vermont from the Northeast Regional Ocean Council (an existing ROP).\nAs background, ROPs are regional organizations that are convened by state governors and work in collaboration with federal agencies, state governments, tribal governments, and other stakeholders to address ocean and coastal issues of common concern in the region. ROPs conduct projects involving resource conservation, data collection, outreach, and related activities. They are overseen at the federal level by the National Oceanic and Atmospheric Administration (NOAA).\nThe bill provides that ROP funding may not be used to develop any regulatory proposal, model regulation, or compliance program. It also specifies that ROPs may not have an enforcement function. (Under current law, regulatory functions are prohibited.)\nThe bill also renews a requirement for NOAA to provide Congress with a report assessing the partnerships' work, effectiveness, and other topics.",
+    "version": "Reported to Senate"
+  },
   "v": 1
 }
