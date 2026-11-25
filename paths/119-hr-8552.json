@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "8552",
- "built_at": "2026-11-24T05:58:26+00:00",
- "source_count": 19,
+ "built_at": "2026-11-25T22:26:09+00:00",
+ "source_count": 23,
  "holds_full_record": true,
  "entries": [
   {
@@ -345,6 +345,46 @@
    "qualified": null,
    "lead": true,
    "emoji": "📌",
+   "vote": null
+  },
+  {
+   "order": 17,
+   "date": "2026-11-23",
+   "text": "Signed by President.",
+   "core": "Signed by President",
+   "code": "36000",
+   "source": "Library of Congress",
+   "chamber": null,
+   "family": "signed",
+   "label": "Signed by Pres. Trump",
+   "tally": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-7043cea88f20695c",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "📜✍️",
+   "vote": null
+  },
+  {
+   "order": 18,
+   "date": "2026-11-23",
+   "text": "Became Public Law No: 119-149.",
+   "core": "Became Public Law No: 119-149",
+   "code": "36000",
+   "source": "Library of Congress",
+   "chamber": null,
+   "family": "became_law",
+   "label": "Became Public Law",
+   "tally": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-615400369ee22a64",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
    "vote": null
   }
  ]

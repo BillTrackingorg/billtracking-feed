@@ -7,13 +7,16 @@
     }
   ],
   "congress": 119,
+  "law": "Public Law 119-149",
   "lead": "Rep. Morgan Luttrell (R-TX)",
   "start": {
     "kind": "introduced",
     "on": "2026-04-28"
   },
   "status": {
-    "closed": false
+    "closed": true,
+    "how": "law",
+    "on": "2026-11-23"
   },
   "v": 1
 }

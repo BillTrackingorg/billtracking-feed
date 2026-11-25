@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "10167",
- "built_at": "2026-11-24T05:58:42+00:00",
- "source_count": 19,
+ "built_at": "2026-11-25T22:27:36+00:00",
+ "source_count": 21,
  "holds_full_record": true,
  "entries": [
   {
@@ -305,6 +305,26 @@
    "qualified": null,
    "lead": true,
    "emoji": "📜✍️",
+   "vote": null
+  },
+  {
+   "order": 15,
+   "date": "2026-11-20",
+   "text": "Became Public Law No: 119-143.",
+   "core": "Became Public Law No: 119-143",
+   "code": "36000",
+   "source": "Library of Congress",
+   "chamber": null,
+   "family": "became_law",
+   "label": "Became Public Law",
+   "tally": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-331d8b85f54424cd",
+   "stands_in": null,
+   "qualified": null,
+   "lead": false,
+   "emoji": null,
    "vote": null
   }
  ]

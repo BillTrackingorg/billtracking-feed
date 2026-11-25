@@ -12,13 +12,16 @@
     }
   ],
   "congress": 119,
+  "law": "Public Law 119-147",
   "lead": "Rep. Elise Stefanik (R-NY)",
   "start": {
     "kind": "introduced",
     "on": "2025-02-25"
   },
   "status": {
-    "closed": false
+    "closed": true,
+    "how": "law",
+    "on": "2026-11-23"
   },
   "v": 1
 }
