@@ -5,9 +5,9 @@
  "year": "2025",
  "number": "0239",
  "ptype": "COD",
- "built_at": "2026-11-19T21:37:16+00:00",
+ "built_at": "2026-11-25T02:37:26+00:00",
  "source": "oeil-key-events",
- "source_count": 5,
+ "source_count": 6,
  "holds_full_record": true,
  "overrides_applied": null,
  "texture_count": 4,
@@ -139,7 +139,7 @@
    "text": "Committee decision to open interinstitutional negotiations with report adopted in committee",
    "doc": null,
    "family": "mandate",
-   "label": "Negotiating mandate for trilogue talks",
+   "label": "Committee decision to open interinstitutional negotiations with report adopted in committee",
    "tally": null,
    "method_note": null,
    "review_note": null,
@@ -164,6 +164,22 @@
    "subordinate": null,
    "key": "1-130cfe1d87adeba6",
    "emoji": null
+  },
+  {
+   "order": 9,
+   "date": "2026-11-23",
+   "text": "Committee decision to enter into interinstitutional negotiations announced in plenary (Rule 72)",
+   "doc": null,
+   "family": "mandate",
+   "label": "Committee decision to enter into interinstitutional negotiations announced in plenary (Rule 72)",
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-8a8cdf21a3549c48",
+   "emoji": "🧭"
   }
  ]
 }
