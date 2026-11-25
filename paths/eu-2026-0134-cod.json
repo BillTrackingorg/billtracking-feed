@@ -5,12 +5,12 @@
  "year": "2026",
  "number": "0134",
  "ptype": "COD",
- "built_at": "2026-11-24T18:09:40+00:00",
+ "built_at": "2026-11-25T13:20:40+00:00",
  "source": "oeil-key-events",
  "source_count": 6,
  "holds_full_record": true,
  "overrides_applied": null,
- "texture_count": 8,
+ "texture_count": 9,
  "texture_source": "cellar-authority-events",
  "entries": [
   {
@@ -191,6 +191,24 @@
   },
   {
    "order": 10,
+   "date": "2026-11-18",
+   "text": "Deliberations in Coreper",
+   "doc": null,
+   "code": "DELIB_COREPER_byCONSIL",
+   "src": "cellar",
+   "family": null,
+   "label": null,
+   "tally": null,
+   "method_note": null,
+   "review_note": null,
+   "source_note": null,
+   "spine": false,
+   "subordinate": null,
+   "key": "1-68114fbc4653f890",
+   "emoji": null
+  },
+  {
+   "order": 11,
    "date": "2026-11-19",
    "text": "Vote in committee, 1st reading",
    "doc": null,
@@ -206,7 +224,7 @@
    "emoji": "🗳️"
   },
   {
-   "order": 11,
+   "order": 12,
    "date": "2026-11-19",
    "text": "Committee report tabled for plenary, 1st reading",
    "doc": "A10-0309/2026",
@@ -222,7 +240,7 @@
    "emoji": null
   },
   {
-   "order": 12,
+   "order": 13,
    "date": "2026-11-19",
    "text": "Committee decision to open interinstitutional negotiations with report adopted in committee",
    "doc": null,
@@ -238,7 +256,7 @@
    "emoji": "🧭"
   },
   {
-   "order": 13,
+   "order": 14,
    "date": "2026-11-23",
    "text": "Committee decision to enter into interinstitutional negotiations announced in plenary (Rule 72)",
    "doc": null,

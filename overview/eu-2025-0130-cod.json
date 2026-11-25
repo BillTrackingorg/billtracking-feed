@@ -1,0 +1,25 @@
+{
+ "committees": [
+  {
+   "code": "ECON",
+   "name": "Economic and Monetary Affairs"
+  },
+  {
+   "code": "ENVI",
+   "name": "Environment, Climate and Food Safety"
+  },
+  {
+   "code": "LIBE",
+   "name": "Civil Liberties, Justice and Home Affairs"
+  }
+ ],
+ "lead": "Mariateresa Vivaldini (ECR), Niels Flemming Hansen (EPP) and Lukas Mandl (EPP)",
+ "start": {
+  "kind": "proposed",
+  "on": "2025-05-21"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}
