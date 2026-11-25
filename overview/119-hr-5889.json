@@ -1,0 +1,19 @@
+{
+  "committees": [
+    {
+      "chamber": "House",
+      "code": "hsba00",
+      "name": "Financial Services"
+    }
+  ],
+  "congress": 119,
+  "lead": "Rep. Ayanna Pressley (D-MA)",
+  "start": {
+    "kind": "introduced",
+    "on": "2025-10-31"
+  },
+  "status": {
+    "closed": false
+  },
+  "v": 1
+}

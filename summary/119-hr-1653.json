@@ -1,0 +1,14 @@
+{
+  "confirmed": "2026-11-25T12:38:57Z",
+  "summary": {
+    "ai": {
+      "fp": "6288ea879948f825c0122b4afaa98a639d911297a2e81ea20662f1f62ad856ff",
+      "model": "claude-haiku-5-5",
+      "text": "This bill changes how the Consumer Financial Protection Bureau (CFPB) issues civil investigative demands, which are requests for information used to look into possible violations of consumer financial law before any formal case begins. Under the bill, the CFPB must issue and deliver these demands no later than six years after the violation occurred, and each demand must point to specific facts about the suspected violation.\n\nThe bill also sets up a way for a lawyer advising someone who has been ordered to appear and give oral testimony to submit questions on that person's behalf.\n\nIf the CFPB turns down a request to cancel or change a demand, the bill allows the matter to go to a court for review. These requests must be kept confidential.\n\nThe bill also widens the reasons a person can give for asking to be excused from a demand. A person may now argue that the demand is unduly burdensome, expensive, and outside the scope of the inquiry; that it is unreasonably repetitive or duplicates other requests; or that the same information can be obtained from another source that is more convenient, less burdensome, or less expensive."
+    },
+    "label": "Congressional Research Service, Introduced in House",
+    "text": "Civil Investigative Demand Reform Act of 2025\nThis bill revises the Consumer Financial Protection Bureau’s (CFPB’s) civil investigative demand process. The demand process is used to gather information relevant to a violation of consumer financial law before formal proceedings.\nUnder the bill, such demands must be issued and served no later than six years after the date of the violation. The demand must also provide specific reference to particular facts regarding the violation.\nThe bill establishes a process that allows an advising attorney to submit questions on behalf of a person compelled by a demand to appear for oral testimony.\nThe bill also allows for judicial review if the CFPB denies a petition to set aside or modify a demand. These petitions must be treated as confidential.\nIn addition, the bill expands the grounds on which a petitioner may seek relief from such a demand to include a demonstration that the demand (1) is unduly burdensome, expensive, and outside the scope of the inquiry; (2) is unreasonably cumulative or duplicative; or (3) can be obtained from some other source that is more convenient, less burdensome, or less expensive.",
+    "version": "Introduced in House"
+  },
+  "v": 1
+}

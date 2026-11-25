@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "sres",
  "billNumber": "971",
- "built_at": "2026-11-23T21:16:17+00:00",
+ "built_at": "2026-11-25T12:39:45+00:00",
  "source_count": 2,
  "holds_full_record": true,
  "entries": [
@@ -30,7 +30,7 @@
   {
    "order": 1,
    "date": "2026-11-20",
-   "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent.",
+   "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S5847; text: CR S5845)",
    "core": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent",
    "code": null,
    "source": "Senate",

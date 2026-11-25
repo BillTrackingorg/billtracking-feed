@@ -3,8 +3,8 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "5254",
- "built_at": "2026-11-24T05:58:22+00:00",
- "source_count": 27,
+ "built_at": "2026-11-25T12:39:42+00:00",
+ "source_count": 29,
  "holds_full_record": true,
  "entries": [
   {
@@ -485,6 +485,26 @@
    "qualified": null,
    "lead": false,
    "emoji": null,
+   "vote": null
+  },
+  {
+   "order": 24,
+   "date": "2026-11-24",
+   "text": "Presented to President.",
+   "core": "Presented to President",
+   "code": "28000",
+   "source": "Library of Congress",
+   "chamber": null,
+   "family": "presented",
+   "label": "Presented to President",
+   "tally": null,
+   "spine": true,
+   "subordinate": null,
+   "key": "1-4d7e7441d51fd25d",
+   "stands_in": null,
+   "qualified": null,
+   "lead": true,
+   "emoji": "📌",
    "vote": null
   }
  ]
