@@ -3,7 +3,7 @@
  "congress": 119,
  "billType": "hr",
  "billNumber": "8469",
- "built_at": "2026-11-23T08:57:51+00:00",
+ "built_at": "2026-11-25T02:20:22+00:00",
  "source_count": 31,
  "holds_full_record": true,
  "entries": [
@@ -590,7 +590,7 @@
   {
    "order": 29,
    "date": "2026-11-20",
-   "text": "Motion to proceed to consideration of measure made in Senate.",
+   "text": "Motion to proceed to consideration of measure made in Senate. (consideration: CR S5847)",
    "core": "Motion to proceed to consideration of measure made in Senate",
    "code": null,
    "source": "Senate",
