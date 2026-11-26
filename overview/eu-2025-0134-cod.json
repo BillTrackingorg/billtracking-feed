@@ -1,0 +1,17 @@
+{
+ "committees": [
+  {
+   "code": "IMCO",
+   "name": "Internal Market and Consumer Protection"
+  }
+ ],
+ "lead": "Reinier Van Lanschot (Greens/EFA)",
+ "start": {
+  "kind": "proposed",
+  "on": "2025-05-21"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}

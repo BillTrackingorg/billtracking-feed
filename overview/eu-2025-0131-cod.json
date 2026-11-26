@@ -1,0 +1,21 @@
+{
+ "committees": [
+  {
+   "code": "ECON",
+   "name": "Economic and Monetary Affairs"
+  },
+  {
+   "code": "LIBE",
+   "name": "Civil Liberties, Justice and Home Affairs"
+  }
+ ],
+ "lead": "Mariateresa Vivaldini (ECR) and Kristian Vigenin (S&D)",
+ "start": {
+  "kind": "proposed",
+  "on": "2025-05-21"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}
