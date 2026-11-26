@@ -1,14 +1,14 @@
 {
-  "confirmed": "2026-11-25T02:17:15Z",
+  "confirmed": "2026-11-26T04:56:28Z",
   "summary": {
     "ai": {
       "fp": "03504a8f3efb4ff356e1717b808779ce8ad6b66bfd849ac6c2655bcc3a048bd7",
       "model": "claude-haiku-5-5",
       "text": "This bill would allow private companies, called Unified Boxing Organizations (UBOs), to be set up to arrange professional boxing matches. These groups could work alongside existing boxing organizations, such as the World Boxing Council. A UBO could only hold matches involving boxers under contract with it, and it would still have to follow other rules, such as holding matches under the authority of a state boxing commission.\n\nAny UBO would have to meet extra requirements. It would need an anti-doping program that includes drug testing before matches. Boxers who are 40 or older would have to get additional physical exams. Each match would need at least two ambulances on site. The UBO would also have to give its boxers access to training and rehabilitation equipment and facilities that it runs.\n\nThe bill also raises the health insurance coverage and minimum pay required for all professional boxers. In addition, it requires state boxing commissions to set up procedures for drug testing: tests would be given for title fights and conducted at random for all other matches."
     },
-    "label": "Congressional Research Service, Reported to House",
+    "label": "Congressional Research Service, Passed Senate",
     "text": "Muhammad Ali American Boxing Revival Act of 2026\nThis bill authorizes the establishment of private-sector Unified Boxing Organizations (UBOs) and otherwise expands the regulatory framework for professional boxing. (See CRS Report IF12982 for an overview of the federal regulation of professional boxing in the United States.)\nUnder the bill, UBOs may organize matches involving boxers contracted with the UBO and must comply with other regulations with respect to such matches (e.g., conduct matches under the authority of a state boxing commission). UBOs also operate alongside existing professional boxing organizations (e.g., World Boxing Council (WBC)).\nUBOs must meet certain additional requirements, for example\nthe UBO must implement an anti-doping program that includes drug testing in advance of matches,\nboxers age 40 or older must receive supplemental physical examinations,\neach match must have at least two ambulances on site, and\nboxers must have access to equipment and facilities that are operated by the UBO for training and rehabilitation.\nThe bill also expands the required health insurance coverage and minimum pay for all professional boxers.\nFurther, the bill requires state boxing commissions to establish procedures to ensure that drug tests are administered for title matches and at random for all other matches.",
-    "version": "Reported to House"
+    "version": "Passed Senate"
   },
   "v": 1
 }
