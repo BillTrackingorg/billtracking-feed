@@ -1,5 +1,14 @@
 {
-  "confirmed": "2026-11-20T03:01:22Z",
-  "summary": null,
+  "confirmed": "2026-11-27T08:09:58Z",
+  "summary": {
+    "ai": {
+      "fp": "358f62283cc626f0a69411f6e411db198101545c106ec288d3cafb3800237b8b",
+      "model": "claude-haiku-5-5",
+      "text": "The CHILD Act of 2026 lets businesses and organizations that care for children, older adults, or people with disabilities request national criminal history background checks again. These checks can cover a wider group of people than before. Under a 2018 law, checks were limited to current or prospective employees, volunteers, owners, and operators. This bill adds three more groups: current or prospective contractors, the employees and volunteers of those contractors, and individuals who are licensed or certified by the business or organization."
+    },
+    "label": "Congressional Research Service, Reported to House",
+    "text": "Comprehensive Health and Integrity in Licensing and Documentation Act of 2026 or the CHILD Act of 2026\nThis bill restores the authority for businesses and organizations that provide care or care placement services for children, the elderly, or individuals with disabilities (care-providing businesses and organizations) to request national criminal history background checks for contractors and for individuals they certify or license.\nFederal law authorizes care-providing businesses and organizations to request national criminal history background checks for certain covered individuals. A 2018 law narrowed the scope of covered individuals to two categories: (1) current or prospective employees or volunteers, and (2) current or prospective owners or operators.\nThis bill expands covered individuals to include additional categories: (1) current or prospective contractors, (2) current or prospective employees or volunteers for a contractor, and (3) individuals licensed or certified by a business or organization.",
+    "version": "Reported to House"
+  },
   "v": 1
 }
