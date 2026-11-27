@@ -1,0 +1,17 @@
+{
+ "committees": [
+  {
+   "code": "SANT",
+   "name": "Public Health"
+  }
+ ],
+ "lead": "Tomislav Sokol (EPP)",
+ "start": {
+  "kind": "proposed",
+  "on": "2025-03-11"
+ },
+ "status": {
+  "closed": false
+ },
+ "v": 1
+}
